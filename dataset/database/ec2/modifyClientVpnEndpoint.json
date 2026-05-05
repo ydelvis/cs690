@@ -1,0 +1,23 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyClientVpnEndpoint"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyClientVpnEndpointRequest(ClientVpnEndpointId=cvpn-endpoint-0cabdbf12f17470f8, ServerCertificateArn=arn:aws:acm:us-west-2:002677082836:certificate/b37c918c-0d7a-48dd-94a2-1aace62d7dcc)", 
+        "apiName": "ec2.modifyClientVpnEndpoint"
+    }
+]

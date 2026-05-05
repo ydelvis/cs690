@@ -1,0 +1,64 @@
+{
+  "service": {
+    "name": "${file(./modules/sanitizeStackName.js):sanitize}"
+  },
+  "provider": {
+    "name": "aws",
+    "runtime": "nodejs10.x",
+    "region": "${opt:region, 'us-east-1'}",
+    "stage": "dev",
+    "memory_mb": null,
+    "timeout_s": null
+  },
+  "environment": {
+    "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+    "DOMAIN_NAME": "${opt:domain}",
+    "BASE_PATH": "v1"
+  },
+  "functions": {
+    "api": {
+      "handler": "api/baseApi.router",
+      "runtime": "nodejs10.x",
+      "environment": {
+        "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+        "DOMAIN_NAME": "${opt:domain}",
+        "BASE_PATH": "v1"
+      },
+      "events": [
+        {
+          "http": {
+            "path": "{proxy+}",
+            "method": "any"
+          }
+        }
+      ]
+    }
+  },
+  "iam_statements": [],
+  "custom": {
+    "domainName": "${opt:domain}",
+    "basePath": "v1",
+    "endpointType": "EDGE",
+    "apiGateway": {
+      "hostedZone": "Z2FDTNDATAQYW2"
+    },
+    "output": {
+      "handler": "modules/output.handler"
+    },
+    "cloudfrontInvalidate": {
+      "distributionIdKey": "CloudFrontDistributionId",
+      "items": [
+        "/index.html"
+      ]
+    },
+    "s3Sync": [
+      {
+        "bucketName": "${opt:domain}",
+        "localDir": "website"
+      }
+    ]
+  },
+  "source_files": [
+    "serverless.yml"
+  ]
+}

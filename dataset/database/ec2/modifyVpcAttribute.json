@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpcAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:vpc/vpc-1dd31b65"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "ModifyVpcAttributeRequest(EnableDnsSupport=AttributeBooleanValue(Value=false), VpcId=vpc-1dd31b65)", 
+        "apiName": "modifyVpcAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpcAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:vpc/vpc-1dd31b65"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpcAttributeRequest(EnableDnsSupport=AttributeBooleanValue(Value=true), VpcId=vpc-1dd31b65)", 
+        "apiName": "modifyVpcAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpcAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:vpc/vpc-1dd31b65"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "ModifyVpcAttributeRequest(EnableDnsSupport=AttributeBooleanValue(Value=false), VpcId=vpc-1dd31b65)", 
+        "apiName": "modifyVpcAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpcAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:vpc/vpc-1dd31b65"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }
+            ]
+        }, 
+        "request": "ModifyVpcAttributeRequest(EnableDnsSupport=AttributeBooleanValue(Value=true), VpcId=vpc-1dd31b65)", 
+        "apiName": "modifyVpcAttribute"
+    }
+]

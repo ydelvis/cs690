@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReleaseAddress"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:elastic-ip/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "ReleaseAddressRequest(AllocationId=eipalloc-0cbb90b779727d39a)", 
+        "apiName": "ec2.releaseAddress"
+    }
+]

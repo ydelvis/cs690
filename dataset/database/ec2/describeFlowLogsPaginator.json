@@ -1,0 +1,10 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFlowLogsRequest(MaxResults=100)", 
+        "apiName": "ec2.describeFlowLogsPaginator"
+    }
+]

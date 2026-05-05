@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateDefaultSubnet"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateDefaultSubnetRequest(AvailabilityZone=us-west-2c)", 
+        "apiName": "ec2.createDefaultSubnet"
+    }
+]

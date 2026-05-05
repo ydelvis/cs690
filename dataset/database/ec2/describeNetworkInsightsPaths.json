@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeNetworkInsightsPaths"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeNetworkInsightsPathsRequest(MaxResults=100)", 
+        "apiName": "ec2.describeNetworkInsightsPaths"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeNetworkInsightsPaths"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeNetworkInsightsPathsRequest(MaxResults=100)", 
+        "apiName": "ec2.describeNetworkInsightsPaths"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeNetworkInsightsPaths"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeNetworkInsightsPathsRequest()", 
+        "apiName": "ec2.describeNetworkInsightsPaths"
+    }
+]

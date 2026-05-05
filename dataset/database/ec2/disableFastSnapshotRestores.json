@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DisableFastSnapshotRestores"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::snapshot/snap-00891f948db7739c3"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DisableFastSnapshotRestoresRequest(AvailabilityZones=[us-west-2c], SourceSnapshotIds=[snap-00891f948db7739c3])", 
+        "apiName": "ec2.disableFastSnapshotRestores"
+    }
+]

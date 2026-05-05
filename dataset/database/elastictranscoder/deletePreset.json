@@ -1,0 +1,17 @@
+{
+    "apiName": "deletePreset",
+    "policy": {
+        "Version": "2012-10-17",
+        "Statement": [{
+            "Action": [
+                "elastictranscoder:DeletePreset"
+            ],
+            "Sid": "statement1",
+            "Effect": "Allow",
+            "Resource": [
+                "arn:aws:elastictranscoder:us-east-1:002677082836:preset/1581286602187-bnpqip"
+            ]
+        }]
+    },
+    "request": ""
+}

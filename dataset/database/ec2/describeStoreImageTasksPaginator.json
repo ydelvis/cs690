@@ -1,0 +1,26 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeStoreImageTasksRequest(MaxResults=0)", 
+        "apiName": "ec2.describeStoreImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeStoreImageTasksRequest()", 
+        "apiName": "ec2.describeStoreImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeStoreImageTasksRequest(MaxResults=1)", 
+        "apiName": "ec2.describeStoreImageTasksPaginator"
+    }
+]

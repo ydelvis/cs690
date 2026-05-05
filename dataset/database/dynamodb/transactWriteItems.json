@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:DeleteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "TransactWriteItemsRequest(TransactItems=[TransactWriteItem(Delete=Delete(Key={Id=AttributeValue(S=2)}, TableName=test-table-5461, ReturnValuesOnConditionCheckFailure=ALL_OLD))], ReturnConsumedCapacity=INDEXES, ClientRequestToken=myClientToken)", 
+        "apiName": "dynamodb.transactWriteItems"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:DeleteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "TransactWriteItemsRequest(TransactItems=[TransactWriteItem(Delete=Delete(Key={Id=AttributeValue(S=2)}, TableName=test-table-5461, ReturnValuesOnConditionCheckFailure=ALL_OLD))], ReturnConsumedCapacity=TOTAL, ReturnItemCollectionMetrics=SIZE)", 
+        "apiName": "dynamodb.transactWriteItems"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UpdateItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }
+            ]
+        }, 
+        "request": "TransactWriteItemsRequest(TransactItems=[TransactWriteItem(Update=Update(Key={Id=AttributeValue(S=2)}, UpdateExpression=SET Model = :m, TableName=test-table-5461, ExpressionAttributeValues={:m=AttributeValue(S=A5)}, ReturnValuesOnConditionCheckFailure=ALL_OLD))], ReturnConsumedCapacity=TOTAL, ReturnItemCollectionMetrics=SIZE)", 
+        "apiName": "dynamodb.transactWriteItems"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PutItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "TransactWriteItemsRequest(TransactItems=[TransactWriteItem(Put=Put(Item={Model=AttributeValue(S=R8), Make=AttributeValue(S=Audi), Id=AttributeValue(S=2)}, TableName=test-table-5461, ReturnValuesOnConditionCheckFailure=ALL_OLD))], ReturnConsumedCapacity=NONE, ReturnItemCollectionMetrics=SIZE)", 
+        "apiName": "dynamodb.transactWriteItems"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteLaunchTemplate"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:launch-template/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteLaunchTemplateRequest(LaunchTemplateId=lt-0e08e105c1b398f9b)", 
+        "apiName": "ec2.deleteLaunchTemplate"
+    }
+]

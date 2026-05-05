@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteVpnConnectionRoute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-connection/vpn-0337838fe83c8aec6"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteVpnConnectionRouteRequest(DestinationCidrBlock=172.168.0.0/16, VpnConnectionId=vpn-0337838fe83c8aec6)", 
+        "apiName": "ec2.deleteVpnConnectionRoute"
+    }
+]

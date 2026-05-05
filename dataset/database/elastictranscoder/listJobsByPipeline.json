@@ -1,0 +1,76 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByPipeline"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByPipelineRequest(PipelineId=1618727308861-7tph9b)", 
+        "apiName": "listJobsByPipeline"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByPipeline"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByPipelineRequest(PipelineId=1618727308861-7tph9b, Ascending=true)", 
+        "apiName": "listJobsByPipeline"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByPipeline"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByPipelineRequest(PipelineId=1618727308861-7tph9b, Ascending=false)", 
+        "apiName": "listJobsByPipeline"
+    },
+    {
+        "apiName": "listJobsByPipeline",
+        "policy": {
+            "Version": "2012-10-17",
+            "Statement": [{
+                "Action": [
+                    "elastictranscoder:ListJobsByPipeline"
+                ],
+                "Sid": "statement2",
+                "Effect": "Allow",
+                "Resource": [
+                    "arn:aws:elastictranscoder:us-east-1:002677082836:pipeline/1581374295365-7t3pd1"
+                ]
+            }]
+        },
+        "request": ""
+    }
+]

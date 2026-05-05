@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ImportClientVpnClientCertificateRevocationList"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/cvpn-endpoint-0f2ed1c7f896ff48e"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ImportClientVpnClientCertificateRevocationListRequest(ClientVpnEndpointId=cvpn-endpoint-0f2ed1c7f896ff48e, CertificateRevocationList=-----BEGIN X509 CRL-----\nMIIB3DCBxQIBATANBgkqhkiG9w0BAQsFADAWMRQwEgYDVQQDDAtFYXN5LVJTQSBD\nQRcNMjEwODAxMDcyMzUzWhcNMjIwMTI4MDcyMzUzWjAkMCICEQD/HAyv11XRrghJ\nlTv/bSiKFw0yMTA4MDEwNzIzNDBaoFUwUzBRBgNVHSMESjBIgBSBh6TsFBuQ/nv6\n9szNv6xfoZzj66EapBgwFjEUMBIGA1UEAwwLRWFzeS1SU0EgQ0GCFChIsEiQQimR\nBHOq6aDc6NwGWfsWMA0GCSqGSIb3DQEBCwUAA4IBAQC1PW3OHbF0gjP3GCT9owGS\n7xXefYiKWYE/Z3dG0V6saxQyUdUCkKIzu37z4L+xHtuJ+7SqqYjpI6SkQ76EfHDR\nOPfAuY70AyT5ZrWpSWLMFmN/3CdgelK5NnTE/KnHtj9y57V4cEqCiiokgpcq1KL1\nK4bEF1B/B1NsXad7crloCZ0v/sjUte6G6jQFR0JvW41He/3ij6da8EeEXOP7tnq7\ns5Q9bzb/F/bXUmirQFwuczyFqiuncxtZcKxq/T48Ecoz5dNhSAIRAnyFp0N1F2UM\n2pw8ByBVASy+qgmUNwRKtYGklR0O7SfAIrgCOD8C09fUY+wbTMq1Y4wFNbMCeewp\n-----END X509 CRL-----\n)", 
+        "apiName": "ec2.importClientVpnClientCertificateRevocationList"
+    }
+]

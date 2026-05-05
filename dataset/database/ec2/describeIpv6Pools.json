@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeIpv6Pools"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIpv6PoolsRequest(MaxResults=1, Filters=[Filter(Name=transit-gateway-id, Values=[tgw-023f7eee924362941])])", 
+        "apiName": "ec2.describeIpv6Pools"
+    }
+]

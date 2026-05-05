@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:GetItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "TransactGetItemsRequest(TransactItems=[TransactGetItem(Get=Get(Key={Id=AttributeValue(S=1)}, TableName=test-table-5461))], ReturnConsumedCapacity=NONE)", 
+        "apiName": "dynamodb.transactGetItems"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:GetItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "TransactGetItemsRequest(TransactItems=[TransactGetItem(Get=Get(Key={Id=AttributeValue(S=1)}, TableName=test-table-5461))], ReturnConsumedCapacity=TOTAL)", 
+        "apiName": "dynamodb.transactGetItems"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:GetItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "TransactGetItemsRequest(TransactItems=[TransactGetItem(Get=Get(Key={Id=AttributeValue(S=1)}, TableName=test-table-5461))])", 
+        "apiName": "dynamodb.transactGetItems"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:GetItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "TransactGetItemsRequest(TransactItems=[TransactGetItem(Get=Get(Key={Id=AttributeValue(S=1)}, TableName=test-table-5461))], ReturnConsumedCapacity=INDEXES)", 
+        "apiName": "dynamodb.transactGetItems"
+    }
+]

@@ -1,0 +1,814 @@
+{
+  "adjacency": {
+    "delete": [
+      "repository.delete",
+      "response"
+    ],
+    "downDuration": [
+      "timeSpanToDuration"
+    ],
+    "err": [
+      "log"
+    ],
+    "fetch": [
+      "repository.fetch",
+      "response"
+    ],
+    "forTimespan": [
+      "self.getTableSchema"
+    ],
+    "index": [
+      "getRequest",
+      "service.scaleDownTables",
+      "service.scaleUpTables"
+    ],
+    "load": [
+      "repository.load",
+      "response"
+    ],
+    "metricName": [
+      "getRequest"
+    ],
+    "point": [
+      "config.scale",
+      "getAttribute",
+      "log"
+    ],
+    "res": [
+      "log"
+    ],
+    "result": [
+      "AutoScaleConfig.create"
+    ],
+    "save": [
+      "AutoScaleConfig.create",
+      "repository.save",
+      "response"
+    ],
+    "scaleDown": [
+      "clamp",
+      "getConfigValue"
+    ],
+    "scaleDownTable": [
+      "log",
+      "scaleTable"
+    ],
+    "scaleDownTables": [
+      "load",
+      "log"
+    ],
+    "scaleTable": [
+      "getTableSchema",
+      "log"
+    ],
+    "scaleUp": [
+      "clamp",
+      "getConfigValue"
+    ],
+    "scaleUpTable": [
+      "log",
+      "scaleTable"
+    ],
+    "scaleUpTables": [
+      "load",
+      "log"
+    ],
+    "table": [
+      "forTable",
+      "forTimespan",
+      "getConsumedCapacityUnits"
+    ],
+    "upDuration": [
+      "timeSpanToDuration"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "constructor",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js",
+      "language": "javascript",
+      "line": 18
+    },
+    {
+      "name": "load",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js",
+      "language": "javascript",
+      "line": 31
+    },
+    {
+      "name": "result",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js",
+      "language": "javascript",
+      "line": 38
+    },
+    {
+      "name": "fetch",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js",
+      "language": "javascript",
+      "line": 49
+    },
+    {
+      "name": "x",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js",
+      "language": "javascript",
+      "line": 52
+    },
+    {
+      "name": "result",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js",
+      "language": "javascript",
+      "line": 58
+    },
+    {
+      "name": "save",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js",
+      "language": "javascript",
+      "line": 66
+    },
+    {
+      "name": "indexName",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js",
+      "language": "javascript",
+      "line": 75
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js",
+      "language": "javascript",
+      "line": 83
+    },
+    {
+      "name": "delete",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js",
+      "language": "javascript",
+      "line": 95
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js",
+      "language": "javascript",
+      "line": 99
+    },
+    {
+      "name": "x",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js",
+      "language": "javascript",
+      "line": 102
+    },
+    {
+      "name": "clamp",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 5
+    },
+    {
+      "name": "getConfigValue",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 9
+    },
+    {
+      "name": "timeSpanToDuration",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 13
+    },
+    {
+      "name": "upDuration",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 28
+    },
+    {
+      "name": "downDuration",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 32
+    },
+    {
+      "name": "scaleUp",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 36
+    },
+    {
+      "name": "scaleDown",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 46
+    },
+    {
+      "name": "create",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 57
+    },
+    {
+      "name": "constructor",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 65
+    },
+    {
+      "name": "_",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 77
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 77
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 85
+    },
+    {
+      "name": "scale",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 93
+    },
+    {
+      "name": "direction",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 96
+    },
+    {
+      "name": "subConfigName",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 97
+    },
+    {
+      "name": "provisionedUnits",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 98
+    },
+    {
+      "name": "consumedUnits",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 99
+    },
+    {
+      "name": "up",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 105
+    },
+    {
+      "name": "down",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js",
+      "language": "javascript",
+      "line": 106
+    },
+    {
+      "name": "constructor",
+      "file": "dataset/apps/dynamodb-autoscaling/core/LogService.js",
+      "language": "javascript",
+      "line": 5
+    },
+    {
+      "name": "log",
+      "file": "dataset/apps/dynamodb-autoscaling/core/LogService.js",
+      "language": "javascript",
+      "line": 9
+    },
+    {
+      "name": "getAttribute",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 6
+    },
+    {
+      "name": "i",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 12
+    },
+    {
+      "name": "constructor",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 24
+    },
+    {
+      "name": "scaleUpTables",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 42
+    },
+    {
+      "name": "tables",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 47
+    },
+    {
+      "name": "res",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 48
+    },
+    {
+      "name": "err",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 49
+    },
+    {
+      "name": "scaleDownTables",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 56
+    },
+    {
+      "name": "tables",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 61
+    },
+    {
+      "name": "res",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 62
+    },
+    {
+      "name": "err",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 63
+    },
+    {
+      "name": "scaleUpTable",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 71
+    },
+    {
+      "name": "res",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 75
+    },
+    {
+      "name": "err",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 76
+    },
+    {
+      "name": "scaleDownTable",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 84
+    },
+    {
+      "name": "res",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 88
+    },
+    {
+      "name": "err",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 89
+    },
+    {
+      "name": "scaleTable",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 98
+    },
+    {
+      "name": "table",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 104
+    },
+    {
+      "name": "metrics",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 108
+    },
+    {
+      "name": "index",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 121
+    },
+    {
+      "name": "point",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 141
+    },
+    {
+      "name": "_",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 170
+    },
+    {
+      "name": "_",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 175
+    },
+    {
+      "name": "index",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 213
+    },
+    {
+      "name": "res",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 220
+    },
+    {
+      "name": "getTableSchema",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 231
+    },
+    {
+      "name": "res",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 233
+    },
+    {
+      "name": "getConsumedCapacityUnits",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 241
+    },
+    {
+      "name": "forTable",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 254
+    },
+    {
+      "name": "forTimespan",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 256
+    },
+    {
+      "name": "tableSchema",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 263
+    },
+    {
+      "name": "getRequest",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 265
+    },
+    {
+      "name": "metricName",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 295
+    },
+    {
+      "name": "index",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 302
+    },
+    {
+      "name": "request",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 307
+    },
+    {
+      "name": "response",
+      "file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js",
+      "language": "javascript",
+      "line": 308
+    },
+    {
+      "name": "response",
+      "file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js",
+      "language": "javascript",
+      "line": 6
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js",
+      "language": "javascript",
+      "line": 8
+    },
+    {
+      "name": "data",
+      "file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js",
+      "language": "javascript",
+      "line": 9
+    },
+    {
+      "name": "err",
+      "file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js",
+      "language": "javascript",
+      "line": 12
+    },
+    {
+      "name": "load",
+      "file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js",
+      "language": "javascript",
+      "line": 17
+    },
+    {
+      "name": "fetch",
+      "file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js",
+      "language": "javascript",
+      "line": 22
+    },
+    {
+      "name": "save",
+      "file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js",
+      "language": "javascript",
+      "line": 27
+    },
+    {
+      "name": "delete",
+      "file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js",
+      "language": "javascript",
+      "line": 33
+    },
+    {
+      "name": "index",
+      "file": "dataset/apps/dynamodb-autoscaling/handlers/scale-down.js",
+      "language": "javascript",
+      "line": 9
+    },
+    {
+      "name": "index",
+      "file": "dataset/apps/dynamodb-autoscaling/handlers/scale-up.js",
+      "language": "javascript",
+      "line": 9
+    }
+  ],
+  "edges": [
+    {
+      "caller": "result",
+      "callee": "AutoScaleConfig.create",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js"
+    },
+    {
+      "caller": "save",
+      "callee": "AutoScaleConfig.create",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfigRepository.js"
+    },
+    {
+      "caller": "upDuration",
+      "callee": "timeSpanToDuration",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js"
+    },
+    {
+      "caller": "downDuration",
+      "callee": "timeSpanToDuration",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js"
+    },
+    {
+      "caller": "scaleUp",
+      "callee": "getConfigValue",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js"
+    },
+    {
+      "caller": "scaleUp",
+      "callee": "clamp",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js"
+    },
+    {
+      "caller": "scaleDown",
+      "callee": "getConfigValue",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js"
+    },
+    {
+      "caller": "scaleDown",
+      "callee": "clamp",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleConfig.js"
+    },
+    {
+      "caller": "scaleUpTables",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "scaleUpTables",
+      "callee": "load",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "res",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "err",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "scaleDownTables",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "scaleDownTables",
+      "callee": "load",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "res",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "err",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "scaleUpTable",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "scaleUpTable",
+      "callee": "scaleTable",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "res",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "err",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "scaleDownTable",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "scaleDownTable",
+      "callee": "scaleTable",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "res",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "err",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "scaleTable",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "scaleTable",
+      "callee": "getTableSchema",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "table",
+      "callee": "forTimespan",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "table",
+      "callee": "forTable",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "table",
+      "callee": "getConsumedCapacityUnits",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "point",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "point",
+      "callee": "getAttribute",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "point",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "point",
+      "callee": "getAttribute",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "point",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "point",
+      "callee": "config.scale",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "point",
+      "callee": "log",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "forTimespan",
+      "callee": "self.getTableSchema",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "metricName",
+      "callee": "getRequest",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "index",
+      "callee": "getRequest",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/core/AutoScaleService.js"
+    },
+    {
+      "caller": "load",
+      "callee": "response",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js"
+    },
+    {
+      "caller": "load",
+      "callee": "repository.load",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js"
+    },
+    {
+      "caller": "fetch",
+      "callee": "response",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js"
+    },
+    {
+      "caller": "fetch",
+      "callee": "repository.fetch",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js"
+    },
+    {
+      "caller": "save",
+      "callee": "response",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js"
+    },
+    {
+      "caller": "save",
+      "callee": "repository.save",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js"
+    },
+    {
+      "caller": "delete",
+      "callee": "response",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js"
+    },
+    {
+      "caller": "delete",
+      "callee": "repository.delete",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/handlers/manage-config.js"
+    },
+    {
+      "caller": "index",
+      "callee": "service.scaleDownTables",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/handlers/scale-down.js"
+    },
+    {
+      "caller": "index",
+      "callee": "service.scaleUpTables",
+      "caller_file": "dataset/apps/dynamodb-autoscaling/handlers/scale-up.js"
+    }
+  ]
+}

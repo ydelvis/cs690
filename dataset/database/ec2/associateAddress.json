@@ -1,0 +1,44 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AssociateAddress"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:instance/i-07b5b22b45c08fc28", 
+                        "arn:aws:ec2:*:002677082836:elastic-ip/eipalloc-0cbb90b779727d39a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "AssociateAddressRequest(AllocationId=eipalloc-0cbb90b779727d39a, InstanceId=i-07b5b22b45c08fc28, AllowReassociation=false)", 
+        "apiName": "ec2.associateAddress"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AssociateAddress"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:instance/i-07b5b22b45c08fc28", 
+                        "arn:aws:ec2:*:002677082836:elastic-ip/eipalloc-0cbb90b779727d39a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "AssociateAddressRequest(AllocationId=eipalloc-0cbb90b779727d39a, InstanceId=i-07b5b22b45c08fc28, AllowReassociation=true)", 
+        "apiName": "ec2.associateAddress"
+    }
+]

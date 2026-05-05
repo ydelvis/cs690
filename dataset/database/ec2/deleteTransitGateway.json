@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteTransitGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteTransitGatewayRequest(TransitGatewayId=tgw-0e8f59df0ce082931)", 
+        "apiName": "ec2.deleteTransitGateway"
+    }
+]

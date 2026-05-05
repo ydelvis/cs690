@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateClientVpnRoute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateClientVpnRouteRequest(ClientVpnEndpointId=cvpn-endpoint-0b09a5648024a17d0, DestinationCidrBlock=172.169.0.0/24, TargetVpcSubnetId=subnet-092aa5e72690d53ca, Description=test client vpn route)", 
+        "apiName": "ec2.createClientVpnRoute"
+    }
+]

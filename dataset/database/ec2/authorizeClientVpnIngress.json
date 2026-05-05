@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AuthorizeClientVpnIngress"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/cvpn-endpoint-06066ced6025d2e26"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "AuthorizeClientVpnIngressRequest(ClientVpnEndpointId=cvpn-endpoint-06066ced6025d2e26, TargetNetworkCidr=172.168.31.0/24, AuthorizeAllGroups=true, Description=test ingress)", 
+        "apiName": "ec2.authorizeClientVpnIngress"
+    }
+]

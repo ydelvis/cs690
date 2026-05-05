@@ -1,0 +1,10 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacePermissionsRequest(NetworkInterfacePermissionIds=[tgw-rtb-02e9c220c37bb74db], Filters=[Filter(Name=state, Values=[deleting])], MaxResults=100)", 
+        "apiName": "ec2.describeNetworkInterfacePermissionsPaginator"
+    }
+]

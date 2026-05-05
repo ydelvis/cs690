@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpcEndpointConnectionNotification"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint/vpce-097dac46da37fc178"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateVpcEndpointConnectionNotificationRequest(VpcEndpointId=vpce-097dac46da37fc178, ConnectionNotificationArn=arn:aws:sns:us-west-2:002677082836:vpc-endpoint, ConnectionEvents=[Accept, Reject, Connect])", 
+        "apiName": "ec2.createVpcEndpointConnectionNotification"
+    }
+]

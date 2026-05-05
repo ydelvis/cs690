@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RevokeClientVpnIngress"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/cvpn-endpoint-06066ced6025d2e26"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "RevokeClientVpnIngressRequest(ClientVpnEndpointId=cvpn-endpoint-06066ced6025d2e26, TargetNetworkCidr=172.168.31.0/24, RevokeAllGroups=true)", 
+        "apiName": "ec2.revokeClientVpnIngress"
+    }
+]

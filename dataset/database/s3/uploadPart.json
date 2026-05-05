@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "UploadPartRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, PartNumber=1, UploadId=B3SdQuN67w0VmQNsEP5d53WQ6dJ_U1aI6UT225NCW91GHWefSTG352ntmw.T78iBmJse2zt883pUvMTvAgTEz2x16XZAIuHnWyKlV3k6C8RnC2IXcpV.I2GRRxkTBLc1)", 
+        "apiName": "s3.uploadPart"
+    }
+]

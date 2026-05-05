@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RestoreManagedPrefixListVersion"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:prefix-list/pl-073b7bab414fcb90a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "RestoreManagedPrefixListVersionRequest(PrefixListId=pl-073b7bab414fcb90a, PreviousVersion=1, CurrentVersion=2)", 
+        "apiName": "ec2.restoreManagedPrefixListVersion"
+    }
+]

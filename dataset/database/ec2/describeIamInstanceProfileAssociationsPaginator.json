@@ -1,0 +1,226 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[], Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])])", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[], Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[], Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[7bc82b63-1b39-44fa-b5b3-7549547641e0], Filters=[Filter(Name=options.default-route-table-association, Values=[enable])], MaxResults=1)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[], Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])], MaxResults=100)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(Filters=[Filter(Name=type, Values=[ipsec.1])], MaxResults=100)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[7bc82b63-1b39-44fa-b5b3-7549547641e0], Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=1)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])], NextToken=)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=0)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[pg-040cc29c500fb8381], Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=1)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])])", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[], MaxResults=1)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=100)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[fl-04f17f472df55e076], Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])], MaxResults=1)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])], MaxResults=100)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[7bc82b63-1b39-44fa-b5b3-7549547641e0], Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=100)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[], Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])], MaxResults=1)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[fl-04f17f472df55e076], Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], NextToken=)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[], Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])])", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])], NextToken=)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[fl-04f17f472df55e076], Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[], Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=1)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIamInstanceProfileAssociationsRequest(AssociationIds=[], Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=0)", 
+        "apiName": "ec2.describeIamInstanceProfileAssociationsPaginator"
+    }
+]

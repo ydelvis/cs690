@@ -1,0 +1,128 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyNetworkInterfaceAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a", 
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-067f9d5e10cd5d578", 
+                        "arn:aws:ec2:*:002677082836:security-group/sg-087c6c17aa379a72b"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyNetworkInterfaceAttributeRequest(Attachment=NetworkInterfaceAttachmentChanges(AttachmentId=eni-attach-0d5569e6159b3f821, DeleteOnTermination=false), NetworkInterfaceId=eni-067f9d5e10cd5d578)", 
+        "apiName": "ec2.modifyNetworkInterfaceAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyNetworkInterfaceAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a", 
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-067f9d5e10cd5d578", 
+                        "arn:aws:ec2:*:002677082836:security-group/sg-087c6c17aa379a72b"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyNetworkInterfaceAttributeRequest(NetworkInterfaceId=eni-067f9d5e10cd5d578, SourceDestCheck=AttributeBooleanValue(Value=true))", 
+        "apiName": "ec2.modifyNetworkInterfaceAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyNetworkInterfaceAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a", 
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-067f9d5e10cd5d578", 
+                        "arn:aws:ec2:*:002677082836:security-group/sg-087c6c17aa379a72b"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyNetworkInterfaceAttributeRequest(Attachment=NetworkInterfaceAttachmentChanges(AttachmentId=eni-attach-0d5569e6159b3f821, DeleteOnTermination=true), NetworkInterfaceId=eni-067f9d5e10cd5d578)", 
+        "apiName": "ec2.modifyNetworkInterfaceAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyNetworkInterfaceAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a", 
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-067f9d5e10cd5d578", 
+                        "arn:aws:ec2:*:002677082836:security-group/sg-087c6c17aa379a72b"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyNetworkInterfaceAttributeRequest(NetworkInterfaceId=eni-067f9d5e10cd5d578, SourceDestCheck=AttributeBooleanValue(Value=false))", 
+        "apiName": "ec2.modifyNetworkInterfaceAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyNetworkInterfaceAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a", 
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-067f9d5e10cd5d578", 
+                        "arn:aws:ec2:*:002677082836:security-group/sg-087c6c17aa379a72b"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyNetworkInterfaceAttributeRequest(Groups=[sg-087c6c17aa379a72b], NetworkInterfaceId=eni-067f9d5e10cd5d578)", 
+        "apiName": "ec2.modifyNetworkInterfaceAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyNetworkInterfaceAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a", 
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-067f9d5e10cd5d578", 
+                        "arn:aws:ec2:*:002677082836:security-group/sg-087c6c17aa379a72b"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyNetworkInterfaceAttributeRequest(Description=AttributeValue(Value=test-network-attribute), NetworkInterfaceId=eni-067f9d5e10cd5d578)", 
+        "apiName": "ec2.modifyNetworkInterfaceAttribute"
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DescribeSpotInstanceRequests"
+                ], 
+                "Resource": [
+                    "*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "DescribeSpotInstanceRequestsRequest(MaxResults=1)", 
+    "apiName": "describeSpotInstanceRequests"
+}

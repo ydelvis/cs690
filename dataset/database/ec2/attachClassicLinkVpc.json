@@ -1,0 +1,1 @@
+AwsErrorDetails(errorMessage=The instance 'i-059cf08f8f8da7b3e' cannot currently be linked. Please try again in a couple of minutes., errorCode=InvalidInstanceID.NotLinkable, serviceName=Ec2)

@@ -1,0 +1,22 @@
+{
+  "create": {
+    "initial_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "llm_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "reasoning": "The source code explicitly initializes a boto3 DynamoDB client and invokes the put_item API. No other AWS service APIs are accessed via SDK calls or indirect wrappers.",
+    "raw_response": "{\"permissions\": [\"dynamodb:PutItem\"], \"reasoning\": \"The source code explicitly initializes a boto3 DynamoDB client and invokes the put_item API. No other AWS service APIs are accessed via SDK calls or indirect wrappers.\"}"
+  },
+  "find": {
+    "initial_permissions": [
+      "dynamodb:GetItem"
+    ],
+    "llm_permissions": [
+      "dynamodb:GetItem"
+    ],
+    "reasoning": "The code explicitly initializes a boto3 DynamoDB client and calls get_item(). No other AWS SDK methods are invoked directly in the source. Environment variable access is handled locally by the runtime.",
+    "raw_response": "{\n  \"permissions\": [\n    \"dynamodb:GetItem\"\n  ],\n  \"reasoning\": \"The code explicitly initializes a boto3 DynamoDB client and calls get_item(). No other AWS SDK methods are invoked directly in the source. Environment variable access is handled locally by the runtime.\"\n}"
+  }
+}

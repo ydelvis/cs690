@@ -1,0 +1,298 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(Filters=[Filter()], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[922761411349], Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[M3_LARGE], Filters=[Filter()], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[M3_LARGE], Filters=[Filter()], MaxResults=-100)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], Filters=[Filter()], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[dopt-bbeb2ac3], Filters=[Filter()], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[dopt-bbeb2ac3], Filters=[Filter()], MaxResults=-100)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[vpc-1dd31b65], Filters=[Filter()], MaxResults=-1)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[M3_LARGE], Filters=[Filter()])", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(Filters=[Filter()])", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[922761411349], Filters=[Filter()], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[dopt-bbeb2ac3], Filters=[Filter()], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[dopt-bbeb2ac3], Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[snap-ff869fa8], Filters=[Filter()], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], Filters=[Filter()], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[922761411349], Filters=[Filter()], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], Filters=[Filter()], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[snap-ff869fa8], Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[vpc-1dd31b65], Filters=[Filter()], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[44.237.200.166], Filters=[Filter()], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[922761411349], Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[snap-ff869fa8], Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[M3_LARGE], Filters=[Filter()], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[M3_LARGE], Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[44.237.200.166], Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeDhcpOptionsRequest(DhcpOptionsIds=[M3_LARGE], Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeDhcpOptionsPaginator"
+    }
+]

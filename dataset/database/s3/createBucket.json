@@ -1,0 +1,1111 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=private, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(LocationConstraint=us-west-2), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=private, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read-write, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(LocationConstraint=us-west-2), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=private, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(LocationConstraint=us-west-2), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=authenticated-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=authenticated-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=private, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(LocationConstraint=us-west-2), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=authenticated-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read-write, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=private, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=private, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(LocationConstraint=us-west-2), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=authenticated-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read-write, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(LocationConstraint=us-west-2), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(LocationConstraint=us-west-2), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read-write, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(LocationConstraint=us-west-2), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=authenticated-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(LocationConstraint=us-west-2), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=private, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(LocationConstraint=us-west-2), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=private, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read-write, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(LocationConstraint=us-west-2), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=public-read-write, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(LocationConstraint=us-west-2), ObjectLockEnabledForBucket=false)", 
+        "apiName": "createBucket"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketVersioning"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:CreateBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }
+            ]
+        }, 
+        "request": "CreateBucketRequest(ACL=authenticated-read, Bucket=test-bucket-5461, CreateBucketConfiguration=CreateBucketConfiguration(), ObjectLockEnabledForBucket=true)", 
+        "apiName": "createBucket"
+    }
+]

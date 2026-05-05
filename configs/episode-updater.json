@@ -1,0 +1,51 @@
+{
+  "service": "episode-updater",
+  "provider": {
+    "name": "aws",
+    "runtime": "nodejs8.10",
+    "region": "",
+    "stage": "dev",
+    "memory_mb": null,
+    "timeout_s": null
+  },
+  "environment": {},
+  "functions": {
+    "hello": {
+      "handler": "handler.hello",
+      "runtime": "nodejs8.10",
+      "environment": {},
+      "events": []
+    },
+    "getPlaylists": {
+      "handler": "main.getPlaylists",
+      "runtime": "nodejs8.10",
+      "environment": {},
+      "events": []
+    },
+    "channelHanler": {
+      "handler": "channels/main.uname2ChannelId",
+      "runtime": "nodejs8.10",
+      "environment": {},
+      "events": [
+        {
+          "http": "GET /api/channelInfo/{channel?}"
+        }
+      ]
+    },
+    "getPlayListVideos": {
+      "handler": "main.getVideosFromPlayList",
+      "runtime": "nodejs8.10",
+      "environment": {},
+      "events": [
+        {
+          "http": "GET /api/playListVideos/{playListId?}"
+        }
+      ]
+    }
+  },
+  "iam_statements": [],
+  "custom": {},
+  "source_files": [
+    "serverless.yml"
+  ]
+}

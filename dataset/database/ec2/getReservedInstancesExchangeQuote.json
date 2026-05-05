@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetReservedInstancesExchangeQuote"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "GetReservedInstancesExchangeQuoteRequest(ReservedInstanceIds=[7bc82b63-1b39-44fa-b5b3-7549547641e0])", 
+        "apiName": "ec2.getReservedInstancesExchangeQuote"
+    }
+]

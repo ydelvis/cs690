@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetDefaultCreditSpecification"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetDefaultCreditSpecificationRequest(InstanceFamily=t2)", 
+        "apiName": "ec2.getDefaultCreditSpecification"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetDefaultCreditSpecification"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetDefaultCreditSpecificationRequest(InstanceFamily=t3)", 
+        "apiName": "ec2.getDefaultCreditSpecification"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetDefaultCreditSpecification"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetDefaultCreditSpecificationRequest(InstanceFamily=t4g)", 
+        "apiName": "ec2.getDefaultCreditSpecification"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetDefaultCreditSpecification"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetDefaultCreditSpecificationRequest(InstanceFamily=t3a)", 
+        "apiName": "ec2.getDefaultCreditSpecification"
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:ModifySnapshotAttribute"
+                ], 
+                "Resource": [
+                    "arn:aws:ec2:us-west-2::snapshot/snap-0f2c8f31a6b42fa62"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "ModifySnapshotAttributeRequest(Attribute=productCodes, CreateVolumePermission=CreateVolumePermissionModifications(Remove=[CreateVolumePermission(Group=all, UserId=002677082836)]), GroupNames=[all], OperationType=add, SnapshotId=snap-0f2c8f31a6b42fa62, UserIds=[002677082836])", 
+    "apiName": "modifySnapshotAttribute"
+}

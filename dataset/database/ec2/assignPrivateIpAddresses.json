@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AssignPrivateIpAddresses"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-08e787916765b5065"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "AssignPrivateIpAddressesRequest(NetworkInterfaceId=eni-08e787916765b5065, PrivateIpAddresses=[172.31.16.10])", 
+        "apiName": "ec2.assignPrivateIpAddresses"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AssignPrivateIpAddresses"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-08e787916765b5065"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "AssignPrivateIpAddressesRequest(AllowReassignment=true, NetworkInterfaceId=eni-08e787916765b5065, PrivateIpAddresses=[172.31.16.10])", 
+        "apiName": "ec2.assignPrivateIpAddresses"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AssignPrivateIpAddresses"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-08e787916765b5065"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "AssignPrivateIpAddressesRequest(AllowReassignment=false, NetworkInterfaceId=eni-08e787916765b5065, PrivateIpAddresses=[172.31.16.10])", 
+        "apiName": "ec2.assignPrivateIpAddresses"
+    }
+]

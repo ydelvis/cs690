@@ -1,0 +1,42 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DetachVolume"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:instance/i-01d514444253d9b80", 
+                        "arn:aws:ec2:us-west-2:002677082836:volume/vol-0a580cc01eb840e8d"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "DetachVolumeRequest(Device=/dev/xvda, Force=false, InstanceId=i-01d514444253d9b80, VolumeId=vol-0a580cc01eb840e8d)", 
+        "apiName": "detachVolume"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DetachVolume"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:instance/i-01d514444253d9b80", 
+                        "arn:aws:ec2:us-west-2:002677082836:volume/vol-0a580cc01eb840e8d"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DetachVolumeRequest(Device=/dev/xvda, Force=true, InstanceId=i-01d514444253d9b80, VolumeId=vol-0a580cc01eb840e8d)", 
+        "apiName": "detachVolume"
+    }
+]

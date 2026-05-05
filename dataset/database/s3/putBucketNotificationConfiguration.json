@@ -1,0 +1,97 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketNotification"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketNotificationConfigurationRequest(Bucket=test-bucket-5461, NotificationConfiguration=NotificationConfiguration(TopicConfigurations=[TopicConfiguration(Id=test-bucket-5461-topic-config, TopicArn=arn:aws:sns:us-west-2:002677082836:test-5461-bucket-topic, Events=[s3:ObjectCreated:*])], LambdaFunctionConfigurations=[LambdaFunctionConfiguration(Id=test-bucket-5461-lambda-config, LambdaFunctionArn=arn:aws:lambda:us-west-2:002677082836:function:test-5461-bucket-lambda, Events=[s3:Replication:OperationReplicatedAfterThreshold])]), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketNotificationConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketNotification"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketNotificationConfigurationRequest(Bucket=test-bucket-5461, NotificationConfiguration=NotificationConfiguration())", 
+        "apiName": "s3.putBucketNotificationConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketNotification"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketNotificationConfigurationRequest(Bucket=test-bucket-5461, NotificationConfiguration=NotificationConfiguration(), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketNotificationConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketNotification"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketNotificationConfigurationRequest(Bucket=test-bucket-5461, NotificationConfiguration=NotificationConfiguration(TopicConfigurations=[TopicConfiguration(Id=test-bucket-5461-topic-config, TopicArn=arn:aws:sns:us-west-2:002677082836:test-5461-bucket-topic, Events=[s3:ObjectRemoved:Delete])], QueueConfigurations=[QueueConfiguration(Id=test-bucket-5461-queue-config, QueueArn=arn:aws:sqs:us-west-2:002677082836:test-5461-bucket-queue, Events=[s3:Replication:OperationFailedReplication])]), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketNotificationConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketNotification"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketNotificationConfigurationRequest(Bucket=test-bucket-5461, NotificationConfiguration=NotificationConfiguration(TopicConfigurations=[TopicConfiguration(Id=test-bucket-5461-topic-config, TopicArn=arn:aws:sns:us-west-2:002677082836:test-5461-bucket-topic, Events=[s3:ObjectRemoved:Delete])]))", 
+        "apiName": "s3.putBucketNotificationConfiguration"
+    }
+]

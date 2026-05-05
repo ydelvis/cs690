@@ -1,0 +1,50 @@
+{
+  "adjacency": {
+    "handler": [
+      "updateAggregateForColor"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "handler",
+      "file": "dataset/apps/aggregate-votes/app.js",
+      "language": "javascript",
+      "line": 5
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/aggregate-votes/app.js",
+      "language": "javascript",
+      "line": 11
+    },
+    {
+      "name": "updateAggregateForColor",
+      "file": "dataset/apps/aggregate-votes/app.js",
+      "language": "javascript",
+      "line": 41
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/aggregate-votes/app.js",
+      "language": "javascript",
+      "line": 51
+    }
+  ],
+  "edges": [
+    {
+      "caller": "handler",
+      "callee": "updateAggregateForColor",
+      "caller_file": "dataset/apps/aggregate-votes/app.js"
+    },
+    {
+      "caller": "handler",
+      "callee": "updateAggregateForColor",
+      "caller_file": "dataset/apps/aggregate-votes/app.js"
+    },
+    {
+      "caller": "handler",
+      "callee": "updateAggregateForColor",
+      "caller_file": "dataset/apps/aggregate-votes/app.js"
+    }
+  ]
+}

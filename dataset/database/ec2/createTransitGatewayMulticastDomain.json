@@ -1,0 +1,292 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-040604673d69e2f25", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayMulticastDomainRequest(TransitGatewayId=tgw-040604673d69e2f25, Options=CreateTransitGatewayMulticastDomainRequestOptions(Igmpv2Support=enable, StaticSourcesSupport=disable))", 
+        "apiName": "ec2.createTransitGatewayMulticastDomain"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-040604673d69e2f25", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayMulticastDomainRequest(TransitGatewayId=tgw-040604673d69e2f25, Options=CreateTransitGatewayMulticastDomainRequestOptions(StaticSourcesSupport=disable, AutoAcceptSharedAssociations=enable))", 
+        "apiName": "ec2.createTransitGatewayMulticastDomain"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-040604673d69e2f25", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayMulticastDomainRequest(TransitGatewayId=tgw-040604673d69e2f25, Options=CreateTransitGatewayMulticastDomainRequestOptions(Igmpv2Support=disable, StaticSourcesSupport=enable, AutoAcceptSharedAssociations=enable), TagSpecifications=[TagSpecification(ResourceType=transit-gateway-multicast-domain, Tags=[Tag(Key=transitGatewayMulticastDomain, Value=transitGatewayMulticastDomain-tag)])])", 
+        "apiName": "ec2.createTransitGatewayMulticastDomain"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-040604673d69e2f25", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayMulticastDomainRequest(TransitGatewayId=tgw-040604673d69e2f25, Options=CreateTransitGatewayMulticastDomainRequestOptions(StaticSourcesSupport=disable, AutoAcceptSharedAssociations=disable), TagSpecifications=[TagSpecification(ResourceType=transit-gateway-multicast-domain, Tags=[Tag(Key=transitGatewayMulticastDomain, Value=transitGatewayMulticastDomain-tag)])])", 
+        "apiName": "ec2.createTransitGatewayMulticastDomain"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-040604673d69e2f25", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayMulticastDomainRequest(TransitGatewayId=tgw-040604673d69e2f25, Options=CreateTransitGatewayMulticastDomainRequestOptions(Igmpv2Support=disable, StaticSourcesSupport=enable, AutoAcceptSharedAssociations=enable))", 
+        "apiName": "ec2.createTransitGatewayMulticastDomain"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-040604673d69e2f25", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayMulticastDomainRequest(TransitGatewayId=tgw-040604673d69e2f25, Options=CreateTransitGatewayMulticastDomainRequestOptions(Igmpv2Support=enable), TagSpecifications=[TagSpecification(ResourceType=transit-gateway-multicast-domain, Tags=[Tag(Key=transitGatewayMulticastDomain, Value=transitGatewayMulticastDomain-tag)])])", 
+        "apiName": "ec2.createTransitGatewayMulticastDomain"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-040604673d69e2f25", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayMulticastDomainRequest(TransitGatewayId=tgw-040604673d69e2f25, Options=CreateTransitGatewayMulticastDomainRequestOptions(Igmpv2Support=disable))", 
+        "apiName": "ec2.createTransitGatewayMulticastDomain"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-040604673d69e2f25", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayMulticastDomainRequest(TransitGatewayId=tgw-040604673d69e2f25, Options=CreateTransitGatewayMulticastDomainRequestOptions(StaticSourcesSupport=enable))", 
+        "apiName": "ec2.createTransitGatewayMulticastDomain"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-040604673d69e2f25", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayMulticastDomainRequest(TransitGatewayId=tgw-040604673d69e2f25, Options=CreateTransitGatewayMulticastDomainRequestOptions(), TagSpecifications=[TagSpecification(ResourceType=transit-gateway-multicast-domain, Tags=[Tag(Key=transitGatewayMulticastDomain, Value=transitGatewayMulticastDomain-tag)])])", 
+        "apiName": "ec2.createTransitGatewayMulticastDomain"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-040604673d69e2f25", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayMulticastDomainRequest(TransitGatewayId=tgw-040604673d69e2f25, Options=CreateTransitGatewayMulticastDomainRequestOptions(Igmpv2Support=disable, StaticSourcesSupport=enable, AutoAcceptSharedAssociations=disable))", 
+        "apiName": "ec2.createTransitGatewayMulticastDomain"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-040604673d69e2f25", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayMulticastDomainRequest(TransitGatewayId=tgw-040604673d69e2f25, Options=CreateTransitGatewayMulticastDomainRequestOptions(Igmpv2Support=enable, AutoAcceptSharedAssociations=enable), TagSpecifications=[TagSpecification(ResourceType=transit-gateway-multicast-domain, Tags=[Tag(Key=transitGatewayMulticastDomain, Value=transitGatewayMulticastDomain-tag)])])", 
+        "apiName": "ec2.createTransitGatewayMulticastDomain"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-040604673d69e2f25", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayMulticastDomainRequest(TransitGatewayId=tgw-040604673d69e2f25, Options=CreateTransitGatewayMulticastDomainRequestOptions(StaticSourcesSupport=enable, AutoAcceptSharedAssociations=enable))", 
+        "apiName": "ec2.createTransitGatewayMulticastDomain"
+    }
+]

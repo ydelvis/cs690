@@ -1,0 +1,79 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PartiQLSelect"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461", 
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461/index/Id"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ExecuteTransactionRequest(TransactStatements=[ParameterizedStatement(Statement=SELECT * FROM \"test-table-5461\" WHERE Id=?, Parameters=[AttributeValue(S=1)])])", 
+        "apiName": "dynamodb.executeTransaction"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PartiQLDelete"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }
+            ]
+        }, 
+        "request": "ExecuteTransactionRequest(TransactStatements=[ParameterizedStatement(Statement=DELETE FROM \"test-table-5461\" WHERE \"Id\" =?, Parameters=[AttributeValue(S=1)])])", 
+        "apiName": "dynamodb.executeTransaction"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PartiQLInsert"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }
+            ]
+        }, 
+        "request": "ExecuteTransactionRequest(TransactStatements=[ParameterizedStatement(Statement=INSERT INTO \"test-table-5461\" value {'Id': ?, 'Make': ?, 'Model': ?}, Parameters=[AttributeValue(S=2), AttributeValue(S=Honda), AttributeValue(S=Civic)])])", 
+        "apiName": "dynamodb.executeTransaction"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PartiQLUpdate"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "ExecuteTransactionRequest(TransactStatements=[ParameterizedStatement(Statement=UPDATE \"test-table-5461\" SET \"Make\" = 'Audi' WHERE \"Id\" =?, Parameters=[AttributeValue(S=1)])])", 
+        "apiName": "dynamodb.executeTransaction"
+    }
+]

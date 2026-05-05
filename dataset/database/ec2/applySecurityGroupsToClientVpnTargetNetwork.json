@@ -1,0 +1,23 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ApplySecurityGroupsToClientVpnTargetNetwork"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/sg-087c6c17aa379a72b", 
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/cvpn-endpoint-09503c030cf84ef56", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ApplySecurityGroupsToClientVpnTargetNetworkRequest(ClientVpnEndpointId=cvpn-endpoint-09503c030cf84ef56, VpcId=vpc-088f61503142622ed, SecurityGroupIds=[sg-087c6c17aa379a72b])", 
+        "apiName": "ec2.applySecurityGroupsToClientVpnTargetNetwork"
+    }
+]

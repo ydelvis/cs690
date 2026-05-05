@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteSubnet"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:subnet/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteSubnetRequest(SubnetId=subnet-0aed4b17e38087df4)", 
+        "apiName": "ec2.deleteSubnet"
+    }
+]

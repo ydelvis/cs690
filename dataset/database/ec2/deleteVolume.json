@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteVolume"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:volume/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteVolumeRequest(VolumeId=vol-05db30f33981e055b)", 
+        "apiName": "ec2.deleteVolume"
+    }
+]

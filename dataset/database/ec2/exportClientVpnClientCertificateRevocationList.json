@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ExportClientVpnClientCertificateRevocationList"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/cvpn-endpoint-0a07756cc03947e2e"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ExportClientVpnClientCertificateRevocationListRequest(ClientVpnEndpointId=cvpn-endpoint-0a07756cc03947e2e)", 
+        "apiName": "ec2.exportClientVpnClientCertificateRevocationList"
+    }
+]

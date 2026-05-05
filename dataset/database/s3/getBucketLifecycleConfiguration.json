@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetLifecycleConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetBucketLifecycleConfigurationRequest(Bucket=test-bucket-5461)", 
+        "apiName": "getBucketLifecycleConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetLifecycleConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetBucketLifecycleConfigurationRequest(Bucket=test-bucket-5461)", 
+        "apiName": "getBucketLifecycleConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetLifecycleConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetBucketLifecycleConfigurationRequest(Bucket=test-bucket-5461, ExpectedBucketOwner=002677082836)", 
+        "apiName": "getBucketLifecycleConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetLifecycleConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetBucketLifecycleConfigurationRequest(Bucket=test-bucket-5461, ExpectedBucketOwner=002677082836)", 
+        "apiName": "getBucketLifecycleConfiguration"
+    }
+]

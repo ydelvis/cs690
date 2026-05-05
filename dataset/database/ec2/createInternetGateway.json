@@ -1,0 +1,69 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateInternetGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:internet-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateInternetGatewayRequest()", 
+        "apiName": "ec2.createInternetGateway"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateInternetGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:internet-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateInternetGatewayRequest()", 
+        "apiName": "ec2.createInternetGateway"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateInternetGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:internet-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateInternetGatewayRequest(TagSpecifications=[TagSpecification(ResourceType=internet-gateway, Tags=[Tag(Key=internet-gateway, Value=internet-gateway-tag)])])", 
+        "apiName": "ec2.createInternetGateway"
+    }
+]

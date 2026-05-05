@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpnTunnelOptions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-connection/vpn-0d59b1da66a690911"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpnTunnelOptionsRequest(VpnConnectionId=vpn-0d59b1da66a690911, VpnTunnelOutsideIpAddress=52.11.30.247, TunnelOptions=ModifyVpnTunnelOptionsSpecification(PreSharedKey=myPreSharedKey1, Phase1LifetimeSeconds=20000, RekeyMarginTimeSeconds=100, RekeyFuzzPercentage=50, ReplayWindowSize=1500, Phase1DHGroupNumbers=[Phase1DHGroupNumbersRequestListValue(Value=2), Phase1DHGroupNumbersRequestListValue(Value=14), Phase1DHGroupNumbersRequestListValue(Value=15), Phase1DHGroupNumbersRequestListValue(Value=16), Phase1DHGroupNumbersRequestListValue(Value=17), Phase1DHGroupNumbersRequestListValue(Value=18), Phase1DHGroupNumbersRequestListValue(Value=19), Phase1DHGroupNumbersRequestListValue(Value=20), Phase1DHGroupNumbersRequestListValue(Value=21), Phase1DHGroupNumbersRequestListValue(Value=22), Phase1DHGroupNumbersRequestListValue(Value=23), Phase1DHGroupNumbersRequestListValue(Value=24)], Phase2DHGroupNumbers=[Phase2DHGroupNumbersRequestListValue(Value=2), Phase2DHGroupNumbersRequestListValue(Value=14), Phase2DHGroupNumbersRequestListValue(Value=15), Phase2DHGroupNumbersRequestListValue(Value=16), Phase2DHGroupNumbersRequestListValue(Value=17), Phase2DHGroupNumbersRequestListValue(Value=18), Phase2DHGroupNumbersRequestListValue(Value=19), Phase2DHGroupNumbersRequestListValue(Value=20), Phase2DHGroupNumbersRequestListValue(Value=21), Phase2DHGroupNumbersRequestListValue(Value=22), Phase2DHGroupNumbersRequestListValue(Value=23), Phase2DHGroupNumbersRequestListValue(Value=24)], IKEVersions=[IKEVersionsRequestListValue(Value=ikev1), IKEVersionsRequestListValue(Value=ikev2)]))", 
+        "apiName": "ec2.modifyVpnTunnelOptions"
+    }
+]

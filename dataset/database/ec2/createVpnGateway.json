@@ -1,0 +1,127 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpnGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateVpnGatewayRequest(Type=ipsec.1)", 
+        "apiName": "ec2.createVpnGateway"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpnGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateVpnGatewayRequest(Type=ipsec.1, TagSpecifications=[TagSpecification(ResourceType=vpn-gateway, Tags=[Tag(Key=vpn-gateway, Value=vpn-gateway-tag)])], AmazonSideAsn=64516)", 
+        "apiName": "ec2.createVpnGateway"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpnGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateVpnGatewayRequest(AvailabilityZone=us-west-2c, Type=ipsec.1, TagSpecifications=[TagSpecification(ResourceType=vpn-gateway, Tags=[Tag(Key=vpn-gateway, Value=vpn-gateway-tag)])])", 
+        "apiName": "ec2.createVpnGateway"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpnGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateVpnGatewayRequest(AvailabilityZone=us-west-2c, Type=ipsec.1)", 
+        "apiName": "ec2.createVpnGateway"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpnGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateVpnGatewayRequest(AvailabilityZone=us-west-2c, Type=ipsec.1, TagSpecifications=[TagSpecification(ResourceType=vpn-gateway, Tags=[Tag(Key=vpn-gateway, Value=vpn-gateway-tag)])], AmazonSideAsn=64516)", 
+        "apiName": "ec2.createVpnGateway"
+    }
+]

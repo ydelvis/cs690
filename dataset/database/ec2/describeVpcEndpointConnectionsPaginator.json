@@ -1,0 +1,162 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[failed])], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-owner, Values=[002677082836])], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleting])], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[available])], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=default-propagation-route-table, Values=[false])], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-owner, Values=[002677082836])], MaxResults=100)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[failed])], NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleted])], MaxResults=100)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[pending])], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[pending])], MaxResults=100)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleting])], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleted])])", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[pending])], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[available])])", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[available])], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleting])], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleting])], MaxResults=0)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[pending])], NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[rejected])], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointConnectionsPaginator"
+    }
+]

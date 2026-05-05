@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:DescribeTimeToLive"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeTimeToLiveRequest(TableName=test-table-5461)", 
+        "apiName": "dynamodb.describeTimeToLive"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:DescribeTimeToLive"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeTimeToLiveRequest(TableName=test-table-5461)", 
+        "apiName": "dynamodb.describeTimeToLive"
+    }
+]

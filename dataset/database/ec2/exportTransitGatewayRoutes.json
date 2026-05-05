@@ -1,0 +1,31 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ExportTransitGatewayRoutes"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ExportTransitGatewayRoutesRequest(TransitGatewayRouteTableId=tgw-rtb-020d9777b748cb810, S3Bucket=test-bucket-5461)", 
+        "apiName": "ec2.exportTransitGatewayRoutes"
+    }
+]

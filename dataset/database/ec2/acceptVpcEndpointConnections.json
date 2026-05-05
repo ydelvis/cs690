@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AcceptVpcEndpointConnections"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint-service/vpce-svc-0f8e4dab7cc4677b2"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "AcceptVpcEndpointConnectionsRequest(ServiceId=vpce-svc-0f8e4dab7cc4677b2, VpcEndpointIds=[vpce-0a633422036d7d276])", 
+        "apiName": "ec2.acceptVpcEndpointConnections"
+    }
+]

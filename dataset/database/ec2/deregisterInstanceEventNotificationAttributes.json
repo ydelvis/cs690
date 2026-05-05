@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeregisterInstanceEventNotificationAttributes"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeregisterInstanceEventNotificationAttributesRequest(InstanceTagAttribute=DeregisterInstanceTagAttributeRequest(IncludeAllTagsOfInstance=true))", 
+        "apiName": "ec2.deregisterInstanceEventNotificationAttributes"
+    }
+]

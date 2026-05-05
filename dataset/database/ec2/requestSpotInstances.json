@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RequestSpotInstances"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/sg-087c6c17aa379a72b", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:spot-instances-request/*", 
+                        "arn:aws:ec2:*:002677082836:key-pair/test-key-pair", 
+                        "arn:aws:ec2:*::image/ami-0029f0b4ea5bb8ee1"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "iam:PassRole"
+                    ], 
+                    "Resource": [
+                        "arn:aws:iam::002677082836:role/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }
+            ]
+        }, 
+        "request": "RequestSpotInstancesRequest(InstanceCount=1, LaunchSpecification=RequestSpotLaunchSpecification(SecurityGroupIds=[sg-087c6c17aa379a72b], IamInstanceProfile=IamInstanceProfileSpecification(Arn=arn:aws:iam::002677082836:instance-profile/Bob), ImageId=ami-0029f0b4ea5bb8ee1, InstanceType=m1.small, KeyName=test-key-pair, Placement=SpotPlacement(AvailabilityZone=us-west-2a)), SpotPrice=0.03, Type=one-time)", 
+        "apiName": "ec2.requestSpotInstances"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RequestSpotInstances"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/sg-087c6c17aa379a72b", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:spot-instances-request/*", 
+                        "arn:aws:ec2:*:002677082836:key-pair/test-key-pair", 
+                        "arn:aws:ec2:*::image/ami-0029f0b4ea5bb8ee1"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "iam:PassRole"
+                    ], 
+                    "Resource": [
+                        "arn:aws:iam::002677082836:role/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "RequestSpotInstancesRequest(InstanceCount=1, LaunchSpecification=RequestSpotLaunchSpecification(SecurityGroupIds=[sg-087c6c17aa379a72b], IamInstanceProfile=IamInstanceProfileSpecification(Arn=arn:aws:iam::002677082836:instance-profile/Bob), ImageId=ami-0029f0b4ea5bb8ee1, InstanceType=m1.small, KeyName=test-key-pair, Placement=SpotPlacement(AvailabilityZone=us-west-2a)), SpotPrice=0.03, Type=one-time, TagSpecifications=[TagSpecification(ResourceType=spot-instances-request, Tags=[Tag(Key=spot-instances-request, Value=spot-instances-request-tag)])])", 
+        "apiName": "ec2.requestSpotInstances"
+    }
+]

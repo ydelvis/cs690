@@ -1,0 +1,250 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=vpc-endpoint-owner, Values=[002677082836])], MaxResults=0)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=attachment.state, Values=[attached])], MaxResults=100)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=owner-id, Values=[002677082836])], MaxResults=0)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(MaxResults=0)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(MaxResults=100)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=default-association-route-table, Values=[true])], MaxResults=1)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65]), Filter(Name=owner-id, Values=[002677082836]), Filter(Name=route.state, Values=[blackhole])], MaxResults=100)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[rejected])])", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=resource-type, Values=[vpc])], MaxResults=0)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65]), Filter(Name=owner-id, Values=[002677082836]), Filter(Name=route.state, Values=[blackhole])], MaxResults=0)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[available])])", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[disable])], MaxResults=1)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[disable])], MaxResults=0)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[enable])], MaxResults=0)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(MaxResults=0)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[enable])], MaxResults=100)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=resource-type, Values=[vpc])])", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=service-name, Values=[com.amazonaws.us-east-2.acm-pca])], MaxResults=1)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS]), Filter(Name=traffic-type, Values=[ACCEPT]), Filter(Name=log-destination-type, Values=[s3])], MaxResults=1)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[failed])], MaxResults=100)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=default-association-route-table, Values=[false])], MaxResults=1)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=state, Values=[deleting])], MaxResults=100)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65])], MaxResults=1)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=state, Values=[deleted])], MaxResults=100)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleted])])", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=route.state, Values=[blackhole])], MaxResults=1)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=state, Values=[deleted])], MaxResults=1)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=traffic-type, Values=[REJECT])])", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=default-association-route-table, Values=[false])], MaxResults=0)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=state, Values=[available])], MaxResults=0)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=deliver-log-status, Values=[FAILED])], MaxResults=1)", 
+        "apiName": "ec2.describeCoipPoolsPaginator"
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/listBucket.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/listBucket.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }
+            ]
+        }, 
+        "request": "CreateMultipartUploadRequest(Bucket=test-bucket-5461, CacheControl=max-age=30, ContentDisposition=, ContentEncoding=deflate, ContentLanguage=, ContentType=application/json, Expires=2021-07-26T14:07:53.490Z, GrantReadACP=emailaddress=captainalligator1@gmail.com, Key=listBucket.json, Metadata={my-object-metadata-key=my-object-metadata-value}, StorageClass=STANDARD_IA, WebsiteRedirectLocation=https://test-bucket-5461.s3-us-west-2.amazonaws.com/index.html, BucketKeyEnabled=true, RequestPayer=requester)", 
+        "apiName": "s3.createMultipartUpload"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateMultipartUploadRequest(ACL=authenticated-read, Bucket=test-bucket-5461, CacheControl=must-revalidate, ContentDisposition=multipart/form-data, ContentEncoding=gzip, ContentLanguage=en-US, ContentType=application/json, Expires=2021-07-26T22:56:10.913Z, Key=key1/listBuckets.json, Metadata={Content-Language=en-US}, WebsiteRedirectLocation=https://test-bucket-5461.s3-us-west-2.amazonaws.com/index.html, BucketKeyEnabled=false, RequestPayer=requester)", 
+        "apiName": "s3.createMultipartUpload"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/listBucket.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/listBucket.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/listBucket.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement7"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/listBucket.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement9"
+                }
+            ]
+        }, 
+        "request": "CreateMultipartUploadRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, CacheControl=max-age=30, ContentDisposition=, ContentEncoding=deflate, ContentLanguage=, ContentType=application/json, Expires=2021-07-27T04:56:53.696Z, GrantReadACP=emailaddress=captainalligator1@gmail.com, Key=listBucket.json, Metadata={my-object-metadata-key=my-object-metadata-value}, StorageClass=STANDARD_IA, WebsiteRedirectLocation=https://test-bucket-5461-object-lock-configuration-enabled.s3-us-west-2.amazonaws.com/index.html, BucketKeyEnabled=true, RequestPayer=requester, ObjectLockMode=GOVERNANCE, ObjectLockRetainUntilDate=2021-07-27T05:00:53.696Z, ObjectLockLegalHoldStatus=OFF)", 
+        "apiName": "s3.createMultipartUpload"
+    }
+]

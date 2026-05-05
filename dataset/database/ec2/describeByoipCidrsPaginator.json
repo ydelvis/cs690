@@ -1,0 +1,34 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeByoipCidrsRequest()", 
+        "apiName": "ec2.describeByoipCidrsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeByoipCidrsRequest(MaxResults=100)", 
+        "apiName": "ec2.describeByoipCidrsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeByoipCidrsRequest(MaxResults=0)", 
+        "apiName": "ec2.describeByoipCidrsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeByoipCidrsRequest(MaxResults=1)", 
+        "apiName": "ec2.describeByoipCidrsPaginator"
+    }
+]

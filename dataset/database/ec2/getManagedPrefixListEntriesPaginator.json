@@ -1,0 +1,122 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(MaxResults=0, NextToken=)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(MaxResults=100)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(PrefixListId=pl-02c832233b8d5eea8, NextToken=)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(PrefixListId=pl-02c832233b8d5eea8, MaxResults=100)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(MaxResults=100, NextToken=)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(PrefixListId=pl-02c832233b8d5eea8, MaxResults=1)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(PrefixListId=pl-02c832233b8d5eea8, MaxResults=0)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(NextToken=)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(PrefixListId=pl-02c832233b8d5eea8, MaxResults=0, NextToken=)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(MaxResults=1)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(MaxResults=0)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(PrefixListId=pl-02c832233b8d5eea8, MaxResults=1, NextToken=)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(MaxResults=1, NextToken=)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest()", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(PrefixListId=pl-02c832233b8d5eea8, MaxResults=100, NextToken=)", 
+        "apiName": "ec2.getManagedPrefixListEntriesPaginator"
+    }
+]

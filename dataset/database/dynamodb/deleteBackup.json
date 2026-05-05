@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:DeleteBackup"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461/backup/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteBackupRequest(BackupArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461/backup/01625382434056-555f26c7)", 
+        "apiName": "dynamodb.deleteBackup"
+    }
+]

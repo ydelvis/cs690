@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeNatGateways"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=vpc-id, Values=[vpc-1dd31b65]), Filter(Name=owner-id, Values=[002677082836]), Filter(Name=route.state, Values=[blackhole])])", 
+        "apiName": "ec2.describeNatGateways"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeNatGateways"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])], MaxResults=100)", 
+        "apiName": "ec2.describeNatGateways"
+    }
+]

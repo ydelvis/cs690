@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeTransitGatewayConnectPeers"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeTransitGatewayConnectPeersRequest(Filters=[Filter(Name=state, Values=[available])], MaxResults=1)", 
+        "apiName": "ec2.describeTransitGatewayConnectPeers"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeTransitGatewayConnectPeers"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeTransitGatewayConnectPeersRequest()", 
+        "apiName": "ec2.describeTransitGatewayConnectPeers"
+    }
+]

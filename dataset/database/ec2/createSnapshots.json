@@ -1,0 +1,195 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:dedicated-host/*", 
+                        "arn:aws:ec2:*:002677082836:instance/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-flow-log/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-peering-connection/*", 
+                        "arn:aws:ec2:*:002677082836:launch-template/*", 
+                        "arn:aws:ec2:*:002677082836:route-table/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-connect-peer/*", 
+                        "arn:aws:ec2:*:002677082836:import-snapshot-task/*", 
+                        "arn:aws:ec2:*:002677082836:local-gateway-route-table/*", 
+                        "arn:aws:ec2:*:002677082836:elastic-gpu/*", 
+                        "arn:aws:ec2:*:002677082836:ipv6pool-ec2/*", 
+                        "arn:aws:ec2:*:002677082836:fleet/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:local-gateway-route-table-virtual-interface-group-association/*", 
+                        "arn:aws:ec2:*:002677082836:local-gateway-virtual-interface-group/*", 
+                        "arn:aws:ec2:*:002677082836:key-pair/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint-service/*", 
+                        "arn:aws:ec2:*:002677082836:prefix-list/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:export-instance-task/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*", 
+                        "arn:aws:ec2:*:002677082836:local-gateway-virtual-interface/*", 
+                        "arn:aws:ec2:*:002677082836:spot-instances-request/*", 
+                        "arn:aws:ec2:*:002677082836:dhcp-options/*", 
+                        "arn:aws:ec2:*:002677082836:egress-only-internet-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:network-acl/*", 
+                        "arn:aws:ec2:*:002677082836:local-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:volume/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*", 
+                        "arn:aws:ec2:*::snapshot/*", 
+                        "arn:aws:ec2:*:002677082836:customer-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:spot-fleet-request/*", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-target/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*", 
+                        "arn:aws:ec2:*::image/*", 
+                        "arn:aws:ec2:*:002677082836:elastic-ip/*", 
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:host-reservation/*", 
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/*", 
+                        "arn:aws:ec2:*:002677082836:internet-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-session/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-route-table/*", 
+                        "arn:aws:ec2:*:002677082836:local-gateway-route-table-vpc-association/*", 
+                        "arn:aws:ec2:*:002677082836:natgateway/*", 
+                        "arn:aws:ec2:*:002677082836:placement-group/*", 
+                        "arn:aws:ec2:*:002677082836:ipv4pool-ec2/*", 
+                        "arn:aws:ec2:*:002677082836:export-image-task/*", 
+                        "arn:aws:ec2:*:002677082836:import-image-task/*", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/*", 
+                        "arn:aws:ec2:*::fpga-image/*", 
+                        "arn:aws:ec2:*:002677082836:vpn-connection/*", 
+                        "arn:aws:ec2:*:002677082836:reserved-instances/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateSnapshots"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:instance/i-0fc67210075ad498a", 
+                        "arn:aws:ec2:us-west-2:002677082836:volume/vol-0fd4e69b7ce47f68b", 
+                        "arn:aws:ec2:us-west-2::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateSnapshotsRequest(InstanceSpecification=InstanceSpecification(InstanceId=i-0fc67210075ad498a, ExcludeBootVolume=false), TagSpecifications=[TagSpecification(ResourceType=snapshot, Tags=[Tag(Key=snapshot, Value=snapshot-tag)])])", 
+        "apiName": "ec2.createSnapshots"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateSnapshots"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:instance/i-0fc67210075ad498a", 
+                        "arn:aws:ec2:us-west-2:002677082836:volume/vol-0fd4e69b7ce47f68b", 
+                        "arn:aws:ec2:us-west-2::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateSnapshotsRequest(Description=Test snapshot, InstanceSpecification=InstanceSpecification(InstanceId=i-0fc67210075ad498a, ExcludeBootVolume=false))", 
+        "apiName": "ec2.createSnapshots"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:dedicated-host/*", 
+                        "arn:aws:ec2:*:002677082836:instance/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-flow-log/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-peering-connection/*", 
+                        "arn:aws:ec2:*:002677082836:launch-template/*", 
+                        "arn:aws:ec2:*:002677082836:route-table/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-connect-peer/*", 
+                        "arn:aws:ec2:*:002677082836:import-snapshot-task/*", 
+                        "arn:aws:ec2:*:002677082836:local-gateway-route-table/*", 
+                        "arn:aws:ec2:*:002677082836:elastic-gpu/*", 
+                        "arn:aws:ec2:*:002677082836:ipv6pool-ec2/*", 
+                        "arn:aws:ec2:*:002677082836:fleet/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:local-gateway-route-table-virtual-interface-group-association/*", 
+                        "arn:aws:ec2:*:002677082836:local-gateway-virtual-interface-group/*", 
+                        "arn:aws:ec2:*:002677082836:key-pair/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint-service/*", 
+                        "arn:aws:ec2:*:002677082836:prefix-list/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:export-instance-task/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*", 
+                        "arn:aws:ec2:*:002677082836:local-gateway-virtual-interface/*", 
+                        "arn:aws:ec2:*:002677082836:spot-instances-request/*", 
+                        "arn:aws:ec2:*:002677082836:dhcp-options/*", 
+                        "arn:aws:ec2:*:002677082836:egress-only-internet-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:network-acl/*", 
+                        "arn:aws:ec2:*:002677082836:local-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:volume/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*", 
+                        "arn:aws:ec2:*::snapshot/*", 
+                        "arn:aws:ec2:*:002677082836:customer-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:spot-fleet-request/*", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-target/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*", 
+                        "arn:aws:ec2:*::image/*", 
+                        "arn:aws:ec2:*:002677082836:elastic-ip/*", 
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:host-reservation/*", 
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/*", 
+                        "arn:aws:ec2:*:002677082836:internet-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-session/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-route-table/*", 
+                        "arn:aws:ec2:*:002677082836:local-gateway-route-table-vpc-association/*", 
+                        "arn:aws:ec2:*:002677082836:natgateway/*", 
+                        "arn:aws:ec2:*:002677082836:placement-group/*", 
+                        "arn:aws:ec2:*:002677082836:ipv4pool-ec2/*", 
+                        "arn:aws:ec2:*:002677082836:export-image-task/*", 
+                        "arn:aws:ec2:*:002677082836:import-image-task/*", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/*", 
+                        "arn:aws:ec2:*::fpga-image/*", 
+                        "arn:aws:ec2:*:002677082836:vpn-connection/*", 
+                        "arn:aws:ec2:*:002677082836:reserved-instances/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateSnapshots"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:instance/i-0fc67210075ad498a", 
+                        "arn:aws:ec2:us-west-2:002677082836:volume/vol-0fd4e69b7ce47f68b", 
+                        "arn:aws:ec2:us-west-2::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateSnapshotsRequest(InstanceSpecification=InstanceSpecification(InstanceId=i-0fc67210075ad498a), TagSpecifications=[TagSpecification(ResourceType=snapshot, Tags=[Tag(Key=snapshot, Value=snapshot-tag)])], CopyTagsFromSource=volume)", 
+        "apiName": "ec2.createSnapshots"
+    }
+]

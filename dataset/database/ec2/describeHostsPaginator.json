@@ -1,0 +1,274 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=vpc-id, Values=[vpc-0cc4d5cda8eac8d8c])], HostIds=[rtb-045e031193bb8523c], MaxResults=100)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=attachment.state, Values=[attached])], HostIds=[], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=group-name, Values=[Test-Placement-Group]), Filter(Name=strategy, Values=[spread])], HostIds=[], MaxResults=100)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=state, Values=[deleted])], MaxResults=100)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=resource-type, Values=[vpc])], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=scope, Values=[Region])], HostIds=[], MaxResults=0)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(HostIds=[], MaxResults=0)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=traffic-type, Values=[ACCEPT])], HostIds=[rtb-045e031193bb8523c], NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(HostIds=[], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=attachment.state, Values=[detached])], HostIds=[rtb-045e031193bb8523c], MaxResults=1)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=default-association-route-table, Values=[true])], HostIds=[], MaxResults=1)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=resource-type, Values=[vpc])], HostIds=[sfr-7ec90de8-6407-46d5-a8e7-aa268d3bdc07], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=type, Values=[ipsec.1])], HostIds=[], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=state, Values=[available])], HostIds=[all], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=strategy, Values=[spread])], HostIds=[], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=state, Values=[available])], HostIds=[], MaxResults=1)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=options.default-route-table-association, Values=[disable])], HostIds=[tgw-02b1446b336da5112], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=traffic-type, Values=[ACCEPT])], HostIds=[], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=deliver-log-status, Values=[SUCCESS]), Filter(Name=traffic-type, Values=[ACCEPT]), Filter(Name=log-destination-type, Values=[s3])], HostIds=[pl-00a54069], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=state, Values=[deleted])], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=default-association-route-table, Values=[true])], HostIds=[pg-040cc29c500fb8381], MaxResults=0)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=group-name, Values=[Test-Placement-Group])], HostIds=[pg-040cc29c500fb8381], MaxResults=100)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=prefix-list-id, Values=[pl-00a54069]), Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])], HostIds=[pg-040cc29c500fb8381])", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=route.state, Values=[active])], HostIds=[tgw-02b1446b336da5112], MaxResults=1)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])], HostIds=[], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=deliver-log-status, Values=[SUCCESS]), Filter(Name=traffic-type, Values=[ACCEPT]), Filter(Name=log-destination-type, Values=[s3])], HostIds=[sfr-7ec90de8-6407-46d5-a8e7-aa268d3bdc07], MaxResults=0)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=association.state, Values=[associated])], MaxResults=0)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=state, Values=[available])], HostIds=[sg-024ee611e1e7cb9e6, sg-084edec751f962157], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=route.state, Values=[active])], HostIds=[sfr-7ec90de8-6407-46d5-a8e7-aa268d3bdc07])", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=vpc-id, Values=[vpc-1dd31b65]), Filter(Name=owner-id, Values=[002677082836]), Filter(Name=route.state, Values=[blackhole])], HostIds=[], MaxResults=0)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=log-destination-type, Values=[s3])], HostIds=[fl-04f17f472df55e076], NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=association.state, Values=[associated])], HostIds=[all], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostsRequest(Filter=[Filter(Name=log-destination-type, Values=[s3])], HostIds=[], NextToken=)", 
+        "apiName": "ec2.describeHostsPaginator"
+    }
+]

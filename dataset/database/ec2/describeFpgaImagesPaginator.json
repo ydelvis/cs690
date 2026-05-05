@@ -1,0 +1,266 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[pg-040cc29c500fb8381], Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069]), Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])])", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[192.0.0.0/24], Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS])], MaxResults=100)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[pl-00a54069], Filters=[Filter(Name=options.default-route-table-association, Values=[disable])])", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[vgw-0111ef9729cc973bb], Filters=[Filter(Name=connection-notification-state, Values=[Enabled])], MaxResults=0)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[tgw-attach-0e68cd6b557341f65], Filters=[Filter(Name=options.default-route-table-association, Values=[disable])], MaxResults=0)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[tgw-02b1446b336da5112], Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])], MaxResults=100)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[002677082836], Filters=[Filter(Name=association.state, Values=[associated])], MaxResults=100)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[pl-00a54069], Filters=[Filter(Name=state, Values=[available])], MaxResults=1)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Filters=[Filter(Name=default-propagation-route-table, Values=[true])], MaxResults=100)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[tmf-090acc59bb68290b8], Filters=[Filter(Name=state, Values=[deleting])], MaxResults=100)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[pg-040cc29c500fb8381], Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])])", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[002677082836], Filters=[Filter(Name=state, Values=[deleted])], MaxResults=1)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[vpn-0d59b1da66a690911], Filters=[Filter(Name=service-type, Values=[Interface])], MaxResults=0)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[fl-04f17f472df55e076], Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])], MaxResults=100)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[sfr-7ec90de8-6407-46d5-a8e7-aa268d3bdc07], Filters=[Filter(Name=route.state, Values=[blackhole])])", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[fl-04f17f472df55e076], MaxResults=0)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[i-01d514444253d9b80, i-01ec73f52711d20f7], Filters=[Filter(Name=state, Values=[deleting])], MaxResults=1)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[tgw-02b1446b336da5112], Filters=[Filter(Name=connection-notification-state, Values=[Enabled])], MaxResults=1)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[rtb-045e031193bb8523c], Filters=[Filter(Name=group-name, Values=[Test-Placement-Group])], MaxResults=0)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[aws.sagemaker.us-east-2.notebook, com.amazonaws.us-east-2.acm-pca], Filters=[Filter(Name=vpc-endpoint-state, Values=[available])], MaxResults=1)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[i-01d514444253d9b80, i-01ec73f52711d20f7], MaxResults=100)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[all], Filters=[Filter(Name=instance-type, Values=[t3.micro])], MaxResults=100)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[fl-04f17f472df55e076], MaxResults=100)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[sfr-7ec90de8-6407-46d5-a8e7-aa268d3bdc07], Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[enable])], MaxResults=1)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[7bc82b63-1b39-44fa-b5b3-7549547641e0], Filters=[Filter(Name=instance-type, Values=[t3.micro])])", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[sfr-7ec90de8-6407-46d5-a8e7-aa268d3bdc07], Filters=[Filter(Name=traffic-mirror-target-id, Values=[tmt-0fa549ad445a2e94e])])", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[pg-040cc29c500fb8381], Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS]), Filter(Name=traffic-type, Values=[ACCEPT]), Filter(Name=log-destination-type, Values=[s3])], MaxResults=1)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[tgw-mcast-domain-0f04eea88b9138856], Filters=[Filter(Name=connection-notification-state, Values=[Enabled])], MaxResults=100)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[tgw-attach-0e68cd6b557341f65], Filters=[Filter(Name=connection-notification-state, Values=[Enabled])])", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[pg-040cc29c500fb8381], Filters=[Filter(Name=type, Values=[ipsec.1])])", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[7bc82b63-1b39-44fa-b5b3-7549547641e0], Filters=[Filter(Name=connection-notification-state, Values=[Disabled])], MaxResults=1)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Owners=[eipalloc-068f6cb5459d939aa], Filters=[Filter(Name=type, Values=[ipsec.1])], MaxResults=1)", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFpgaImagesRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[failed])])", 
+        "apiName": "ec2.describeFpgaImagesPaginator"
+    }
+]

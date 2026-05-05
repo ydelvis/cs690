@@ -1,0 +1,60 @@
+{
+  "adjacency": {},
+  "nodes": [
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/aws-fullstack-website/api/baseApi.js",
+      "language": "javascript",
+      "line": 11
+    },
+    {
+      "name": "router",
+      "file": "dataset/apps/aws-fullstack-website/api/baseApi.js",
+      "language": "javascript",
+      "line": 22
+    },
+    {
+      "name": "exports",
+      "file": "dataset/apps/aws-fullstack-website/api/routes/defaults.js",
+      "language": "javascript",
+      "line": 1
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/aws-fullstack-website/api/routes/defaults.js",
+      "language": "javascript",
+      "line": 2
+    },
+    {
+      "name": "exports",
+      "file": "dataset/apps/aws-fullstack-website/api/routes/v1/api.js",
+      "language": "javascript",
+      "line": 9
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/aws-fullstack-website/api/routes/v1/api.js",
+      "language": "javascript",
+      "line": 11
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/aws-fullstack-website/api/routes/v1/api.js",
+      "language": "javascript",
+      "line": 19
+    },
+    {
+      "name": "sanitize",
+      "file": "dataset/apps/aws-fullstack-website/modules/sanitizeStackName.js",
+      "language": "javascript",
+      "line": 1
+    },
+    {
+      "name": "handler",
+      "file": "dataset/apps/aws-fullstack-website/modules/output.js",
+      "language": "javascript",
+      "line": 1
+    }
+  ],
+  "edges": []
+}

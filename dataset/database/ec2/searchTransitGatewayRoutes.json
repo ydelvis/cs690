@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:SearchTransitGatewayRoutes"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway-route-table/tgw-rtb-0aecf25a3f86dfeef"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "SearchTransitGatewayRoutesRequest(TransitGatewayRouteTableId=tgw-rtb-0aecf25a3f86dfeef, Filters=[Filter(Name=attachment.resource-type, Values=[vpc, vpn, connect, peering, direct-connect-gateway]), Filter(Name=attachment.transit-gateway-attachment-id, Values=[tgw-attach-072de78a455812f84]), Filter(Name=state, Values=[active, blackhole]), Filter(Name=type, Values=[propagated, static])])", 
+        "apiName": "ec2.searchTransitGatewayRoutes"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:SearchTransitGatewayRoutes"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway-route-table/tgw-rtb-0aecf25a3f86dfeef"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "SearchTransitGatewayRoutesRequest(TransitGatewayRouteTableId=tgw-rtb-0aecf25a3f86dfeef, Filters=[Filter(Name=attachment.resource-type, Values=[vpc, vpn, connect, peering, direct-connect-gateway]), Filter(Name=attachment.transit-gateway-attachment-id, Values=[tgw-attach-072de78a455812f84]), Filter(Name=state, Values=[active, blackhole]), Filter(Name=type, Values=[propagated, static])], MaxResults=1)", 
+        "apiName": "ec2.searchTransitGatewayRoutes"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:SearchTransitGatewayRoutes"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway-route-table/tgw-rtb-0aecf25a3f86dfeef"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "SearchTransitGatewayRoutesRequest(TransitGatewayRouteTableId=tgw-rtb-0aecf25a3f86dfeef, Filters=[Filter(Name=attachment.resource-type, Values=[vpc, vpn, connect, peering, direct-connect-gateway]), Filter(Name=attachment.transit-gateway-attachment-id, Values=[tgw-attach-072de78a455812f84]), Filter(Name=state, Values=[active, blackhole]), Filter(Name=type, Values=[propagated, static])], MaxResults=100)", 
+        "apiName": "ec2.searchTransitGatewayRoutes"
+    }
+]

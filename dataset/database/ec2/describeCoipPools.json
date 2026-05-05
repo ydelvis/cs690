@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeCoipPools"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS])])", 
+        "apiName": "ec2.describeCoipPools"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeCoipPools"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])])", 
+        "apiName": "ec2.describeCoipPools"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeCoipPools"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeCoipPoolsRequest(Filters=[Filter(Name=resource-id, Values=[vpn-0d59b1da66a690911])])", 
+        "apiName": "ec2.describeCoipPools"
+    }
+]

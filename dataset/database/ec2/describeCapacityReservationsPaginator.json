@@ -1,0 +1,306 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(Filters=[Filter(Name=service-type, Values=[Gateway])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=100, Filters=[Filter(Name=connection-notification-state, Values=[Disabled])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=1, Filters=[Filter(Name=traffic-type, Values=[REJECT])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=1, Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=0)", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[available])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=0, Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=1, Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(Filters=[Filter(Name=description, Values=[])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest()", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=1, Filters=[Filter(Name=description, Values=[])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=0, Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS]), Filter(Name=traffic-type, Values=[ACCEPT]), Filter(Name=log-destination-type, Values=[s3])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(Filters=[Filter(Name=deliver-log-status, Values=[FAILED])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=100, Filters=[Filter(Name=vpc-endpoint-state, Values=[rejected])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(Filters=[Filter(Name=log-destination-type, Values=[s3])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=1, Filters=[Filter(Name=state, Values=[deleting])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=0, Filters=[Filter(Name=options.protocol, Values=[gre])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=1, Filters=[Filter(Name=traffic-mirror-target-id, Values=[tmt-0fa549ad445a2e94e])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=0, Filters=[Filter(Name=default-association-route-table, Values=[false])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=0, Filters=[Filter(Name=traffic-type, Values=[REJECT])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=0, Filters=[Filter(Name=default-association-route-table, Values=[true])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069]), Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[enable])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[pending])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(Filters=[Filter(Name=service-name, Values=[com.amazonaws.us-east-2.acm-pca])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=100, Filters=[Filter(Name=options.default-route-table-association, Values=[enable])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=1, Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=0, Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[enable])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=0, Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=0, Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=1, Filters=[Filter(Name=scope, Values=[Region])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=100, Filters=[Filter(Name=service-type, Values=[Interface])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=100, Filters=[Filter(Name=options.default-route-table-association, Values=[disable])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=0, Filters=[Filter(Name=vpc-endpoint-state, Values=[rejected])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=1, Filters=[Filter(Name=options.protocol, Values=[gre])])", 
+        "apiName": "ec2.describeCapacityReservationsPaginator"
+    }
+]

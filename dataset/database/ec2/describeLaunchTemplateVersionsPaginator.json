@@ -1,0 +1,250 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(Versions=[44.237.200.166], MinVersion=, MaxVersion=2, NextToken=, MaxResults=0, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, LaunchTemplateName=Test-Launch-Template, MinVersion=0, MaxVersion=2, NextToken=, MaxResults=-1, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=lt-01286ed53e9c989b1, LaunchTemplateName=, Versions=[lt-01286ed53e9c989b1], MinVersion=2, MaxVersion=0, NextToken=, MaxResults=-100, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, LaunchTemplateName=, Versions=[eipalloc-068f6cb5459d939aa], MaxVersion=1, NextToken=, MaxResults=-100, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, Versions=[Test-Launch-Template], MinVersion=0, MaxVersion=0, MaxResults=0, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, LaunchTemplateName=Test-Launch-Template, Versions=[ec2-instance-key-pair], MaxVersion=0, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateName=Test-Launch-Template, Versions=[dopt-bbeb2ac3], MinVersion=2, MaxVersion=1, MaxResults=-100, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=lt-01286ed53e9c989b1, Versions=[key-017df928e910e4389], MaxVersion=2, NextToken=, MaxResults=-100, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(Versions=[44.237.200.166], MinVersion=3, MaxResults=0, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=lt-01286ed53e9c989b1, Versions=[ec2-instance-key-pair], MinVersion=0, NextToken=, MaxResults=-100, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=lt-01286ed53e9c989b1, Versions=[ec2-instance-key-pair], MaxVersion=0, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateName=, Versions=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], MaxVersion=0, MaxResults=1, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=lt-01286ed53e9c989b1, LaunchTemplateName=, Versions=[dopt-bbeb2ac3], MinVersion=3, MaxVersion=2, MaxResults=1, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateName=, Versions=[ami-00bb6f60], MinVersion=0, MaxVersion=1, MaxResults=1, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateName=, Versions=[vpc-1dd31b65], MinVersion=3, NextToken=, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, LaunchTemplateName=, Versions=[key-017df928e910e4389], MinVersion=3, MaxVersion=0, NextToken=, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(Versions=[Test-Launch-Template], MinVersion=2, MaxVersion=0, NextToken=, MaxResults=100, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, Versions=[922761411349], MinVersion=3, MaxVersion=1, MaxResults=1, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, LaunchTemplateName=Test-Launch-Template, Versions=[eipalloc-068f6cb5459d939aa], MinVersion=, NextToken=, MaxResults=-1, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateName=Test-Launch-Template, Versions=[44.237.200.166], MinVersion=, MaxVersion=1, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, LaunchTemplateName=, Versions=[922761411349], MinVersion=3, MaxVersion=2, NextToken=, MaxResults=-1, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, LaunchTemplateName=, Versions=[851601128636], MinVersion=2, MaxVersion=2, NextToken=, MaxResults=0, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, LaunchTemplateName=, Versions=[44.237.200.166], MinVersion=3, MaxVersion=0, NextToken=, MaxResults=100, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=lt-01286ed53e9c989b1, Versions=[922761411349], MaxVersion=1, NextToken=, MaxResults=100, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=lt-01286ed53e9c989b1, LaunchTemplateName=Test-Launch-Template, Versions=[snap-ff869fa8], MaxVersion=0, NextToken=, MaxResults=100, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, LaunchTemplateName=Test-Launch-Template, Versions=[44.237.200.166], MinVersion=2, MaxVersion=2, NextToken=, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, Versions=[eipalloc-068f6cb5459d939aa], MinVersion=1, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=lt-01286ed53e9c989b1, LaunchTemplateName=Test-Launch-Template, Versions=[lt-01286ed53e9c989b1], MinVersion=3, MaxVersion=1, MaxResults=0, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=lt-01286ed53e9c989b1, Versions=[key-017df928e910e4389], MinVersion=3, MaxVersion=0, NextToken=, MaxResults=100, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, LaunchTemplateName=Test-Launch-Template, Versions=[M3_LARGE], MinVersion=3, MaxVersion=0, NextToken=, MaxResults=-1, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplateVersionsRequest(LaunchTemplateId=, LaunchTemplateName=Test-Launch-Template, Versions=[ec2-instance-key-pair], MaxVersion=1, MaxResults=1, Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplateVersionsPaginator"
+    }
+]

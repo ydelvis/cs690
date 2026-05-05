@@ -1,0 +1,37 @@
+{
+  "service": "DeepLearningTrainingBatchGPU",
+  "provider": {
+    "name": "aws",
+    "runtime": "python3.8",
+    "region": "us-east-1",
+    "stage": "dev",
+    "memory_mb": 128,
+    "timeout_s": 10
+  },
+  "environment": {},
+  "functions": {
+    "LambdaMap": {
+      "handler": "index.handlerMap",
+      "runtime": "python3.8",
+      "environment": {},
+      "events": []
+    },
+    "LambdaReduce": {
+      "handler": "index.handlerReduce",
+      "runtime": "python3.8",
+      "environment": {},
+      "events": []
+    },
+    "LambdaPublisher": {
+      "handler": "index.handlerPublisher",
+      "runtime": "python3.8",
+      "environment": {},
+      "events": []
+    }
+  },
+  "iam_statements": [],
+  "custom": {},
+  "source_files": [
+    "serverless.yml"
+  ]
+}

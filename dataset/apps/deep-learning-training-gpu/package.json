@@ -1,0 +1,10 @@
+{
+  "name": "serverless-aws-batch-example",
+  "version": "0.1.0",
+  "description": "A serverless example which uses AWS Step Functions and AWS Batch",
+  "dependencies": {
+    "serverless-step-functions": "3.5.1"
+  },
+  "author": "Rustem Feyzkhanov",
+  "license": "MIT"
+}

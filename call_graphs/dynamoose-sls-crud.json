@@ -1,0 +1,266 @@
+{
+  "adjacency": {
+    "addOne": [
+      "handleErr"
+    ],
+    "batchAdd": [
+      "handleErr"
+    ],
+    "deleteOne": [
+      "handleErr"
+    ],
+    "getById": [
+      "handleErr"
+    ],
+    "listAll": [
+      "handleErr"
+    ],
+    "updateOne": [
+      "handleErr",
+      "updateItem"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "deleteOne",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/delete.js",
+      "language": "javascript",
+      "line": 8
+    },
+    {
+      "name": "promise",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/delete.js",
+      "language": "javascript",
+      "line": 28
+    },
+    {
+      "name": "data",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/delete.js",
+      "language": "javascript",
+      "line": 30
+    },
+    {
+      "name": "err",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/delete.js",
+      "language": "javascript",
+      "line": 31
+    },
+    {
+      "name": "handleErr",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/delete.js",
+      "language": "javascript",
+      "line": 33
+    },
+    {
+      "name": "batchAdd",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/batchAdd.js",
+      "language": "javascript",
+      "line": 9
+    },
+    {
+      "name": "data",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/batchAdd.js",
+      "language": "javascript",
+      "line": 27
+    },
+    {
+      "name": "item",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/batchAdd.js",
+      "language": "javascript",
+      "line": 30
+    },
+    {
+      "name": "promise",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/batchAdd.js",
+      "language": "javascript",
+      "line": 40
+    },
+    {
+      "name": "data",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/batchAdd.js",
+      "language": "javascript",
+      "line": 42
+    },
+    {
+      "name": "err",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/batchAdd.js",
+      "language": "javascript",
+      "line": 43
+    },
+    {
+      "name": "handleErr",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/batchAdd.js",
+      "language": "javascript",
+      "line": 45
+    },
+    {
+      "name": "addOne",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/add.js",
+      "language": "javascript",
+      "line": 9
+    },
+    {
+      "name": "data",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/add.js",
+      "language": "javascript",
+      "line": 27
+    },
+    {
+      "name": "promise",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/add.js",
+      "language": "javascript",
+      "line": 36
+    },
+    {
+      "name": "data",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/add.js",
+      "language": "javascript",
+      "line": 38
+    },
+    {
+      "name": "err",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/add.js",
+      "language": "javascript",
+      "line": 39
+    },
+    {
+      "name": "handleErr",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/add.js",
+      "language": "javascript",
+      "line": 41
+    },
+    {
+      "name": "listAll",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/list.js",
+      "language": "javascript",
+      "line": 9
+    },
+    {
+      "name": "promise",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/list.js",
+      "language": "javascript",
+      "line": 28
+    },
+    {
+      "name": "data",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/list.js",
+      "language": "javascript",
+      "line": 30
+    },
+    {
+      "name": "err",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/list.js",
+      "language": "javascript",
+      "line": 31
+    },
+    {
+      "name": "handleErr",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/list.js",
+      "language": "javascript",
+      "line": 33
+    },
+    {
+      "name": "getById",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/get.js",
+      "language": "javascript",
+      "line": 8
+    },
+    {
+      "name": "promise",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/get.js",
+      "language": "javascript",
+      "line": 26
+    },
+    {
+      "name": "data",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/get.js",
+      "language": "javascript",
+      "line": 28
+    },
+    {
+      "name": "err",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/get.js",
+      "language": "javascript",
+      "line": 29
+    },
+    {
+      "name": "handleErr",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/get.js",
+      "language": "javascript",
+      "line": 31
+    },
+    {
+      "name": "updateOne",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/update.js",
+      "language": "javascript",
+      "line": 8
+    },
+    {
+      "name": "updateItem",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/update.js",
+      "language": "javascript",
+      "line": 26
+    },
+    {
+      "name": "promise",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/update.js",
+      "language": "javascript",
+      "line": 33
+    },
+    {
+      "name": "data",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/update.js",
+      "language": "javascript",
+      "line": 35
+    },
+    {
+      "name": "err",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/update.js",
+      "language": "javascript",
+      "line": 36
+    },
+    {
+      "name": "handleErr",
+      "file": "dataset/apps/dynamoose-sls-crud/handlers/update.js",
+      "language": "javascript",
+      "line": 38
+    }
+  ],
+  "edges": [
+    {
+      "caller": "deleteOne",
+      "callee": "handleErr",
+      "caller_file": "dataset/apps/dynamoose-sls-crud/handlers/delete.js"
+    },
+    {
+      "caller": "batchAdd",
+      "callee": "handleErr",
+      "caller_file": "dataset/apps/dynamoose-sls-crud/handlers/batchAdd.js"
+    },
+    {
+      "caller": "addOne",
+      "callee": "handleErr",
+      "caller_file": "dataset/apps/dynamoose-sls-crud/handlers/add.js"
+    },
+    {
+      "caller": "listAll",
+      "callee": "handleErr",
+      "caller_file": "dataset/apps/dynamoose-sls-crud/handlers/list.js"
+    },
+    {
+      "caller": "getById",
+      "callee": "handleErr",
+      "caller_file": "dataset/apps/dynamoose-sls-crud/handlers/get.js"
+    },
+    {
+      "caller": "updateOne",
+      "callee": "updateItem",
+      "caller_file": "dataset/apps/dynamoose-sls-crud/handlers/update.js"
+    },
+    {
+      "caller": "updateOne",
+      "callee": "handleErr",
+      "caller_file": "dataset/apps/dynamoose-sls-crud/handlers/update.js"
+    }
+  ]
+}

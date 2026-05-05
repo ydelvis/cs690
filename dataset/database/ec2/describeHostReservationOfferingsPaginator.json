@@ -1,0 +1,186 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])])", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=resource-id, Values=[vpn-0d59b1da66a690911])], MaxDuration=94608000, MaxResults=100, MinDuration=31536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=deliver-log-status, Values=[SUCCESS])], MaxResults=0)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=route.state, Values=[active])], MaxDuration=94608000, MinDuration=31536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=group-name, Values=[Test-Placement-Group]), Filter(Name=strategy, Values=[spread])], MaxResults=1)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=vpc-endpoint-state, Values=[failed])], MinDuration=331536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=vpc-endpoint-state, Values=[failed])], MaxDuration=94608000, MaxResults=1)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=owner-id, Values=[002677082836])], MinDuration=31536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=route.state, Values=[active])], MaxDuration=94608000, MaxResults=1)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=vpc-endpoint-state, Values=[available])], MaxDuration=94608000, MaxResults=1, MinDuration=31536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=owner-id, Values=[002677082836])], MaxResults=0, MinDuration=31536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=vpc-endpoint-owner, Values=[002677082836])], MaxDuration=94608000, MaxResults=1)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=owner-id, Values=[002677082836])], MaxResults=1, MinDuration=31536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=options.auto-accept-shared-attachments, Values=[enable])], MaxResults=100)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=service-type, Values=[Interface])], MaxDuration=94608000, MaxResults=100, MinDuration=31536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=vpc-endpoint-state, Values=[pendingAcceptance])], MaxResults=100)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=vpc-endpoint-state, Values=[deleted])], MaxResults=100, MinDuration=31536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=group-name, Values=[Test-Placement-Group])], MaxDuration=94608000, MinDuration=31536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxDuration=94608000, MaxResults=0, MinDuration=31536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=default-association-route-table, Values=[true])], MaxResults=0, MinDuration=31536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(MaxDuration=94608000, MaxResults=0)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=connection-notification-type, Values=[Topic])], MaxDuration=94608000, MaxResults=1, MinDuration=31536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationOfferingsRequest(Filter=[Filter(Name=transit-gateway-id, Values=[tgw-023f7eee924362941])], MinDuration=31536000)", 
+        "apiName": "ec2.describeHostReservationOfferingsPaginator"
+    }
+]

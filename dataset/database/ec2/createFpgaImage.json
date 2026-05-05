@@ -1,0 +1,31 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateFpgaImage"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::fpga-image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateFpgaImageRequest(InputStorageLocation=StorageLocation(Bucket=test-bucket-5461, Key=fpga/21_08_06-013650.Developer_CL.tar), LogsStorageLocation=StorageLocation(Bucket=test-bucket-5461, Key=fpga-logs/), Description=test fpga image, Name=test fpga image)", 
+        "apiName": "ec2.createFpgaImage"
+    }
+]

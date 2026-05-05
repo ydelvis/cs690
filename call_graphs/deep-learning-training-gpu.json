@@ -1,0 +1,24 @@
+{
+  "adjacency": {},
+  "nodes": [
+    {
+      "name": "handlerMap",
+      "file": "dataset/apps/deep-learning-training-gpu/index.py",
+      "language": "python",
+      "line": 6
+    },
+    {
+      "name": "handlerReduce",
+      "file": "dataset/apps/deep-learning-training-gpu/index.py",
+      "language": "python",
+      "line": 71
+    },
+    {
+      "name": "handlerPublisher",
+      "file": "dataset/apps/deep-learning-training-gpu/index.py",
+      "language": "python",
+      "line": 84
+    }
+  ],
+  "edges": []
+}

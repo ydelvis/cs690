@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyTrafficMirrorFilterNetworkServices"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/tmf-0479cc103b3d3f39d"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyTrafficMirrorFilterNetworkServicesRequest(TrafficMirrorFilterId=tmf-0479cc103b3d3f39d)", 
+        "apiName": "ec2.modifyTrafficMirrorFilterNetworkServices"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyTrafficMirrorFilterNetworkServices"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/tmf-0479cc103b3d3f39d"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyTrafficMirrorFilterNetworkServicesRequest(TrafficMirrorFilterId=tmf-0479cc103b3d3f39d, RemoveNetworkServices=[amazon-dns])", 
+        "apiName": "ec2.modifyTrafficMirrorFilterNetworkServices"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyTrafficMirrorFilterNetworkServices"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/tmf-0479cc103b3d3f39d"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyTrafficMirrorFilterNetworkServicesRequest(TrafficMirrorFilterId=tmf-0479cc103b3d3f39d, AddNetworkServices=[amazon-dns], RemoveNetworkServices=[amazon-dns])", 
+        "apiName": "ec2.modifyTrafficMirrorFilterNetworkServices"
+    }
+]

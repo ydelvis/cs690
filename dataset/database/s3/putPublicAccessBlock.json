@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketPublicAccessBlock"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "PutPublicAccessBlockRequest(Bucket=test-bucket-5461, PublicAccessBlockConfiguration=PublicAccessBlockConfiguration(BlockPublicAcls=false, IgnorePublicAcls=true, BlockPublicPolicy=false, RestrictPublicBuckets=true), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putPublicAccessBlock"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketPublicAccessBlock"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "PutPublicAccessBlockRequest(Bucket=test-bucket-5461, PublicAccessBlockConfiguration=PublicAccessBlockConfiguration(BlockPublicAcls=false, IgnorePublicAcls=false, BlockPublicPolicy=false, RestrictPublicBuckets=false))", 
+        "apiName": "s3.putPublicAccessBlock"
+    }
+]

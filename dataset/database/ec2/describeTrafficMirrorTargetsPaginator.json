@@ -1,0 +1,106 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorTargetsRequest(TrafficMirrorTargetIds=[tmt-0fa549ad445a2e94e])", 
+        "apiName": "ec2.describeTrafficMirrorTargetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorTargetsRequest(TrafficMirrorTargetIds=[], Filters=[], MaxResults=100)", 
+        "apiName": "ec2.describeTrafficMirrorTargetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorTargetsRequest(TrafficMirrorTargetIds=[tmt-0fa549ad445a2e94e], Filters=[Filter(Name=traffic-mirror-target-id, Values=[tmt-0fa549ad445a2e94e])], NextToken=)", 
+        "apiName": "ec2.describeTrafficMirrorTargetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorTargetsRequest(TrafficMirrorTargetIds=[tmt-0fa549ad445a2e94e], Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeTrafficMirrorTargetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorTargetsRequest(TrafficMirrorTargetIds=[tmt-0fa549ad445a2e94e], Filters=[Filter(Name=traffic-mirror-target-id, Values=[tmt-0fa549ad445a2e94e])], MaxResults=100)", 
+        "apiName": "ec2.describeTrafficMirrorTargetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorTargetsRequest(TrafficMirrorTargetIds=[tmt-0fa549ad445a2e94e], Filters=[Filter(Name=vpc-endpoint-state, Values=[deleting])], MaxResults=100)", 
+        "apiName": "ec2.describeTrafficMirrorTargetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorTargetsRequest(TrafficMirrorTargetIds=[tmt-0fa549ad445a2e94e], Filters=[Filter(Name=owner-id, Values=[002677082836])], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeTrafficMirrorTargetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorTargetsRequest(TrafficMirrorTargetIds=[tmt-0fa549ad445a2e94e], Filters=[Filter(Name=owner-id, Values=[002677082836])], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeTrafficMirrorTargetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorTargetsRequest(Filters=[Filter(Name=description, Values=[])], MaxResults=100)", 
+        "apiName": "ec2.describeTrafficMirrorTargetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorTargetsRequest(TrafficMirrorTargetIds=[tmt-0fa549ad445a2e94e], Filters=[Filter(Name=scope, Values=[Region])], MaxResults=100)", 
+        "apiName": "ec2.describeTrafficMirrorTargetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorTargetsRequest()", 
+        "apiName": "ec2.describeTrafficMirrorTargetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorTargetsRequest()", 
+        "apiName": "ec2.describeTrafficMirrorTargetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorTargetsRequest(TrafficMirrorTargetIds=[tmt-0fa549ad445a2e94e], Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])])", 
+        "apiName": "ec2.describeTrafficMirrorTargetsPaginator"
+    }
+]

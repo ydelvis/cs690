@@ -1,0 +1,46 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpcEndpoint"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:route-table/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpcEndpointRequest(VpcEndpointId=vpce-0e80d38efa23e0be8, ResetPolicy=true)", 
+        "apiName": "ec2.modifyVpcEndpoint"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpcEndpoint"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:route-table/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpcEndpointRequest(VpcEndpointId=vpce-00fa7414e2cacebfc)", 
+        "apiName": "ec2.modifyVpcEndpoint"
+    }
+]

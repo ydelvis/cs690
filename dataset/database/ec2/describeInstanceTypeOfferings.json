@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DescribeInstanceTypeOfferings"
+                ], 
+                "Resource": [
+                    "*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "DescribeInstanceTypeOfferingsRequest(Filters=[Filter()], MaxResults=100)", 
+    "apiName": "describeInstanceTypeOfferings"
+}

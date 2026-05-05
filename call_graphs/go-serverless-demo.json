@@ -1,0 +1,18 @@
+{
+  "adjacency": {},
+  "nodes": [
+    {
+      "name": "css",
+      "file": "dataset/apps/go-serverless-demo/client/rollup.config.js",
+      "language": "javascript",
+      "line": 25
+    },
+    {
+      "name": "importee",
+      "file": "dataset/apps/go-serverless-demo/client/rollup.config.js",
+      "language": "javascript",
+      "line": 38
+    }
+  ],
+  "edges": []
+}

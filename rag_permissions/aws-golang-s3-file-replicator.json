@@ -1,0 +1,14 @@
+{
+  "replicate": {
+    "initial_permissions": [
+      "s3:GetObject",
+      "s3:PutObject"
+    ],
+    "rag_permissions": [
+      "s3:GetObject",
+      "s3:CopyObject"
+    ],
+    "reasoning": "Code explicitly uses s3.CopyObject API which requires GetObject on the source bucket to read data and CopyObject on the destination bucket to write; PutObject is unnecessary for server-side copy operations.",
+    "raw_response": "{\"permissions\": [\"s3:GetObject\", \"s3:CopyObject\"], \"reasoning\": \"Code explicitly uses s3.CopyObject API which requires GetObject on the source bucket to read data and CopyObject on the destination bucket to write; PutObject is unnecessary for server-side copy operations.\"}"
+  }
+}

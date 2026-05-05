@@ -1,0 +1,36 @@
+{
+  "replicate": {
+    "handler_file": "src/main.go",
+    "handler_func": "Handler",
+    "language": "go",
+    "baseline_permissions": [
+      "s3:GetObject",
+      "s3:PutObject"
+    ],
+    "full_static_permissions": [
+      "s3:GetObject",
+      "s3:PutObject"
+    ],
+    "call_details": [
+      {
+        "service": "s3",
+        "method": "copyObject",
+        "params_present": [
+          "Bucket",
+          "CopySource"
+        ],
+        "caller_func": "Handler",
+        "file": "src/main.go",
+        "line": 20,
+        "baseline": [
+          "s3:GetObject",
+          "s3:PutObject"
+        ],
+        "full_static": [
+          "s3:GetObject",
+          "s3:PutObject"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "apiName": "updatePipelineNotifications",
+    "policy": {
+        "Version": "2012-10-17",
+        "Statement": [{
+            "Action": [
+                "elastictranscoder:UpdatePipelineNotifications"
+            ],
+            "Sid": "statement2",
+            "Effect": "Allow",
+            "Resource": [
+                "arn:aws:elastictranscoder:us-east-1:002677082836:pipeline/1581228526034-uv9pki"
+            ]
+        }]
+    },
+    "request": ""
+}

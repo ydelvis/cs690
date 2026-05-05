@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectTagging"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectTaggingRequest(Bucket=test-bucket-5461, Key=key1/, Tagging=Tagging(TagSet=[Tag(Key=tag1, Value=tag-for-bucket)]), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putObjectTagging"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectTagging"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectTaggingRequest(Bucket=test-bucket-5461, Key=key1/, Tagging=Tagging(TagSet=[Tag(Key=tag1, Value=tag-for-bucket)]), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putObjectTagging"
+    }
+]

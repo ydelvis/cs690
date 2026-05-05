@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeClientVpnTargetNetworks"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeClientVpnTargetNetworksRequest(ClientVpnEndpointId=cvpn-endpoint-09503c030cf84ef56, MaxResults=100)", 
+        "apiName": "ec2.describeClientVpnTargetNetworks"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeClientVpnTargetNetworks"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeClientVpnTargetNetworksRequest(ClientVpnEndpointId=cvpn-endpoint-09503c030cf84ef56, MaxResults=1)", 
+        "apiName": "ec2.describeClientVpnTargetNetworks"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeClientVpnTargetNetworks"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeClientVpnTargetNetworksRequest(ClientVpnEndpointId=cvpn-endpoint-09503c030cf84ef56)", 
+        "apiName": "ec2.describeClientVpnTargetNetworks"
+    }
+]

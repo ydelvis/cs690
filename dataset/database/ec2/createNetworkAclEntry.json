@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateNetworkAclEntry"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-acl/acl-0cdd57084c6315982"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateNetworkAclEntryRequest(Egress=false, IcmpTypeCode=IcmpTypeCode(), Ipv6CidrBlock=::/0, NetworkAclId=acl-0cdd57084c6315982, PortRange=PortRange(From=100, To=53), Protocol=-1, RuleAction=deny, RuleNumber=1)", 
+        "apiName": "ec2.createNetworkAclEntry"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateNetworkAclEntry"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-acl/acl-0cdd57084c6315982"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateNetworkAclEntryRequest(Egress=false, IcmpTypeCode=IcmpTypeCode(Type=-1), Ipv6CidrBlock=::/0, NetworkAclId=acl-0cdd57084c6315982, PortRange=PortRange(From=53, To=100), Protocol=6, RuleAction=allow, RuleNumber=102)", 
+        "apiName": "ec2.createNetworkAclEntry"
+    }
+]

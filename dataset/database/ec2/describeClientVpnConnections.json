@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeClientVpnConnections"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeClientVpnConnectionsRequest(ClientVpnEndpointId=cvpn-endpoint-047e2b22bd5e0a3a0)", 
+        "apiName": "ec2.describeClientVpnConnections"
+    }
+]

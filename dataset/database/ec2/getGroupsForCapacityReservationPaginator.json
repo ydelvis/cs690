@@ -1,0 +1,58 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetGroupsForCapacityReservationRequest(CapacityReservationId=cr-06d06d028d5c6afc6, MaxResults=100)", 
+        "apiName": "ec2.getGroupsForCapacityReservationPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetGroupsForCapacityReservationRequest(CapacityReservationId=cr-06d06d028d5c6afc6, MaxResults=100)", 
+        "apiName": "ec2.getGroupsForCapacityReservationPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetGroupsForCapacityReservationRequest(CapacityReservationId=cr-06d06d028d5c6afc6, NextToken=, MaxResults=100)", 
+        "apiName": "ec2.getGroupsForCapacityReservationPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetGroupsForCapacityReservationRequest(CapacityReservationId=cr-06d06d028d5c6afc6, MaxResults=1)", 
+        "apiName": "ec2.getGroupsForCapacityReservationPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetGroupsForCapacityReservationRequest(CapacityReservationId=cr-06d06d028d5c6afc6, MaxResults=-100)", 
+        "apiName": "ec2.getGroupsForCapacityReservationPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetGroupsForCapacityReservationRequest(CapacityReservationId=cr-06d06d028d5c6afc6, MaxResults=0)", 
+        "apiName": "ec2.getGroupsForCapacityReservationPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetGroupsForCapacityReservationRequest(CapacityReservationId=cr-06d06d028d5c6afc6, NextToken=)", 
+        "apiName": "ec2.getGroupsForCapacityReservationPaginator"
+    }
+]

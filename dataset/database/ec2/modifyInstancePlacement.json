@@ -1,0 +1,23 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyInstancePlacement"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:placement-group/*", 
+                        "arn:aws:ec2:*:002677082836:instance/*", 
+                        "arn:aws:ec2:*:002677082836:dedicated-host/h-00b810d31c4c3db2e"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyInstancePlacementRequest(Affinity=host, InstanceId=i-00b57ddd0eef848b9)", 
+        "apiName": "ec2.modifyInstancePlacement"
+    }
+]

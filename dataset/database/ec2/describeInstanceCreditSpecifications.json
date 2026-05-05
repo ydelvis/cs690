@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceCreditSpecifications"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeInstanceCreditSpecificationsRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])])", 
+        "apiName": "ec2.describeInstanceCreditSpecifications"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceCreditSpecifications"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeInstanceCreditSpecificationsRequest(InstanceIds=[i-0fc67210075ad498a])", 
+        "apiName": "ec2.describeInstanceCreditSpecifications"
+    }
+]

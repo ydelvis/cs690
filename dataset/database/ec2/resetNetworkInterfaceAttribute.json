@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ResetNetworkInterfaceAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-067f9d5e10cd5d578"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ResetNetworkInterfaceAttributeRequest(NetworkInterfaceId=eni-067f9d5e10cd5d578, SourceDestCheck=)", 
+        "apiName": "ec2.resetNetworkInterfaceAttribute"
+    }
+]

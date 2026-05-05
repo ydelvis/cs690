@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CancelSpotInstanceRequests"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:spot-instances-request/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CancelSpotInstanceRequestsResponse(CancelledSpotInstanceRequests=[CancelledSpotInstanceRequest(SpotInstanceRequestId=sir-fseyb91j, State=cancelled)])", 
+        "apiName": "ec2.cancelSpotInstanceRequests"
+    }
+]

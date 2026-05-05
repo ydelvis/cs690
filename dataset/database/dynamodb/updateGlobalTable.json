@@ -1,0 +1,42 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UpdateGlobalTable"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb::002677082836:global-table/test-table-5461-old", 
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-old"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateGlobalTableRequest(GlobalTableName=test-table-5461-old, ReplicaUpdates=[ReplicaUpdate(Delete=DeleteReplicaAction(RegionName=us-east-2))])", 
+        "apiName": "dynamodb.updateGlobalTable"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UpdateGlobalTable"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb::002677082836:global-table/test-table-5461-old", 
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-old"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateGlobalTableRequest(GlobalTableName=test-table-5461-old, ReplicaUpdates=[ReplicaUpdate(Create=CreateReplicaAction(RegionName=us-east-2))])", 
+        "apiName": "dynamodb.updateGlobalTable"
+    }
+]

@@ -1,0 +1,84 @@
+{
+  "AllowlistCreate": {
+    "initial_permissions": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "rag_permissions": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan",
+      "dynamodb:DeleteItem"
+    ],
+    "reasoning": "Initial permissions missed dynamodb:DeleteItem, which is used in allowlist/delete.py. dynamodb:PutItem is required for create/update handlers and allowlist logic. dynamodb:Scan is required for read handler and shared get_settings function (used by create) to retrieve configuration.",
+    "raw_response": "{\n  \"permissions\": [\n    \"dynamodb:PutItem\",\n    \"dynamodb:Scan\",\n    \"dynamodb:DeleteItem\"\n  ],\n  \"reasoning\": \"Initial permissions missed dynamodb:DeleteItem, which is used in allowlist/delete.py. dynamodb:PutItem is required for create/update handlers and allowlist logic. dynamodb:Scan is required for read handler and shared get_settings function (used by create) to retrieve configuration.\"\n}"
+  },
+  "AllowlistRead": {
+    "initial_permissions": [
+      "dynamodb:Scan"
+    ],
+    "rag_permissions": [
+      "dynamodb:Scan"
+    ],
+    "reasoning": "The function 'AllowlistRead' corresponds to the handler in allowlist/read.py, which exclusively invokes DynamoDB scan operations via paginator on the ALLOWLIST_TABLE. It does not import or execute the get_settings helper (used by other modules for SETTINGS_TABLE) nor perform write/delete actions found in update, create, or delete modules.",
+    "raw_response": "{\n\"permissions\": [\n\"dynamodb:Scan\"\n],\n\"reasoning\": \"The function 'AllowlistRead' corresponds to the handler in allowlist/read.py, which exclusively invokes DynamoDB scan operations via paginator on the ALLOWLIST_TABLE. It does not import or execute the get_settings helper (used by other modules for SETTINGS_TABLE) nor perform write/delete actions found in update, create, or delete modules.\"\n}"
+  },
+  "AllowlistUpdate": {
+    "initial_permissions": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "rag_permissions": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "reasoning": "The AllowlistUpdate handler (update.py) executes boto3.put_item and calls get_settings() which uses a DynamoDB scan paginator. Other retrieved code chunks correspond to separate handlers (create, delete, read) not executed by this function.",
+    "raw_response": "{\n  \"permissions\": [\n    \"dynamodb:PutItem\",\n    \"dynamodb:Scan\"\n  ],\n  \"reasoning\": \"The AllowlistUpdate handler (update.py) executes boto3.put_item and calls get_settings() which uses a DynamoDB scan paginator. Other retrieved code chunks correspond to separate handlers (create, delete, read) not executed by this function.\"\n}"
+  },
+  "AllowlistDelete": {
+    "initial_permissions": [
+      "dynamodb:DeleteItem",
+      "dynamodb:Scan"
+    ],
+    "rag_permissions": [
+      "dynamodb:DeleteItem"
+    ],
+    "reasoning": "The AllowlistDelete lambda_handler (delete.py) exclusively calls boto3.client('dynamodb').delete_item(). The statically detected scan() and paginate() calls originate from other provided files (update.py, read.py, create.py) which define separate lambda handlers or utility functions not invoked by AllowlistDelete. Therefore, dynamodb:Scan is over-provisioned.",
+    "raw_response": "{\n  \"permissions\": [\n    \"dynamodb:DeleteItem\"\n  ],\n  \"reasoning\": \"The AllowlistDelete lambda_handler (delete.py) exclusively calls boto3.client('dynamodb').delete_item(). The statically detected scan() and paginate() calls originate from other provided files (update.py, read.py, create.py) which define separate lambda handlers or utility functions not invoked by AllowlistDelete. Therefore, dynamodb:Scan is over-provisioned.\"\n}"
+  },
+  "ServiceRead": {
+    "initial_permissions": [
+      "dynamodb:Scan"
+    ],
+    "rag_permissions": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan",
+      "s3:GetObject"
+    ],
+    "reasoning": "Code execution paths demonstrate explicit usage of s3.get_object for log retrieval, dynamodb.scan (via paginator) for settings and allowlist data, and dynamodb.put_item for managing allowlist entries. Initial permissions lacked s3 access and dynamodb write capabilities required by the provided handlers.",
+    "raw_response": "{\n  \"permissions\": [\n    \"dynamodb:PutItem\",\n    \"dynamodb:Scan\",\n    \"s3:GetObject\"\n  ],\n  \"reasoning\": \"Code execution paths demonstrate explicit usage of s3.get_object for log retrieval, dynamodb.scan (via paginator) for settings and allowlist data, and dynamodb.put_item for managing allowlist entries. Initial permissions lacked s3 access and dynamodb write capabilities required by the provided handlers.\"\n}"
+  },
+  "ExecutionLogList": {
+    "initial_permissions": [
+      "dynamodb:Scan"
+    ],
+    "rag_permissions": [
+      "s3:ListBucket",
+      "s3:GetObject",
+      "dynamodb:Scan",
+      "dynamodb:PutItem"
+    ],
+    "reasoning": "Code context demonstrates S3 usage for listing objects (list_objects_v2) and retrieving file contents (get_object). DynamoDB usage is confirmed via scan operations in get_settings/allowlist/read handlers and put_item in allowlist create/update handlers. Static analysis confirms DynamoDB presence; permissions added to cover all observed API calls in deployment package.",
+    "raw_response": "{\n  \"permissions\": [\n    \"s3:ListBucket\",\n    \"s3:GetObject\",\n    \"dynamodb:Scan\",\n    \"dynamodb:PutItem\"\n  ],\n  \"reasoning\": \"Code context demonstrates S3 usage for listing objects (list_objects_v2) and retrieving file contents (get_object). DynamoDB usage is confirmed via scan operations in get_settings/allowlist/read handlers and put_item in allowlist create/update handlers. Static analysis confirms DynamoDB presence; permissions added to cover all observed API calls in deployment package.\"\n}"
+  },
+  "ExecutionLogRead": {
+    "initial_permissions": [
+      "dynamodb:Scan",
+      "s3:GetObject"
+    ],
+    "rag_permissions": [
+      "s3:GetObject"
+    ],
+    "reasoning": "The ExecutionLogRead function (src/execution_log/read.py) explicitly uses boto3 S3 client get_object() to retrieve specific log files by key passed in path parameters. The retrieved code context shows DynamoDB scan/paginate and S3 ListObjects_v2 usage only in other handlers (allowlist, service, execution_log/list), making them over-provisioned for this specific function. No indirect wrappers requiring additional permissions are imported in the handler.",
+    "raw_response": "{\n  \"permissions\": [\n    \"s3:GetObject\"\n  ],\n  \"reasoning\": \"The ExecutionLogRead function (src/execution_log/read.py) explicitly uses boto3 S3 client get_object() to retrieve specific log files by key passed in path parameters. The retrieved code context shows DynamoDB scan/paginate and S3 ListObjects_v2 usage only in other handlers (allowlist, service, execution_log/list), making them over-provisioned for this specific function. No indirect wrappers requiring additional permissions are imported in the handler.\"\n}"
+  }
+}

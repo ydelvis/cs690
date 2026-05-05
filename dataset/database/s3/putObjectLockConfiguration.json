@@ -1,0 +1,97 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectLockConfigurationRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, ObjectLockConfiguration=ObjectLockConfiguration(ObjectLockEnabled=Enabled, Rule=ObjectLockRule(DefaultRetention=DefaultRetention(Mode=COMPLIANCE, Days=1))), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putObjectLockConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectLockConfigurationRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, ObjectLockConfiguration=ObjectLockConfiguration(ObjectLockEnabled=Enabled, Rule=ObjectLockRule(DefaultRetention=DefaultRetention(Mode=GOVERNANCE, Days=2))), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putObjectLockConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectLockConfigurationRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, ObjectLockConfiguration=ObjectLockConfiguration(ObjectLockEnabled=Enabled), RequestPayer=requester, Token=)", 
+        "apiName": "s3.putObjectLockConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectLockConfigurationRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, ObjectLockConfiguration=ObjectLockConfiguration(ObjectLockEnabled=Enabled), RequestPayer=requester)", 
+        "apiName": "s3.putObjectLockConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketObjectLockConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectLockConfigurationRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, ObjectLockConfiguration=ObjectLockConfiguration(ObjectLockEnabled=Enabled))", 
+        "apiName": "s3.putObjectLockConfiguration"
+    }
+]

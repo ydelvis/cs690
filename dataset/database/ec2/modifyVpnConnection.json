@@ -1,0 +1,68 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpnConnection"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:customer-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:vpn-connection/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpnConnectionRequest(VpnConnectionId=vpn-0d59b1da66a690911)", 
+        "apiName": "ec2.modifyVpnConnection"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpnConnection"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:customer-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:vpn-connection/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpnConnectionRequest(VpnConnectionId=vpn-0d59b1da66a690911, CustomerGatewayId=cgw-0c31347bd419276f1)", 
+        "apiName": "ec2.modifyVpnConnection"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpnConnection"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:customer-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:vpn-connection/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpnConnectionRequest(VpnConnectionId=vpn-0d59b1da66a690911, TransitGatewayId=tgw-05ea99e26ea5b116a)", 
+        "apiName": "ec2.modifyVpnConnection"
+    }
+]

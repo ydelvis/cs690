@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:BatchGetItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "BatchGetItemRequest(RequestItems={test-table-5461=KeysAndAttributes(Keys=[{Id=AttributeValue(S=1)}], AttributesToGet=[Id])}, ReturnConsumedCapacity=TOTAL)", 
+        "apiName": "dynamodb.batchGetItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:BatchGetItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "BatchGetItemRequest(RequestItems={test-table-5461=KeysAndAttributes(Keys=[{Id=AttributeValue(S=1)}], AttributesToGet=[Id])})", 
+        "apiName": "dynamodb.batchGetItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:BatchGetItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "BatchGetItemRequest(RequestItems={test-table-5461=KeysAndAttributes(Keys=[{Id=AttributeValue(S=1)}], AttributesToGet=[Id])}, ReturnConsumedCapacity=INDEXES)", 
+        "apiName": "dynamodb.batchGetItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:BatchGetItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "BatchGetItemRequest(RequestItems={test-table-5461=KeysAndAttributes(Keys=[{Id=AttributeValue(S=1)}], AttributesToGet=[Id])}, ReturnConsumedCapacity=NONE)", 
+        "apiName": "dynamodb.batchGetItem"
+    }
+]

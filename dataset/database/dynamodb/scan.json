@@ -1,0 +1,97 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:Scan"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ScanRequest(TableName=test-table-5461, IndexName=Id-Index, Select=ALL_PROJECTED_ATTRIBUTES, ExclusiveStartKey={Id=AttributeValue(S=1)}, ReturnConsumedCapacity=NONE, FilterExpression=#mk = :val, ExpressionAttributeNames={#mk=Make}, ExpressionAttributeValues={:val=AttributeValue(S=BMW)}, ConsistentRead=false)", 
+        "apiName": "dynamodb.scan"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:Scan"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ScanRequest(TableName=test-table-5461, IndexName=Id-Index, Limit=1, ExclusiveStartKey={Id=AttributeValue(S=1)})", 
+        "apiName": "dynamodb.scan"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:Scan"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ScanRequest(TableName=test-table-5461, IndexName=Id-Index, Limit=10, ExclusiveStartKey={Id=AttributeValue(S=1)}, ReturnConsumedCapacity=INDEXES)", 
+        "apiName": "dynamodb.scan"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:Scan"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ScanRequest(TableName=test-table-5461, ReturnConsumedCapacity=TOTAL, ProjectionExpression=Id, Make, Model, ConsistentRead=true)", 
+        "apiName": "dynamodb.scan"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:Scan"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ScanRequest(TableName=test-table-5461, IndexName=Id-Index, Select=ALL_PROJECTED_ATTRIBUTES, ReturnConsumedCapacity=NONE, TotalSegments=1, Segment=0, ConsistentRead=false)", 
+        "apiName": "dynamodb.scan"
+    }
+]

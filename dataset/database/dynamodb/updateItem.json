@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UpdateItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateItemRequest(TableName=test-table-5461, Key={Id=AttributeValue(S=1)}, ReturnConsumedCapacity=NONE)", 
+        "apiName": "dynamodb.updateItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UpdateItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateItemRequest(TableName=test-table-5461, Key={Id=AttributeValue(S=1)}, ReturnConsumedCapacity=INDEXES, UpdateExpression=SET #mk = :val1, ExpressionAttributeNames={#mk=Make}, ExpressionAttributeValues={:val1=AttributeValue(S=BMW_2021)})", 
+        "apiName": "dynamodb.updateItem"
+    }
+]

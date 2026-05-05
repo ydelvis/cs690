@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateSnapshot"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:volume/vol-0919ad27d424e8b18", 
+                        "arn:aws:ec2:*::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateSnapshotRequest(Description=Test snapshot, VolumeId=vol-0919ad27d424e8b18)", 
+        "apiName": "ec2.createSnapshot"
+    }
+]

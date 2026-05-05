@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpcEndpointServiceConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint-service/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateVpcEndpointServiceConfigurationRequest(NetworkLoadBalancerArns=[arn:aws:elasticloadbalancing:us-west-2:002677082836:loadbalancer/net/test-load-balancer/90232949ae1d0660])", 
+        "apiName": "ec2.createVpcEndpointServiceConfiguration"
+    }
+]

@@ -1,0 +1,35 @@
+{
+  "aggregate-vote": {
+    "handler_file": "app.js",
+    "handler_func": "handler",
+    "language": "javascript",
+    "baseline_permissions": [
+      "dynamodb:UpdateItem"
+    ],
+    "full_static_permissions": [
+      "dynamodb:UpdateItem"
+    ],
+    "call_details": [
+      {
+        "service": "dynamodb",
+        "method": "updateItem",
+        "params_present": [
+          "ExpressionAttributeNames",
+          "ExpressionAttributeValues",
+          "Key",
+          "TableName",
+          "UpdateExpression"
+        ],
+        "caller_func": "updateAggregateForColor",
+        "file": "app.js",
+        "line": 45,
+        "baseline": [
+          "dynamodb:UpdateItem"
+        ],
+        "full_static": [
+          "dynamodb:UpdateItem"
+        ]
+      }
+    ]
+  }
+}

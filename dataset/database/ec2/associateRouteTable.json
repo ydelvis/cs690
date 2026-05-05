@@ -1,0 +1,22 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:AssociateRouteTable"
+                ], 
+                "Resource": [
+                    "arn:aws:ec2:us-west-2:002677082836:vpn-gateway/*", 
+                    "arn:aws:ec2:us-west-2:002677082836:subnet/subnet-f098dfbb", 
+                    "arn:aws:ec2:us-west-2:002677082836:internet-gateway/*", 
+                    "arn:aws:ec2:us-west-2:002677082836:route-table/rtb-ca18b2b1"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "AssociateRouteTableRequest(RouteTableId=rtb-ca18b2b1, SubnetId=subnet-f098dfbb)", 
+    "apiName": "associateRouteTable"
+}

@@ -1,0 +1,55 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListPresets"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListPresetsRequest(Ascending=true)", 
+        "apiName": "listPresets"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListPresets"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListPresetsRequest()", 
+        "apiName": "listPresets"
+    },
+    {
+        "apiName": "listPresets",
+        "policy": {
+            "Version": "2012-10-17",
+            "Statement": [{
+                "Action": [
+                    "elastictranscoder:ListPresets"
+                ],
+                "Sid": "statement1",
+                "Effect": "Allow",
+                "Resource": "*"
+            }]
+        },
+        "request": ""
+    }
+]

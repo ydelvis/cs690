@@ -1,0 +1,20 @@
+{
+    "apiName": "startStreamEncryption",
+    "policy": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "kinesis:StartStreamEncryption"
+                ],
+                "Resource": [
+                    "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream",
+                    "arn:aws:kms:us-east-1:002677082836:key/*"
+                ],
+                "Effect": "Allow",
+                "Sid": "statement1"
+            }
+        ]
+    },
+    "request": ""
+}

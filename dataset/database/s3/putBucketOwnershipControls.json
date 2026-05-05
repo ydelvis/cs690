@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketOwnershipControls"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketOwnershipControlsRequest(Bucket=test-bucket-5461, OwnershipControls=OwnershipControls(Rules=[OwnershipControlsRule(ObjectOwnership=BucketOwnerPreferred)]))", 
+        "apiName": "s3.putBucketOwnershipControls"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketOwnershipControls"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketOwnershipControlsRequest(Bucket=test-bucket-5461, ExpectedBucketOwner=002677082836, OwnershipControls=OwnershipControls(Rules=[OwnershipControlsRule(ObjectOwnership=ObjectWriter)]))", 
+        "apiName": "s3.putBucketOwnershipControls"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketOwnershipControls"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketOwnershipControlsRequest(Bucket=test-bucket-5461, ExpectedBucketOwner=002677082836, OwnershipControls=OwnershipControls(Rules=[OwnershipControlsRule(ObjectOwnership=BucketOwnerPreferred)]))", 
+        "apiName": "s3.putBucketOwnershipControls"
+    }
+]

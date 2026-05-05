@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:deleteManagedPrefixList"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:prefix-list/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteManagedPrefixListRequest(PrefixListId=pl-0c8e13373f03bcceb)", 
+        "apiName": "ec2.deleteManagedPrefixList"
+    }
+]

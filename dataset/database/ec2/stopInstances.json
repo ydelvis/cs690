@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:StopInstances"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "StopInstancesRequest(InstanceIds=[i-0fc67210075ad498a], Force=true)", 
+        "apiName": "ec2.stopInstances"
+    }
+]

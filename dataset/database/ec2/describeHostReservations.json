@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeHostReservations"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=prefix-list-id, Values=[pl-00a54069]), Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])], MaxResults=100)", 
+        "apiName": "ec2.describeHostReservations"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeHostReservations"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=route.state, Values=[blackhole])], MaxResults=100)", 
+        "apiName": "ec2.describeHostReservations"
+    }
+]

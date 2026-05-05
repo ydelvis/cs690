@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ImportInstance"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "ImportInstanceRequest(DiskImages=[DiskImage(Description=test disk image, Image=DiskImageDetail(Bytes=1048576, Format=VMDK, ImportManifestUrl=https://test-bucket-5461.s3.us-west-2.amazonaws.com/snapshots/export-ami-05b6eeb6863c64c9c.vmdk), Volume=VolumeDetail(Size=1))], LaunchSpecification=ImportInstanceLaunchSpecification(Architecture=x86_64, GroupIds=[sg-0d954a6a8009b71ae], InstanceType=t1.micro, Placement=Placement(AvailabilityZone=us-west-2c, Tenancy=dedicated), SubnetId=subnet-0d061cded80e2e9a7), Platform=Windows)", 
+        "apiName": "ec2.importInstance"
+    }
+]

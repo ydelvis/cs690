@@ -1,0 +1,37 @@
+{
+  "LambdaMap": {
+    "handler_file": "index.py",
+    "handler_func": "handlerMap",
+    "language": "python",
+    "aws_calls": [
+      {
+        "service": "s3",
+        "method": "uploadFileobj",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 49,
+        "caller_func": "handlerMap",
+        "file": "index.py"
+      }
+    ]
+  },
+  "LambdaReduce": {
+    "handler_file": "index.py",
+    "handler_func": "handlerReduce",
+    "language": "python",
+    "aws_calls": [
+      {
+        "service": "s3",
+        "method": "getObject",
+        "params_present": [
+          "Bucket",
+          "Key"
+        ],
+        "resolved_params": {},
+        "line": 77,
+        "caller_func": "handlerReduce",
+        "file": "index.py"
+      }
+    ]
+  }
+}

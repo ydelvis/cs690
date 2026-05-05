@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RejectTransitGatewayPeeringAttachment"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "RejectTransitGatewayPeeringAttachmentRequest(TransitGatewayAttachmentId=tgw-attach-0662db09f757414e8)", 
+        "apiName": "ec2.rejectTransitGatewayPeeringAttachment"
+    }
+]

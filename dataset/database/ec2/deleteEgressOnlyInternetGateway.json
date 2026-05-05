@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteEgressOnlyInternetGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:egress-only-internet-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteEgressOnlyInternetGatewayRequest(EgressOnlyInternetGatewayId=eigw-07d381a63eb057292)", 
+        "apiName": "ec2.deleteEgressOnlyInternetGateway"
+    }
+]

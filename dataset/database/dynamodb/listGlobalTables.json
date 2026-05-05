@@ -1,0 +1,1351 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=100, RegionName=us-gov-east-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=eu-central-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=eu-west-3)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=eu-south-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, RegionName=us-west-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=100, RegionName=ap-south-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=100, RegionName=eu-west-3)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=eu-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=eu-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=1, RegionName=ap-southeast-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=100, RegionName=ap-south-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=1, RegionName=ca-central-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=1, RegionName=ap-southeast-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=us-east-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=1, RegionName=cn-northwest-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(RegionName=eu-west-3)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=eu-west-3)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, RegionName=eu-west-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=cn-north-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=100, RegionName=eu-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=ap-northeast-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(RegionName=us-east-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, RegionName=ap-southeast-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=100, RegionName=eu-west-3)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=eu-central-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(RegionName=us-east-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, RegionName=eu-west-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, RegionName=us-west-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(RegionName=us-gov-east-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=us-east-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=us-gov-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=1, RegionName=us-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, RegionName=ap-northeast-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(RegionName=eu-west-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=us-gov-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=ap-southeast-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=us-east-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=ap-northeast-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(RegionName=eu-west-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=ap-northeast-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(RegionName=us-gov-east-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(RegionName=us-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=us-gov-east-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=eu-south-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=us-east-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=us-east-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, RegionName=us-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=eu-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(RegionName=eu-west-3)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(RegionName=us-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=ap-south-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=1, RegionName=ca-central-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, RegionName=us-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=ap-northeast-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, RegionName=us-gov-east-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=1, RegionName=us-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=1, RegionName=us-east-2)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=1, RegionName=ap-southeast-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, RegionName=us-gov-east-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=ap-south-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=eu-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=eu-west-3)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=100, RegionName=us-gov-east-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=eu-west-3)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=100, RegionName=ap-southeast-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, RegionName=ap-southeast-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(Limit=1, RegionName=ap-southeast-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, RegionName=ap-northeast-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ListGlobalTables"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListGlobalTablesRequest(ExclusiveStartGlobalTableName=test-table-5461, Limit=100, RegionName=eu-west-1)", 
+        "apiName": "dynamodb.listGlobalTables"
+    }
+]

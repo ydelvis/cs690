@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DescribePlacementGroups"
+                ], 
+                "Resource": [
+                    "*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "DescribePlacementGroupsRequest(Filters=[Filter(Name=group-name, Values=[Test-Placement-Group]), Filter(Name=strategy, Values=[spread])], GroupIds=[pg-040cc29c500fb8381])", 
+    "apiName": "describePlacementGroups"
+}

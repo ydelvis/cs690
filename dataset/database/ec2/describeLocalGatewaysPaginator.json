@@ -1,0 +1,250 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[snap-ff869fa8], Filters=[Filter()], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[M3_LARGE], Filters=[Filter()], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[us-west-1, us-west-2, us-east-1], Filters=[Filter()], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[lt-01286ed53e9c989b1], Filters=[Filter()], MaxResults=-1)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[us-west-1, us-west-2, us-east-1], Filters=[Filter()], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[922761411349], Filters=[Filter()], MaxResults=-1)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[ec2-instance-key-pair], Filters=[Filter()], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[44.237.200.166], Filters=[Filter()], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[M3_LARGE], Filters=[Filter()], MaxResults=-1)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[sg-084edec751f962157, sg-702ca705], Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(Filters=[Filter()], MaxResults=-100)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[dopt-bbeb2ac3], Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[], Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(Filters=[Filter()], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[subnet-891125d3, subnet-b76ec99c, subnet-f098dfbb, subnet-d37752aa], Filters=[Filter()], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(Filters=[Filter()])", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[1], Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[sg-084edec751f962157, sg-702ca705], Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[1], Filters=[Filter()])", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[key-017df928e910e4389], Filters=[Filter()], MaxResults=-100)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()], MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], Filters=[Filter()], MaxResults=-1)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[1], Filters=[Filter()], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], Filters=[Filter()], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[us-west-1, us-west-2, us-east-1], Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(Filters=[Filter()], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewaysRequest(LocalGatewayIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], Filters=[Filter()], MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describeLocalGatewaysPaginator"
+    }
+]

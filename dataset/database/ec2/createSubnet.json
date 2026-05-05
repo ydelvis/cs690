@@ -1,0 +1,42 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateSubnet"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateSubnetRequest(AvailabilityZone=us-west-2c, VpcId=vpc-088f61503142622ed, CidrBlock=172.31.2.0/24)", 
+        "apiName": "ec2.createSubnet"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateSubnet"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateSubnetRequest(AvailabilityZoneId=usw2-az1, VpcId=vpc-088f61503142622ed, CidrBlock=172.31.2.0/24)", 
+        "apiName": "ec2.createSubnet"
+    }
+]

@@ -1,0 +1,306 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=strategy, Values=[spread])], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=state, Values=[deleting])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=state, Values=[available])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=association.state, Values=[associated])])", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=default-association-route-table, Values=[true])])", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])])", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=state, Values=[deleted])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=traffic-type, Values=[ACCEPT])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleted])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=owner-id, Values=[002677082836])])", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[pendingAcceptance])], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[enable])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=transit-gateway-route-table-id, Values=[tgw-rtb-02e9c220c37bb74db])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS]), Filter(Name=traffic-type, Values=[ACCEPT]), Filter(Name=log-destination-type, Values=[s3])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[disable])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])])", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=route.state, Values=[blackhole])])", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[disable])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=traffic-type, Values=[ACCEPT])])", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])])", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=service-type, Values=[Interface])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=traffic-mirror-target-id, Values=[tmt-0fa549ad445a2e94e])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS]), Filter(Name=traffic-type, Values=[ACCEPT]), Filter(Name=log-destination-type, Values=[s3])])", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=scope, Values=[Region])], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=description, Values=[])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest()", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[failed])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Enabled])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=association.state, Values=[associated])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=default-propagation-route-table, Values=[false])])", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=service-name, Values=[com.amazonaws.us-east-2.acm-pca])])", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVpcAssociationsRequest(Filters=[Filter(Name=type, Values=[ipsec.1])], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayRouteTableVpcAssociationsPaginator"
+    }
+]

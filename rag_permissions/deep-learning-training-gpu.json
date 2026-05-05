@@ -1,0 +1,20 @@
+{
+  "LambdaMap": {
+    "initial_permissions": [],
+    "rag_permissions": [
+      "s3:PutObject"
+    ],
+    "reasoning": "Function 'LambdaMap' executes handlerMap which uses boto3 s3 client to upload data via upload_fileobj, requiring s3:PutObject. Although handlerReduce and handlerPublisher exist in the file, static analysis only detected upload operations and the function name implies Map phase logic only, so read permissions (s3:GetObject) are excluded for minimal compliance.",
+    "raw_response": "{\n  \"permissions\": [\n    \"s3:PutObject\"\n  ],\n  \"reasoning\": \"Function 'LambdaMap' executes handlerMap which uses boto3 s3 client to upload data via upload_fileobj, requiring s3:PutObject. Although handlerReduce and handlerPublisher exist in the file, static analysis only detected upload operations and the function name implies Map phase logic only, so read permissions (s3:GetObject) are excluded for minimal compliance.\"\n}"
+  },
+  "LambdaReduce": {
+    "initial_permissions": [
+      "s3:GetObject"
+    ],
+    "rag_permissions": [
+      "s3:GetObject"
+    ],
+    "reasoning": "handlerReduce (the entry point for LambdaReduce) only reads S3 objects using s3.get_object; handlerMap operations (upload_fileobj/PutObject) are in a separate handler function not executed in this invocation path.",
+    "raw_response": "{\"permissions\": [\"s3:GetObject\"], \"reasoning\": \"handlerReduce (the entry point for LambdaReduce) only reads S3 objects using s3.get_object; handlerMap operations (upload_fileobj/PutObject) are in a separate handler function not executed in this invocation path.\"}"
+  }
+}

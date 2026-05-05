@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpcEndpointServicePermissions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint-service/vpce-svc-0f020b0b3170538c9"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpcEndpointServicePermissionsRequest(ServiceId=vpce-svc-0f020b0b3170538c9, AddAllowedPrincipals=[arn:aws:iam::002677082836:role/Bob])", 
+        "apiName": "ec2.modifyVpcEndpointServicePermissions"
+    }
+]

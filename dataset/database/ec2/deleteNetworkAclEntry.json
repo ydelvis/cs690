@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteNetworkAclEntry"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-acl/acl-0cdd57084c6315982"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteNetworkAclEntryRequest(Egress=false, NetworkAclId=acl-0cdd57084c6315982, RuleNumber=102)", 
+        "apiName": "ec2.deleteNetworkAclEntry"
+    }
+]

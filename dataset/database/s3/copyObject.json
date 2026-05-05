@@ -1,0 +1,680 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }
+            ]
+        }, 
+        "request": "CopyObjectRequest(ACL=aws-exec-read, CacheControl=only-if-cached, ContentDisposition=inline, ContentEncoding=compress, ContentLanguage=en-US, ContentType=application/json, CopySource=test-bucket-5461/key1/listBuckets.json, CopySourceIfUnmodifiedSince=2021-07-28T02:18:12.447Z, Expires=2021-07-28T02:22:12.447Z, Metadata={my-object-metadata-key=my-object-metadata-value}, MetadataDirective=COPY, TaggingDirective=REPLACE, StorageClass=GLACIER, BucketKeyEnabled=true, Tagging=, ObjectLockLegalHoldStatus=OFF, ExpectedSourceBucketOwner=002677082836, DestinationBucket=test-bucket-5461-object-lock-configuration-enabled, DestinationKey=key1/listBuckets.json)", 
+        "apiName": "s3.copyObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }
+            ]
+        }, 
+        "request": "CopyObjectRequest(CacheControl=stale-while-revalidate=30, ContentDisposition=inline, ContentEncoding=deflate, ContentLanguage=en-US, CopySource=test-bucket-5461/key1/listBuckets.json, CopySourceIfUnmodifiedSince=2021-07-28T06:34:45.772Z, Expires=2021-07-28T06:30:45.772Z, GrantFullControl=emailaddress=captainalligator1@gmail.com, GrantWriteACP=emailaddress=captainalligator1@gmail.com, Metadata={my-object-metadata-key=my-object-metadata-value}, MetadataDirective=REPLACE, StorageClass=ONEZONE_IA, WebsiteRedirectLocation=https://www.google.com, BucketKeyEnabled=true, RequestPayer=requester, Tagging=key=tag-key&value=tag-value, ObjectLockMode=COMPLIANCE, ObjectLockRetainUntilDate=2021-07-28T06:34:45.772Z, ObjectLockLegalHoldStatus=OFF, ExpectedBucketOwner=002677082836, ExpectedSourceBucketOwner=002677082836, DestinationBucket=test-bucket-5461-object-lock-configuration-enabled, DestinationKey=key1/listBuckets.json)", 
+        "apiName": "s3.copyObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }
+            ]
+        }, 
+        "request": "CopyObjectRequest(ACL=aws-exec-read, CacheControl=max-age=30, ContentLanguage=, CopySource=test-bucket-5461/key1/listBuckets.json, CopySourceIfUnmodifiedSince=2021-07-28T10:43:19.279Z, Expires=2021-07-28T10:37:19.279Z, Metadata={Content-Language=en-US}, MetadataDirective=COPY, BucketKeyEnabled=false, RequestPayer=requester, Tagging=key=tag-key&value=tag-value, ObjectLockMode=COMPLIANCE, ObjectLockRetainUntilDate=2021-07-28T10:47:19.279Z, ObjectLockLegalHoldStatus=ON, ExpectedSourceBucketOwner=002677082836, DestinationBucket=test-bucket-5461-object-lock-configuration-enabled, DestinationKey=key1/listBuckets.json)", 
+        "apiName": "s3.copyObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }
+            ]
+        }, 
+        "request": "CopyObjectRequest(CacheControl=no-store, ContentDisposition=, ContentEncoding=, ContentLanguage=de-DE, CopySource=test-bucket-5461/key1/listBuckets.json, CopySourceIfUnmodifiedSince=2021-07-28T14:50:14.493Z, Expires=2021-07-28T14:50:14.493Z, GrantFullControl=emailaddress=captainalligator1@gmail.com, GrantReadACP=emailaddress=captainalligator1@gmail.com, Metadata={my-object-metadata-key=my-object-metadata-value}, MetadataDirective=COPY, TaggingDirective=COPY, WebsiteRedirectLocation=https://test-bucket-5461-object-lock-configuration-enabled.s3-us-west-2.amazonaws.com/index.html, BucketKeyEnabled=true, Tagging=?key=tag-key&value=tag-value, ObjectLockMode=COMPLIANCE, ObjectLockRetainUntilDate=2021-07-28T14:56:14.493Z, ObjectLockLegalHoldStatus=OFF, DestinationBucket=test-bucket-5461-object-lock-configuration-enabled, DestinationKey=key1/listBuckets.json)", 
+        "apiName": "s3.copyObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }
+            ]
+        }, 
+        "request": "CopyObjectRequest(ACL=aws-exec-read, CacheControl=max-stale[30], ContentEncoding=, ContentLanguage=en-US, ContentType=application/json, CopySource=test-bucket-5461/key1/listBuckets.json, CopySourceIfUnmodifiedSince=2021-07-28T19:08:51.936Z, Expires=2021-07-28T19:08:51.936Z, Metadata={my-object-metadata-key=my-object-metadata-value}, MetadataDirective=REPLACE, StorageClass=REDUCED_REDUNDANCY, BucketKeyEnabled=true, Tagging=key=tag-key&value=tag-value, ObjectLockMode=COMPLIANCE, ObjectLockRetainUntilDate=2021-07-28T19:08:51.936Z, ObjectLockLegalHoldStatus=ON, DestinationBucket=test-bucket-5461-object-lock-configuration-enabled, DestinationKey=key1/listBuckets.json)", 
+        "apiName": "s3.copyObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }
+            ]
+        }, 
+        "request": "CopyObjectRequest(CacheControl=immutable, ContentEncoding=br, CopySource=test-bucket-5461/key1/listBuckets.json, CopySourceIfUnmodifiedSince=2021-07-28T23:15:27.759Z, Expires=2021-07-28T23:25:27.759Z, GrantReadACP=emailaddress=captainalligator1@gmail.com, Metadata={Content-Language=en-US}, TaggingDirective=COPY, StorageClass=INTELLIGENT_TIERING, WebsiteRedirectLocation=https://www.google.com, BucketKeyEnabled=true, RequestPayer=requester, Tagging=, ObjectLockMode=COMPLIANCE, ObjectLockRetainUntilDate=2021-07-28T23:25:27.759Z, ObjectLockLegalHoldStatus=ON, ExpectedBucketOwner=002677082836, DestinationBucket=test-bucket-5461-object-lock-configuration-enabled, DestinationKey=key1/listBuckets.json)", 
+        "apiName": "s3.copyObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }
+            ]
+        }, 
+        "request": "CopyObjectRequest(CacheControl=min-fresh=30, ContentDisposition=, ContentLanguage=, ContentType=application/json, CopySource=test-bucket-5461/key1/listBuckets.json, CopySourceIfUnmodifiedSince=2021-07-29T03:34:00.396Z, Expires=2021-07-29T03:38:00.396Z, GrantFullControl=emailaddress=captainalligator1@gmail.com, GrantRead=emailaddress=captainalligator1@gmail.com, GrantWriteACP=emailaddress=captainalligator1@gmail.com, Metadata={Content-Language=en-US}, StorageClass=REDUCED_REDUNDANCY, BucketKeyEnabled=false, RequestPayer=requester, Tagging=, ObjectLockMode=COMPLIANCE, ObjectLockRetainUntilDate=2021-07-29T03:34:00.396Z, ObjectLockLegalHoldStatus=OFF, ExpectedBucketOwner=002677082836, DestinationBucket=test-bucket-5461-object-lock-configuration-enabled, DestinationKey=key1/listBuckets.json)", 
+        "apiName": "s3.copyObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectTagging"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }
+            ]
+        }, 
+        "request": "CopyObjectRequest(ACL=bucket-owner-read, CacheControl=stale-if-error=30, ContentDisposition=inline, ContentEncoding=, ContentLanguage=de-DE, CopySource=test-bucket-5461/key1/listBuckets.json, CopySourceIfUnmodifiedSince=2021-07-29T07:50:33.650Z, Expires=2021-07-29T07:50:33.650Z, Metadata={my-object-metadata-key=my-object-metadata-value}, TaggingDirective=REPLACE, StorageClass=INTELLIGENT_TIERING, BucketKeyEnabled=false, Tagging=key=tag-key&value=tag-value, ObjectLockMode=GOVERNANCE, ObjectLockRetainUntilDate=2021-07-29T07:50:33.650Z, ObjectLockLegalHoldStatus=OFF, ExpectedSourceBucketOwner=002677082836, DestinationBucket=test-bucket-5461-object-lock-configuration-enabled, DestinationKey=key1/listBuckets.json)", 
+        "apiName": "s3.copyObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }
+            ]
+        }, 
+        "request": "CopyObjectRequest(ContentDisposition=multipart/form-data, ContentEncoding=, ContentLanguage=en-US, ContentType=application/json, CopySource=test-bucket-5461/key1/listBuckets.json, CopySourceIfUnmodifiedSince=2021-07-29T11:53:12.732Z, GrantFullControl=emailaddress=captainalligator1@gmail.com, GrantReadACP=emailaddress=captainalligator1@gmail.com, Metadata={Content-Language=en-US}, MetadataDirective=COPY, WebsiteRedirectLocation=https://test-bucket-5461-object-lock-configuration-enabled.s3-us-west-2.amazonaws.com/index.html, BucketKeyEnabled=true, RequestPayer=requester, Tagging=, ObjectLockMode=GOVERNANCE, ObjectLockRetainUntilDate=2021-07-29T12:03:12.732Z, ObjectLockLegalHoldStatus=ON, ExpectedSourceBucketOwner=002677082836, DestinationBucket=test-bucket-5461-object-lock-configuration-enabled, DestinationKey=key1/listBuckets.json)", 
+        "apiName": "s3.copyObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }
+            ]
+        }, 
+        "request": "CopyObjectRequest(ACL=aws-exec-read, CacheControl=public, ContentEncoding=br, ContentLanguage=de-DE, ContentType=application/json, CopySource=test-bucket-5461/key1/listBuckets.json, CopySourceIfUnmodifiedSince=2021-07-29T16:15:48.716Z, Expires=2021-07-29T16:11:48.716Z, Metadata={Content-Language=en-US}, MetadataDirective=REPLACE, StorageClass=INTELLIGENT_TIERING, BucketKeyEnabled=true, RequestPayer=requester, Tagging=key=tag-key&value=tag-value, ObjectLockMode=COMPLIANCE, ObjectLockRetainUntilDate=2021-07-29T16:15:48.716Z, ObjectLockLegalHoldStatus=ON, ExpectedSourceBucketOwner=002677082836, DestinationBucket=test-bucket-5461-object-lock-configuration-enabled, DestinationKey=key1/listBuckets.json)", 
+        "apiName": "s3.copyObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }
+            ]
+        }, 
+        "request": "CopyObjectRequest(ContentDisposition=, ContentEncoding=compress, ContentLanguage=de-DE, ContentType=, CopySource=test-bucket-5461/key1/listBuckets.json, CopySourceIfUnmodifiedSince=2021-07-29T20:24:21.734Z, Expires=2021-07-29T20:18:21.734Z, GrantRead=emailaddress=captainalligator1@gmail.com, MetadataDirective=REPLACE, TaggingDirective=COPY, StorageClass=ONEZONE_IA, BucketKeyEnabled=false, RequestPayer=requester, Tagging=, ObjectLockMode=GOVERNANCE, ObjectLockRetainUntilDate=2021-07-29T20:28:21.734Z, DestinationBucket=test-bucket-5461-object-lock-configuration-enabled, DestinationKey=key1/listBuckets.json)", 
+        "apiName": "s3.copyObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }
+            ]
+        }, 
+        "request": "CopyObjectRequest(CacheControl=public, ContentDisposition=multipart/form-data, ContentEncoding=compress, ContentLanguage=de-DE, ContentType=, CopySource=test-bucket-5461/key1/listBuckets.json, CopySourceIfUnmodifiedSince=2021-07-30T00:37:01.368Z, Expires=2021-07-30T00:31:01.368Z, GrantReadACP=emailaddress=captainalligator1@gmail.com, GrantWriteACP=emailaddress=captainalligator1@gmail.com, Metadata={Content-Language=en-US}, MetadataDirective=COPY, TaggingDirective=REPLACE, StorageClass=DEEP_ARCHIVE, BucketKeyEnabled=false, RequestPayer=requester, Tagging=, ObjectLockMode=GOVERNANCE, ObjectLockRetainUntilDate=2021-07-30T00:41:01.368Z, ExpectedBucketOwner=002677082836, DestinationBucket=test-bucket-5461-object-lock-configuration-enabled, DestinationKey=key1/listBuckets.json)", 
+        "apiName": "s3.copyObject"
+    }
+]

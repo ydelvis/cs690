@@ -1,0 +1,154 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], MaxResults=-1, NextToken=, IncludeAllInstances=true)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[vpc-1dd31b65], IncludeAllInstances=true)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[44.237.200.166], MaxResults=-1, IncludeAllInstances=false)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[dopt-bbeb2ac3], MaxResults=0, NextToken=, IncludeAllInstances=true)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[eipalloc-068f6cb5459d939aa], MaxResults=100, IncludeAllInstances=true)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[851601128636], NextToken=, IncludeAllInstances=true)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[vpc-1dd31b65], MaxResults=-100, NextToken=, IncludeAllInstances=false)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], MaxResults=0, IncludeAllInstances=true)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], MaxResults=-1, IncludeAllInstances=true)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[M3_LARGE], MaxResults=100, IncludeAllInstances=false)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], MaxResults=-1, NextToken=, IncludeAllInstances=false)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[002677082836, self, all], IncludeAllInstances=true)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[922761411349], MaxResults=-100, NextToken=, IncludeAllInstances=true)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[851601128636], MaxResults=100, IncludeAllInstances=false)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], MaxResults=0, NextToken=, IncludeAllInstances=true)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], MaxResults=-100, IncludeAllInstances=false)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[002677082836, self, all], MaxResults=1, NextToken=, IncludeAllInstances=false)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[44.237.200.166], MaxResults=100, NextToken=, IncludeAllInstances=false)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceStatusRequest(Filters=[Filter()], InstanceIds=[snap-ff869fa8], NextToken=, IncludeAllInstances=false)", 
+        "apiName": "ec2.describeInstanceStatusPaginator"
+    }
+]

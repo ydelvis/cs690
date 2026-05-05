@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ResetInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ResetInstanceAttributeRequest(Attribute=kernel, InstanceId=i-0fc67210075ad498a)", 
+        "apiName": "ec2.resetInstanceAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ResetInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ResetInstanceAttributeRequest(Attribute=ramdisk, InstanceId=i-0fc67210075ad498a)", 
+        "apiName": "ec2.resetInstanceAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ResetInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ResetInstanceAttributeRequest(Attribute=sourceDestCheck, InstanceId=i-0fc67210075ad498a)", 
+        "apiName": "ec2.resetInstanceAttribute"
+    }
+]

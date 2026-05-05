@@ -1,0 +1,107 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:DeleteObjectVersion"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:BypassGovernanceRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }
+            ]
+        }, 
+        "request": "DeleteObjectRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=temp.txt, VersionId=oslvqjuKvB97FpHBFUFoEm_5wVL6JiRO, RequestPayer=requester, BypassGovernanceRetention=true, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.deleteObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:DeleteObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteObjectRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=temp.txt, RequestPayer=requester, BypassGovernanceRetention=true, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.deleteObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:DeleteObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteObjectRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=temp.txt)", 
+        "apiName": "s3.deleteObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:DeleteObjectVersion"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "DeleteObjectRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=temp.txt, VersionId=U_nRJcmnM9I1wU5QulX0BsZy4J1IsHsH, RequestPayer=requester, BypassGovernanceRetention=false, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.deleteObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:DeleteObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteObjectRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=temp.txt, RequestPayer=requester, BypassGovernanceRetention=false)", 
+        "apiName": "s3.deleteObject"
+    }
+]

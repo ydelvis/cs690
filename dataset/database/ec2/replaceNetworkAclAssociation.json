@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReplaceNetworkAclAssociation"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ReplaceNetworkAclAssociationRequest(AssociationId=aclassoc-08b77743623fda611, NetworkAclId=acl-06810c61c5fb28496)", 
+        "apiName": "ec2.replaceNetworkAclAssociation"
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeNetworkInterfaces"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[eni-075dbd8fc601dd638, eni-0bc92d563f92a600d])", 
+        "apiName": "describeNetworkInterfaces"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeNetworkInterfaces"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()])", 
+        "apiName": "describeNetworkInterfaces"
+    }
+]

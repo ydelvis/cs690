@@ -1,0 +1,41 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:GetBucketLocation"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "ec2:GetFlowLogsIntegrationTemplate"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-flow-log/fl-006555730e2cbb997"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "GetFlowLogsIntegrationTemplateRequest(FlowLogId=fl-006555730e2cbb997, ConfigDeliveryS3DestinationArn=arn:aws:s3:::test-bucket-5461/key1/, IntegrateServices=IntegrateServices(AthenaIntegrations=[AthenaIntegration(IntegrationResultS3DestinationArn=arn:aws:s3:::test-bucket-5461/athena-query-results, PartitionLoadFrequency=monthly, PartitionStartDate=2021-08-05T09:59:15.854Z, PartitionEndDate=2021-09-04T09:59:15.854Z)]))", 
+        "apiName": "ec2.getFlowLogsIntegrationTemplate"
+    }
+]

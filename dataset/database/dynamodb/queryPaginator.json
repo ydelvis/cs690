@@ -1,0 +1,10 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "QueryRequest(TableName=test-table-5461, IndexName=Id-Index, Select=ALL_ATTRIBUTES, ReturnConsumedCapacity=TOTAL, FilterExpression=#mk = :val, KeyConditionExpression=#id = :id_val, ExpressionAttributeNames={#mk=Make, #id=Id}, ExpressionAttributeValues={:id_val=AttributeValue(S=2), :val=AttributeValue(S=BMW)})", 
+        "apiName": "queryPaginator"
+    }
+]

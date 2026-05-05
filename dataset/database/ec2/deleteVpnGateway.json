@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteVpnGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteVpnGatewayRequest(VpnGatewayId=vgw-08c161cae31d7f7c2)", 
+        "apiName": "ec2.deleteVpnGateway"
+    }
+]

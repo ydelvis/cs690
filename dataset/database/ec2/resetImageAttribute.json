@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ResetImageAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::image/ami-013ad70ab73da1ff2"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ResetImageAttributeRequest(Attribute=launchPermission, ImageId=ami-013ad70ab73da1ff2)", 
+        "apiName": "ec2.resetImageAttribute"
+    }
+]

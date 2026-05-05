@@ -1,0 +1,10 @@
+{
+  "aggregate-vote": {
+    "initial_permissions": [
+      "dynamodb:UpdateItem"
+    ],
+    "rag_permissions": [],
+    "reasoning": "",
+    "raw_response": ""
+  }
+}

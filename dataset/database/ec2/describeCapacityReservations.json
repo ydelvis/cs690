@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeCapacityReservations"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeCapacityReservationsRequest(Filters=[Filter(Name=attachment.state, Values=[attached])])", 
+        "apiName": "ec2.describeCapacityReservations"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeCapacityReservations"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeCapacityReservationsRequest(MaxResults=1, Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])])", 
+        "apiName": "ec2.describeCapacityReservations"
+    }
+]

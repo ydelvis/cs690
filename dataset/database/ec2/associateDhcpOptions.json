@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AssociateDhcpOptions"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "AssociateDhcpOptionsRequest(DhcpOptionsId=dopt-0197122ae26aa38b9, VpcId=vpc-088f61503142622ed)", 
+        "apiName": "ec2.associateDhcpOptions"
+    }
+]

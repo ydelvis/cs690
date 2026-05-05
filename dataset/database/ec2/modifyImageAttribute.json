@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyImageAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyImageAttributeRequest(Attribute=launchPermission, Description=AttributeValue(), ImageId=ami-013ad70ab73da1ff2, LaunchPermission=LaunchPermissionModifications(), OperationType=add)", 
+        "apiName": "ec2.modifyImageAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyImageAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyImageAttributeRequest(Attribute=description, Description=AttributeValue(Value=modify image attribute), ImageId=ami-013ad70ab73da1ff2)", 
+        "apiName": "ec2.modifyImageAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyImageAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyImageAttributeRequest(Attribute=launchPermission, ImageId=ami-013ad70ab73da1ff2, LaunchPermission=LaunchPermissionModifications(), OperationType=add, Value={UserId=002677082836})", 
+        "apiName": "ec2.modifyImageAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyImageAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyImageAttributeRequest(Attribute=description, Description=AttributeValue(Value=modify image attribute), ImageId=ami-013ad70ab73da1ff2, LaunchPermission=LaunchPermissionModifications())", 
+        "apiName": "ec2.modifyImageAttribute"
+    }
+]

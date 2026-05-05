@@ -1,0 +1,18 @@
+{
+  "getPlaylists": {
+    "handler_file": "main.js",
+    "handler_func": "getPlaylists",
+    "language": "javascript",
+    "aws_calls": [
+      {
+        "service": "dynamodb",
+        "method": "putItem",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 50,
+        "caller_func": "getPlaylists",
+        "file": "main.js"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "trigger": {
+    "handler_file": "handler.js",
+    "handler_func": "trigger",
+    "language": "javascript",
+    "aws_calls": [
+      {
+        "service": "kinesis",
+        "method": "putRecord",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 85,
+        "caller_func": "trigger",
+        "file": "handler.js"
+      }
+    ]
+  }
+}

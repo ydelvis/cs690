@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteTrafficMirrorFilterRule"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter-rule/*", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/tmf-0479cc103b3d3f39d"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteTrafficMirrorFilterRuleRequest(TrafficMirrorFilterRuleId=tmfr-0dea05145d1dde44f)", 
+        "apiName": "ec2.deleteTrafficMirrorFilterRule"
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=state, Values=[available])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=attachment.state, Values=[detached])])", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=deliver-log-status, Values=[FAILED])], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=state, Values=[available])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=connection-notification-state, Values=[Disabled])], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=state, Values=[deleted])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])])", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])])", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])])", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[disable])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[enable])], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])], MaxResults=0)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfacesRequest(Filters=[Filter(Name=service-name, Values=[com.amazonaws.us-east-2.acm-pca])])", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfacesPaginator"
+    }
+]

@@ -1,0 +1,477 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=import-task)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=internet-gateway)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=vpn-gateway)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=vpn-connection)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=image)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=customer-gateway)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=vpc-endpoint)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=flow-log)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=elastic-ip-association)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=network-acl-association)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=security-group)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=network-interface)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=route-table)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=network-interface-attachment)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=dhcp-options)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=bundle)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=snapshot)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=export-task)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=reservation))", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=subnet)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=network-acl)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=route-table-association)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=volume)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=elastic-ip-allocation)", 
+        "apiName": "ec2.describeIdentityIdFormat"
+    }
+]

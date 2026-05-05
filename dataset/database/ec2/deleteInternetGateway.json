@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteInternetGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:internet-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteInternetGatewayRequest(InternetGatewayId=igw-098de90a34d3fc83d)", 
+        "apiName": "ec2.deleteInternetGateway"
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeAccountAttributes"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "DescribeAccountAttributesRequest(AttributeNames=[default-vpc, supported-platforms])", 
+        "apiName": "describeAccountAttributes"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeAccountAttributes"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeAccountAttributesRequest(AttributeNames=[default-vpc])", 
+        "apiName": "describeAccountAttributes"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeAccountAttributes"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "DescribeAccountAttributesRequest(AttributeNames=[supported-platforms])", 
+        "apiName": "describeAccountAttributes"
+    }
+]

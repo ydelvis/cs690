@@ -1,0 +1,210 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=-100, NextToken=, PublicIps=[i-01ec73f52711d20f7, i-01d514444253d9b80])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=-1, PublicIps=[1])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=-100, PublicIps=[ami-00bb6f60])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=0, PublicIps=[002677082836, self, all])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=0, PublicIps=[i-01ec73f52711d20f7, i-01d514444253d9b80])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=1, NextToken=, PublicIps=[acl-d2b393aa])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=100, NextToken=, PublicIps=[acl-d2b393aa])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=0, PublicIps=[ami-00bb6f60])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=-100, NextToken=, PublicIps=[M3_LARGE])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=-100, NextToken=, PublicIps=[])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=1, PublicIps=[002677082836, self, all])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=0, NextToken=, PublicIps=[dopt-bbeb2ac3])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], PublicIps=[ec2-instance-key-pair])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=-1, NextToken=, PublicIps=[snap-ff869fa8])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=100, NextToken=, PublicIps=[lt-01286ed53e9c989b1])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=-1, PublicIps=[44.237.200.166])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=0, PublicIps=[M3_LARGE])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=1, PublicIps=[922761411349])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=-1, NextToken=, PublicIps=[002677082836, self, all])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=1, PublicIps=[dopt-bbeb2ac3])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=-100, PublicIps=[launch-wizard-1, default])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=-1, PublicIps=[Test-Launch-Template])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=1, PublicIps=[acl-d2b393aa])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=1, NextToken=, PublicIps=[vpc-1dd31b65])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=0, NextToken=, PublicIps=[vpc-1dd31b65])", 
+        "apiName": "ec2.describeMovingAddressesPaginator"
+    }
+]

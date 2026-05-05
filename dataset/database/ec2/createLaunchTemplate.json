@@ -1,0 +1,58 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateLaunchTemplate"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:dedicated-host/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:placement-group/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/*", 
+                        "arn:aws:ec2:*::snapshot/*", 
+                        "arn:aws:ec2:*:002677082836:key-pair/*", 
+                        "arn:aws:ec2:*:002677082836:launch-template/*", 
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateLaunchTemplateRequest(LaunchTemplateName=testLaunchTemplate, VersionDescription=My test launch template, LaunchTemplateData=RequestLaunchTemplateData(NetworkInterfaces=[LaunchTemplateInstanceNetworkInterfaceSpecificationRequest(AssociateCarrierIpAddress=true, Description=launch network interface specification, DeviceIndex=0, Ipv6AddressCount=1, SubnetId=subnet-092aa5e72690d53ca)], ImageId=ami-013ad70ab73da1ff2, InstanceType=t2.small))", 
+        "apiName": "ec2.createLaunchTemplate"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateLaunchTemplate"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:dedicated-host/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:placement-group/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/*", 
+                        "arn:aws:ec2:*::snapshot/*", 
+                        "arn:aws:ec2:*:002677082836:key-pair/*", 
+                        "arn:aws:ec2:*:002677082836:launch-template/*", 
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateLaunchTemplateRequest(LaunchTemplateName=testLaunchTemplate, VersionDescription=My test launch template, LaunchTemplateData=RequestLaunchTemplateData(NetworkInterfaces=[LaunchTemplateInstanceNetworkInterfaceSpecificationRequest(AssociateCarrierIpAddress=true, Description=launch network interface specification, DeviceIndex=0, Ipv6AddressCount=1, SubnetId=subnet-092aa5e72690d53ca)], ImageId=ami-013ad70ab73da1ff2, InstanceType=t2.small, TagSpecifications=[LaunchTemplateTagSpecificationRequest(ResourceType=instance, Tags=[Tag(Key=instance, Value=instance-tag)])]))", 
+        "apiName": "ec2.createLaunchTemplate"
+    }
+]

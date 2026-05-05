@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeReplaceRootVolumeTasks"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest()", 
+        "apiName": "ec2.describeReplaceRootVolumeTasks"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeReplaceRootVolumeTasks"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])])", 
+        "apiName": "ec2.describeReplaceRootVolumeTasks"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeReplaceRootVolumeTasks"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(MaxResults=1)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasks"
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=-100, NextToken=, VolumeIds=[M3_LARGE])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=-1)", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=100, VolumeIds=[key-017df928e910e4389])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=0, VolumeIds=[Test-Launch-Template])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=100, NextToken=, VolumeIds=[1])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=1, NextToken=, VolumeIds=[ami-00bb6f60])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], VolumeIds=[key-017df928e910e4389])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=-100, VolumeIds=[44.237.200.166])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=0, VolumeIds=[lt-01286ed53e9c989b1])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=0, NextToken=, VolumeIds=[us-west-1, us-west-2, us-east-1])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=100, NextToken=, VolumeIds=[launch-wizard-1, default])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=0, NextToken=, VolumeIds=[i-01ec73f52711d20f7, i-01d514444253d9b80])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=1, VolumeIds=[key-017df928e910e4389])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], NextToken=, VolumeIds=[snap-ff869fa8])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=100, VolumeIds=[snap-ff869fa8])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=1, VolumeIds=[922761411349])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=-100, VolumeIds=[M3_LARGE])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], NextToken=, VolumeIds=[vpc-1dd31b65])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=-100, NextToken=, VolumeIds=[ami-00bb6f60])", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=-100)", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumeStatusRequest(Filters=[Filter()], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeVolumeStatusPaginator"
+    }
+]

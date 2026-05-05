@@ -1,0 +1,52 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTrafficMirrorTarget"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-0d8f5ce599aed63d2", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-target/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTrafficMirrorTargetRequest(NetworkLoadBalancerArn=arn:aws:elasticloadbalancing:us-west-2:002677082836:loadbalancer/net/test-load-balancer/90232949ae1d0660, Description=test traffic mirror target)", 
+        "apiName": "ec2.createTrafficMirrorTarget"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTrafficMirrorTarget"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-0d8f5ce599aed63d2", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-target/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateTrafficMirrorTargetRequest(NetworkLoadBalancerArn=arn:aws:elasticloadbalancing:us-west-2:002677082836:loadbalancer/net/test-load-balancer/90232949ae1d0660, Description=test traffic mirror target, TagSpecifications=[TagSpecification(ResourceType=traffic-mirror-target, Tags=[Tag(Key=traffic-mirror-target, Value=traffic-mirror-target-tag)])])", 
+        "apiName": "ec2.createTrafficMirrorTarget"
+    }
+]

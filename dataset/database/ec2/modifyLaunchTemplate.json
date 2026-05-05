@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyLaunchTemplate"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:launch-template/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyLaunchTemplateRequest(LaunchTemplateId=lt-0fe99cbff19e8c3af, DefaultVersion=1)", 
+        "apiName": "ec2.modifyLaunchTemplate"
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "apiName": "deregisterStreamConsumer",
+    "policy": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "kinesis:DeregisterStreamConsumer"
+                ],
+                "Resource": [
+                    "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream",
+                    "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream/consumer/test-5456-firehose:1579744254"
+                ],
+                "Effect": "Allow",
+                "Sid": "statement2"
+            }
+        ]
+    },
+    "request": ""
+}

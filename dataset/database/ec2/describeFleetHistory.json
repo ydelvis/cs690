@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeFleetHistory"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeFleetHistoryRequest(MaxResults=100, FleetId=fleet-8fff33bc-259d-4fdd-a4c9-32cf3c1525f2, StartTime=2021-07-24T01:34:54.920Z)", 
+        "apiName": "ec2.describeFleetHistory"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeFleetHistory"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeFleetHistoryRequest(EventType=instance-change, MaxResults=100, FleetId=fleet-8fff33bc-259d-4fdd-a4c9-32cf3c1525f2, StartTime=2021-07-24T01:39:47.378Z)", 
+        "apiName": "ec2.describeFleetHistory"
+    }
+]

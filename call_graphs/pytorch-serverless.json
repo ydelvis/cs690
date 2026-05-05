@@ -1,0 +1,1489 @@
+{
+  "adjacency": {
+    "__call__": [
+      "compose",
+      "self.set_state",
+      "self.transform",
+      "self.transform_coord"
+    ],
+    "__init__": [
+      "apply_init",
+      "cut_model",
+      "download_file",
+      "num_features",
+      "self.get_fc_layers"
+    ],
+    "apply_init": [
+      "cond_init"
+    ],
+    "center_crop": [
+      "crop"
+    ],
+    "children": [
+      "m.children"
+    ],
+    "classification_model": [
+      "get_labels"
+    ],
+    "cut_model": [
+      "m.children"
+    ],
+    "det_dihedral": [
+      "dihedral"
+    ],
+    "det_lighting": [
+      "lighting"
+    ],
+    "det_rotate": [
+      "rotate_cv"
+    ],
+    "det_stretch": [
+      "stretch_cv"
+    ],
+    "det_zoom": [
+      "zoom_cv"
+    ],
+    "dn121": [
+      "_fastai_model",
+      "children"
+    ],
+    "dn161": [
+      "_fastai_model",
+      "children"
+    ],
+    "dn169": [
+      "_fastai_model",
+      "children"
+    ],
+    "dn201": [
+      "_fastai_model",
+      "children"
+    ],
+    "do_transform": [
+      "center_crop",
+      "crop",
+      "cutout",
+      "googlenet_resize",
+      "lighting",
+      "no_crop",
+      "rotate_cv",
+      "scale_min",
+      "self.store.trans.do_transform",
+      "stretch_cv",
+      "zoom_cv"
+    ],
+    "download_file": [
+      "s3_client.download_file"
+    ],
+    "forward": [
+      "self.forward_prepare"
+    ],
+    "get_fc_layers": [
+      "self.create_fc_layer"
+    ],
+    "get_layer_groups": [
+      "children"
+    ],
+    "googlenet_resize": [
+      "center_crop",
+      "scale_min"
+    ],
+    "handler": [
+      "build_pred",
+      "open_image_url",
+      "parse_params",
+      "predict"
+    ],
+    "load_pre": [
+      "load_model"
+    ],
+    "map_y": [
+      "CoordTransform.make_square",
+      "self.do_transform",
+      "to_bb"
+    ],
+    "num_features": [
+      "children"
+    ],
+    "resnext101": [
+      "_fastai_model",
+      "load_pre"
+    ],
+    "resnext101_64": [
+      "_fastai_model",
+      "load_pre"
+    ],
+    "resnext50": [
+      "_fastai_model",
+      "load_pre"
+    ],
+    "scale_min": [
+      "scale_to"
+    ],
+    "set_state": [
+      "rand0",
+      "self.store.trans.set_state"
+    ],
+    "tfms_from_model": [
+      "tfms_from_stats"
+    ],
+    "tfms_from_stats": [
+      "image_gen"
+    ],
+    "transform": [
+      "self.do_transform"
+    ],
+    "transform_coord": [
+      "self.do_transform",
+      "self.map_y",
+      "self.transform"
+    ],
+    "vgg16": [
+      "_fastai_model",
+      "children"
+    ],
+    "vgg19": [
+      "_fastai_model",
+      "children"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/conv_builder.py",
+      "language": "python",
+      "line": 31
+    },
+    {
+      "name": "name",
+      "file": "dataset/apps/pytorch-serverless/fastai/conv_builder.py",
+      "language": "python",
+      "line": 60
+    },
+    {
+      "name": "create_fc_layer",
+      "file": "dataset/apps/pytorch-serverless/fastai/conv_builder.py",
+      "language": "python",
+      "line": 63
+    },
+    {
+      "name": "get_fc_layers",
+      "file": "dataset/apps/pytorch-serverless/fastai/conv_builder.py",
+      "language": "python",
+      "line": 70
+    },
+    {
+      "name": "get_layer_groups",
+      "file": "dataset/apps/pytorch-serverless/fastai/conv_builder.py",
+      "language": "python",
+      "line": 81
+    },
+    {
+      "name": "cut_model",
+      "file": "dataset/apps/pytorch-serverless/fastai/model.py",
+      "language": "python",
+      "line": 4
+    },
+    {
+      "name": "num_features",
+      "file": "dataset/apps/pytorch-serverless/fastai/model.py",
+      "language": "python",
+      "line": 8
+    },
+    {
+      "name": "scale_min",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 7
+    },
+    {
+      "name": "zoom_cv",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 20
+    },
+    {
+      "name": "stretch_cv",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 29
+    },
+    {
+      "name": "dihedral",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 41
+    },
+    {
+      "name": "lighting",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 47
+    },
+    {
+      "name": "rotate_cv",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 54
+    },
+    {
+      "name": "no_crop",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 65
+    },
+    {
+      "name": "center_crop",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 72
+    },
+    {
+      "name": "googlenet_resize",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 81
+    },
+    {
+      "name": "cutout",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 109
+    },
+    {
+      "name": "scale_to",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 128
+    },
+    {
+      "name": "crop",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 133
+    },
+    {
+      "name": "det_dihedral",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 140
+    },
+    {
+      "name": "det_stretch",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 143
+    },
+    {
+      "name": "det_lighting",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 146
+    },
+    {
+      "name": "det_rotate",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 149
+    },
+    {
+      "name": "det_zoom",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 152
+    },
+    {
+      "name": "rand0",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 155
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 178
+    },
+    {
+      "name": "__call__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 182
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 188
+    },
+    {
+      "name": "__call__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 193
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 205
+    },
+    {
+      "name": "__call__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 208
+    },
+    {
+      "name": "to_bb",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 218
+    },
+    {
+      "name": "coords2px",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 229
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 262
+    },
+    {
+      "name": "set_state",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 266
+    },
+    {
+      "name": "__call__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 268
+    },
+    {
+      "name": "transform_coord",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 275
+    },
+    {
+      "name": "transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 277
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 282
+    },
+    {
+      "name": "make_square",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 289
+    },
+    {
+      "name": "map_y",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 296
+    },
+    {
+      "name": "transform_coord",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 301
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 320
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 324
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 340
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 344
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 360
+    },
+    {
+      "name": "set_state",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 364
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 368
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 386
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 390
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 407
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 411
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 433
+    },
+    {
+      "name": "set_state",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 437
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 446
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 465
+    },
+    {
+      "name": "set_state",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 473
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 477
+    },
+    {
+      "name": "set_state",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 490
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 494
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 500
+    },
+    {
+      "name": "set_state",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 504
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 506
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 510
+    },
+    {
+      "name": "set_state",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 514
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 518
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 537
+    },
+    {
+      "name": "set_state",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 547
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 556
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 561
+    },
+    {
+      "name": "set_state",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 565
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 568
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 573
+    },
+    {
+      "name": "set_state",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 577
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 581
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 590
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 600
+    },
+    {
+      "name": "set_state",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 609
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 614
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 619
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 623
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 645
+    },
+    {
+      "name": "set_state",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 652
+    },
+    {
+      "name": "do_transform",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 656
+    },
+    {
+      "name": "compose",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 666
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 689
+    },
+    {
+      "name": "__call__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 699
+    },
+    {
+      "name": "__repr__",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 702
+    },
+    {
+      "name": "image_gen",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 706
+    },
+    {
+      "name": "noop",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 760
+    },
+    {
+      "name": "tfms_from_stats",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 776
+    },
+    {
+      "name": "tfms_from_model",
+      "file": "dataset/apps/pytorch-serverless/fastai/transforms.py",
+      "language": "python",
+      "line": 791
+    },
+    {
+      "name": "children",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 20
+    },
+    {
+      "name": "save_model",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 23
+    },
+    {
+      "name": "load_model",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 26
+    },
+    {
+      "name": "load_pre",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 29
+    },
+    {
+      "name": "_fastai_model",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 36
+    },
+    {
+      "name": "add_docs_wrapper",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 37
+    },
+    {
+      "name": "resnext50",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 51
+    },
+    {
+      "name": "resnext101",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 56
+    },
+    {
+      "name": "resnext101_64",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 61
+    },
+    {
+      "name": "dn121",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 66
+    },
+    {
+      "name": "dn161",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 71
+    },
+    {
+      "name": "dn169",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 76
+    },
+    {
+      "name": "dn201",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 81
+    },
+    {
+      "name": "vgg16",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 86
+    },
+    {
+      "name": "vgg19",
+      "file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py",
+      "language": "python",
+      "line": 91
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/layers.py",
+      "language": "python",
+      "line": 6
+    },
+    {
+      "name": "forward",
+      "file": "dataset/apps/pytorch-serverless/fastai/layers.py",
+      "language": "python",
+      "line": 12
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/layers.py",
+      "language": "python",
+      "line": 16
+    },
+    {
+      "name": "forward",
+      "file": "dataset/apps/pytorch-serverless/fastai/layers.py",
+      "language": "python",
+      "line": 18
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/layers.py",
+      "language": "python",
+      "line": 22
+    },
+    {
+      "name": "forward",
+      "file": "dataset/apps/pytorch-serverless/fastai/layers.py",
+      "language": "python",
+      "line": 24
+    },
+    {
+      "name": "cond_init",
+      "file": "dataset/apps/pytorch-serverless/fastai/initializers.py",
+      "language": "python",
+      "line": 4
+    },
+    {
+      "name": "apply_init",
+      "file": "dataset/apps/pytorch-serverless/fastai/initializers.py",
+      "language": "python",
+      "line": 10
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_32x4d.py",
+      "language": "python",
+      "line": 6
+    },
+    {
+      "name": "forward_prepare",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_32x4d.py",
+      "language": "python",
+      "line": 10
+    },
+    {
+      "name": "forward",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_32x4d.py",
+      "language": "python",
+      "line": 17
+    },
+    {
+      "name": "forward",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_32x4d.py",
+      "language": "python",
+      "line": 21
+    },
+    {
+      "name": "forward",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_32x4d.py",
+      "language": "python",
+      "line": 25
+    },
+    {
+      "name": "resnext_101_32x4d",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_32x4d.py",
+      "language": "python",
+      "line": 29
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_64x4d.py",
+      "language": "python",
+      "line": 6
+    },
+    {
+      "name": "forward_prepare",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_64x4d.py",
+      "language": "python",
+      "line": 10
+    },
+    {
+      "name": "forward",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_64x4d.py",
+      "language": "python",
+      "line": 17
+    },
+    {
+      "name": "forward",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_64x4d.py",
+      "language": "python",
+      "line": 21
+    },
+    {
+      "name": "forward",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_64x4d.py",
+      "language": "python",
+      "line": 25
+    },
+    {
+      "name": "resnext_101_64x4d",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_64x4d.py",
+      "language": "python",
+      "line": 29
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_50_32x4d.py",
+      "language": "python",
+      "line": 5
+    },
+    {
+      "name": "forward_prepare",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_50_32x4d.py",
+      "language": "python",
+      "line": 9
+    },
+    {
+      "name": "forward",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_50_32x4d.py",
+      "language": "python",
+      "line": 16
+    },
+    {
+      "name": "forward",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_50_32x4d.py",
+      "language": "python",
+      "line": 20
+    },
+    {
+      "name": "forward",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_50_32x4d.py",
+      "language": "python",
+      "line": 24
+    },
+    {
+      "name": "resnext_50_32x4d",
+      "file": "dataset/apps/pytorch-serverless/fastai/models/resnext_50_32x4d.py",
+      "language": "python",
+      "line": 28
+    },
+    {
+      "name": "__init__",
+      "file": "dataset/apps/pytorch-serverless/api/predict.py",
+      "language": "python",
+      "line": 28
+    },
+    {
+      "name": "__call__",
+      "file": "dataset/apps/pytorch-serverless/api/predict.py",
+      "language": "python",
+      "line": 36
+    },
+    {
+      "name": "build_pred",
+      "file": "dataset/apps/pytorch-serverless/api/predict.py",
+      "language": "python",
+      "line": 40
+    },
+    {
+      "name": "parse_params",
+      "file": "dataset/apps/pytorch-serverless/api/predict.py",
+      "language": "python",
+      "line": 45
+    },
+    {
+      "name": "predict",
+      "file": "dataset/apps/pytorch-serverless/api/predict.py",
+      "language": "python",
+      "line": 53
+    },
+    {
+      "name": "handler",
+      "file": "dataset/apps/pytorch-serverless/api/predict.py",
+      "language": "python",
+      "line": 60
+    },
+    {
+      "name": "classification_model",
+      "file": "dataset/apps/pytorch-serverless/lib/models.py",
+      "language": "python",
+      "line": 5
+    },
+    {
+      "name": "download_file",
+      "file": "dataset/apps/pytorch-serverless/lib/utils.py",
+      "language": "python",
+      "line": 11
+    },
+    {
+      "name": "get_labels",
+      "file": "dataset/apps/pytorch-serverless/lib/utils.py",
+      "language": "python",
+      "line": 20
+    },
+    {
+      "name": "open_image_url",
+      "file": "dataset/apps/pytorch-serverless/lib/utils.py",
+      "language": "python",
+      "line": 31
+    },
+    {
+      "name": "open_image",
+      "file": "dataset/apps/pytorch-serverless/lib/utils.py",
+      "language": "python",
+      "line": 48
+    }
+  ],
+  "edges": [
+    {
+      "caller": "__init__",
+      "callee": "cut_model",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/conv_builder.py"
+    },
+    {
+      "caller": "__init__",
+      "callee": "num_features",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/conv_builder.py"
+    },
+    {
+      "caller": "__init__",
+      "callee": "self.get_fc_layers",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/conv_builder.py"
+    },
+    {
+      "caller": "__init__",
+      "callee": "apply_init",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/conv_builder.py"
+    },
+    {
+      "caller": "get_fc_layers",
+      "callee": "self.create_fc_layer",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/conv_builder.py"
+    },
+    {
+      "caller": "get_fc_layers",
+      "callee": "self.create_fc_layer",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/conv_builder.py"
+    },
+    {
+      "caller": "get_layer_groups",
+      "callee": "children",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/conv_builder.py"
+    },
+    {
+      "caller": "get_layer_groups",
+      "callee": "children",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/conv_builder.py"
+    },
+    {
+      "caller": "cut_model",
+      "callee": "m.children",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/model.py"
+    },
+    {
+      "caller": "num_features",
+      "callee": "children",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/model.py"
+    },
+    {
+      "caller": "scale_min",
+      "callee": "scale_to",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "scale_min",
+      "callee": "scale_to",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "center_crop",
+      "callee": "crop",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "googlenet_resize",
+      "callee": "scale_min",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "googlenet_resize",
+      "callee": "center_crop",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "det_dihedral",
+      "callee": "dihedral",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "det_stretch",
+      "callee": "stretch_cv",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "det_lighting",
+      "callee": "lighting",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "det_rotate",
+      "callee": "rotate_cv",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "det_zoom",
+      "callee": "zoom_cv",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "__call__",
+      "callee": "self.set_state",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "__call__",
+      "callee": "self.transform",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "__call__",
+      "callee": "self.transform",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "__call__",
+      "callee": "self.transform_coord",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "transform_coord",
+      "callee": "self.transform",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "transform",
+      "callee": "self.do_transform",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "transform",
+      "callee": "self.do_transform",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "map_y",
+      "callee": "CoordTransform.make_square",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "map_y",
+      "callee": "self.do_transform",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "map_y",
+      "callee": "to_bb",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "transform_coord",
+      "callee": "self.map_y",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "transform_coord",
+      "callee": "self.do_transform",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "center_crop",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "crop",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "no_crop",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "no_crop",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "scale_min",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "scale_min",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "scale_min",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "scale_min",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "set_state",
+      "callee": "rand0",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "rotate_cv",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "set_state",
+      "callee": "rand0",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "set_state",
+      "callee": "rand0",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "lighting",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "set_state",
+      "callee": "self.store.trans.set_state",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "self.store.trans.do_transform",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "zoom_cv",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "stretch_cv",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "stretch_cv",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "cutout",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "do_transform",
+      "callee": "googlenet_resize",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "__call__",
+      "callee": "compose",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "tfms_from_stats",
+      "callee": "image_gen",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "tfms_from_stats",
+      "callee": "image_gen",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "tfms_from_model",
+      "callee": "tfms_from_stats",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/transforms.py"
+    },
+    {
+      "caller": "children",
+      "callee": "m.children",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "load_pre",
+      "callee": "load_model",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "resnext50",
+      "callee": "load_pre",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "resnext50",
+      "callee": "_fastai_model",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "resnext101",
+      "callee": "load_pre",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "resnext101",
+      "callee": "_fastai_model",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "resnext101_64",
+      "callee": "load_pre",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "resnext101_64",
+      "callee": "_fastai_model",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "dn121",
+      "callee": "children",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "dn121",
+      "callee": "_fastai_model",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "dn161",
+      "callee": "children",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "dn161",
+      "callee": "_fastai_model",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "dn169",
+      "callee": "children",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "dn169",
+      "callee": "_fastai_model",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "dn201",
+      "callee": "children",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "dn201",
+      "callee": "_fastai_model",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "vgg16",
+      "callee": "children",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "vgg16",
+      "callee": "_fastai_model",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "vgg19",
+      "callee": "children",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "vgg19",
+      "callee": "_fastai_model",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/torch_imports.py"
+    },
+    {
+      "caller": "apply_init",
+      "callee": "cond_init",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/initializers.py"
+    },
+    {
+      "caller": "forward",
+      "callee": "self.forward_prepare",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_32x4d.py"
+    },
+    {
+      "caller": "forward",
+      "callee": "self.forward_prepare",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_32x4d.py"
+    },
+    {
+      "caller": "forward",
+      "callee": "self.forward_prepare",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_32x4d.py"
+    },
+    {
+      "caller": "forward",
+      "callee": "self.forward_prepare",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_64x4d.py"
+    },
+    {
+      "caller": "forward",
+      "callee": "self.forward_prepare",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_64x4d.py"
+    },
+    {
+      "caller": "forward",
+      "callee": "self.forward_prepare",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/models/resnext_101_64x4d.py"
+    },
+    {
+      "caller": "forward",
+      "callee": "self.forward_prepare",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/models/resnext_50_32x4d.py"
+    },
+    {
+      "caller": "forward",
+      "callee": "self.forward_prepare",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/models/resnext_50_32x4d.py"
+    },
+    {
+      "caller": "forward",
+      "callee": "self.forward_prepare",
+      "caller_file": "dataset/apps/pytorch-serverless/fastai/models/resnext_50_32x4d.py"
+    },
+    {
+      "caller": "__init__",
+      "callee": "download_file",
+      "caller_file": "dataset/apps/pytorch-serverless/api/predict.py"
+    },
+    {
+      "caller": "handler",
+      "callee": "parse_params",
+      "caller_file": "dataset/apps/pytorch-serverless/api/predict.py"
+    },
+    {
+      "caller": "handler",
+      "callee": "predict",
+      "caller_file": "dataset/apps/pytorch-serverless/api/predict.py"
+    },
+    {
+      "caller": "handler",
+      "callee": "open_image_url",
+      "caller_file": "dataset/apps/pytorch-serverless/api/predict.py"
+    },
+    {
+      "caller": "handler",
+      "callee": "build_pred",
+      "caller_file": "dataset/apps/pytorch-serverless/api/predict.py"
+    },
+    {
+      "caller": "classification_model",
+      "callee": "get_labels",
+      "caller_file": "dataset/apps/pytorch-serverless/lib/models.py"
+    },
+    {
+      "caller": "download_file",
+      "callee": "s3_client.download_file",
+      "caller_file": "dataset/apps/pytorch-serverless/lib/utils.py"
+    }
+  ]
+}

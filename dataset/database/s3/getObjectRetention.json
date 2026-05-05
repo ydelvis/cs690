@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetObjectRetentionRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=key1/listBuckets.json, VersionId=XWzt4yjCIHYPlu4e3dV_.kp2kecJ3_JC)", 
+        "apiName": "s3.getObjectRetention"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetObjectRetentionRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=key1/listBuckets.json, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.getObjectRetention"
+    }
+]

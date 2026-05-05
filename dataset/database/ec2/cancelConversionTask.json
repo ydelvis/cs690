@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CancelConversionTask"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "CancelConversionTaskRequest(ConversionTaskId=import-vol-00e2fc9d75ea75445)", 
+        "apiName": "ec2.cancelConversionTask"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CancelConversionTask"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "CancelConversionTaskRequest(ConversionTaskId=import-vol-0072f293849555e0f, ReasonMessage=cancelling test conversion task)", 
+        "apiName": "ec2.cancelConversionTask"
+    }
+]

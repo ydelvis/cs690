@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetTransitGatewayMulticastDomainAssociations"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=state, Values=[available])], MaxResults=100)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociations"
+    }
+]

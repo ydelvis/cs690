@@ -1,0 +1,29 @@
+service: monitoring-cicd
+plugins:
+  - serverless-plugin-cicd
+
+custom:
+  defaultStage: staging
+  currentStage: ${opt:stage, self:custom.defaultStage}
+  github: ${file(./scripts/githubConfig.js)}
+  regions: ${file(./package.json):regions}
+
+  cicd:
+    image: 'aws/codebuild/standard:2.0'
+    owner: ${self:custom.github.owner}
+    repository: ${self:custom.github.repo}
+    emailNotifications: ['{{resolve:ssm:admin-email:1}}']
+
+    staging:
+      # build on pull requests where main is the base branch
+      buildOnPullRequest: main
+      # build on push events to main
+      buildOnPush: main
+    prod:
+      # build on tags starting with 'v'
+      buildOnTag: 'v.*'
+
+provider:
+  name: aws
+  stage: ${self:custom.currentStage}
+  region: ${self:custom.regions.${self:custom.currentStage}}

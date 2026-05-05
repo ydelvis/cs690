@@ -1,0 +1,90 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceCreditSpecificationsRequest(Filters=[Filter(Name=state, Values=[deleted])], InstanceIds=[i-01d514444253d9b80, i-01ec73f52711d20f7])", 
+        "apiName": "ec2.describeInstanceCreditSpecificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceCreditSpecificationsRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])])", 
+        "apiName": "ec2.describeInstanceCreditSpecificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceCreditSpecificationsRequest(InstanceIds=[i-0fc67210075ad498a])", 
+        "apiName": "ec2.describeInstanceCreditSpecificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceCreditSpecificationsRequest(Filters=[Filter(Name=state, Values=[available])], InstanceIds=[rtb-045e031193bb8523c], MaxResults=1)", 
+        "apiName": "ec2.describeInstanceCreditSpecificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceCreditSpecificationsRequest(Filters=[Filter(Name=default-association-route-table, Values=[true])], InstanceIds=[tgw-02b1446b336da5112])", 
+        "apiName": "ec2.describeInstanceCreditSpecificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceCreditSpecificationsRequest(InstanceIds=[i-0fc67210075ad498a], MaxResults=100)", 
+        "apiName": "ec2.describeInstanceCreditSpecificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceCreditSpecificationsRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], InstanceIds=[i-0fc67210075ad498a], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeInstanceCreditSpecificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceCreditSpecificationsRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=1)", 
+        "apiName": "ec2.describeInstanceCreditSpecificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceCreditSpecificationsRequest(Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[disable])], InstanceIds=[tgw-attach-0e68cd6b557341f65], MaxResults=1)", 
+        "apiName": "ec2.describeInstanceCreditSpecificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceCreditSpecificationsRequest(InstanceIds=[i-0fc67210075ad498a], MaxResults=1)", 
+        "apiName": "ec2.describeInstanceCreditSpecificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceCreditSpecificationsRequest(Filters=[], InstanceIds=[i-0fc67210075ad498a], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeInstanceCreditSpecificationsPaginator"
+    }
+]

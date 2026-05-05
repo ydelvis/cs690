@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateManagedPrefixList"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:prefix-list/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateManagedPrefixListRequest(PrefixListName=test-managed-prefix-list, Entries=[AddPrefixListEntry(Cidr=173.0.0.0/16, Description=Test Managed Prefix List)], MaxEntries=1, AddressFamily=IPv4)", 
+        "apiName": "ec2.createManagedPrefixList"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateManagedPrefixList"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:prefix-list/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateManagedPrefixListRequest(PrefixListName=test-managed-prefix-list, Entries=[AddPrefixListEntry(Cidr=173.0.0.0/16, Description=Test Managed Prefix List)], MaxEntries=100, AddressFamily=IPv4)", 
+        "apiName": "ec2.createManagedPrefixList"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateManagedPrefixList"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:prefix-list/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateManagedPrefixListRequest(PrefixListName=test-managed-prefix-list, Entries=[AddPrefixListEntry(Cidr=173.0.0.0/16, Description=Test Managed Prefix List)], MaxEntries=1, AddressFamily=IPv4)", 
+        "apiName": "ec2.createManagedPrefixList"
+    }
+]

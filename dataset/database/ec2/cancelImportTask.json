@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CancelImportTask"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:import-snapshot-task/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CancelImportTaskRequest(ImportTaskId=import-snap-0d5c3a49910434c32)", 
+        "apiName": "ec2.cancelImportTask"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CancelImportTask"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:import-image-task/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "CancelImportTaskRequest(CancelReason=cancelling a test import task, ImportTaskId=import-ami-01232d09576081e8d)", 
+        "apiName": "ec2.cancelImportTask"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CancelImportTask"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:import-snapshot-task/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CancelImportTaskRequest(CancelReason=cancelling a test import task, ImportTaskId=import-snap-0b40431502a835660)", 
+        "apiName": "ec2.cancelImportTask"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CancelImportTask"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:import-image-task/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "CancelImportTaskRequest(ImportTaskId=import-ami-08615712f6b436a43)", 
+        "apiName": "ec2.cancelImportTask"
+    }
+]

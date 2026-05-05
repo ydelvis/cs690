@@ -1,0 +1,52 @@
+{
+  "create": {
+    "initial_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "llm_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "reasoning": "The source code initializes AWS.DynamoDB.DocumentClient and invokes the put() method, which maps to the dynamodb:PutItem API action. No other AWS SDK clients or API calls are instantiated or executed in the provided code.",
+    "raw_response": "{\"permissions\": [\"dynamodb:PutItem\"], \"reasoning\": \"The source code initializes AWS.DynamoDB.DocumentClient and invokes the put() method, which maps to the dynamodb:PutItem API action. No other AWS SDK clients or API calls are instantiated or executed in the provided code.\"}"
+  },
+  "list": {
+    "initial_permissions": [
+      "dynamodb:Scan"
+    ],
+    "llm_permissions": [
+      "dynamodb:Scan"
+    ],
+    "reasoning": "The source code explicitly invokes dynamodb.scan() via the AWS.DynamoDB.DocumentClient wrapper in list.js. No other AWS API calls or SDK services are instantiated or invoked.",
+    "raw_response": "{\"permissions\": [\"dynamodb:Scan\"], \"reasoning\": \"The source code explicitly invokes dynamodb.scan() via the AWS.DynamoDB.DocumentClient wrapper in list.js. No other AWS API calls or SDK services are instantiated or invoked.\"}"
+  },
+  "get": {
+    "initial_permissions": [
+      "dynamodb:GetItem"
+    ],
+    "llm_permissions": [
+      "dynamodb:GetItem"
+    ],
+    "reasoning": "The function exclusively uses AWS.DynamoDB.DocumentClient.get(), which maps directly to the dynamodb:GetItem API action. No other AWS SDK methods or external service integrations are explicitly invoked in the code.",
+    "raw_response": "{\"permissions\": [\"dynamodb:GetItem\"], \"reasoning\": \"The function exclusively uses AWS.DynamoDB.DocumentClient.get(), which maps directly to the dynamodb:GetItem API action. No other AWS SDK methods or external service integrations are explicitly invoked in the code.\"}"
+  },
+  "update": {
+    "initial_permissions": [
+      "dynamodb:UpdateItem"
+    ],
+    "llm_permissions": [
+      "dynamodb:UpdateItem"
+    ],
+    "reasoning": "The function explicitly invokes dynamodb.update() via the AWS.DynamoDB.DocumentClient wrapper, which translates to the UpdateItem API action. No other AWS SDK methods (e.g., CloudWatch, SSM, SecretsManager) are instantiated or called in the source code. Environment variables are accessed locally without external API calls.",
+    "raw_response": "{\n  \"permissions\": [\n    \"dynamodb:UpdateItem\"\n  ],\n  \"reasoning\": \"The function explicitly invokes dynamodb.update() via the AWS.DynamoDB.DocumentClient wrapper, which translates to the UpdateItem API action. No other AWS SDK methods (e.g., CloudWatch, SSM, SecretsManager) are instantiated or called in the source code. Environment variables are accessed locally without external API calls.\"\n}"
+  },
+  "delete": {
+    "initial_permissions": [
+      "dynamodb:DeleteItem"
+    ],
+    "llm_permissions": [
+      "dynamodb:DeleteItem"
+    ],
+    "reasoning": "The code explicitly invokes dynamodb.delete() via the DocumentClient wrapper, which maps to the DynamoDB DeleteItem API action. No other AWS SDK services or actions are instantiated or called in the provided source files.",
+    "raw_response": "{\n  \"permissions\": [\"dynamodb:DeleteItem\"],\n  \"reasoning\": \"The code explicitly invokes dynamodb.delete() via the DocumentClient wrapper, which maps to the DynamoDB DeleteItem API action. No other AWS SDK services or actions are instantiated or called in the provided source files.\"\n}"
+  }
+}

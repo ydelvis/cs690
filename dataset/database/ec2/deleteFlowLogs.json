@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteFlowLogs"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-flow-log/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteFlowLogsRequest(FlowLogIds=[fl-0e692b1f98a81111d])", 
+        "apiName": "ec2.deleteFlowLogs"
+    }
+]

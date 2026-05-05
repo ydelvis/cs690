@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetHostReservationPurchasePreview"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "GetHostReservationPurchasePreviewRequest(HostIdSet=[h-045c4b73aba2ccd6a], OfferingId=hro-05892bedfb42bcf9c)", 
+        "apiName": "ec2.getHostReservationPurchasePreview"
+    }
+]

@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "name": "cicd",
+  "version": "0.0.1",
+  "description": "CICD setup",
+  "main": "index.js",
+  "author": "Erez Rokah",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.817.0",
+    "axios": "^0.30.0",
+    "colors": "^1.4.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-jest": "^27.0.0",
+    "fs-extra": "^10.0.0",
+    "jest": "^26.6.3",
+    "js-yaml": "^4.0.0",
+    "serverless-plugin-cicd": "file:./serverless-plugin-cicd",
+    "yargs": "^17.0.0"
+  },
+  "scripts": {
+    "setup": "serverless deploy",
+    "remove": "serverless remove",
+    "setup:circleci": "node scripts/circleci.js setup --stagingRegion $npm_package_regions_staging --prodRegion $npm_package_regions_prod",
+    "remove:circleci": "node scripts/circleci.js remove",
+    "trigger:circleci": "node scripts/circleci.js trigger",
+    "connectToGitHubStaging": "aws codebuild import-source-credentials --server-type GITHUB --auth-type PERSONAL_ACCESS_TOKEN --region $npm_package_regions_staging",
+    "storeAdminEmailStaging": "aws ssm put-parameter --name admin-email --type String --region $npm_package_regions_staging",
+    "connectToGitHubProd": "aws codebuild import-source-credentials --server-type GITHUB --auth-type PERSONAL_ACCESS_TOKEN --region $npm_package_regions_prod",
+    "storeAdminEmailProd": "aws ssm put-parameter --name admin-email --type String --region $npm_package_regions_prod",
+    "lint": "eslint scripts/**/*.js serverless-plugin-cicd/**/*.js",
+    "test": "jest --verbose",
+    "test:watch": "jest --watch",
+    "test:ci": "JEST_JUNIT_OUTPUT_DIR=../../reports/junit JEST_JUNIT_OUTPUT_NAME=${npm_package_name}-test-results.xml yarn test --runInBand --ci",
+    "coverage": "yarn test --coverage",
+    "prettier": "prettier --write 'scripts/**/*.js' 'serverless-plugin-cicd/*.js' 'jest.config.js'",
+    "prettier:ci": "prettier --list-different 'scripts/**/*.js' 'serverless-plugin-cicd/*.js' 'jest.config.js'",
+    "print:name": "echo ${npm_package_name}"
+  },
+  "regions": {
+    "staging": "eu-west-1",
+    "prod": "eu-central-1"
+  }
+}

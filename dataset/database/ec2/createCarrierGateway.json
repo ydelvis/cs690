@@ -1,0 +1,42 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateCarrierGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:carrier-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateCarrierGatewayRequest(VpcId=vpc-088f61503142622ed)", 
+        "apiName": "ec2.createCarrierGateway"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateCarrierGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:carrier-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateCarrierGatewayRequest(VpcId=vpc-088f61503142622ed)", 
+        "apiName": "ec2.createCarrierGateway"
+    }
+]

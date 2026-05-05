@@ -1,0 +1,10 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewaysRequest(MaxResults=0)", 
+        "apiName": "ec2.describeTransitGatewaysPaginator"
+    }
+]

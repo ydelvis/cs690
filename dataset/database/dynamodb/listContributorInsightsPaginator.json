@@ -1,0 +1,562 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, NextToken=, MaxResults=-100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, MaxResults=1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, NextToken=, MaxResults=-100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, NextToken=)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, MaxResults=0)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, MaxResults=1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, NextToken=, MaxResults=100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(MaxResults=0)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, MaxResults=100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, NextToken=, MaxResults=1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, MaxResults=100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, NextToken=, MaxResults=-100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, MaxResults=-1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, MaxResults=-1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, NextToken=)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest()", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, MaxResults=-100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, MaxResults=0)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, MaxResults=100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, NextToken=, MaxResults=-1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(MaxResults=1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(NextToken=, MaxResults=0)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, NextToken=, MaxResults=100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(MaxResults=-1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, NextToken=)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest()", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, MaxResults=100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(NextToken=, MaxResults=0)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(NextToken=)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(NextToken=)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, NextToken=, MaxResults=1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(NextToken=, MaxResults=-1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, MaxResults=-100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(MaxResults=100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, MaxResults=1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, NextToken=, MaxResults=-100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(NextToken=, MaxResults=100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(NextToken=, MaxResults=-1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, MaxResults=0)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(NextToken=, MaxResults=-100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(NextToken=, MaxResults=1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(MaxResults=1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, NextToken=, MaxResults=-1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(MaxResults=-1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, NextToken=)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(MaxResults=100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, MaxResults=1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, MaxResults=-1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, NextToken=, MaxResults=0)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, MaxResults=-100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(NextToken=, MaxResults=1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, NextToken=, MaxResults=100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, NextToken=, MaxResults=100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, NextToken=, MaxResults=0)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, NextToken=, MaxResults=-1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, MaxResults=0)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(NextToken=, MaxResults=100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, MaxResults=-100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=test-table-5461, MaxResults=-1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, NextToken=, MaxResults=0)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, NextToken=, MaxResults=1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(MaxResults=-100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(MaxResults=-100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(MaxResults=0)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(TableName=, NextToken=, MaxResults=-1)", 
+        "apiName": "listContributorInsightsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListContributorInsightsRequest(NextToken=, MaxResults=-100)", 
+        "apiName": "listContributorInsightsPaginator"
+    }
+]

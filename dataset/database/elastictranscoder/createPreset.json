@@ -1,0 +1,15 @@
+{
+    "apiName": "createPreset",
+    "policy": {
+        "Version": "2012-10-17",
+        "Statement": [{
+            "Action": [
+                "elastictranscoder:CreatePreset"
+            ],
+            "Sid": "statement1",
+            "Effect": "Allow",
+            "Resource": "*"
+        }]
+    },
+    "request": ""
+}

@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketAclRequest(Bucket=test-bucket-5461, GrantFullControl=emailaddress=captainalligator1@gmail.com, GrantRead=emailaddress=captainalligator1@gmail.com, GrantReadACP=emailaddress=captainalligator1@gmail.com)", 
+        "apiName": "s3.putBucketAcl"
+    }
+]

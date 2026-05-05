@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifySpotFleetRequest"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:launch-template/*", 
+                        "arn:aws:ec2:*:002677082836:spot-fleet-request/sfr-bba415bb-60f9-45f8-9fa7-6601527ac4cb"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifySpotFleetRequestResponse(ReturnValue=true)", 
+        "apiName": "ec2.modifySpotFleetRequest"
+    }
+]

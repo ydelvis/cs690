@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "GetObjectAclRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, RequestPayer=, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.getObjectAcl"
+    }
+]

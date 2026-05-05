@@ -1,0 +1,34 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "BatchGetItemRequest(RequestItems={test-table-5461=KeysAndAttributes(Keys=[{Id=AttributeValue(S=1)}], AttributesToGet=[Id])}, ReturnConsumedCapacity=TOTAL)", 
+        "apiName": "batchGetItemPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "BatchGetItemRequest(RequestItems={test-table-5461=KeysAndAttributes(Keys=[{Id=AttributeValue(S=1)}], AttributesToGet=[Id])})", 
+        "apiName": "batchGetItemPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "BatchGetItemRequest(RequestItems={test-table-5461=KeysAndAttributes(Keys=[{Id=AttributeValue(S=1)}], AttributesToGet=[Id])}, ReturnConsumedCapacity=INDEXES)", 
+        "apiName": "batchGetItemPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "BatchGetItemRequest(RequestItems={test-table-5461=KeysAndAttributes(Keys=[{Id=AttributeValue(S=1)}], AttributesToGet=[Id])}, ReturnConsumedCapacity=NONE)", 
+        "apiName": "batchGetItemPaginator"
+    }
+]

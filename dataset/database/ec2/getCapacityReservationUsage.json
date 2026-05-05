@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetCapacityReservationUsage"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/cr-022fbf9192ea245f3"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "GetCapacityReservationUsageRequest(CapacityReservationId=cr-022fbf9192ea245f3)", 
+        "apiName": "ec2.getCapacityReservationUsage"
+    }
+]

@@ -1,0 +1,42 @@
+{
+  "write": {
+    "handler_file": "write/main.go",
+    "handler_func": "s3WriteHandler",
+    "language": "go",
+    "aws_calls": [
+      {
+        "service": "s3",
+        "method": "upload",
+        "params_present": [
+          "Body",
+          "Bucket",
+          "Key"
+        ],
+        "resolved_params": {},
+        "line": 37,
+        "caller_func": "s3WriteHandler",
+        "file": "write/main.go"
+      }
+    ]
+  },
+  "write_v2": {
+    "handler_file": "write_v2/main.go",
+    "handler_func": "s3WriteHandler",
+    "language": "go",
+    "aws_calls": [
+      {
+        "service": "s3",
+        "method": "putObject",
+        "params_present": [
+          "Body",
+          "Bucket",
+          "Key"
+        ],
+        "resolved_params": {},
+        "line": 53,
+        "caller_func": "s3WriteHandler",
+        "file": "write_v2/main.go"
+      }
+    ]
+  }
+}

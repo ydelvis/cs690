@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeScheduledInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeScheduledInstancesRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleting])], ScheduledInstanceIds=[tgw-attach-0e68cd6b557341f65], SlotStartTimeRange=SlotStartTimeRangeRequest(EarliestTime=2021-06-23T12:05:07.236Z, LatestTime=2021-06-23T12:05:07.236Z))", 
+        "apiName": "ec2.describeScheduledInstances"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeScheduledInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeScheduledInstancesRequest(Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS])], MaxResults=100, ScheduledInstanceIds=[eni-067f9d5e10cd5d578], SlotStartTimeRange=SlotStartTimeRangeRequest(EarliestTime=2021-06-23T12:23:22.294Z, LatestTime=2021-06-23T12:23:22.294Z))", 
+        "apiName": "ec2.describeScheduledInstances"
+    }
+]

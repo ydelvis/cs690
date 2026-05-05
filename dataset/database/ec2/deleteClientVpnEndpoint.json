@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteClientVpnEndpoint"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteClientVpnEndpointRequest(ClientVpnEndpointId=cvpn-endpoint-0f14d98bdd2aaa057)", 
+        "apiName": "ec2.deleteClientVpnEndpoint"
+    }
+]

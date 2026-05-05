@@ -1,0 +1,130 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateRestoreImageTask"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/ami-013ad70ab73da1ff2.bin"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "ebs:CompleteSnapshot"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "ebs:StartSnapshot"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }, 
+                {
+                    "Action": [
+                        "ebs:PutSnapshotBlock"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }
+            ]
+        }, 
+        "request": "CreateRestoreImageTaskRequest(Bucket=test-bucket-5461, ObjectKey=ami-013ad70ab73da1ff2.bin, Name=restored-ami)", 
+        "apiName": "ec2.createRestoreImageTask"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateRestoreImageTask"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/ami-013ad70ab73da1ff2.bin"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "ebs:CompleteSnapshot"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "ebs:StartSnapshot"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }, 
+                {
+                    "Action": [
+                        "ebs:PutSnapshotBlock"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }
+            ]
+        }, 
+        "request": "CreateRestoreImageTaskRequest(Bucket=test-bucket-5461, ObjectKey=ami-013ad70ab73da1ff2.bin, Name=restored-ami, TagSpecifications=[TagSpecification(ResourceType=image, Tags=[Tag(Key=image, Value=image-tag)])])", 
+        "apiName": "ec2.createRestoreImageTask"
+    }
+]

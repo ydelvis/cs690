@@ -1,0 +1,66 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnTargetNetworksRequest(MaxResults=1)", 
+        "apiName": "ec2.describeClientVpnTargetNetworksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnTargetNetworksRequest()", 
+        "apiName": "ec2.describeClientVpnTargetNetworksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnTargetNetworksRequest(MaxResults=100)", 
+        "apiName": "ec2.describeClientVpnTargetNetworksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnTargetNetworksRequest(ClientVpnEndpointId=cvpn-endpoint-09503c030cf84ef56, MaxResults=100)", 
+        "apiName": "ec2.describeClientVpnTargetNetworksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnTargetNetworksRequest(ClientVpnEndpointId=cvpn-endpoint-09503c030cf84ef56)", 
+        "apiName": "ec2.describeClientVpnTargetNetworksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnTargetNetworksRequest(ClientVpnEndpointId=cvpn-endpoint-09503c030cf84ef56, MaxResults=1)", 
+        "apiName": "ec2.describeClientVpnTargetNetworksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnTargetNetworksRequest(MaxResults=0)", 
+        "apiName": "ec2.describeClientVpnTargetNetworksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnTargetNetworksRequest(ClientVpnEndpointId=cvpn-endpoint-09503c030cf84ef56, MaxResults=0)", 
+        "apiName": "ec2.describeClientVpnTargetNetworksPaginator"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyTrafficMirrorSession"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-session/tms-02475a47bfc7d9a15", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-target/tmt-0da65c4c6cfd78dd5", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/tmf-090acc59bb68290b8"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyTrafficMirrorSessionRequest(TrafficMirrorSessionId=tms-02475a47bfc7d9a15, SessionNumber=2)", 
+        "apiName": "ec2.modifyTrafficMirrorSession"
+    }
+]

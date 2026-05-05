@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CopyImage"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CopyImageRequest(Encrypted=true, SourceImageId=ami-013ad70ab73da1ff2, SourceRegion=us-west-2)", 
+        "apiName": "ec2.copyImage"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CopyImage"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CopyImageRequest(Encrypted=false, Name=test image copy, SourceImageId=ami-013ad70ab73da1ff2, SourceRegion=us-west-2)", 
+        "apiName": "ec2.copyImage"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayRouteTable"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-route-table/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayRouteTableRequest(TransitGatewayId=tgw-05ea99e26ea5b116a)", 
+        "apiName": "ec2.createTransitGatewayRouteTable"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayRouteTable"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-route-table/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayRouteTableRequest(TransitGatewayId=tgw-05ea99e26ea5b116a, TagSpecifications=[TagSpecification(ResourceType=transit-gateway-route-table, Tags=[Tag(Key=transit-gateway-route-table, Value=transit-gateway-route-table-tag)])])", 
+        "apiName": "ec2.createTransitGatewayRouteTable"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayRouteTable"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-route-table/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayRouteTableRequest(TransitGatewayId=tgw-05ea99e26ea5b116a)", 
+        "apiName": "ec2.createTransitGatewayRouteTable"
+    }
+]

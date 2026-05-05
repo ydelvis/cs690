@@ -1,0 +1,381 @@
+{
+  "AllowlistCreate": {
+    "handler_file": "src/allowlist/create.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "baseline_permissions": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "full_static_permissions": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "call_details": [
+      {
+        "service": "dynamodb",
+        "method": "putItem",
+        "params_present": [
+          "Item",
+          "TableName"
+        ],
+        "caller_func": "lambda_handler",
+        "file": "src/allowlist/create.py",
+        "line": 97,
+        "baseline": [
+          "dynamodb:PutItem"
+        ],
+        "full_static": [
+          "dynamodb:PutItem"
+        ]
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "caller_func": "get_settings",
+        "file": "src/allowlist/create.py",
+        "line": 12,
+        "baseline": [
+          "dynamodb:Scan"
+        ],
+        "full_static": [
+          "dynamodb:Scan"
+        ]
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "caller_func": "get_settings",
+        "file": "src/allowlist/create.py",
+        "line": 14,
+        "baseline": [],
+        "full_static": []
+      }
+    ]
+  },
+  "AllowlistRead": {
+    "handler_file": "src/allowlist/read.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "baseline_permissions": [
+      "dynamodb:Scan"
+    ],
+    "full_static_permissions": [
+      "dynamodb:Scan"
+    ],
+    "call_details": [
+      {
+        "service": "dynamodb",
+        "method": "getPaginator",
+        "params_present": [],
+        "caller_func": "lambda_handler",
+        "file": "src/allowlist/read.py",
+        "line": 25,
+        "baseline": [],
+        "full_static": []
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "caller_func": "get_settings",
+        "file": "src/service/read.py",
+        "line": 21,
+        "baseline": [
+          "dynamodb:Scan"
+        ],
+        "full_static": [
+          "dynamodb:Scan"
+        ]
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "caller_func": "get_settings",
+        "file": "src/service/read.py",
+        "line": 23,
+        "baseline": [],
+        "full_static": []
+      }
+    ]
+  },
+  "AllowlistUpdate": {
+    "handler_file": "src/allowlist/update.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "baseline_permissions": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "full_static_permissions": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "call_details": [
+      {
+        "service": "dynamodb",
+        "method": "putItem",
+        "params_present": [
+          "Item",
+          "TableName"
+        ],
+        "caller_func": "lambda_handler",
+        "file": "src/allowlist/update.py",
+        "line": 92,
+        "baseline": [
+          "dynamodb:PutItem"
+        ],
+        "full_static": [
+          "dynamodb:PutItem"
+        ]
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "caller_func": "get_settings",
+        "file": "src/allowlist/update.py",
+        "line": 12,
+        "baseline": [
+          "dynamodb:Scan"
+        ],
+        "full_static": [
+          "dynamodb:Scan"
+        ]
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "caller_func": "get_settings",
+        "file": "src/allowlist/update.py",
+        "line": 14,
+        "baseline": [],
+        "full_static": []
+      }
+    ]
+  },
+  "AllowlistDelete": {
+    "handler_file": "src/allowlist/delete.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "baseline_permissions": [
+      "dynamodb:DeleteItem",
+      "dynamodb:Scan"
+    ],
+    "full_static_permissions": [
+      "dynamodb:DeleteItem",
+      "dynamodb:Scan"
+    ],
+    "call_details": [
+      {
+        "service": "dynamodb",
+        "method": "deleteItem",
+        "params_present": [
+          "Key",
+          "TableName"
+        ],
+        "caller_func": "lambda_handler",
+        "file": "src/allowlist/delete.py",
+        "line": 28,
+        "baseline": [
+          "dynamodb:DeleteItem"
+        ],
+        "full_static": [
+          "dynamodb:DeleteItem"
+        ]
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "caller_func": "get_settings",
+        "file": "src/service/read.py",
+        "line": 21,
+        "baseline": [
+          "dynamodb:Scan"
+        ],
+        "full_static": [
+          "dynamodb:Scan"
+        ]
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "caller_func": "get_settings",
+        "file": "src/service/read.py",
+        "line": 23,
+        "baseline": [],
+        "full_static": []
+      }
+    ]
+  },
+  "ServiceRead": {
+    "handler_file": "src/service/read.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "baseline_permissions": [
+      "dynamodb:Scan"
+    ],
+    "full_static_permissions": [
+      "dynamodb:Scan"
+    ],
+    "call_details": [
+      {
+        "service": "s3",
+        "method": "getPaginator",
+        "params_present": [],
+        "caller_func": "lambda_handler",
+        "file": "src/execution_log/list.py",
+        "line": 24,
+        "baseline": [],
+        "full_static": []
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "caller_func": "get_settings",
+        "file": "src/service/read.py",
+        "line": 21,
+        "baseline": [
+          "dynamodb:Scan"
+        ],
+        "full_static": [
+          "dynamodb:Scan"
+        ]
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "caller_func": "get_settings",
+        "file": "src/service/read.py",
+        "line": 23,
+        "baseline": [],
+        "full_static": []
+      }
+    ]
+  },
+  "ExecutionLogList": {
+    "handler_file": "src/execution_log/list.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "baseline_permissions": [
+      "dynamodb:Scan"
+    ],
+    "full_static_permissions": [
+      "dynamodb:Scan"
+    ],
+    "call_details": [
+      {
+        "service": "s3",
+        "method": "getPaginator",
+        "params_present": [],
+        "caller_func": "lambda_handler",
+        "file": "src/execution_log/list.py",
+        "line": 24,
+        "baseline": [],
+        "full_static": []
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "caller_func": "get_settings",
+        "file": "src/service/read.py",
+        "line": 21,
+        "baseline": [
+          "dynamodb:Scan"
+        ],
+        "full_static": [
+          "dynamodb:Scan"
+        ]
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "caller_func": "get_settings",
+        "file": "src/service/read.py",
+        "line": 23,
+        "baseline": [],
+        "full_static": []
+      }
+    ]
+  },
+  "ExecutionLogRead": {
+    "handler_file": "src/execution_log/read.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "baseline_permissions": [
+      "dynamodb:Scan",
+      "s3:GetObject"
+    ],
+    "full_static_permissions": [
+      "dynamodb:Scan",
+      "s3:GetObject"
+    ],
+    "call_details": [
+      {
+        "service": "s3",
+        "method": "getObject",
+        "params_present": [
+          "Bucket",
+          "Key"
+        ],
+        "caller_func": "lambda_handler",
+        "file": "src/execution_log/read.py",
+        "line": 40,
+        "baseline": [
+          "s3:GetObject"
+        ],
+        "full_static": [
+          "s3:GetObject"
+        ]
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "caller_func": "get_settings",
+        "file": "src/service/read.py",
+        "line": 21,
+        "baseline": [
+          "dynamodb:Scan"
+        ],
+        "full_static": [
+          "dynamodb:Scan"
+        ]
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "caller_func": "get_settings",
+        "file": "src/service/read.py",
+        "line": 23,
+        "baseline": [],
+        "full_static": []
+      }
+    ]
+  }
+}

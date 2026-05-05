@@ -1,0 +1,196 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }
+            ]
+        }, 
+        "request": "PutObjectRequest(ACL=public-read-write, Bucket=test-bucket-5461, CacheControl=max-age=30, ContentDisposition=attachment, ContentEncoding=gzip, ContentType=text/html, Expires=2021-07-31T10:31:49.716Z, Key=temp.txt, Metadata={Content-Language=en-US}, StorageClass=ONEZONE_IA, BucketKeyEnabled=false)", 
+        "apiName": "s3.putObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectTagging"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }
+            ]
+        }, 
+        "request": "PutObjectRequest(Bucket=test-bucket-5461, CacheControl=must-revalidate, ContentDisposition=attachment, ContentEncoding=gzip, Expires=2021-07-31T18:12:03.072Z, GrantFullControl=emailaddress=captainalligator1@gmail.com, GrantReadACP=emailaddress=captainalligator1@gmail.com, Key=temp.txt, Metadata={my-object-metadata-key=my-object-metadata-value}, StorageClass=GLACIER, WebsiteRedirectLocation=https://test-bucket-5461-object-lock-configuration-enabled.s3-us-west-2.amazonaws.com/index.html, BucketKeyEnabled=true, RequestPayer=requester, Tagging=put-object-key=test-bucket-5461-put-object-value)", 
+        "apiName": "s3.putObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement9"
+                }
+            ]
+        }, 
+        "request": "PutObjectRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, ContentLanguage=en, ContentMD5=YwvznCoJykYOyOSahsH8KA==, Expires=2021-08-01T00:16:46.830Z, GrantRead=emailaddress=captainalligator1@gmail.com, Key=temp.txt, Metadata={Content-Language=en-US}, WebsiteRedirectLocation=https://test-bucket-5461-object-lock-configuration-enabled.s3-us-west-2.amazonaws.com/index.html, BucketKeyEnabled=false, Tagging=, ObjectLockMode=COMPLIANCE, ObjectLockRetainUntilDate=2021-08-01T00:16:46.830Z)", 
+        "apiName": "s3.putObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement9"
+                }
+            ]
+        }, 
+        "request": "PutObjectRequest(ACL=aws-exec-read, Bucket=test-bucket-5461-object-lock-configuration-enabled, CacheControl=max-stale[30], ContentDisposition=filename-parm, ContentEncoding=gzip, ContentType=text/html, Expires=2021-08-01T06:17:39.857Z, Key=temp.txt, Metadata={Content-Language=en-US}, WebsiteRedirectLocation=https://test-bucket-5461-object-lock-configuration-enabled.s3-us-west-2.amazonaws.com/index.html, BucketKeyEnabled=false, RequestPayer=requester, Tagging=)", 
+        "apiName": "s3.putObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }
+            ]
+        }, 
+        "request": "PutObjectRequest(ACL=authenticated-read, Bucket=test-bucket-5461, CacheControl=public, ContentDisposition=inline, ContentLanguage=da, Expires=2021-08-01T12:18:30.319Z, Key=temp.txt, Metadata={my-object-metadata-key=my-object-metadata-value}, StorageClass=ONEZONE_IA, WebsiteRedirectLocation=https://www.google.com, BucketKeyEnabled=false, RequestPayer=requester)", 
+        "apiName": "s3.putObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/temp.txt"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }
+            ]
+        }, 
+        "request": "PutObjectRequest(ACL=public-read, Bucket=test-bucket-5461, CacheControl=no-store, ContentEncoding=application/json, ContentLanguage=da, ContentType=application/json, Expires=2021-08-01T18:19:15.855Z, Key=temp.txt, Metadata={Content-Language=en-US}, StorageClass=DEEP_ARCHIVE, BucketKeyEnabled=false, Tagging=)", 
+        "apiName": "s3.putObject"
+    }
+]

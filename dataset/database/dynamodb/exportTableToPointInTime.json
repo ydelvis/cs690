@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ExportTableToPointInTime"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ExportTableToPointInTimeRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, S3Bucket=test-bucket-5461, S3BucketOwner=002677082836, S3Prefix=dynamodb-exports, S3SseAlgorithm=AES256, ExportFormat=DYNAMODB_JSON)", 
+        "apiName": "dynamodb.exportTableToPointInTime"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ExportTableToPointInTime"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ExportTableToPointInTimeRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, S3Bucket=test-bucket-5461, S3BucketOwner=002677082836, S3Prefix=dynamodb-exports, S3SseAlgorithm=KMS, S3SseKmsKeyId=7a6d37f7-375e-4bfe-b8ed-f560f221b37c, ExportFormat=DYNAMODB_JSON)", 
+        "apiName": "dynamodb.exportTableToPointInTime"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ExportTableToPointInTime"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ExportTableToPointInTimeRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, S3Bucket=test-bucket-5461, S3BucketOwner=002677082836, S3Prefix=dynamodb-exports, S3SseAlgorithm=AES256, ExportFormat=ION)", 
+        "apiName": "dynamodb.exportTableToPointInTime"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:ExportTableToPointInTime"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ExportTableToPointInTimeRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, S3Bucket=test-bucket-5461, S3BucketOwner=002677082836, S3Prefix=dynamodb-exports, S3SseAlgorithm=KMS, S3SseKmsKeyId=7a6d37f7-375e-4bfe-b8ed-f560f221b37c, ExportFormat=ION)", 
+        "apiName": "dynamodb.exportTableToPointInTime"
+    }
+]

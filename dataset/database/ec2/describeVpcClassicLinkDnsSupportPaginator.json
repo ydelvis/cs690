@@ -1,0 +1,218 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=1, NextToken=, VpcIds=[key-017df928e910e4389])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=-1, VpcIds=[44.237.200.166])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=-100, VpcIds=[1])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=-100, VpcIds=[vpc-1dd31b65])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=100, NextToken=, VpcIds=[M3_LARGE])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=-1, NextToken=, VpcIds=[002677082836, self, all])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=0, VpcIds=[i-01ec73f52711d20f7, i-01d514444253d9b80])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=-100, VpcIds=[i-01ec73f52711d20f7, i-01d514444253d9b80])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=-1, VpcIds=[sg-084edec751f962157, sg-702ca705])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=0)", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=1, VpcIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=0, NextToken=, VpcIds=[launch-wizard-1, default])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=1, VpcIds=[dopt-bbeb2ac3])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=1, VpcIds=[ec2-instance-key-pair])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=1, NextToken=, VpcIds=[i-01ec73f52711d20f7, i-01d514444253d9b80])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=-100, VpcIds=[snap-ff869fa8])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=-1)", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=1, VpcIds=[vpc-1dd31b65])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=-1, NextToken=, VpcIds=[subnet-891125d3, subnet-b76ec99c, subnet-f098dfbb, subnet-d37752aa])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(NextToken=, VpcIds=[ec2-instance-key-pair])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=-1, VpcIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=-1, NextToken=, VpcIds=[snap-ff869fa8])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=0, VpcIds=[Test-Launch-Template])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=1, NextToken=, VpcIds=[snap-ff869fa8])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(MaxResults=1, NextToken=, VpcIds=[1])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcClassicLinkDnsSupportRequest(VpcIds=[dopt-bbeb2ac3])", 
+        "apiName": "ec2.describeVpcClassicLinkDnsSupportPaginator"
+    }
+]

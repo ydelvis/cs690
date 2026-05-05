@@ -1,0 +1,154 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetAnalyticsConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListBucketAnalyticsConfigurationsRequest(Bucket=test-bucket-5461, ContinuationToken=)", 
+        "apiName": "listBucketAnalyticsConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetAnalyticsConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListBucketAnalyticsConfigurationsRequest(Bucket=test-bucket-5461, ContinuationToken=, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listBucketAnalyticsConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetAnalyticsConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListBucketAnalyticsConfigurationsRequest(Bucket=test-bucket-5461, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listBucketAnalyticsConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetAnalyticsConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListBucketAnalyticsConfigurationsRequest(Bucket=test-bucket-5461, ContinuationToken=, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listBucketAnalyticsConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetAnalyticsConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListBucketAnalyticsConfigurationsRequest(Bucket=test-bucket-5461, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listBucketAnalyticsConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetAnalyticsConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListBucketAnalyticsConfigurationsRequest(Bucket=test-bucket-5461)", 
+        "apiName": "listBucketAnalyticsConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetAnalyticsConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListBucketAnalyticsConfigurationsRequest(Bucket=test-bucket-5461)", 
+        "apiName": "listBucketAnalyticsConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetAnalyticsConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListBucketAnalyticsConfigurationsRequest(Bucket=test-bucket-5461, ContinuationToken=)", 
+        "apiName": "listBucketAnalyticsConfiguration"
+    }
+]

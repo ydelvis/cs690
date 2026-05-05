@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteSnapshot"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteSnapshotRequest(SnapshotId=snap-06a2b4eb2eb875585)", 
+        "apiName": "ec2.deleteSnapshot"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DisassociateClientVpnTargetNetwork"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DisassociateClientVpnTargetNetworkRequest(ClientVpnEndpointId=cvpn-endpoint-09503c030cf84ef56, AssociationId=cvpn-assoc-0f2e4f80d9e5bee03)", 
+        "apiName": "ec2.disassociateClientVpnTargetNetwork"
+    }
+]

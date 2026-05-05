@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetManagedPrefixListAssociations"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:prefix-list/pl-02c832233b8d5eea8"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetManagedPrefixListAssociationsRequest(PrefixListId=pl-02c832233b8d5eea8, NextToken=)", 
+        "apiName": "ec2.getManagedPrefixListAssociations"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetManagedPrefixListAssociations"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:prefix-list/pl-02c832233b8d5eea8"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetManagedPrefixListAssociationsRequest(PrefixListId=pl-02c832233b8d5eea8, MaxResults=100)", 
+        "apiName": "ec2.getManagedPrefixListAssociations"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetManagedPrefixListAssociations"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:prefix-list/pl-02c832233b8d5eea8"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetManagedPrefixListAssociationsRequest(PrefixListId=pl-02c832233b8d5eea8, MaxResults=100, NextToken=)", 
+        "apiName": "ec2.getManagedPrefixListAssociations"
+    }
+]

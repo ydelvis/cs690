@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteTrafficMirrorSession"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-session/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteTrafficMirrorSessionRequest(TrafficMirrorSessionId=tms-0a977a8c0e6d0e484)", 
+        "apiName": "ec2.deleteTrafficMirrorSession"
+    }
+]

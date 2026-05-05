@@ -1,0 +1,64 @@
+{
+  "service": "s3-example-go-app",
+  "provider": {
+    "name": "aws",
+    "runtime": "go1.x",
+    "region": "eu-west-1",
+    "stage": "dev",
+    "memory_mb": null,
+    "timeout_s": null
+  },
+  "environment": {
+    "EPSAGON_TOKEN": "${env:EPSAGON_TOKEN}",
+    "EPSAGON_COLLECTOR_URL": "${env:EPSAGON_COLLECTOR_URL}",
+    "BUCKET_NAME": "s3-golang-test-bucket-epsagon"
+  },
+  "functions": {
+    "write": {
+      "handler": "write/main",
+      "runtime": "go1.x",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "write",
+            "method": "post"
+          }
+        }
+      ]
+    },
+    "write_v2": {
+      "handler": "write_v2/main",
+      "runtime": "go1.x",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "write_v2",
+            "method": "post"
+          }
+        }
+      ]
+    },
+    "trigger": {
+      "handler": "trigger/main",
+      "runtime": "go1.x",
+      "environment": {},
+      "events": [
+        {
+          "s3": {
+            "bucket": "s3-golang-test-bucket-epsagon",
+            "event": "s3:ObjectCreated:*"
+          }
+        }
+      ]
+    }
+  },
+  "iam_statements": [],
+  "custom": {
+    "BucketName": "s3-golang-test-bucket-epsagon"
+  },
+  "source_files": [
+    "serverless.yml"
+  ]
+}

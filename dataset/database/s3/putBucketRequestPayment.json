@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketRequestPayment"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketRequestPaymentRequest(Bucket=test-bucket-5461, RequestPaymentConfiguration=RequestPaymentConfiguration(Payer=Requester), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketRequestPayment"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketRequestPayment"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketRequestPaymentRequest(Bucket=test-bucket-5461, RequestPaymentConfiguration=RequestPaymentConfiguration(Payer=BucketOwner))", 
+        "apiName": "s3.putBucketRequestPayment"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketRequestPayment"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketRequestPaymentRequest(Bucket=test-bucket-5461, RequestPaymentConfiguration=RequestPaymentConfiguration(Payer=Requester))", 
+        "apiName": "s3.putBucketRequestPayment"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketRequestPayment"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketRequestPaymentRequest(Bucket=test-bucket-5461, RequestPaymentConfiguration=RequestPaymentConfiguration(Payer=BucketOwner), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketRequestPayment"
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DescribeLocalGatewayRouteTables"
+                ], 
+                "Resource": [
+                    "*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "DescribeLocalGatewayRouteTablesRequest(LocalGatewayRouteTableIds=[922761411349], Filters=[Filter()], MaxResults=100)", 
+    "apiName": "describeLocalGatewayRouteTables"
+}

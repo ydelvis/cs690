@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteTransitGatewayMulticastDomainRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553)", 
+        "apiName": "ec2.deleteTransitGatewayMulticastDomain"
+    }
+]

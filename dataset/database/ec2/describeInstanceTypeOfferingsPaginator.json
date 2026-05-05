@@ -1,0 +1,210 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(Filters=[Filter()], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=availability-zone, Filters=[Filter()], MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=, Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(Filters=[Filter()], MaxResults=-100)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=availability-zone-id, Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=availability-zone, Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=region, Filters=[Filter()], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=region, Filters=[Filter()])", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=availability-zone, Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(Filters=[Filter()])", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=availability-zone-id, Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(Filters=[Filter()], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=availability-zone, Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=region, Filters=[Filter()], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=region, Filters=[Filter()], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=, Filters=[Filter()], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=region, Filters=[Filter()], MaxResults=-100)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=availability-zone, Filters=[Filter()], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=availability-zone-id, Filters=[Filter()], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=region, Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=, Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=region, Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=availability-zone-id, Filters=[Filter()], MaxResults=-1)", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstanceTypeOfferingsRequest(LocationType=, Filters=[Filter()])", 
+        "apiName": "ec2.describeInstanceTypeOfferingsPaginator"
+    }
+]

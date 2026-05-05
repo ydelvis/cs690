@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteRoute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:prefix-list/*", 
+                        "arn:aws:ec2:*:002677082836:route-table/rtb-045e031193bb8523c"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteRouteRequest(DestinationCidrBlock=170.31.0.0/24, RouteTableId=rtb-045e031193bb8523c)", 
+        "apiName": "ec2.deleteRoute"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DisassociateIamInstanceProfile"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-059cf08f8f8da7b3e"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DisassociateIamInstanceProfileRequest(AssociationId=iip-assoc-0a68feca11930a6cb)", 
+        "apiName": "ec2.disassociateIamInstanceProfile"
+    }
+]

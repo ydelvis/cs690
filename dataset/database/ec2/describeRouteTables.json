@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DescribeRouteTables"
+                ], 
+                "Resource": [
+                    "*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "DescribeRouteTablesRequest(Filters=[Filter(Name=owner-id, Values=[002677082836])])", 
+    "apiName": "describeRouteTables"
+}

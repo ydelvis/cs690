@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyAvailabilityZoneGroup"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyAvailabilityZoneGroupRequest(GroupName=us-west-2-lax-1, OptInStatus=opted-in)", 
+        "apiName": "ec2.modifyAvailabilityZoneGroup"
+    }
+]

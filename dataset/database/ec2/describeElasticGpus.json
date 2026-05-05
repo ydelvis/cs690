@@ -1,0 +1,477 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=service-type, Values=[Interface])], MaxResults=100)", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=instance-type, Values=[t3.micro])], MaxResults=100)", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])], MaxResults=100)", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=100)", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleting])], MaxResults=100)", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=transit-gateway-route-table-id, Values=[tgw-rtb-02e9c220c37bb74db])], MaxResults=100)", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069])])", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(MaxResults=100)", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069]), Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])], MaxResults=100)", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])])", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=state, Values=[available])])", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleting])])", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=group-name, Values=[Test-Placement-Group]), Filter(Name=strategy, Values=[spread])], MaxResults=100)", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=association.state, Values=[associated])])", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=route.state, Values=[blackhole])], MaxResults=100)", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=route.state, Values=[active])], MaxResults=100)", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-023f7eee924362941])])", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=default-association-route-table, Values=[true])])", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=traffic-mirror-target-id, Values=[tmt-0fa549ad445a2e94e])])", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=deliver-log-status, Values=[FAILED])])", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=log-destination-type, Values=[s3])])", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=state, Values=[deleting])])", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65]), Filter(Name=owner-id, Values=[002677082836]), Filter(Name=route.state, Values=[blackhole])], MaxResults=100)", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])], MaxResults=100)", 
+        "apiName": "ec2.describeElasticGpus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeElasticGpus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeElasticGpusRequest(Filters=[Filter(Name=attachment.state, Values=[detached])])", 
+        "apiName": "ec2.describeElasticGpus"
+    }
+]

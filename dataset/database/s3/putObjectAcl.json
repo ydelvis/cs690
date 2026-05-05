@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectAclRequest(Bucket=test-bucket-5461, GrantRead=emailaddress=captainalligator1@gmail.com, GrantReadACP=emailaddress=captainalligator1@gmail.com, GrantWrite=emailaddress=captainalligator1@gmail.com, GrantWriteACP=emailaddress=captainalligator1@gmail.com, Key=key1/, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putObjectAcl"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectAclRequest(ACL=public-read, Bucket=test-bucket-5461, Key=key1/, RequestPayer=requester)", 
+        "apiName": "s3.putObjectAcl"
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "apiName": "deletePipeline",
+    "policy": {
+        "Version": "2012-10-17",
+        "Statement": [{
+            "Action": [
+                "elastictranscoder:DeletePipeline"
+            ],
+            "Sid": "statement2",
+            "Effect": "Allow",
+            "Resource": [
+                "arn:aws:elastictranscoder:us-east-1:002677082836:pipeline/*"
+            ]
+        }]
+    },
+    "request": ""
+}

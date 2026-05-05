@@ -1,0 +1,60 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutReplicationConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "iam:PassRole"
+                    ], 
+                    "Resource": [
+                        "arn:aws:iam::002677082836:role/Alice"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketReplicationRequest(Bucket=test-bucket-5461, ReplicationConfiguration=ReplicationConfiguration(Role=arn:aws:iam::002677082836:role/Alice, Rules=[ReplicationRule(ID=test-bucket-5461-replication-configuration, Priority=1, Filter=ReplicationRuleFilter(Prefix=), Status=Enabled, Destination=Destination(Bucket=arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled, StorageClass=STANDARD), DeleteMarkerReplication=DeleteMarkerReplication(Status=Enabled))]))", 
+        "apiName": "s3.putBucketReplication"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutReplicationConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "iam:PassRole"
+                    ], 
+                    "Resource": [
+                        "arn:aws:iam::002677082836:role/Alice"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketReplicationRequest(Bucket=test-bucket-5461, ReplicationConfiguration=ReplicationConfiguration(Role=arn:aws:iam::002677082836:role/Alice, Rules=[ReplicationRule(ID=test-bucket-5461-replication-configuration, Priority=1, Filter=ReplicationRuleFilter(Prefix=), Status=Enabled, Destination=Destination(Bucket=arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled, StorageClass=STANDARD), DeleteMarkerReplication=DeleteMarkerReplication(Status=Disabled))]), Token=, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketReplication"
+    }
+]

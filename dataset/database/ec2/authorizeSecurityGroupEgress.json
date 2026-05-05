@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AuthorizeSecurityGroupEgress"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/sg-0640aeb9163820cc1"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "AuthorizeSecurityGroupEgressRequest(GroupId=sg-0640aeb9163820cc1, IpPermissions=[IpPermission(FromPort=80, IpProtocol=tcp, IpRanges=[IpRange(CidrIp=172.168.0.0/16)], ToPort=80)])", 
+        "apiName": "ec2.authorizeSecurityGroupEgress"
+    }
+]

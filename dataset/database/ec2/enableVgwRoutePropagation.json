@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:EnableVgwRoutePropagation"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:route-table/rtb-045e031193bb8523c", 
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/vgw-08c161cae31d7f7c2"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "EnableVgwRoutePropagationRequest(GatewayId=vgw-08c161cae31d7f7c2, RouteTableId=rtb-045e031193bb8523c)", 
+        "apiName": "ec2.enableVgwRoutePropagation"
+    }
+]

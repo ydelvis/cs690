@@ -1,0 +1,21 @@
+{
+  "write": {
+    "initial_permissions": [],
+    "llm_permissions": [
+      "s3:PutObject"
+    ],
+    "reasoning": "Source code explicitly calls s3manager.Upload with a small payload (11 bytes), triggering the S3 PutObject API directly rather than MultipartUpload. Epsagon instrumentation wraps SDK calls but communicates traces via HTTP to an external collector URL (env var EPSAGON_COLLECTOR_URL), requiring no additional AWS IAM permissions. No other AWS services are imported or invoked.",
+    "raw_response": "{\n  \"permissions\": [\n    \"s3:PutObject\"\n  ],\n  \"reasoning\": \"Source code explicitly calls s3manager.Upload with a small payload (11 bytes), triggering the S3 PutObject API directly rather than MultipartUpload. Epsagon instrumentation wraps SDK calls but communicates traces via HTTP to an external collector URL (env var EPSAGON_COLLECTOR_URL), requiring no additional AWS IAM permissions. No other AWS services are imported or invoked.\"\n}"
+  },
+  "write_v2": {
+    "initial_permissions": [
+      "s3:PutObject",
+      "s3:PutObjectAcl"
+    ],
+    "llm_permissions": [
+      "s3:PutObject"
+    ],
+    "reasoning": "The source code explicitly constructs and sends an s3.PutObjectRequest to upload data, requiring s3:PutObject. The initial permission s3:PutObjectAcl is over-provisioned as the PutObjectInput struct does not specify ACL or Grant fields. Epsagon instrumentation communicates via external HTTP endpoints (EPSAGON_COLLECTON_URL) defined in environment variables and does not invoke additional AWS APIs requiring IAM permissions based on the visible code.",
+    "raw_response": "{\n  \"permissions\": [\n    \"s3:PutObject\"\n  ],\n  \"reasoning\": \"The source code explicitly constructs and sends an s3.PutObjectRequest to upload data, requiring s3:PutObject. The initial permission s3:PutObjectAcl is over-provisioned as the PutObjectInput struct does not specify ACL or Grant fields. Epsagon instrumentation communicates via external HTTP endpoints (EPSAGON_COLLECTON_URL) defined in environment variables and does not invoke additional AWS APIs requiring IAM permissions based on the visible code.\"\n}"
+  }
+}

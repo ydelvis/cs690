@@ -1,0 +1,38 @@
+{
+  "service": "monitoring-cicd",
+  "provider": {
+    "name": "aws",
+    "runtime": "",
+    "region": "${self:custom.regions.${self:custom.currentStage}}",
+    "stage": "${opt:stage, self:custom.defaultStage}",
+    "memory_mb": null,
+    "timeout_s": null
+  },
+  "environment": {},
+  "functions": {},
+  "iam_statements": [],
+  "custom": {
+    "defaultStage": "staging",
+    "currentStage": "${opt:stage, self:custom.defaultStage}",
+    "github": "${file(./scripts/githubConfig.js)}",
+    "regions": "${file(./package.json):regions}",
+    "cicd": {
+      "image": "aws/codebuild/standard:2.0",
+      "owner": "${self:custom.github.owner}",
+      "repository": "${self:custom.github.repo}",
+      "emailNotifications": [
+        "{{resolve:ssm:admin-email:1}}"
+      ],
+      "staging": {
+        "buildOnPullRequest": "main",
+        "buildOnPush": "main"
+      },
+      "prod": {
+        "buildOnTag": "v.*"
+      }
+    }
+  },
+  "source_files": [
+    "serverless.yml"
+  ]
+}

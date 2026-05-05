@@ -1,0 +1,110 @@
+{
+  "service": "dynamoose-crud",
+  "provider": {
+    "name": "aws",
+    "runtime": "nodejs6.10",
+    "region": "us-east-1",
+    "stage": "${opt:stage, 'dev'}",
+    "memory_mb": null,
+    "timeout_s": null
+  },
+  "environment": {
+    "ITEM_TABLE": "item-dynacrud-${opt:stage, self:provider.stage}"
+  },
+  "functions": {
+    "getById": {
+      "handler": "handlers/get.getById",
+      "runtime": "nodejs6.10",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "api/item/{id}",
+            "method": "get",
+            "cors": true
+          }
+        }
+      ]
+    },
+    "listAll": {
+      "handler": "handlers/list.listAll",
+      "runtime": "nodejs6.10",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "api/items",
+            "method": "get",
+            "cors": true
+          }
+        }
+      ]
+    },
+    "addOne": {
+      "handler": "handlers/add.addOne",
+      "runtime": "nodejs6.10",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "api/add/one",
+            "method": "post",
+            "cors": true
+          }
+        }
+      ]
+    },
+    "batchAdd": {
+      "handler": "handlers/batchAdd.batchAdd",
+      "runtime": "nodejs6.10",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "api/add/batch",
+            "method": "post",
+            "cors": true
+          }
+        }
+      ]
+    },
+    "updateOne": {
+      "handler": "handlers/update.updateOne",
+      "runtime": "nodejs6.10",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "api/item/{id}",
+            "method": "put",
+            "cors": true
+          }
+        }
+      ]
+    },
+    "deleteOne": {
+      "handler": "handlers/delete.deleteOne",
+      "runtime": "nodejs6.10",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "api/item/{id}",
+            "method": "delete",
+            "cors": true
+          }
+        }
+      ]
+    }
+  },
+  "iam_statements": [],
+  "custom": {
+    "webpack": {
+      "packager": "yarn",
+      "packExternalModulesMaxBuffer": "200 * 1024"
+    }
+  },
+  "source_files": [
+    "serverless.yml"
+  ]
+}

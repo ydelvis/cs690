@@ -1,0 +1,86 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateFlowLogs"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-flow-log/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "logs:CreateLogDelivery"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }
+            ]
+        }, 
+        "request": "CreateFlowLogsRequest(DeliverLogsPermissionArn=arn:aws:iam::002677082836:role/Alice, ResourceIds=[vpc-088f61503142622ed], ResourceType=VPC, TrafficType=REJECT, LogDestinationType=s3, LogDestination=arn:aws:s3:::test-bucket-5461/logs, LogFormat=${protocol} ${tcp-flags} ${type}, TagSpecifications=[TagSpecification(ResourceType=vpc-flow-log, Tags=[Tag(Key=vpc-flow-log, Value=vpc-flow-log-tag)])], MaxAggregationInterval=60)", 
+        "apiName": "ec2.createFlowLogs"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateFlowLogs"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-flow-log/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "logs:CreateLogDelivery"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }
+            ]
+        }, 
+        "request": "CreateFlowLogsRequest(DeliverLogsPermissionArn=arn:aws:iam::002677082836:role/Alice, ResourceIds=[eni-067f9d5e10cd5d578], ResourceType=NetworkInterface, TrafficType=ALL, LogDestinationType=s3, LogDestination=arn:aws:s3:::test-bucket-5461/logs, TagSpecifications=[TagSpecification(ResourceType=vpc-flow-log, Tags=[Tag(Key=vpc-flow-log, Value=vpc-flow-log-tag)])], MaxAggregationInterval=60)", 
+        "apiName": "ec2.createFlowLogs"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:DescribeGlobalTableSettings"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb::002677082836:global-table/test-table-5461-old"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeGlobalTableSettingsRequest(GlobalTableName=test-table-5461-old)", 
+        "apiName": "dynamodb.describeGlobalTableSettings"
+    }
+]

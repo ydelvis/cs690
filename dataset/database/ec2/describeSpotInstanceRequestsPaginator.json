@@ -1,0 +1,226 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@3676ac27", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@62f87c44", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@48f5bde6", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@7072bc39", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@158d255c", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@2ca65ce4", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@327120c8", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@5707c1cb", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@2b5cb9b2", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@35038141", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@ecf9049", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@672f11c2", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@2970a5bc", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@50305a", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@72efb5c1", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@41200e0c", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@40f33492", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@4fbdc0f0", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@2ad3a1bb", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@6bc28a83", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@324c64cd", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@13579834", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@24be2d9c", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@5bd73d1a", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@aec50a1", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@2555fff0", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@70d2e40b", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotInstanceRequestsIterable@120f38e6", 
+        "apiName": "ec2.describeSpotInstanceRequestsPaginator"
+    }
+]

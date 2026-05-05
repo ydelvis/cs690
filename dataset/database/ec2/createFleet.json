@@ -1,0 +1,50 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateFleet"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:fleet/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*::snapshot/*", 
+                        "arn:aws:ec2:*:002677082836:key-pair/*", 
+                        "arn:aws:ec2:*:002677082836:launch-template/lt-078848ec86a0a2430", 
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:RunInstances"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:volume/*", 
+                        "arn:aws:ec2:*:002677082836:instance/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/*", 
+                        "arn:aws:ec2:*::snapshot/*", 
+                        "arn:aws:ec2:*:002677082836:launch-template/*", 
+                        "arn:aws:elastic-inference:*:002677082836:elastic-inference-accelerator/*", 
+                        "arn:aws:ec2:*:002677082836:elastic-gpu/*", 
+                        "arn:aws:ec2:*:002677082836:placement-group/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:key-pair/*", 
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateFleetRequest(LaunchTemplateConfigs=[FleetLaunchTemplateConfigRequest(LaunchTemplateSpecification=FleetLaunchTemplateSpecificationRequest(LaunchTemplateId=lt-078848ec86a0a2430, Version=1))], TargetCapacitySpecification=TargetCapacitySpecificationRequest(TotalTargetCapacity=0, DefaultTargetCapacityType=on-demand))", 
+        "apiName": "ec2.createFleet"
+    }
+]

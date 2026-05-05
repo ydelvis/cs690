@@ -1,0 +1,23 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DisassociateTransitGatewayMulticastDomain"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:subnet/subnet-092aa5e72690d53ca", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/tgw-attach-0aab000043fdcc124", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/tgw-mcast-domain-05874549ae8ebd553"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DisassociateTransitGatewayMulticastDomainRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, TransitGatewayAttachmentId=tgw-attach-0aab000043fdcc124, SubnetIds=[subnet-092aa5e72690d53ca])", 
+        "apiName": "ec2.disassociateTransitGatewayMulticastDomain"
+    }
+]

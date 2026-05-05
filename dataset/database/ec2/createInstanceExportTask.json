@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateInstanceExportTask"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:export-instance-task/*", 
+                        "arn:aws:ec2:*:002677082836:instance/i-07b5b22b45c08fc28"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateInstanceExportTaskRequest(Description=My instance, ExportToS3Task=ExportToS3TaskSpecification(ContainerFormat=ova, DiskImageFormat=vmdk, S3Bucket=test-bucket-5461, S3Prefix=MyInstance), InstanceId=i-07b5b22b45c08fc28, TargetEnvironment=vmware)", 
+        "apiName": "ec2.createInstanceExportTask"
+    }
+]

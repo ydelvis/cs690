@@ -1,0 +1,97 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketWebsite"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketWebsiteRequest(Bucket=test-bucket-5461, WebsiteConfiguration=WebsiteConfiguration(RedirectAllRequestsTo=RedirectAllRequestsTo(HostName=google.com, Protocol=https)), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketWebsite"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketWebsite"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketWebsiteRequest(Bucket=test-bucket-5461, WebsiteConfiguration=WebsiteConfiguration(IndexDocument=IndexDocument(Suffix=index.html)), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketWebsite"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketWebsite"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketWebsiteRequest(Bucket=test-bucket-5461, WebsiteConfiguration=WebsiteConfiguration(ErrorDocument=ErrorDocument(Key=error.html), IndexDocument=IndexDocument(Suffix=index.html)), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketWebsite"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketWebsite"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketWebsiteRequest(Bucket=test-bucket-5461, WebsiteConfiguration=WebsiteConfiguration(ErrorDocument=ErrorDocument(Key=error.html), IndexDocument=IndexDocument(Suffix=index.html), RoutingRules=[RoutingRule(Condition=Condition(HttpErrorCodeReturnedEquals=404, KeyPrefixEquals=error.html), Redirect=Redirect(HostName=www.google.com, Protocol=https))]), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketWebsite"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketWebsite"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketWebsiteRequest(Bucket=test-bucket-5461, WebsiteConfiguration=WebsiteConfiguration(IndexDocument=IndexDocument(Suffix=index.html), RoutingRules=[RoutingRule(Condition=Condition(HttpErrorCodeReturnedEquals=404, KeyPrefixEquals=error.html), Redirect=Redirect(HostName=www.google.com, Protocol=https))]), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketWebsite"
+    }
+]

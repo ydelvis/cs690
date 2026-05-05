@@ -1,0 +1,306 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=100, Filters=[Filter(Name=attachment.state, Values=[attached])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=100, Filters=[Filter(Name=state, Values=[available])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=1)", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=1, Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069]), Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(Filters=[Filter(Name=owner-id, Values=[002677082836])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=100, Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=0, Filters=[Filter(Name=traffic-type, Values=[REJECT])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=100)", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=1, Filters=[Filter(Name=vpc-id, Values=[vpc-0cc4d5cda8eac8d8c])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=1, Filters=[Filter(Name=type, Values=[ipsec.1])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=0, Filters=[Filter(Name=default-propagation-route-table, Values=[true])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(Filters=[Filter(Name=state, Values=[available])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(Filters=[])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(Filters=[Filter(Name=default-propagation-route-table, Values=[false])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(Filters=[Filter(Name=state, Values=[available])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=0, Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=0, Filters=[Filter(Name=vpc-endpoint-state, Values=[deleted])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=1, Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=0, Filters=[Filter(Name=scope, Values=[Region])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(Filters=[Filter(Name=resource-type, Values=[vpc])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=1)", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(Filters=[Filter(Name=service-type, Values=[Gateway])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=0, Filters=[Filter(Name=traffic-mirror-target-id, Values=[tmt-0fa549ad445a2e94e])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=0, Filters=[Filter(Name=options.default-route-table-association, Values=[disable])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(Filters=[Filter(Name=resource-id, Values=[vpn-0d59b1da66a690911])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleting])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=1, Filters=[Filter(Name=resource-type, Values=[vpc])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(Filters=[Filter(Name=transit-gateway-route-table-id, Values=[tgw-rtb-02e9c220c37bb74db])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=100, Filters=[Filter(Name=state, Values=[available])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=0, Filters=[Filter(Name=service-type, Values=[Gateway])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=100, Filters=[Filter(Name=service-type, Values=[Interface])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(Filters=[Filter(Name=owner-id, Values=[002677082836])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(Filters=[Filter(Name=route.state, Values=[blackhole])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=100, Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65]), Filter(Name=owner-id, Values=[002677082836]), Filter(Name=route.state, Values=[blackhole])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=1, Filters=[Filter(Name=owner-id, Values=[002677082836])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=100, Filters=[Filter(Name=scope, Values=[Region])])", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=100)", 
+        "apiName": "ec2.describeClientVpnEndpointsPaginator"
+    }
+]

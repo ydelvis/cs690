@@ -1,0 +1,122 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(TrafficMirrorFilterIds=[tmf-090acc59bb68290b8], Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest()", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(TrafficMirrorFilterIds=[pg-040cc29c500fb8381], Filters=[Filter(Name=state, Values=[available])], MaxResults=0)", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(TrafficMirrorFilterIds=[tmf-090acc59bb68290b8], Filters=[Filter(Name=description, Values=[])], MaxResults=0)", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(TrafficMirrorFilterIds=[fl-04f17f472df55e076], Filters=[Filter(Name=group-name, Values=[Test-Placement-Group]), Filter(Name=strategy, Values=[spread])], NextToken=)", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(TrafficMirrorFilterIds=[], Filters=[])", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(TrafficMirrorFilterIds=[tmf-090acc59bb68290b8], MaxResults=1)", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(TrafficMirrorFilterIds=[tmf-090acc59bb68290b8], Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])], MaxResults=1)", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(Filters=[Filter(Name=description, Values=[])])", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(TrafficMirrorFilterIds=[pl-00a54069], Filters=[Filter(Name=traffic-type, Values=[REJECT])], MaxResults=100)", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])])", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(TrafficMirrorFilterIds=[tmf-090acc59bb68290b8], Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65])], NextToken=)", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(Filters=[Filter(Name=type, Values=[ipsec.1])], MaxResults=0)", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(TrafficMirrorFilterIds=[all], Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65]), Filter(Name=owner-id, Values=[002677082836]), Filter(Name=route.state, Values=[blackhole])], NextToken=)", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTrafficMirrorFiltersRequest(Filters=[Filter(Name=description, Values=[])])", 
+        "apiName": "ec2.describeTrafficMirrorFiltersPaginator"
+    }
+]

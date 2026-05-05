@@ -1,0 +1,72 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateRouteTable"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:route-table/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateRouteTableRequest(VpcId=vpc-088f61503142622ed, TagSpecifications=[TagSpecification(ResourceType=route-table, Tags=[Tag(Key=routes-table, Value=route-table-tag)])])", 
+        "apiName": "ec2.createRouteTable"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateRouteTable"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:route-table/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateRouteTableRequest(VpcId=vpc-088f61503142622ed)", 
+        "apiName": "ec2.createRouteTable"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateRouteTable"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:route-table/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateRouteTableRequest(VpcId=vpc-088f61503142622ed)", 
+        "apiName": "ec2.createRouteTable"
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateStoreImageTask"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::image/ami-013ad70ab73da1ff2"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }, 
+                {
+                    "Action": [
+                        "ebs:ListSnapshotBlocks"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ebs:GetSnapshotBlock"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObjectTagging"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "ec2:DescribeTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement7"
+                }
+            ]
+        }, 
+        "request": "CreateStoreImageTaskRequest(ImageId=ami-013ad70ab73da1ff2, Bucket=test-bucket-5461, S3ObjectTags=[S3ObjectTag(Key=tag-key, Value=tag-value)])", 
+        "apiName": "ec2.createStoreImageTask"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateStoreImageTask"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::image/ami-013ad70ab73da1ff2"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }, 
+                {
+                    "Action": [
+                        "ebs:ListSnapshotBlocks"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ebs:GetSnapshotBlock"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }, 
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "ec2:DescribeTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement7"
+                }
+            ]
+        }, 
+        "request": "CreateStoreImageTaskRequest(ImageId=ami-013ad70ab73da1ff2, Bucket=test-bucket-5461)", 
+        "apiName": "ec2.createStoreImageTask"
+    }
+]

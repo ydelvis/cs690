@@ -1,0 +1,51 @@
+{
+  "LambdaMap": {
+    "handler_file": "index.py",
+    "handler_func": "handlerMap",
+    "language": "python",
+    "baseline_permissions": [],
+    "full_static_permissions": [],
+    "call_details": [
+      {
+        "service": "s3",
+        "method": "uploadFileobj",
+        "params_present": [],
+        "caller_func": "handlerMap",
+        "file": "index.py",
+        "line": 49,
+        "baseline": [],
+        "full_static": []
+      }
+    ]
+  },
+  "LambdaReduce": {
+    "handler_file": "index.py",
+    "handler_func": "handlerReduce",
+    "language": "python",
+    "baseline_permissions": [
+      "s3:GetObject"
+    ],
+    "full_static_permissions": [
+      "s3:GetObject"
+    ],
+    "call_details": [
+      {
+        "service": "s3",
+        "method": "getObject",
+        "params_present": [
+          "Bucket",
+          "Key"
+        ],
+        "caller_func": "handlerReduce",
+        "file": "index.py",
+        "line": 77,
+        "baseline": [
+          "s3:GetObject"
+        ],
+        "full_static": [
+          "s3:GetObject"
+        ]
+      }
+    ]
+  }
+}

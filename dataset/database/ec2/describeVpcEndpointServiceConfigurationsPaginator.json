@@ -1,0 +1,250 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[snap-ff869fa8], Filters=[Filter()], MaxResults=-100)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[922761411349], Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()], MaxResults=-1)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(Filters=[Filter()])", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], Filters=[Filter()], MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[44.237.200.166], Filters=[Filter()], MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[44.237.200.166], Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[vpc-1dd31b65], Filters=[Filter()], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[vpc-1dd31b65], Filters=[Filter()], MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[M3_LARGE], Filters=[Filter()], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(Filters=[Filter()], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(Filters=[Filter()], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[snap-ff869fa8], Filters=[Filter()], MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], Filters=[Filter()], MaxResults=-1)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[M3_LARGE], Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], Filters=[Filter()], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[vpc-1dd31b65], Filters=[Filter()], MaxResults=-100)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[44.237.200.166], Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[922761411349], Filters=[Filter()], MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[44.237.200.166], Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[44.237.200.166], Filters=[Filter()], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[44.237.200.166], Filters=[Filter()], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[M3_LARGE], Filters=[Filter()], MaxResults=-1)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[snap-ff869fa8], Filters=[Filter()], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointServiceConfigurationsRequest(ServiceIds=[M3_LARGE], Filters=[Filter()], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeVpcEndpointServiceConfigurationsPaginator"
+    }
+]

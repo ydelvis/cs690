@@ -1,0 +1,218 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])], MaxResults=1)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(Filters=[Filter(Name=default-propagation-route-table, Values=[true])])", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=log-destination-type, Values=[s3])], MaxResults=1)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(Filters=[Filter(Name=traffic-type, Values=[ACCEPT])], MaxResults=100)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(Filters=[Filter(Name=default-association-route-table, Values=[false])], MaxResults=100)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=vpc-endpoint-state, Values=[deleted])], MaxResults=100)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(Filters=[Filter(Name=service-type, Values=[Gateway])], MaxResults=1)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(Filters=[Filter(Name=deliver-log-status, Values=[FAILED])])", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-0cc4d5cda8eac8d8c])])", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(Filters=[Filter(Name=default-propagation-route-table, Values=[false])])", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(Filters=[Filter(Name=association.state, Values=[associated])])", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Disabled])], MaxResults=1)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(Filters=[], MaxResults=1)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(Filters=[Filter(Name=log-destination-type, Values=[s3])])", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=group-name, Values=[Test-Placement-Group])], MaxResults=1)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=state, Values=[deleted])], MaxResults=100)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=description, Values=[])], MaxResults=100)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069])], MaxResults=1)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=vpc-endpoint-state, Values=[deleted])], MaxResults=1)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=options.default-route-table-association, Values=[disable])])", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=vpc-endpoint-state, Values=[rejected])], MaxResults=100)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=transit-gateway-id, Values=[tgw-023f7eee924362941])], MaxResults=100)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest()", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])], MaxResults=100)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[], MaxResults=1)", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])])", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayMulticastDomainAssociationsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])])", 
+        "apiName": "ec2.getTransitGatewayMulticastDomainAssociationsPaginator"
+    }
+]

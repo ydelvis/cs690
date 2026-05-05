@@ -1,0 +1,17 @@
+{
+    "apiName": "listStreams",
+    "policy": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "kinesis:ListStreams"
+                ],
+                "Resource": "*",
+                "Effect": "Allow",
+                "Sid": "statement1"
+            }
+        ]
+    },
+    "request": ""
+}

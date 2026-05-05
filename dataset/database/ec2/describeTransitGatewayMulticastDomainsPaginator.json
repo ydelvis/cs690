@@ -1,0 +1,10 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayMulticastDomainsRequest(MaxResults=0)", 
+        "apiName": "ec2.describeTransitGatewayMulticastDomainsPaginator"
+    }
+]

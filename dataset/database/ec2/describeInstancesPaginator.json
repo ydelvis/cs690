@@ -1,0 +1,266 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[M3_LARGE], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], MaxResults=-1)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[vpc-1dd31b65], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[002677082836, self, all], MaxResults=-100)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[vpc-1dd31b65], MaxResults=1)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[002677082836, self, all], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[ami-00bb6f60], NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[vpc-1dd31b65], MaxResults=0)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], MaxResults=100)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933])", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[002677082836, self, all], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[snap-ff869fa8], MaxResults=100)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[922761411349], MaxResults=-1)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[dopt-bbeb2ac3], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[vpc-1dd31b65], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[851601128636], MaxResults=1)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[M3_LARGE], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[44.237.200.166], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[vpc-1dd31b65], MaxResults=-100)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[922761411349])", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[snap-ff869fa8], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[dopt-bbeb2ac3], MaxResults=1)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInstancesRequest(Filters=[Filter()], InstanceIds=[922761411349], MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describeInstancesPaginator"
+    }
+]

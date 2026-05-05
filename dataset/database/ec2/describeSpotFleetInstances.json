@@ -1,0 +1,116 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeSpotFleetInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "DescribeSpotFleetInstancesRequest(MaxResults=1, SpotFleetRequestId=sfr-7ec90de8-6407-46d5-a8e7-aa268d3bdc07)", 
+        "apiName": "describeSpotFleetInstances"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeSpotFleetInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeSpotFleetInstancesRequest(MaxResults=0, NextToken=, SpotFleetRequestId=sfr-7ec90de8-6407-46d5-a8e7-aa268d3bdc07)", 
+        "apiName": "describeSpotFleetInstances"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeSpotFleetInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "DescribeSpotFleetInstancesRequest(MaxResults=1, NextToken=, SpotFleetRequestId=sfr-7ec90de8-6407-46d5-a8e7-aa268d3bdc07)", 
+        "apiName": "describeSpotFleetInstances"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeSpotFleetInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }
+            ]
+        }, 
+        "request": "DescribeSpotFleetInstancesRequest()", 
+        "apiName": "describeSpotFleetInstances"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeSpotFleetInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }
+            ]
+        }, 
+        "request": "DescribeSpotFleetInstancesRequest(MaxResults=100, NextToken=, SpotFleetRequestId=sfr-7ec90de8-6407-46d5-a8e7-aa268d3bdc07)", 
+        "apiName": "describeSpotFleetInstances"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeSpotFleetInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement5"
+                }
+            ]
+        }, 
+        "request": "DescribeSpotFleetInstancesRequest(MaxResults=1, SpotFleetRequestId=sfr-7ec90de8-6407-46d5-a8e7-aa268d3bdc07)", 
+        "apiName": "describeSpotFleetInstances"
+    }
+]

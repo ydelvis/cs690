@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyInstanceAttributeRequest(InstanceId=i-0fc67210075ad498a, InstanceType=AttributeValue(Value=m1.small))", 
+        "apiName": "ec2.modifyInstanceAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyInstanceAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyInstanceAttributeRequest(SourceDestCheck=AttributeBooleanValue(Value=true), InstanceId=i-0fc67210075ad498a)", 
+        "apiName": "ec2.modifyInstanceAttribute"
+    }
+]

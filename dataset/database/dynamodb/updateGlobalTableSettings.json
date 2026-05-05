@@ -1,0 +1,32 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "application-autoscaling:DeregisterScalableTarget"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:UpdateGlobalTableSettings"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-old", 
+                        "arn:aws:dynamodb::002677082836:global-table/test-table-5461-old"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateGlobalTableSettingsRequest(GlobalTableName=test-table-5461-old, GlobalTableBillingMode=PAY_PER_REQUEST, GlobalTableProvisionedWriteCapacityAutoScalingSettingsUpdate=AutoScalingSettingsUpdate(AutoScalingDisabled=true))", 
+        "apiName": "dynamodb.updateGlobalTableSettings"
+    }
+]

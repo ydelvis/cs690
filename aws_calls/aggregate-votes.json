@@ -1,0 +1,24 @@
+{
+  "aggregate-vote": {
+    "handler_file": "app.js",
+    "handler_func": "handler",
+    "language": "javascript",
+    "aws_calls": [
+      {
+        "service": "dynamodb",
+        "method": "updateItem",
+        "params_present": [
+          "ExpressionAttributeNames",
+          "ExpressionAttributeValues",
+          "Key",
+          "TableName",
+          "UpdateExpression"
+        ],
+        "resolved_params": {},
+        "line": 45,
+        "caller_func": "updateAggregateForColor",
+        "file": "app.js"
+      }
+    ]
+  }
+}

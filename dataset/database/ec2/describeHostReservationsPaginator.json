@@ -1,0 +1,250 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=connection-notification-state, Values=[Disabled])])", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=attachment.state, Values=[detached])], MaxResults=100)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])], MaxResults=100)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=default-association-route-table, Values=[false])], MaxResults=0)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=traffic-type, Values=[REJECT])])", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=prefix-list-id, Values=[pl-00a54069]), Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])])", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])], MaxResults=0)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=type, Values=[ipsec.1])], MaxResults=0)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=options.protocol, Values=[gre])], MaxResults=0)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=default-propagation-route-table, Values=[false])], MaxResults=100)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=vpc-endpoint-state, Values=[deleting])], MaxResults=100)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=vpc-id, Values=[vpc-1dd31b65])], MaxResults=100)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=state, Values=[available])])", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(MaxResults=100)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=attachment.state, Values=[detached])])", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=vpc-endpoint-state, Values=[pendingAcceptance])])", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=options.auto-accept-shared-attachments, Values=[disable])], MaxResults=100)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])], MaxResults=0)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=traffic-type, Values=[ACCEPT])])", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=options.default-route-table-association, Values=[enable])])", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=service-name, Values=[com.amazonaws.us-east-2.acm-pca])], MaxResults=100)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=group-name, Values=[Test-Placement-Group]), Filter(Name=strategy, Values=[spread])], MaxResults=100)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])], MaxResults=1)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=instance-type, Values=[t3.micro])], MaxResults=0)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(MaxResults=1)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=connection-notification-state, Values=[Disabled])], MaxResults=0)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=vpc-endpoint-state, Values=[pending])])", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=options.protocol, Values=[gre])], MaxResults=1)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=deliver-log-status, Values=[FAILED])], MaxResults=0)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=connection-notification-type, Values=[Topic])])", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeHostReservationsRequest(Filter=[Filter(Name=resource-id, Values=[vpn-0d59b1da66a690911])], MaxResults=0)", 
+        "apiName": "ec2.describeHostReservationsPaginator"
+    }
+]

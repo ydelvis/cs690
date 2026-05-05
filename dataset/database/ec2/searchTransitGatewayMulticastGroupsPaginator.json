@@ -1,0 +1,186 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(Filters=[Filter(Name=service-type, Values=[Interface])], MaxResults=1)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])], MaxResults=100)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(Filters=[Filter(Name=vpc-endpoint-owner, Values=[002677082836])], MaxResults=1)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])], MaxResults=1)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(Filters=[Filter(Name=service-type, Values=[Interface])], MaxResults=100)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[failed])])", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-04f33ddc790370387, Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65]), Filter(Name=owner-id, Values=[002677082836]), Filter(Name=route.state, Values=[blackhole])], MaxResults=100)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-04f33ddc790370387, Filters=[Filter(Name=state, Values=[available])])", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-04f33ddc790370387, Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[enable])])", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-04f33ddc790370387, Filters=[Filter(Name=attachment.resource-type, Values=[vpc, vpn, connect, peering, direct-connect-gateway]), Filter(Name=attachment.transit-gateway-attachment-id, Values=[tgw-attach-072de78a455812f84]), Filter(Name=state, Values=[active, blackhole]), Filter(Name=type, Values=[propagated, static])], MaxResults=100)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-04f33ddc790370387, Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])], MaxResults=1)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(Filters=[Filter(Name=traffic-mirror-target-id, Values=[tmt-0fa549ad445a2e94e])], MaxResults=1)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-04f33ddc790370387, Filters=[Filter(Name=vpc-endpoint-owner, Values=[002677082836])], MaxResults=1)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-04f33ddc790370387, Filters=[Filter(Name=attachment.state, Values=[attached])], MaxResults=1)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(Filters=[Filter(Name=traffic-mirror-target-id, Values=[tmt-0fa549ad445a2e94e])])", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(Filters=[Filter(Name=state, Values=[available])], MaxResults=1)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-04f33ddc790370387, MaxResults=1)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])], MaxResults=100)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-04f33ddc790370387, Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[disable])], MaxResults=1)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-04f33ddc790370387, Filters=[Filter(Name=scope, Values=[Region])], MaxResults=1)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(Filters=[Filter(Name=default-association-route-table, Values=[false])], MaxResults=100)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-04f33ddc790370387, Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])])", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "SearchTransitGatewayMulticastGroupsRequest(Filters=[Filter(Name=resource-id, Values=[vpn-0d59b1da66a690911])], MaxResults=1)", 
+        "apiName": "ec2.searchTransitGatewayMulticastGroupsPaginator"
+    }
+]

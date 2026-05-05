@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReplaceRouteTableAssociation"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:route-table/rtb-045e031193bb8523c"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReplaceRouteTableAssociationRequest(AssociationId=rtbassoc-0641fb38e8d376bb0, RouteTableId=rtb-045e031193bb8523c)", 
+        "apiName": "ec2.replaceRouteTableAssociation"
+    }
+]

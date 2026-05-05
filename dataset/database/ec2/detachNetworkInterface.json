@@ -1,0 +1,42 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DetachNetworkInterface"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:instance/i-06aaba18d746c5311", 
+                        "arn:aws:ec2:us-west-2:002677082836:network-interface/eni-attach-09178b11158dfca70"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "DetachNetworkInterfaceRequest(AttachmentId=eni-attach-09178b11158dfca70, Force=false)", 
+        "apiName": "detachNetworkInterface"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DetachNetworkInterface"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:instance/i-06aaba18d746c5311", 
+                        "arn:aws:ec2:us-west-2:002677082836:network-interface/eni-attach-09178b11158dfca70"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DetachNetworkInterfaceRequest(AttachmentId=eni-attach-09178b11158dfca70, Force=true)", 
+        "apiName": "detachNetworkInterface"
+    }
+]

@@ -1,0 +1,19 @@
+{
+  "scaleUp": {
+    "initial_permissions": [],
+    "rag_permissions": [
+      "cloudwatch:GetMetricStatistics",
+      "dynamodb:UpdateTable"
+    ],
+    "reasoning": "Static analysis detected CloudWatch metric retrieval; code context (dynamodb-autoscaling path, scaleUpTables wrapper) indicates indirect usage of DynamoDB UpdateTable to modify provisioned throughput.",
+    "raw_response": "{\n  \"permissions\": [\n    \"cloudwatch:GetMetricStatistics\",\n    \"dynamodb:UpdateTable\"\n  ],\n  \"reasoning\": \"Static analysis detected CloudWatch metric retrieval; code context (dynamodb-autoscaling path, scaleUpTables wrapper) indicates indirect usage of DynamoDB UpdateTable to modify provisioned throughput.\"\n}"
+  },
+  "scaleDown": {
+    "initial_permissions": [],
+    "rag_permissions": [
+      "cloudwatch:GetMetricStatistics"
+    ],
+    "reasoning": "Static analysis confirmed CloudWatch metric retrieval used for scaling decisions (consumedUnits). Provided code snippets orchestrate logic but do not expose direct DynamoDB update or config store SDK calls, limiting permissions to detected APIs.",
+    "raw_response": "{\n  \"permissions\": [\n    \"cloudwatch:GetMetricStatistics\"\n  ],\n  \"reasoning\": \"Static analysis confirmed CloudWatch metric retrieval used for scaling decisions (consumedUnits). Provided code snippets orchestrate logic but do not expose direct DynamoDB update or config store SDK calls, limiting permissions to detected APIs.\"\n}"
+  }
+}

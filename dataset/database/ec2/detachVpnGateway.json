@@ -1,0 +1,20 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DetachVpnGateway"
+                ], 
+                "Resource": [
+                    "arn:aws:ec2:us-west-2:002677082836:vpc/vpc-1dd31b65", 
+                    "arn:aws:ec2:us-west-2:002677082836:vpn-gateway/vgw-0111ef9729cc973bb"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "\u200b\u200bDetachVpnGatewayRequest(VpcId=vpc-1dd31b65, VpnGatewayId=vgw-0111ef9729cc973bb)", 
+    "apiName": "detachVpnGateway"
+}

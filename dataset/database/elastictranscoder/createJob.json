@@ -1,0 +1,18 @@
+{
+    "apiName": "createJob",
+    "policy": {
+        "Version": "2012-10-17",
+        "Statement": [{
+            "Action": [
+                "elastictranscoder:CreateJob"
+            ],
+            "Sid": "statement2",
+            "Effect": "Allow",
+            "Resource": [
+                "arn:aws:elastictranscoder:us-east-1:002677082836:preset/1581373739310-3zaegd",
+                "arn:aws:elastictranscoder:us-east-1:002677082836:pipeline/1581373739135-4bilqj"
+            ]
+        }]
+    },
+    "request": ""
+}

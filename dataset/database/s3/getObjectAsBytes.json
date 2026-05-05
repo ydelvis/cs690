@@ -1,0 +1,116 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObjectVersion"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "GetObjectRequest(Bucket=test-bucket-5461, IfModifiedSince=2021-06-05T21:59:14.355Z, IfNoneMatch=\"ef6eb555a51a41f207b1094cf16c5872\", Key=key1/listBuckets.json, ResponseCacheControl=only-if-cached, ResponseContentDisposition=inline, ResponseContentLanguage=de-DE, ResponseExpires=2021-06-05T21:59:19.211Z, VersionId=0twP7d1gBunXtvTp4OL9CDro2CCO7XKQ, RequestPayer=requester, PartNumber=1)", 
+        "apiName": "s3.getObjectAsBytes"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObjectVersion"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "GetObjectRequest(Bucket=test-bucket-5461, IfModifiedSince=2021-06-05T22:53:58.237Z, IfNoneMatch=\"ef6eb555a51a41f207b1094cf16c5872\", Key=key1/listBuckets.json, Range=bytes=0-10, ResponseCacheControl=only-if-cached, ResponseContentDisposition=inline, ResponseContentLanguage=de-DE, ResponseExpires=2021-06-05T22:54:01.698Z, VersionId=0twP7d1gBunXtvTp4OL9CDro2CCO7XKQ, RequestPayer=requester)", 
+        "apiName": "s3.getObjectAsBytes"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObjectVersion"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "GetObjectRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, VersionId=0twP7d1gBunXtvTp4OL9CDro2CCO7XKQ, RequestPayer=requester)", 
+        "apiName": "s3.getObjectAsBytes"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetObjectRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.getObjectAsBytes"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetObjectRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, Range=bytes=0-10, ResponseCacheControl=only-if-cached, ResponseContentDisposition=inline, ResponseContentLanguage=de-DE, ResponseExpires=2021-06-06T02:07:46.032Z, RequestPayer=requester)", 
+        "apiName": "s3.getObjectAsBytes"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetObjectRequest(Bucket=test-bucket-5461, IfModifiedSince=2021-06-06T03:02:21.597Z, Key=key1/listBuckets.json, Range=bytes=0-10, ResponseCacheControl=only-if-cached, ResponseContentDisposition=inline, ResponseContentLanguage=de-DE, ResponseExpires=2021-06-06T03:02:21.597Z, RequestPayer=requester)", 
+        "apiName": "s3.getObjectAsBytes"
+    }
+]

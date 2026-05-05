@@ -1,0 +1,18 @@
+{
+  "predict": {
+    "handler_file": "api/predict.py",
+    "handler_func": "handler",
+    "language": "python",
+    "aws_calls": [
+      {
+        "service": "s3",
+        "method": "downloadFile",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 17,
+        "caller_func": "download_file",
+        "file": "lib/utils.py"
+      }
+    ]
+  }
+}

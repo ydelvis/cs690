@@ -1,0 +1,31 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CopySnapshot"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "CopySnapshotRequest(Description=test snapshot copy, SourceRegion=us-west-2, SourceSnapshotId=snap-0c57255824dffe2e8, TagSpecifications=[TagSpecification(ResourceType=snapshot, Tags=[Tag(Key=snapshot, Value=snapshot-tag)])])", 
+        "apiName": "ec2.copySnapshot"
+    }
+]

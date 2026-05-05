@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectLegalHoldRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=key1/listBuckets.json, LegalHold=ObjectLockLegalHold(Status=OFF), RequestPayer=requester, VersionId=XWzt4yjCIHYPlu4e3dV_.kp2kecJ3_JC, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putObjectLegalHold"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectLegalHoldRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=key1/listBuckets.json, LegalHold=ObjectLockLegalHold(Status=ON), RequestPayer=requester, VersionId=XWzt4yjCIHYPlu4e3dV_.kp2kecJ3_JC, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putObjectLegalHold"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectLegalHoldRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=key1/listBuckets.json, LegalHold=ObjectLockLegalHold(Status=ON), RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putObjectLegalHold"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectLegalHold"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectLegalHoldRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=key1/listBuckets.json, LegalHold=ObjectLockLegalHold(Status=ON), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putObjectLegalHold"
+    }
+]

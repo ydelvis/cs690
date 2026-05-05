@@ -1,0 +1,5 @@
+tree_sitter
+tree_sitter_javascript
+faiss-cpu
+sentence-transformers
+pandas

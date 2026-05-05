@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteRouteTable"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:route-table/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteRouteTableRequest(RouteTableId=rtb-06afb6a64c0cfa43e)", 
+        "apiName": "ec2.deleteRouteTable"
+    }
+]

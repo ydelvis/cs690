@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteVpnConnection"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-connection/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteVpnConnectionRequest(VpnConnectionId=vpn-0cb33ce68d0a34ecf)", 
+        "apiName": "ec2.deleteVpnConnection"
+    }
+]

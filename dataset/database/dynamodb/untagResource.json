@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UntagResource"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "UntagResourceRequest(ResourceArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, TagKeys=[tag-key])", 
+        "apiName": "dynamodb.untagResource"
+    }
+]

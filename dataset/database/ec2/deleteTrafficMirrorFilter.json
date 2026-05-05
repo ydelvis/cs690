@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteTrafficMirrorFilter"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteTrafficMirrorFilterRequest(TrafficMirrorFilterId=tmf-084ad1029c247c9ab)", 
+        "apiName": "ec2.deleteTrafficMirrorFilter"
+    }
+]

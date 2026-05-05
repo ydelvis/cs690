@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:DescribeBackup"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461/backup/01621045285436-d27c2373"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeBackupRequest(BackupArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461/backup/01621045285436-d27c2373)", 
+        "apiName": "dynamodb.describeBackup"
+    }
+]

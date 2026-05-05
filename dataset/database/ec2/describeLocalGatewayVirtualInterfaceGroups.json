@@ -1,0 +1,363 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[available])])", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleted])], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=default-association-route-table, Values=[false])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=type, Values=[ipsec.1])])", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])])", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Disabled])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Disabled])])", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=vpc-endpoint-owner, Values=[002677082836])], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-0cc4d5cda8eac8d8c])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=state, Values=[deleting])])", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=state, Values=[deleted])], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=state, Values=[available])])", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=owner-id, Values=[002677082836])], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=transit-gateway-route-table-id, Values=[tgw-rtb-02e9c220c37bb74db])], MaxResults=1)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=route.state, Values=[blackhole])])", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=group-name, Values=[Test-Placement-Group])], MaxResults=100)", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayVirtualInterfaceGroups"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayVirtualInterfaceGroupsRequest(Filters=[Filter(Name=description, Values=[])])", 
+        "apiName": "ec2.describeLocalGatewayVirtualInterfaceGroups"
+    }
+]

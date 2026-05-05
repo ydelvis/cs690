@@ -1,0 +1,101 @@
+{
+  "service": "serverless-http-api-dynamodb-local",
+  "provider": {
+    "name": "aws",
+    "runtime": "nodejs12.x",
+    "region": "",
+    "stage": "dev",
+    "memory_mb": null,
+    "timeout_s": null
+  },
+  "environment": {
+    "DYNAMODB_TABLE": "serverless-http-api-dynamodb-local-${sls:stage}"
+  },
+  "functions": {
+    "create": {
+      "handler": "todos/create.create",
+      "runtime": "nodejs12.x",
+      "environment": {},
+      "events": [
+        {
+          "httpApi": {
+            "path": "/todos",
+            "method": "post"
+          }
+        }
+      ]
+    },
+    "list": {
+      "handler": "todos/list.list",
+      "runtime": "nodejs12.x",
+      "environment": {},
+      "events": [
+        {
+          "httpApi": {
+            "path": "/todos",
+            "method": "get"
+          }
+        }
+      ]
+    },
+    "get": {
+      "handler": "todos/get.get",
+      "runtime": "nodejs12.x",
+      "environment": {},
+      "events": [
+        {
+          "httpApi": {
+            "path": "/todos/{id}",
+            "method": "get"
+          }
+        }
+      ]
+    },
+    "update": {
+      "handler": "todos/update.update",
+      "runtime": "nodejs12.x",
+      "environment": {},
+      "events": [
+        {
+          "httpApi": {
+            "path": "/todos/{id}",
+            "method": "put"
+          }
+        }
+      ]
+    },
+    "delete": {
+      "handler": "todos/delete.delete",
+      "runtime": "nodejs12.x",
+      "environment": {},
+      "events": [
+        {
+          "httpApi": {
+            "path": "/todos/{id}",
+            "method": "delete"
+          }
+        }
+      ]
+    }
+  },
+  "iam_statements": [],
+  "custom": {
+    "dynamodb": {
+      "stages": [
+        "dev"
+      ],
+      "start": {
+        "port": 8000,
+        "inMemory": true,
+        "migrate": true,
+        "noStart": true
+      },
+      "migration": {
+        "dir": "offline/migrations"
+      }
+    }
+  },
+  "source_files": [
+    "serverless.yml"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DescribeMovingAddresses"
+                ], 
+                "Resource": [
+                    "*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "DescribeMovingAddressesRequest(Filters=[Filter()], MaxResults=-1, NextToken=, PublicIps=[key-017df928e910e4389])", 
+    "apiName": "describeMovingAddresses"
+}

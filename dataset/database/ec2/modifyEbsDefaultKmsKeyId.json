@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyEbsDefaultKmsKeyId"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyEbsDefaultKmsKeyIdRequest(KmsKeyId=arn:aws:kms:us-west-2:002677082836:key/c21d0854-829b-4e6e-abe4-de8aca330da3)", 
+        "apiName": "ec2.modifyEbsDefaultKmsKeyId"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyEbsDefaultKmsKeyId"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyEbsDefaultKmsKeyIdRequest(KmsKeyId=alias/aws/ebs)", 
+        "apiName": "ec2.modifyEbsDefaultKmsKeyId"
+    }
+]

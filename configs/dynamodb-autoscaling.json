@@ -1,0 +1,112 @@
+{
+  "service": "dynamodb-auto-scaling",
+  "provider": {
+    "name": "aws",
+    "runtime": "nodejs6.10",
+    "region": "us-east-1",
+    "stage": "dev",
+    "memory_mb": null,
+    "timeout_s": null
+  },
+  "environment": {
+    "STAGE": "${opt:stage, self:provider.stage}",
+    "REGION": "${opt:region, self:provider.region}",
+    "TROUGHPUTS_MIN": "${self:provider.scalingSettings.throughputs.min}",
+    "TROUGHPUTS_MAX": "${self:provider.scalingSettings.throughputs.max}",
+    "TROUGHPUTS_INCREASE": "${self:provider.scalingSettings.throughputs.increase}",
+    "TROUGHPUTS_THRESHOLD": "${self:provider.scalingSettings.throughputs.threshold}",
+    "ANALYZE_TIMESPAN_UP": "${self:provider.scalingSettings.analyzeTimespans.up}",
+    "ANALYZE_TIMESPAN_DOWN": "${self:provider.scalingSettings.analyzeTimespans.down}",
+    "CONFIG_TABLE_NAME": "${self:provider.configTableName}-${opt:stage, self:provider.stage}"
+  },
+  "functions": {
+    "scaleUp": {
+      "handler": "handlers/scale-up.index",
+      "runtime": "nodejs6.10",
+      "environment": {},
+      "events": [
+        {
+          "schedule": "rate(${self:custom.rates.up})"
+        }
+      ]
+    },
+    "scaleDown": {
+      "handler": "handlers/scale-down.index",
+      "runtime": "nodejs6.10",
+      "environment": {},
+      "events": [
+        {
+          "schedule": "rate(${self:custom.rates.down})"
+        }
+      ]
+    },
+    "configLoad": {
+      "handler": "handlers/manage-config.load",
+      "runtime": "nodejs6.10",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "ddb-auto-scale/config",
+            "method": "GET",
+            "private": true
+          }
+        }
+      ]
+    },
+    "configFetch": {
+      "handler": "handlers/manage-config.fetch",
+      "runtime": "nodejs6.10",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "ddb-auto-scale/config/{tableName}",
+            "method": "GET",
+            "private": true
+          }
+        }
+      ]
+    },
+    "configSave": {
+      "handler": "handlers/manage-config.save",
+      "runtime": "nodejs6.10",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "ddb-auto-scale/config",
+            "method": "POST",
+            "private": true
+          }
+        }
+      ]
+    },
+    "configDelete": {
+      "handler": "handlers/manage-config.delete",
+      "runtime": "nodejs6.10",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "ddb-auto-scale/config/{tableName}",
+            "method": "DELETE",
+            "private": true
+          }
+        }
+      ]
+    }
+  },
+  "iam_statements": [],
+  "custom": {
+    "stage": "${opt:stage, self:provider.stage}",
+    "region": "${opt:region, self:provider.region}",
+    "rates": {
+      "up": "${self:custom.${self:custom.stage}.rates.up, self:provider.scalingSettings.rates.up}",
+      "down": "${self:custom.${self:custom.stage}.rates.down, self:provider.scalingSettings.rates.down}"
+    }
+  },
+  "source_files": [
+    "serverless.yml"
+  ]
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyTransitGatewayVpcAttachment"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyTransitGatewayVpcAttachmentRequest(TransitGatewayAttachmentId=tgw-attach-0f75f662a6cdba21d, RemoveSubnetIds=[subnet-092aa5e72690d53ca], Options=ModifyTransitGatewayVpcAttachmentRequestOptions(DnsSupport=disable, ApplianceModeSupport=enable))", 
+        "apiName": "ec2.modifyTransitGatewayVpcAttachment"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateNetworkInsightsPath"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "CreateNetworkInsightsPathRequest(Source=igw-0341545620e6b30c1, Destination=i-059cf08f8f8da7b3e, Protocol=udp, DestinationPort=22, TagSpecifications=[TagSpecification(ResourceType=network-insights-path, Tags=[Tag(Key=network-insights-path, Value=network-insights-path-tag)])])", 
+        "apiName": "ec2.createNetworkInsightsPath"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateNetworkInsightsPath"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateNetworkInsightsPathRequest(Source=igw-0341545620e6b30c1, Destination=i-059cf08f8f8da7b3e, Protocol=udp)", 
+        "apiName": "ec2.createNetworkInsightsPath"
+    }
+]

@@ -1,0 +1,1506 @@
+[
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"da2bdbe7-9087-626f-8cbc-ce14b05d774a\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 01:04:51 GMT\",\"x-amz-id-2\":\"cnt5MY60pGvIwDoXTBdllstwPrZ/Ggt5ZUx16RX+U0ttiZnFC9ZHNzZAkst+tfFIUcZ3sDeMDIIgsvu9HlALUV+VVBwFO0YK\",\"x-amzn-RequestId\":\"da2bdbe7-9087-626f-8cbc-ce14b05d774a\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:CreateStream"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.createStream(CreateStreamRequest createStreamRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"d243bfd7-d664-b0ed-84d4-a7c10171dfe6\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 01:13:58 GMT\",\"x-amz-id-2\":\"nz5qySLFMdWkU7FAHzzGGn7tu11GSfEvnRWOFpM5N7sqRq+Kr+XbRHlIZq7huT3WUpcDwxsXEAS4dUiv12ZfGjoZt2IFRtDn\",\"x-amzn-RequestId\":\"d243bfd7-d664-b0ed-84d4-a7c10171dfe6\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:CreateStream"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.createStream(String streamName, Integer shardCount)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"f48c238a-3f59-a28f-a21b-020dd8569100\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 01:54:15 GMT\",\"x-amz-id-2\":\"kqbRJGlMbT0ORVBoOJJtCqkegSpK8ZsN4RUCK7I/Q6v0HYLdzXxbGajTkx8Mvfv/6g1bov7mlnjP/AJOw1wiYE6/go0D2rkG\",\"x-amzn-RequestId\":\"f48c238a-3f59-a28f-a21b-020dd8569100\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:DeleteStream"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.deleteStream(DeleteStreamRequest deleteStreamRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"f88e9887-ed10-ee87-ae19-bb59bdcda2d7\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 02:04:14 GMT\",\"x-amz-id-2\":\"QtjrIWjDGtTDSVR1IsiDv2b0yCibLVt13O7e2xkIU2BxG4J5yAFCZXnVevp7CPUx/Gvl9A4VLoDREw0HPJgGof9yXwgsUGh3\",\"x-amzn-RequestId\":\"f88e9887-ed10-ee87-ae19-bb59bdcda2d7\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:DeleteStream"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.deleteStream(String streamName)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"streamDescription\":{\"streamName\":\"test-5456-stream\",\"streamARN\":\"arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream\",\"streamStatus\":\"ACTIVE\",\"shards\":[{\"shardId\":\"shardId-000000000000\",\"hashKeyRange\":{\"startingHashKey\":\"0\",\"endingHashKey\":\"170141183460469231731687303715884105727\"},\"sequenceNumberRange\":{\"startingSequenceNumber\":\"49602968113927875673537305873030445439066957284695343106\"}},{\"shardId\":\"shardId-000000000001\",\"hashKeyRange\":{\"startingHashKey\":\"170141183460469231731687303715884105728\",\"endingHashKey\":\"340282366920938463463374607431768211455\"},\"sequenceNumberRange\":{\"startingSequenceNumber\":\"49602968113950176418735836496171981157339605646201323538\"}}],\"hasMoreShards\":false,\"retentionPeriodHours\":24,\"streamCreationTimestamp\":\"Jan 4, 2020, 4:16:59 PM\",\"enhancedMonitoring\":[{\"shardLevelMetrics\":[]}],\"encryptionType\":\"NONE\"},\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"c3103461-9eeb-1ade-959b-beb36f65204d\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"771\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Sun, 5 Jan 2020 06:56:18 GMT\",\"x-amz-id-2\":\"Uz77tHGd/0rxj0FaWlIDZ/xpBmMaU0aWRbAauUsUNYiDh6jGFO3Cl121UzMz6b/v7P/0Kz9PfMOjynekHOmb69j0iPHoZhF7j/wqAIMCHgg\\u003d\",\"x-amzn-RequestId\":\"c3103461-9eeb-1ade-959b-beb36f65204d\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:DescribeStream"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.describeStream(DescribeStreamRequest describeStreamRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"streamDescription\":{\"streamName\":\"test-5456-stream\",\"streamARN\":\"arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream\",\"streamStatus\":\"ACTIVE\",\"shards\":[{\"shardId\":\"shardId-000000000000\",\"hashKeyRange\":{\"startingHashKey\":\"0\",\"endingHashKey\":\"170141183460469231731687303715884105727\"},\"sequenceNumberRange\":{\"startingSequenceNumber\":\"49602968113927875673537305873030445439066957284695343106\"}},{\"shardId\":\"shardId-000000000001\",\"hashKeyRange\":{\"startingHashKey\":\"170141183460469231731687303715884105728\",\"endingHashKey\":\"340282366920938463463374607431768211455\"},\"sequenceNumberRange\":{\"startingSequenceNumber\":\"49602968113950176418735836496171981157339605646201323538\"}}],\"hasMoreShards\":false,\"retentionPeriodHours\":24,\"streamCreationTimestamp\":\"Jan 4, 2020, 4:16:59 PM\",\"enhancedMonitoring\":[{\"shardLevelMetrics\":[]}],\"encryptionType\":\"NONE\"},\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"eaf3e4ff-5678-5cd6-bc64-e65e8dd6ef10\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"771\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Mon, 13 Jan 2020 23:42:25 GMT\",\"x-amz-id-2\":\"4PwcWgBf6+w9sCSVWk3iL2AJVj71nKsQnApJOWD8w3BvnVhsNecZdCZQgdNKvc4XW4nLF4r18mm0iiwK9focCTqzduX/8atK\",\"x-amzn-RequestId\":\"eaf3e4ff-5678-5cd6-bc64-e65e8dd6ef10\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:DescribeStream"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.describeStream(String streamName)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"streamDescription\":{\"streamName\":\"test-5456-stream\",\"streamARN\":\"arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream\",\"streamStatus\":\"ACTIVE\",\"shards\":[],\"hasMoreShards\":false,\"retentionPeriodHours\":24,\"streamCreationTimestamp\":\"Jan 4, 2020, 4:16:59 PM\",\"enhancedMonitoring\":[{\"shardLevelMetrics\":[]}],\"encryptionType\":\"NONE\"},\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"de4ce097-ca6e-ee11-88db-e98be1fb3f03\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"288\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 00:10:04 GMT\",\"x-amz-id-2\":\"n6Tl2HRDFts8Fn1ThwVd4zoLZOFPKRVa0jmCZUGPqOTCEiVoVqbcsgeI7zdbL8VGSifkgIoQ+rLYwOjghRy6rLDk0G77SOFv\",\"x-amzn-RequestId\":\"de4ce097-ca6e-ee11-88db-e98be1fb3f03\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:DescribeStream"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.describeStream(String streamName, Integer limit, String exclusiveStartShardId)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"streamDescription\":{\"streamName\":\"test-5456-stream\",\"streamARN\":\"arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream\",\"streamStatus\":\"ACTIVE\",\"shards\":[],\"hasMoreShards\":false,\"retentionPeriodHours\":24,\"streamCreationTimestamp\":\"Jan 4, 2020, 4:16:59 PM\",\"enhancedMonitoring\":[{\"shardLevelMetrics\":[]}],\"encryptionType\":\"NONE\"},\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"c7b6c704-2eca-f439-9121-ced02b82459f\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"288\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 00:13:08 GMT\",\"x-amz-id-2\":\"KeyvOz4mzkDtUHsyBoFghahAds3NZlP7DQNIiFTuIOGbvlat5BDiahks87Z1+2w0m7bIJ+bUCW6oXWbgCBc0bAwzPQZMHrBr\",\"x-amzn-RequestId\":\"c7b6c704-2eca-f439-9121-ced02b82459f\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:DescribeStream"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.describeStream(String streamName, String exclusiveStartShardId)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"streamNames\":[\"test-5456-stream\",\"testRetailStream\"],\"hasMoreStreams\":false,\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"da93e8ba-6ea6-edc7-8c18-792461d252ab\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"66\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Sun, 5 Jan 2020 07:25:18 GMT\",\"x-amz-id-2\":\"TD1TJe+whTx7MIu5VzHynUWUV5Qv1skeMw+NONGK9YH21rcML6oKj41M8UJQuj7AmrVGdtcHD3HXCnmi6trDPqQQKycV2/o3\",\"x-amzn-RequestId\":\"da93e8ba-6ea6-edc7-8c18-792461d252ab\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:ListStreams"
+                            ], 
+                            "Resource": "*", 
+                            "Effect": "Allow", 
+                            "Sid": "statement1"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.listStreams(ListStreamsRequest listStreamsRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"streamNames\":[\"test-5456-stream\",\"testRetailStream\"],\"hasMoreStreams\":false,\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"c65055c2-cfe9-010e-90c7-586cf9603cce\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"66\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 00:29:34 GMT\",\"x-amz-id-2\":\"1GBXzh2Mwif3ANYE5ybb88yW9+nwtt0Y4rGkWGifMYkCPz+Ju4U9mdmuAWKuyCK1f3wKB/3Xgg7b3siMIBvSrlZMEPiYFdTo\",\"x-amzn-RequestId\":\"c65055c2-cfe9-010e-90c7-586cf9603cce\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:ListStreams"
+                            ], 
+                            "Resource": "*", 
+                            "Effect": "Allow", 
+                            "Sid": "statement1"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.listStreams()"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"streamNames\":[\"test-5456-stream\",\"testRetailStream\"],\"hasMoreStreams\":false,\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"c4633ff5-2d98-b988-92f4-319d3d11ec50\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"66\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 00:32:40 GMT\",\"x-amz-id-2\":\"uNvMmorLNAYn/l/6bWoQhOVZ3/CtbSrmdU7w2cUlL7GCujFSDfOcqD+HC1BxAPAusMi4m2grQkuo5DkxOGxguTS2eEJ0xMI5\",\"x-amzn-RequestId\":\"c4633ff5-2d98-b988-92f4-319d3d11ec50\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:ListStreams"
+                            ], 
+                            "Resource": "*", 
+                            "Effect": "Allow", 
+                            "Sid": "statement1"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.listStreams(Integer limit, String exclusiveStartStreamName)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"streamNames\":[\"test-5456-stream\",\"testRetailStream\"],\"hasMoreStreams\":false,\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"d967a4f2-e283-ff92-8ff0-abede27d2156\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"66\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 00:35:43 GMT\",\"x-amz-id-2\":\"4ZQ2KjKNqDhAPwkCIJvz/RRiob1cBXv37Jo6jkzmLpj30w0tRDJUMlyyPgLYoN+YGzBwvhBbjbiRIX6Xzw4zbNuvKgBCj2+H\",\"x-amzn-RequestId\":\"d967a4f2-e283-ff92-8ff0-abede27d2156\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:ListStreams"
+                            ], 
+                            "Resource": "*", 
+                            "Effect": "Allow", 
+                            "Sid": "statement1"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.listStreams(String exclusiveStartStreamName)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"records\":[{\"sequenceNumber\":\"49602976479048903368366702317093550858213896786234310674\",\"approximateArrivalTimestamp\":\"Jan 6, 2020, 2:04:03 PM\",\"data\":{\"hb\":[123,34,112,114,111,100,117,99,116,34,58,34,112,114,111,100,117,99,116,45,49,50,51,34,44,34,97,99,116,105,111,110,34,58,34,99,108,105,99,107,34,125],\"offset\":0,\"isReadOnly\":false,\"bigEndian\":true,\"nativeByteOrder\":false,\"mark\":-1,\"position\":0,\"limit\":42,\"capacity\":42,\"address\":16},\"partitionKey\":\"user-123\"}],\"nextShardIterator\":\"AAAAAAAAAAESa6kLjXx0UR52dAIa6SnWsu8JQSFZP7Ntlq1epqa6c/+COMayfjat1uDc3KrYPfrZjuIiLZQm84r+0KCpL5qMeN8vORAUG7DBPvkGiNEk+KuCD1HwRN7NxIC5M5wVdYxx9yMW7oSpkoq2FcHFwJUvrL8P2JVZd3cAF21zwPiq3ji+s7IgIpqJyUxpuWKph1TaUxzktcoHp9kC7kLrveGw\",\"millisBehindLatest\":0,\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"e9547469-0a1a-b6e8-bfda-736ed80ce858\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"461\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 7 Jan 2020 04:10:47 GMT\",\"x-amz-id-2\":\"FFhkbGXv/KQo1aiA8zwQxv/Fh6rSU427oaPmwGBtqGzDE9temh0WIKOWP/j5pmUe+zS4T+HBBXtSYrerAV+YmvXIIg6WRBIJ1GrKjoDtnjs\\u003d\",\"x-amzn-RequestId\":\"e9547469-0a1a-b6e8-bfda-736ed80ce858\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:GetRecords"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.getRecords(GetRecordsRequest getRecordsRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"shardIterator\":\"AAAAAAAAAAH2dVrzCYCIkK/S9Go81HVKZxX5ep4rErRxGw8c62pC8s7wRE6M+m6MqxqTa+LTTWOEItR1PSYLmRn72Pae7bmTjVu6eUoouaD+G7PmStSsK08o+fhm6SE9CZq8NCWxkPW/C+SxHf5deNkqm2JSrewsWK9wnvxFjT2ZxdX9oBuEvVjndO3zRLFd+gmV6ahiey18WASIl79Fs07BGThEHJjB\",\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"f9f6ff49-c929-905e-af61-ae90a7d7e3c4\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"242\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 05:20:25 GMT\",\"x-amz-id-2\":\"VCHmkkGRXFGylSDXaEMP/OtE+GUcRLkqYm1b6Vw/lMbe8lUMNTYN85E2BpOWVH9mW6BXGIuFFF2JKewJBeD246xvrL429Ghl\",\"x-amzn-RequestId\":\"f9f6ff49-c929-905e-af61-ae90a7d7e3c4\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:GetShardIterator"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.getShardIterator(GetShardIteratorRequest getShardIteratorRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"shardIterator\":\"AAAAAAAAAAGGgidmqxh9PpiItMNh637qi9L6UVB+hnirwzeSpyOtUPVRBZxUPJvtxRpQAP4SmZGL8kS4kIYOGmHl+8D4KHCgccNCM7s4MkNBrJv3vJMYr5igYkGNbo4FRg/AE/K9LaOtE8MU67XrKw+B01JhumTGRYz56inFqWHes+6R4NyAcVqhSXR52rT19UH91rNNeaUP8zY+ChkFrRi05xE7f1D+\",\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"ce5aebb4-02f9-3b7d-98cd-b92e55f31112\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"242\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 05:23:38 GMT\",\"x-amz-id-2\":\"oLfHRFoveE0O5pET7gDm9xs+jDw5XGpQtLYMr/ODFzL82sxsB3ZLojMPGRcR4RpZtVpCczGN76v01Zpxlk0oP5nNpJ6X0Kk3\",\"x-amzn-RequestId\":\"ce5aebb4-02f9-3b7d-98cd-b92e55f31112\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:GetShardIterator"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.getShardIterator(String streamName, String shardId, String shardIteratorType)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"shardIterator\":\"AAAAAAAAAAG8a73vO8w6hXuWkkt0pDoUirkUVkcWHGEyd6uw+HbC7VdzQNgvzREvHdTDjts8VCbL0ywiQ/QGN6hKcRl3K0ikiDU3KjiHkGVRSqwXrLyVTKCC7ntjrVFIKz2RjeJWOaX15zwwQn0y4gPQBZ58bAMwTacbDCvgXlspc/bZlbcctLY99CNdjT70XWSPBFhX3wPo3tmhpTq9LzzSzx2ETS4g\",\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"d1c498bf-09b4-a4d1-8753-cbecbc426947\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"242\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 05:26:43 GMT\",\"x-amz-id-2\":\"p/ZnR13Q4V8fNAhkYR97HFhl03wQ6ge5vtP9ejF5EdXNzMZgPuHDjZUcZhNa9Lh1Hy+LHj1Oxm3vvo+EYVRinilEsdMIc9fDFDdEt6qWWlI\\u003d\",\"x-amzn-RequestId\":\"d1c498bf-09b4-a4d1-8753-cbecbc426947\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:GetShardIterator"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.getShardIterator(String streamName, String shardId, String shardIteratorType, String startingSequenceNumber)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"shards\":[{\"shardId\":\"shardId-000000000000\",\"hashKeyRange\":{\"startingHashKey\":\"0\",\"endingHashKey\":\"170141183460469231731687303715884105727\"},\"sequenceNumberRange\":{\"startingSequenceNumber\":\"49602968113927875673537305873030445439066957284695343106\"}},{\"shardId\":\"shardId-000000000001\",\"hashKeyRange\":{\"startingHashKey\":\"170141183460469231731687303715884105728\",\"endingHashKey\":\"340282366920938463463374607431768211455\"},\"sequenceNumberRange\":{\"startingSequenceNumber\":\"49602968113950176418735836496171981157339605646201323538\"}}],\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"c2490de5-d53a-f419-94de-6ea51289d5ff\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"494\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 06:34:40 GMT\",\"x-amz-id-2\":\"od2mBlq5E59iXtkWfJwOKeoWhUgpPOYd64QVFZlnWKH8PU+fTU8RDy15eTvZp9z7C3SXW+S5OVDFwxmAyHrUFh+lyWIs5LugEKcGc0y2Kvk\\u003d\",\"x-amzn-RequestId\":\"c2490de5-d53a-f419-94de-6ea51289d5ff\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:ListShards"
+                            ], 
+                            "Resource": "*", 
+                            "Effect": "Allow", 
+                            "Sid": "statement1"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.listShards(ListShardsRequest listShardsRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"streamDescriptionSummary\":{\"streamName\":\"test-5456-stream\",\"streamARN\":\"arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream\",\"streamStatus\":\"ACTIVE\",\"retentionPeriodHours\":24,\"streamCreationTimestamp\":\"Jan 4, 2020, 4:16:59 PM\",\"enhancedMonitoring\":[{\"shardLevelMetrics\":[]}],\"encryptionType\":\"NONE\",\"openShardCount\":2,\"consumerCount\":0},\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"eb2a549f-abdd-c937-bdbd-3f5d02229453\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"303\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 07:10:58 GMT\",\"x-amz-id-2\":\"GmA5eAYmNFV2IjjdTmuLPM8GApr2b51CokawqDmG+XYEYDYy/Ed57wVHKFBvQ0r6QkrjC9uIeyDrItziCNNd7b6jW8kGS8D7\",\"x-amzn-RequestId\":\"eb2a549f-abdd-c937-bdbd-3f5d02229453\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:DescribeStreamSummary"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.describeStreamSummary(DescribeStreamSummaryRequest describeStreamSummaryRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"shardLimit\":500,\"openShardCount\":9,\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"c4a37471-95ef-a86c-9234-1957bfdfd404\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"32\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 07:16:54 GMT\",\"x-amz-id-2\":\"S3rMBzs61D/BKYtDoEGanfzxozBhnABfMlx/zCg8bntaz0aDbewMmSBTUjQ1OqKYwklz0W/kp+km6VYUJgwBw4l1zY5Rb1Rj\",\"x-amzn-RequestId\":\"c4a37471-95ef-a86c-9234-1957bfdfd404\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:DescribeLimits"
+                            ], 
+                            "Resource": "*", 
+                            "Effect": "Allow", 
+                            "Sid": "statement1"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.describeLimits(DescribeLimitsRequest describeLimitsRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"consumers\":[],\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"cde95c60-d232-7041-9b7e-2cdfe33e7010\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"14\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 07:32:15 GMT\",\"x-amz-id-2\":\"1bXBrigllY6Qm72T+tDlHDnc/DF/eYvd2pLAzybFV0o4wfTGGeX22hg6Fhx0AvSQyHkXuTgAMlieO/ZFAEzyxNAPlAkayzWs\",\"x-amzn-RequestId\":\"cde95c60-d232-7041-9b7e-2cdfe33e7010\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:ListStreamConsumers"
+                            ], 
+                            "Resource": "*", 
+                            "Effect": "Allow", 
+                            "Sid": "statement1"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.listStreamConsumers(ListStreamConsumersRequest listStreamConsumersRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": []
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.listStreamConsumersPaginator(ListStreamConsumersRequest listStreamConsumersRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"shardId\":\"shardId-000000000001\",\"sequenceNumber\":\"49602976479048903368366703864805115384232905931264884754\",\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"c5d571ae-b8f4-6c20-9342-f56e41065acd\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"104\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 08:57:36 GMT\",\"x-amz-id-2\":\"y+QbTYVhsMDtTjFogiI9aexBX0Fi92QlsyTQ96UC8LSjfcC8nCIKMfpEKgKPPrEeWvG69C4ghfT/MrqV57TXvpvsqGHeOdi1wRYCUX/TdWA\\u003d\",\"x-amzn-RequestId\":\"c5d571ae-b8f4-6c20-9342-f56e41065acd\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:PutRecord"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.putRecord(PutRecordRequest putRecordRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"shardId\":\"shardId-000000000001\",\"sequenceNumber\":\"49602976479048903368366703865384190851828325812893909010\",\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"f3af7ca8-54f0-ba96-a538-f9df904efc54\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"104\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 09:00:39 GMT\",\"x-amz-id-2\":\"E5Z6mSitLjAQZTfKUTtsxos5X9NHQWykLnN9QcTIxsA9b1GlkWwdxueiuDGPrs4tzB2/1k12yJEKRJ271dYpEY6Vk/4dcQzR\",\"x-amzn-RequestId\":\"f3af7ca8-54f0-ba96-a538-f9df904efc54\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:PutRecord"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.putRecord(String streamName, ByteBuffer data, String partitionKey)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"shardId\":\"shardId-000000000001\",\"sequenceNumber\":\"49602976479048903368366703865929416396474536215070113810\",\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"f1778419-415c-e17f-a7e0-02377031e392\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"104\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 09:03:42 GMT\",\"x-amz-id-2\":\"/eBvwe9iucV/80L7lslHW0pZJgaG6qKPs+ayfj9SEeIpvnc30Hjcm3bqD5qjwGWeLGC9Xa7KOX90i9uQgNFEz2RDYjQbxPta\",\"x-amzn-RequestId\":\"f1778419-415c-e17f-a7e0-02377031e392\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:PutRecord"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.putRecord(String streamName, ByteBuffer data, String partitionKey, String sequenceNumberForOrdering)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"c0c4f5c4-d73e-2489-965c-d2d3d444dc66\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 20:30:15 GMT\",\"x-amz-id-2\":\"XPNiuD+J1ie5uOK+88FtCKZRs1NNju1vB51W4G2uHlUHXJP/jN9fYv0uN7sVQZ1oGQTE1bloQy/ImFDtxxO/+klZ4Ebx1lEU\",\"x-amzn-RequestId\":\"c0c4f5c4-d73e-2489-965c-d2d3d444dc66\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:AddTagsToStream"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.addTagsToStream(AddTagsToStreamRequest addTagsToStreamRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"fbb02cd3-c439-baf6-ad28-06cd136de781\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 20:43:10 GMT\",\"x-amz-id-2\":\"DuJaiJCs2s8pypVu5jdPJy28ubvNkOw9vrq35CevaHKKoYoN2R1iq9nWIrkz+XT51CFJsCWvm4oPzAfcsSWyRdy2bYuuHV0K\",\"x-amzn-RequestId\":\"fbb02cd3-c439-baf6-ad28-06cd136de781\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:RemoveTagsFromStream"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.removeTagsFromStream(RemoveTagsFromStreamRequest removeTagsFromStreamRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"tags\":[{\"key\":\"tag1\",\"value\":\"value1\"}],\"hasMoreTags\":false,\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"e0ac2811-6c74-1017-b634-05a986ba1c9c\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"46\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 20:58:32 GMT\",\"x-amz-id-2\":\"xgSwks50FalJlhb9xvfD1+nkIh7NpQV7MR8ivN6FiswONJxclG4EmioDOFFIaUgR25HujqOb2c6C0gWn46842zG0rT1e6n7n\",\"x-amzn-RequestId\":\"e0ac2811-6c74-1017-b634-05a986ba1c9c\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:ListTagsForStream"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.listTagsForStream(ListTagsForStreamRequest listTagsForStreamRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"streamName\":\"test-5456-stream\",\"currentShardCount\":3,\"targetShardCount\":3,\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"e776e366-6297-5a26-b1ee-b23bdc6bdd72\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"67\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Tue, 14 Jan 2020 23:30:37 GMT\",\"x-amz-id-2\":\"sna0LUHJ4cofNAZb/Lun+vRx4F/3n6jRkUwKUVLVKCHPWBWON51Kpy2vt+k0COwk6+m/D8p+jhOBD43f5BDNeSdMXilsv9vKfhQl0ZwYn30\\u003d\",\"x-amzn-RequestId\":\"e776e366-6297-5a26-b1ee-b23bdc6bdd72\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:UpdateShardCount"
+                            ], 
+                            "Resource": "*", 
+                            "Effect": "Allow", 
+                            "Sid": "statement1"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.updateShardCount(UpdateShardCountRequest updateShardCountRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"f60409fe-ab39-af9a-a09c-bbabc01c9f86\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Wed, 15 Jan 2020 06:24:21 GMT\",\"x-amz-id-2\":\"M1zccAK6SqACijIzXKgWgvag0Xgz/Uz3BwNvRBacLG3SpZ6KTT0YL6mLvCcDx3JJ+FE87IDpM22Ehi+ODp7j2NNc9ukRnUJR\",\"x-amzn-RequestId\":\"f60409fe-ab39-af9a-a09c-bbabc01c9f86\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:IncreaseStreamRetentionPeriod"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.increaseStreamRetentionPeriod(IncreaseStreamRetentionPeriodRequest increaseStreamRetentionPeriodRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"f8ffb30f-59d3-7f3e-ae67-00c5807bc7fe\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Wed, 15 Jan 2020 06:30:34 GMT\",\"x-amz-id-2\":\"aJCnB2aYgpgh1RBHLU+2DDbEIQqkqgXrhwE6kJSIWf+NHfPT0+ypHy08DbDa+Wq8qSeVe2+GN1KiyqZHcHrG70cQ2ZBinVYQ\",\"x-amzn-RequestId\":\"f8ffb30f-59d3-7f3e-ae67-00c5807bc7fe\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:DecreaseStreamRetentionPeriod"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.decreaseStreamRetentionPeriod(DecreaseStreamRetentionPeriodRequest decreaseStreamRetentionPeriodRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"consumer\":{\"consumerName\":\"test-5456-firehose\",\"consumerARN\":\"arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream/consumer/test-5456-firehose:1579766394\",\"consumerStatus\":\"CREATING\",\"consumerCreationTimestamp\":\"Jan 23, 2020, 2:59:54 AM\"},\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"cb516cd4-7f84-7244-9df2-386eca0650e6\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"221\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Thu, 23 Jan 2020 07:59:54 GMT\",\"x-amz-id-2\":\"wXg5gLY1E28HWh8OOjRe6Jc+tuaQROhp0gliDPhvH0H/uKQ1UjAQolEGqkYzi3UfOtcKiQiDo4Uwr0dOp9ZC0Usro7uKlgn2gjk2kKYq1tY\\u003d\",\"x-amzn-RequestId\":\"cb516cd4-7f84-7244-9df2-386eca0650e6\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:RegisterStreamConsumer"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream", 
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream/consumer/test-5456-firehose:1579766096"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.registerStreamConsumer(RegisterStreamConsumerRequest registerStreamConsumerRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"f6faab2c-bb35-0546-a058-55947bca48ec\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Thu, 23 Jan 2020 01:52:56 GMT\",\"x-amz-id-2\":\"mvhhwwPcFC2FbgUem9/AJ8sk7ECUv6LiB3RUgoeZ3SWAniPmmKxi3U16ooR3PjZDOByZ9WyzoAsHjQzuWYluVQ19l2O61c79\",\"x-amzn-RequestId\":\"f6faab2c-bb35-0546-a058-55947bca48ec\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:DeregisterStreamConsumer"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream", 
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream/consumer/test-5456-firehose:1579744254"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.deregisterStreamConsumer(DeregisterStreamConsumerRequest deregisterStreamConsumerRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"failedRecordCount\":0,\"records\":[{\"sequenceNumber\":\"49603341015927915884146300110068139064966240187675836674\",\"shardId\":\"shardId-000000000016\"}],\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"fa41e27e-f953-8abf-ace2-a87e03085a8c\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"135\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Thu, 23 Jan 2020 07:14:08 GMT\",\"x-amz-id-2\":\"Yr8N+tkzvijUTPfgQiBeoQhkMKEL/N+RtODXqRVNZ6F9g3sEWhl6flzRza/GiqF7Rs107FuTe6rVwERL0YYTykoLTTBj8bBk\",\"x-amzn-RequestId\":\"fa41e27e-f953-8abf-ace2-a87e03085a8c\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:PutRecords"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.putRecords(PutRecordsRequest putRecordsRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"consumerDescription\":{\"consumerName\":\"test-5456-firehose\",\"consumerARN\":\"arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream/consumer/test-5456-firehose:1579766394\",\"consumerStatus\":\"ACTIVE\",\"consumerCreationTimestamp\":\"Jan 23, 2020, 2:59:54 AM\",\"streamARN\":\"arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream\"},\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"c9c42a72-43b5-e3c5-9f67-d44327ffcb91\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"304\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Thu, 23 Jan 2020 20:02:57 GMT\",\"x-amz-id-2\":\"2MqVu4Z7KtavFvhN06aMfC3AGShqfGua5UhMBFchEUy2lorR/ycAeVepIpI3wQ91s/6klApBa03kbNVWZl5XJoqnTTzS54Hf\",\"x-amzn-RequestId\":\"c9c42a72-43b5-e3c5-9f67-d44327ffcb91\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:DescribeStreamConsumer"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream/consumer/test-5456-firehose:1579766394", 
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.describeStreamConsumer(DescribeStreamConsumerRequest describeStreamConsumerRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"streamName\":\"test-5456-stream\",\"currentShardLevelMetrics\":[],\"desiredShardLevelMetrics\":[\"IncomingBytes\",\"OutgoingRecords\",\"IteratorAgeMilliseconds\",\"IncomingRecords\",\"ReadProvisionedThroughputExceeded\",\"WriteProvisionedThroughputExceeded\",\"OutgoingBytes\"],\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"d1386193-e920-a51a-879c-5d96a4d10fd7\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"241\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Fri, 24 Jan 2020 00:26:45 GMT\",\"x-amz-id-2\":\"a+dbA1jwLH1cMGzHt4usII964O+vuV5GdEpk8fRcXndTKz5DN3X0Uif+V3cKeW+Em3sJ14gNhceYUimGVKjTNESqDQL16ymE\",\"x-amzn-RequestId\":\"d1386193-e920-a51a-879c-5d96a4d10fd7\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:EnableEnhancedMonitoring"
+                            ], 
+                            "Resource": "*", 
+                            "Effect": "Allow", 
+                            "Sid": "statement1"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.enableEnhancedMonitoring(EnableEnhancedMonitoringRequest enableEnhancedMonitoringRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"streamName\":\"test-5456-stream\",\"currentShardLevelMetrics\":[\"IncomingBytes\",\"OutgoingRecords\",\"IteratorAgeMilliseconds\",\"IncomingRecords\",\"ReadProvisionedThroughputExceeded\",\"WriteProvisionedThroughputExceeded\",\"OutgoingBytes\"],\"desiredShardLevelMetrics\":[],\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"f4e5f36f-e363-9866-a241-c5ca884dd7a1\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"241\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Fri, 24 Jan 2020 00:03:49 GMT\",\"x-amz-id-2\":\"UjyBier1ekJDC4Rx3/lCzWN+3QT1E8ZZjTKQg2fjsYq4hEy+smTfZZFe156d1AuY04Rcfgn6Z8Q8Q0eWBV1f7+Pc08LmDSIx\",\"x-amzn-RequestId\":\"f4e5f36f-e363-9866-a241-c5ca884dd7a1\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:DisableEnhancedMonitoring"
+                            ], 
+                            "Resource": "*", 
+                            "Effect": "Allow", 
+                            "Sid": "statement1"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.disableEnhancedMonitoring(DisableEnhancedMonitoringRequest disableEnhancedMonitoringRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"d3cf3e45-5d60-7fa6-8571-ffec4de92a7e\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Thu, 13 Feb 2020 03:15:53 GMT\",\"x-amz-id-2\":\"YXsNkNorQR6ud8h+Rr7syrRpmdrRVAnOHpUMg5V6Yhq4iYgZMu9Hi9UGsCNQQZs+Xn18eW5u9xj2/eME2dbRypQDukj+aFgk\",\"x-amzn-RequestId\":\"d3cf3e45-5d60-7fa6-8571-ffec4de92a7e\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:MergeShards"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.mergeShards(MergeShardsRequest mergeShardsRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"fcb91acb-bbec-b400-aa07-d37376c4ccb7\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Thu, 13 Feb 2020 03:50:16 GMT\",\"x-amz-id-2\":\"m4Dsn5YyxE8JKOqiFgb0Hh5UNE6LfyRj5mjM9JDPbH7I0HIDk/ZkwDOqI9nXbkL4Yv1rhK8CJZpvqHQBZZ/d8m1sxM0GdzJq3ZTWRRroYNo\\u003d\",\"x-amzn-RequestId\":\"fcb91acb-bbec-b400-aa07-d37376c4ccb7\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:MergeShards"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.mergeShards(String streamName, String shardToMerge, String adjacentShardToMerge)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"cf303831-a7a0-202c-998e-d121ff31e887\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Thu, 13 Feb 2020 06:04:00 GMT\",\"x-amz-id-2\":\"b1JEE97nO5eqnWCMmWprh7MZhQuO44Anblrkz7B/+uVxiiKLMmFOJUT2q7L7loOII84c83Z6lQ2dvXqI6+HdZBrrldQB6u/6\",\"x-amzn-RequestId\":\"cf303831-a7a0-202c-998e-d121ff31e887\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:SplitShard"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.splitShard(SplitShardRequest splitShardRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"d8db1594-bb51-4f3a-8e65-e60017a05ce2\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Thu, 13 Feb 2020 06:48:52 GMT\",\"x-amz-id-2\":\"+U4JkA5oelQC4WJmMge/PRgJ9QfIOHnU5VHeXRndM98E01d5ZJszK9GWyU8n5+Si4ovW8VMP/BNspXnpZT0t/tJ3MCdXEZiWxQTHWgqRSjg\\u003d\",\"x-amzn-RequestId\":\"d8db1594-bb51-4f3a-8e65-e60017a05ce2\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:SplitShard"
+                            ], 
+                            "Resource": [
+                                "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                            ], 
+                            "Effect": "Allow", 
+                            "Sid": "statement2"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.splitShard(String streamName, String shardToSplit, String newStartingHashKey)"
+        }
+    }, 
+    {
+        "OutputMessage": "User: arn:aws:sts::002677082836:assumed-role/Alice/session1 is not authorized to perform: kinesis:StartStreamEncryption on resource: arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream (Service: AmazonKinesis; Status Code: 400; Error Code: AccessDeniedException; Request ID: f850794e-1429-8f05-aeef-e2b254b8e21d)", 
+        "State": {
+            "PolicyAttached": {
+                "Version": "2012-10-17", 
+                "Statement": [
+                    {
+                        "Action": [
+                            "kinesis:ListStreamConsumers"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement11"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:EnableEnhancedMonitoring"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement14"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:RemoveTagsFromStream"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement23"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:UpdateShardCount"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement25"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:MergeShards"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement26"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:AddTagsToStream"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement1"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DescribeStreamSummary"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement15"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:GetShardIterator"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement8"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:RegisterStreamConsumer"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement22"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:CreateStream"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement17"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:ListTagsForStream"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement5"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DeregisterStreamConsumer"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement2"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:ListShards"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement10"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:PutRecords"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement9"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DescribeStreamConsumer"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement24"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DecreaseStreamRetentionPeriod"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement4"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:GetRecords"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement6"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DisableEnhancedMonitoring"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement7"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:IncreaseStreamRetentionPeriod"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement20"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DescribeLimits"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement21"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:PutRecord"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement19"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DeleteStream"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement12"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:ListStreams"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement3"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:SplitShard"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement16"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DescribeStream"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement18"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:SubscribeToShard"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement13"
+                    }
+                ]
+            }, 
+            "Resource": {}, 
+            "User": "Alice"
+        }, 
+        "ApiCallEffect": "DENIED", 
+        "ApiAction": "kinesis.startStreamEncryption(StartStreamEncryptionRequest startStreamEncryptionRequest)"
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"f5f56d69-bfff-586f-a34a-f0e2733590be\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Thu, 13 Feb 2020 18:54:03 GMT\",\"x-amz-id-2\":\"/+cVBZX8eQaABYfFKwJyHO5AjC2Dan/yx57X6Oys2rOx0rJpoy65e0V1xB6Xirq3VCOKkTb+aDE2RTg3SuiByYdVvxdGQ6VO\",\"x-amzn-RequestId\":\"f5f56d69-bfff-586f-a34a-f0e2733590be\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:*"
+                            ], 
+                            "Resource": "*", 
+                            "Effect": "Allow", 
+                            "Sid": "statement1"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.startStreamEncryption(StartStreamEncryptionRequest startStreamEncryptionRequest)"
+        }
+    }, 
+    {
+        "ActionOutput": {
+            "OutputMessage": "{\"sdkResponseMetadata\":{\"metadata\":{\"AWS_REQUEST_ID\":\"f9ca0040-39f8-a6c6-af75-a4189ca97c6f\"}},\"sdkHttpMetadata\":{\"httpHeaders\":{\"Content-Length\":\"0\",\"Content-Type\":\"application/x-amz-cbor-1.1\",\"Date\":\"Thu, 13 Feb 2020 19:23:04 GMT\",\"x-amz-id-2\":\"DfueUzfedLWLO6BHFTGwgB0k+JVTBZYH8s7Bv0tAWA1cU+F57ZVWqIOIlu0Io2TV9DP4TDEydBFvEixNOF/pP7io3bSxitZh\",\"x-amzn-RequestId\":\"f9ca0040-39f8-a6c6-af75-a4189ca97c6f\"},\"httpStatusCode\":200}}", 
+            "State": {
+                "PolicyAttached": {
+                    "Version": "2012-10-17", 
+                    "Statement": [
+                        {
+                            "Action": [
+                                "kinesis:*"
+                            ], 
+                            "Resource": "*", 
+                            "Effect": "Allow", 
+                            "Sid": "statement1"
+                        }
+                    ]
+                }, 
+                "Resource": {}, 
+                "User": "Alice"
+            }, 
+            "ApiCallEffect": "ALLOWED", 
+            "ApiAction": "kinesis.stopStreamEncryption(StopStreamEncryptionRequest stopStreamEncryptionRequest)"
+        }
+    }, 
+    {
+        "OutputMessage": "User: arn:aws:sts::002677082836:assumed-role/Alice/session1 is not authorized to perform: kinesis:StopStreamEncryption on resource: arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream (Service: AmazonKinesis; Status Code: 400; Error Code: AccessDeniedException; Request ID: da71312c-8a03-ee8d-8cce-804d7b513aaf)", 
+        "State": {
+            "PolicyAttached": {
+                "Version": "2012-10-17", 
+                "Statement": [
+                    {
+                        "Action": [
+                            "kinesis:ListStreamConsumers"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement11"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:EnableEnhancedMonitoring"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement14"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:RemoveTagsFromStream"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement23"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:UpdateShardCount"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement25"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:MergeShards"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement26"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:AddTagsToStream"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement1"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:GetShardIterator"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement8"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DescribeStreamSummary"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement15"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:RegisterStreamConsumer"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement22"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:CreateStream"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement17"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:ListTagsForStream"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement5"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DeregisterStreamConsumer"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement2"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:ListShards"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement10"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:PutRecords"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement9"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DescribeStreamConsumer"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement24"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DecreaseStreamRetentionPeriod"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement4"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:GetRecords"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement6"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DisableEnhancedMonitoring"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement7"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:IncreaseStreamRetentionPeriod"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement20"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DescribeLimits"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement21"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:PutRecord"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement19"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DeleteStream"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement12"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:ListStreams"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement3"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:SplitShard"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement16"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:DescribeStream"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement18"
+                    }, 
+                    {
+                        "Action": [
+                            "kinesis:SubscribeToShard"
+                        ], 
+                        "Resource": "*", 
+                        "Effect": "Allow", 
+                        "Sid": "statement13"
+                    }
+                ]
+            }, 
+            "Resource": {}, 
+            "User": "Alice"
+        }, 
+        "ApiCallEffect": "DENIED", 
+        "ApiAction": "kinesis.stopStreamEncryption(StopStreamEncryptionRequest stopStreamEncryptionRequest)"
+    }
+]

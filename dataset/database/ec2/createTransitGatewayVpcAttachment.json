@@ -1,0 +1,68 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayVpcAttachment"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:subnet/subnet-092aa5e72690d53ca", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-05ea99e26ea5b116a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayVpcAttachmentRequest(TransitGatewayId=tgw-05ea99e26ea5b116a, VpcId=vpc-088f61503142622ed, SubnetIds=[subnet-092aa5e72690d53ca], Options=CreateTransitGatewayVpcAttachmentRequestOptions(Ipv6Support=disable, ApplianceModeSupport=disable))", 
+        "apiName": "ec2.createTransitGatewayVpcAttachment"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayVpcAttachment"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:subnet/subnet-092aa5e72690d53ca", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-05ea99e26ea5b116a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayVpcAttachmentRequest(TransitGatewayId=tgw-05ea99e26ea5b116a, VpcId=vpc-088f61503142622ed, SubnetIds=[subnet-092aa5e72690d53ca])", 
+        "apiName": "ec2.createTransitGatewayVpcAttachment"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayVpcAttachment"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:subnet/subnet-092aa5e72690d53ca", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway/tgw-05ea99e26ea5b116a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayVpcAttachmentRequest(TransitGatewayId=tgw-05ea99e26ea5b116a, VpcId=vpc-088f61503142622ed, SubnetIds=[subnet-092aa5e72690d53ca], Options=CreateTransitGatewayVpcAttachmentRequestOptions(DnsSupport=disable))", 
+        "apiName": "ec2.createTransitGatewayVpcAttachment"
+    }
+]

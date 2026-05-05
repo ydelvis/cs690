@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteNetworkInterfacePermission"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteNetworkInterfacePermissionRequest(NetworkInterfacePermissionId=eni-perm-0447b623ab5643c78, Force=false)", 
+        "apiName": "ec2.deleteNetworkInterfacePermission"
+    }
+]

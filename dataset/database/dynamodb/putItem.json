@@ -1,0 +1,135 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PutItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutItemRequest(TableName=test-table-5461, Item={Model=AttributeValue(S=328), Make=AttributeValue(S=BMW), Id=AttributeValue(S=3)}, ReturnItemCollectionMetrics=NONE)", 
+        "apiName": "dynamodb.putItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PutItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutItemRequest(TableName=test-table-5461, Item={Id=AttributeValue(S=1)}, ReturnConsumedCapacity=TOTAL)", 
+        "apiName": "dynamodb.putItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PutItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutItemRequest(TableName=test-table-5461, Item={Model=AttributeValue(S=328), Make=AttributeValue(S=BMW), Id=AttributeValue(S=3)}, ReturnConsumedCapacity=INDEXES, ReturnItemCollectionMetrics=SIZE)", 
+        "apiName": "dynamodb.putItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PutItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutItemRequest(TableName=test-table-5461, Item={Model=AttributeValue(S=328), Make=AttributeValue(S=BMW), Id=AttributeValue(S=3)}, ReturnValues=ALL_OLD, ReturnConsumedCapacity=NONE)", 
+        "apiName": "dynamodb.putItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PutItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutItemRequest(TableName=test-table-5461, Item={Model=AttributeValue(S=328), Make=AttributeValue(S=BMW), Id=AttributeValue(S=3)}, ReturnValues=ALL_OLD, ReturnConsumedCapacity=TOTAL, ReturnItemCollectionMetrics=NONE)", 
+        "apiName": "dynamodb.putItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PutItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutItemRequest(TableName=test-table-5461, Item={Id=AttributeValue(S=1)}, ReturnConsumedCapacity=NONE, ReturnItemCollectionMetrics=SIZE)", 
+        "apiName": "dynamodb.putItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PutItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutItemRequest(TableName=test-table-5461, Item={Model=AttributeValue(S=328), Make=AttributeValue(S=BMW), Id=AttributeValue(S=3)}, ReturnConsumedCapacity=INDEXES)", 
+        "apiName": "dynamodb.putItem"
+    }
+]

@@ -1,0 +1,186 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Enabled])])", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS]), Filter(Name=traffic-type, Values=[ACCEPT]), Filter(Name=log-destination-type, Values=[s3])], MaxResults=0)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=strategy, Values=[spread])])", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS]), Filter(Name=traffic-type, Values=[ACCEPT]), Filter(Name=log-destination-type, Values=[s3])])", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[enable])], MaxResults=0)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=resource-type, Values=[vpc])], MaxResults=0)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=state, Values=[available])], MaxResults=0)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=state, Values=[deleting])], MaxResults=0)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=traffic-type, Values=[REJECT])])", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=default-association-route-table, Values=[true])], MaxResults=100)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Enabled])], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Disabled])], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=association.state, Values=[associated])], MaxResults=0)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069])], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Disabled])], MaxResults=100)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Enabled])], MaxResults=0)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-type, Values=[Topic])], MaxResults=0)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS])])", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Enabled])], MaxResults=100)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[rejected])], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Disabled])])", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotificationsPaginator"
+    }
+]

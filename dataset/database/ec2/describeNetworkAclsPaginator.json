@@ -1,0 +1,186 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[snap-ff869fa8], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], MaxResults=-100)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[M3_LARGE])", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[acl-d2b393aa], NextToken=)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[], MaxResults=100)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[dopt-bbeb2ac3], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[922761411349], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], MaxResults=1)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[eipalloc-068f6cb5459d939aa], MaxResults=-1)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[launch-wizard-1, default])", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[launch-wizard-1, default], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[eipalloc-068f6cb5459d939aa], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[rtb-ca18b2b1], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[ec2-instance-key-pair])", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[dopt-bbeb2ac3], NextToken=, MaxResults=-1)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], MaxResults=-100)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[922761411349], MaxResults=-1)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[1], NextToken=, MaxResults=-1)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], MaxResults=100)", 
+        "apiName": "ec2.describeNetworkAclsPaginator"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, MaxKeys=0, Prefix=key, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, EncodingType=url, MaxKeys=2000, Prefix=)", 
+        "apiName": "listObjectVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=, EncodingType=url, KeyMarker=key1, MaxKeys=1, Prefix=, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=/, EncodingType=url, KeyMarker=key2, Prefix=, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersionsPaginator"
+    }
+]

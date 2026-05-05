@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateCapacityReservation"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateCapacityReservationRequest(InstanceType=t2.nano, InstancePlatform=Linux/UNIX, AvailabilityZone=us-west-2c, InstanceCount=1, EbsOptimized=false, EphemeralStorage=false)", 
+        "apiName": "ec2.createCapacityReservation"
+    }
+]

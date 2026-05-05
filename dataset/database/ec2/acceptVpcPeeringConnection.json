@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AcceptVpcPeeringConnection"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-peering-connection/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "AcceptVpcPeeringConnectionRequest(VpcPeeringConnectionId=pcx-05b8c7bb109330152)", 
+        "apiName": "ec2.acceptVpcPeeringConnection"
+    }
+]

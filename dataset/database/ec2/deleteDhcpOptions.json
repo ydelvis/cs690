@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteDhcpOptions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:dhcp-options/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteDhcpOptionsRequest(DhcpOptionsId=dopt-00e901f8aa9f1cbcc)", 
+        "apiName": "ec2.deleteDhcpOptions"
+    }
+]

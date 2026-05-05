@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ImportVolume"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "ImportVolumeRequest(AvailabilityZone=us-west-2c, Description=imported volume, Image=DiskImageDetail(Bytes=1048576, Format=VMDK, ImportManifestUrl=https://test-bucket-5461.s3.us-west-2.amazonaws.com/snapshots/export-ami-05b6eeb6863c64c9c.vmdk), Volume=VolumeDetail(Size=1))", 
+        "apiName": "ec2.importVolume"
+    }
+]

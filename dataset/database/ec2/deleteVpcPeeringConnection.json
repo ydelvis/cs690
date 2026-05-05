@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteVpcPeeringConnection"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-peering-connection/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteVpcPeeringConnectionRequest(VpcPeeringConnectionId=pcx-00ca0322e25611ba5)", 
+        "apiName": "ec2.deleteVpcPeeringConnection"
+    }
+]

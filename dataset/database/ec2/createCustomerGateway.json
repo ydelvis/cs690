@@ -1,0 +1,31 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateCustomerGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:customer-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateCustomerGatewayRequest(BgpAsn=65534, PublicIp=1.1.1.1, Type=ipsec.1, TagSpecifications=[TagSpecification(ResourceType=customer-gateway, Tags=[Tag(Key=customer-gateway, Value=customer-gateway-tag)])], DeviceName=test-customer-gateway-device)", 
+        "apiName": "ec2.createCustomerGateway"
+    }
+]

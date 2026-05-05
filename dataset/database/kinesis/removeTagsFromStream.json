@@ -1,0 +1,19 @@
+{
+    "apiName": "removeTagsFromStream",
+    "policy": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "kinesis:RemoveTagsFromStream"
+                ],
+                "Resource": [
+                    "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream"
+                ],
+                "Effect": "Allow",
+                "Sid": "statement2"
+            }
+        ]
+    },
+    "request": ""
+}

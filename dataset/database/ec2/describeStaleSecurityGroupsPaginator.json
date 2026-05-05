@@ -1,0 +1,10 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeStaleSecurityGroupsRequest(MaxResults=100, NextToken=, VpcId=vpc-088f61503142622ed)", 
+        "apiName": "ec2.describeStaleSecurityGroupsPaginator"
+    }
+]

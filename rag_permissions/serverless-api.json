@@ -1,0 +1,22 @@
+{
+  "create": {
+    "initial_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "rag_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "reasoning": "The Lambda function 'create' (corresponding to create-product.py) explicitly calls client.put_item() using the DynamoDB boto3 client. No other AWS SDK methods are invoked in this execution context. The retrieved file find-product.py corresponds to a separate handler logic not executed by this specific function, so dynamodb:GetItem is excluded.",
+    "raw_response": "{\n  \"permissions\": [\n    \"dynamodb:PutItem\"\n  ],\n  \"reasoning\": \"The Lambda function 'create' (corresponding to create-product.py) explicitly calls client.put_item() using the DynamoDB boto3 client. No other AWS SDK methods are invoked in this execution context. The retrieved file find-product.py corresponds to a separate handler logic not executed by this specific function, so dynamodb:GetItem is excluded.\"\n}"
+  },
+  "find": {
+    "initial_permissions": [
+      "dynamodb:GetItem"
+    ],
+    "rag_permissions": [
+      "dynamodb:GetItem"
+    ],
+    "reasoning": "The find-product.py handler explicitly invokes the boto3 DynamoDB client get_item method. The retrieved code for create-product.py contains put_item but belongs to a different function logic and is not executed by this Lambda. No other AWS SDK calls are present in the active handler.",
+    "raw_response": "{\"permissions\": [\"dynamodb:GetItem\"], \"reasoning\": \"The find-product.py handler explicitly invokes the boto3 DynamoDB client get_item method. The retrieved code for create-product.py contains put_item but belongs to a different function logic and is not executed by this Lambda. No other AWS SDK calls are present in the active handler.\"}"
+  }
+}

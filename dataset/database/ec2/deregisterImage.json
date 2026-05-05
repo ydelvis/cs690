@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeregisterImage"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeregisterImageRequest(ImageId=ami-0d1c17397fab4ea7b)", 
+        "apiName": "ec2.deregisterImage"
+    }
+]

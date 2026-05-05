@@ -1,0 +1,20 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DisassociateRouteTable"
+                ], 
+                "Resource": [
+                    "arn:aws:ec2:us-west-2:002677082836:route-table/*", 
+                    "arn:aws:ec2:us-west-2:002677082836:subnet/*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "DisassociateRouteTableRequest(AssociationId=rtbassoc-0758937c162dd492f)", 
+    "apiName": "disassociateRouteTable"
+}

@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeReservedInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "DescribeReservedInstancesRequest(Filters=[Filter(Name=state, Values=[available])], OfferingClass=convertible)", 
+        "apiName": "describeReservedInstances"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeReservedInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeReservedInstancesRequest(Filters=[Filter(Name=instance-type, Values=[t3.micro])], OfferingClass=convertible, ReservedInstancesIds=[7bc82b63-1b39-44fa-b5b3-7549547641e0], OfferingType=No Upfront)", 
+        "apiName": "describeReservedInstances"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeReservedInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "DescribeReservedInstancesRequest(OfferingClass=convertible, OfferingType=Partial Upfront)", 
+        "apiName": "describeReservedInstances"
+    }
+]

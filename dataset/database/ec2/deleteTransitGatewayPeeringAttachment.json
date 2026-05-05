@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteTransitGatewayPeeringAttachment"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteTransitGatewayPeeringAttachmentRequest(TransitGatewayAttachmentId=tgw-attach-0613dc36806dc8e1d)", 
+        "apiName": "ec2.deleteTransitGatewayPeeringAttachment"
+    }
+]

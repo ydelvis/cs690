@@ -1,0 +1,44 @@
+{
+  "create": {
+    "handler_file": "lambda/create-product.py",
+    "handler_func": "handler",
+    "language": "python",
+    "aws_calls": [
+      {
+        "service": "dynamodb",
+        "method": "putItem",
+        "params_present": [
+          "Item",
+          "TableName"
+        ],
+        "resolved_params": {
+          "TableName": "${self:resources.Resources.ProductCatalogDynamoDBTable.Properties.TableName}"
+        },
+        "line": 45,
+        "caller_func": "handler",
+        "file": "lambda/create-product.py"
+      }
+    ]
+  },
+  "find": {
+    "handler_file": "lambda/find-product.py",
+    "handler_func": "handler",
+    "language": "python",
+    "aws_calls": [
+      {
+        "service": "dynamodb",
+        "method": "getItem",
+        "params_present": [
+          "Key",
+          "TableName"
+        ],
+        "resolved_params": {
+          "TableName": "${self:resources.Resources.ProductCatalogDynamoDBTable.Properties.TableName}"
+        },
+        "line": 37,
+        "caller_func": "handler",
+        "file": "lambda/find-product.py"
+      }
+    ]
+  }
+}

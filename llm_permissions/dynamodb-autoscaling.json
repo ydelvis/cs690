@@ -1,0 +1,24 @@
+{
+  "scaleUp": {
+    "initial_permissions": [],
+    "llm_permissions": [
+      "cloudwatch:GetMetricStatistics",
+      "dynamodb:Scan",
+      "dynamodb:DescribeTable",
+      "dynamodb:UpdateTable"
+    ],
+    "reasoning": "Execution path 'index' calls scaleUpTables, which loads config via ConfigRepository.Scan. AutoScaleService scales tables using CloudWatch metrics (GetMetricStatistics), reads schema (DescribeTable), and updates throughput (UpdateTable). Methods like Query/Put/Delete defined in ConfigRepository are not invoked in this handler.",
+    "raw_response": "{\n  \"permissions\": [\n    \"cloudwatch:GetMetricStatistics\",\n    \"dynamodb:Scan\",\n    \"dynamodb:DescribeTable\",\n    \"dynamodb:UpdateTable\"\n  ],\n  \"reasoning\": \"Execution path 'index' calls scaleUpTables, which loads config via ConfigRepository.Scan. AutoScaleService scales tables using CloudWatch metrics (GetMetricStatistics), reads schema (DescribeTable), and updates throughput (UpdateTable). Methods like Query/Put/Delete defined in ConfigRepository are not invoked in this handler.\"\n}"
+  },
+  "scaleDown": {
+    "initial_permissions": [],
+    "llm_permissions": [
+      "cloudwatch:GetMetricStatistics",
+      "dynamodb:Scan",
+      "dynamodb:DescribeTable",
+      "dynamodb:UpdateTable"
+    ],
+    "reasoning": "Execution flow triggers configRepository.load() requiring DynamoDB Scan. AutoScaleService.getTableSchema() requires DescribeTable to fetch table schema. Metrics analysis via getConsumedCapacityUnits() requires CloudWatch GetMetricStatistics. Variable construction of tableUpdateRequest with ProvisionedThroughput implies DynamoDB UpdateTable is required for scaling functionality. Unused repository methods (Query, PutItem, DeleteItem) excluded for minimality.",
+    "raw_response": "{\n  \"permissions\": [\n    \"cloudwatch:GetMetricStatistics\",\n    \"dynamodb:Scan\",\n    \"dynamodb:DescribeTable\",\n    \"dynamodb:UpdateTable\"\n  ],\n  \"reasoning\": \"Execution flow triggers configRepository.load() requiring DynamoDB Scan. AutoScaleService.getTableSchema() requires DescribeTable to fetch table schema. Metrics analysis via getConsumedCapacityUnits() requires CloudWatch GetMetricStatistics. Variable construction of tableUpdateRequest with ProvisionedThroughput implies DynamoDB UpdateTable is required for scaling functionality. Unused repository methods (Query, PutItem, DeleteItem) excluded for minimality.\"\n}"
+  }
+}

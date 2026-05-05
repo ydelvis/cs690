@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutAnalyticsConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteBucketAnalyticsConfigurationRequest(Bucket=test-bucket-5461, Id=test-bucket-5461-analytics-configuration-1)", 
+        "apiName": "s3.deleteBucketAnalyticsConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutAnalyticsConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteBucketAnalyticsConfigurationRequest(Bucket=test-bucket-5461, Id=test-bucket-5461-analytics-configuration-1, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.deleteBucketAnalyticsConfiguration"
+    }
+]

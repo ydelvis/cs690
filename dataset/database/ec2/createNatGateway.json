@@ -1,0 +1,44 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateNatGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:elastic-ip/eipalloc-068f6cb5459d939aa", 
+                        "arn:aws:ec2:*:002677082836:subnet/subnet-092aa5e72690d53ca", 
+                        "arn:aws:ec2:*:002677082836:natgateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateNatGatewayRequest(SubnetId=subnet-092aa5e72690d53ca, AllocationId=eipalloc-068f6cb5459d939aa)", 
+        "apiName": "ec2.createNatGateway"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateNatGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:elastic-ip/eipalloc-068f6cb5459d939aa", 
+                        "arn:aws:ec2:*:002677082836:subnet/subnet-092aa5e72690d53ca", 
+                        "arn:aws:ec2:*:002677082836:natgateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateNatGatewayRequest(SubnetId=subnet-092aa5e72690d53ca, AllocationId=eipalloc-068f6cb5459d939aa)", 
+        "apiName": "ec2.createNatGateway"
+    }
+]

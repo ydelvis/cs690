@@ -1,0 +1,17 @@
+{
+    "apiName": "updateShardCount",
+    "policy": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "kinesis:UpdateShardCount"
+                ],
+                "Resource": "*",
+                "Effect": "Allow",
+                "Sid": "statement1"
+            }
+        ]
+    },
+    "request": ""
+}

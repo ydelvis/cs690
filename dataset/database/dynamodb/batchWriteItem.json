@@ -1,0 +1,173 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:BatchWriteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "BatchWriteItemRequest(RequestItems={test-table-5461=[WriteRequest(PutRequest=PutRequest(Item={Model=AttributeValue(S=R8), Make=AttributeValue(S=Audi), Id=AttributeValue(S=2)}))]}, ReturnConsumedCapacity=INDEXES, ReturnItemCollectionMetrics=SIZE)", 
+        "apiName": "dynamodb.batchWriteItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:BatchWriteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "BatchWriteItemRequest(RequestItems={test-table-5461=[WriteRequest(PutRequest=PutRequest(Item={Model=AttributeValue(S=R8), Make=AttributeValue(S=Audi), Id=AttributeValue(S=2)}))]}, ReturnItemCollectionMetrics=NONE)", 
+        "apiName": "dynamodb.batchWriteItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:BatchWriteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "BatchWriteItemRequest(RequestItems={test-table-5461=[WriteRequest(PutRequest=PutRequest(Item={Model=AttributeValue(S=R8), Make=AttributeValue(S=Audi), Id=AttributeValue(S=2)}))]}, ReturnConsumedCapacity=NONE, ReturnItemCollectionMetrics=NONE)", 
+        "apiName": "dynamodb.batchWriteItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:BatchWriteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "BatchWriteItemRequest(RequestItems={test-table-5461=[WriteRequest(PutRequest=PutRequest(Item={Model=AttributeValue(S=R8), Make=AttributeValue(S=Audi), Id=AttributeValue(S=2)}))]}, ReturnConsumedCapacity=INDEXES, ReturnItemCollectionMetrics=NONE)", 
+        "apiName": "dynamodb.batchWriteItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:BatchWriteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "BatchWriteItemRequest(RequestItems={test-table-5461=[WriteRequest(PutRequest=PutRequest(Item={Model=AttributeValue(S=R8), Make=AttributeValue(S=Audi), Id=AttributeValue(S=2)}))]}, ReturnConsumedCapacity=INDEXES)", 
+        "apiName": "dynamodb.batchWriteItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:BatchWriteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "BatchWriteItemRequest(RequestItems={test-table-5461=[WriteRequest(PutRequest=PutRequest(Item={Model=AttributeValue(S=R8), Make=AttributeValue(S=Audi), Id=AttributeValue(S=2)}))]}, ReturnConsumedCapacity=TOTAL, ReturnItemCollectionMetrics=NONE)", 
+        "apiName": "dynamodb.batchWriteItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:BatchWriteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "BatchWriteItemRequest(RequestItems={test-table-5461=[WriteRequest(PutRequest=PutRequest(Item={Model=AttributeValue(S=R8), Make=AttributeValue(S=Audi), Id=AttributeValue(S=2)}))]}, ReturnConsumedCapacity=NONE)", 
+        "apiName": "dynamodb.batchWriteItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:BatchWriteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "BatchWriteItemRequest(RequestItems={test-table-5461=[WriteRequest(PutRequest=PutRequest(Item={Model=AttributeValue(S=R8), Make=AttributeValue(S=Audi), Id=AttributeValue(S=2)}))]}, ReturnItemCollectionMetrics=SIZE)", 
+        "apiName": "dynamodb.batchWriteItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:BatchWriteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "BatchWriteItemRequest(RequestItems={test-table-5461=[WriteRequest(PutRequest=PutRequest(Item={Model=AttributeValue(S=R8), Make=AttributeValue(S=Audi), Id=AttributeValue(S=2)}))]}, ReturnConsumedCapacity=TOTAL)", 
+        "apiName": "dynamodb.batchWriteItem"
+    }
+]

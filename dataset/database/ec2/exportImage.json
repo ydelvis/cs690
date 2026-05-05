@@ -1,0 +1,50 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ExportImage"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ExportImageRequest(Description=exporting image, DiskImageFormat=VHD, ImageId=ami-013ad70ab73da1ff2, S3ExportLocation=ExportTaskS3LocationRequest(S3Bucket=test-bucket-5461, S3Prefix=ec2-images/), RoleName=Alice, TagSpecifications=[TagSpecification(ResourceType=export-image-task, Tags=[Tag(Key=export-image-task, Value=export-image-task-tag)])])", 
+        "apiName": "ec2.exportImage"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ExportImage"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ExportImageRequest(Description=exporting image, DiskImageFormat=VHD, ImageId=ami-013ad70ab73da1ff2, S3ExportLocation=ExportTaskS3LocationRequest(S3Bucket=test-bucket-5461, S3Prefix=ec2-images/), RoleName=Alice)", 
+        "apiName": "ec2.exportImage"
+    }
+]

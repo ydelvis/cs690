@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObjectVersion"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "HeadObjectRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, VersionId=0twP7d1gBunXtvTp4OL9CDro2CCO7XKQ, RequestPayer=requester)", 
+        "apiName": "s3.headObject"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "HeadObjectRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, RequestPayer=requester, PartNumber=1, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.headObject"
+    }
+]

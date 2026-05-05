@@ -1,0 +1,92 @@
+{
+  "adjacency": {
+    "delete": [
+      "dynamodb.delete"
+    ],
+    "get": [
+      "dynamodb.get"
+    ],
+    "update": [
+      "dynamodb.update"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "delete",
+      "file": "dataset/apps/aws-node-http-api-dynamodb-local/todos/delete.js",
+      "language": "javascript",
+      "line": 5
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/aws-node-http-api-dynamodb-local/todos/delete.js",
+      "language": "javascript",
+      "line": 14
+    },
+    {
+      "name": "list",
+      "file": "dataset/apps/aws-node-http-api-dynamodb-local/todos/list.js",
+      "language": "javascript",
+      "line": 5
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/aws-node-http-api-dynamodb-local/todos/list.js",
+      "language": "javascript",
+      "line": 11
+    },
+    {
+      "name": "get",
+      "file": "dataset/apps/aws-node-http-api-dynamodb-local/todos/get.js",
+      "language": "javascript",
+      "line": 5
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/aws-node-http-api-dynamodb-local/todos/get.js",
+      "language": "javascript",
+      "line": 14
+    },
+    {
+      "name": "create",
+      "file": "dataset/apps/aws-node-http-api-dynamodb-local/todos/create.js",
+      "language": "javascript",
+      "line": 6
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/aws-node-http-api-dynamodb-local/todos/create.js",
+      "language": "javascript",
+      "line": 31
+    },
+    {
+      "name": "update",
+      "file": "dataset/apps/aws-node-http-api-dynamodb-local/todos/update.js",
+      "language": "javascript",
+      "line": 5
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/aws-node-http-api-dynamodb-local/todos/update.js",
+      "language": "javascript",
+      "line": 38
+    }
+  ],
+  "edges": [
+    {
+      "caller": "delete",
+      "callee": "dynamodb.delete",
+      "caller_file": "dataset/apps/aws-node-http-api-dynamodb-local/todos/delete.js"
+    },
+    {
+      "caller": "get",
+      "callee": "dynamodb.get",
+      "caller_file": "dataset/apps/aws-node-http-api-dynamodb-local/todos/get.js"
+    },
+    {
+      "caller": "update",
+      "callee": "dynamodb.update",
+      "caller_file": "dataset/apps/aws-node-http-api-dynamodb-local/todos/update.js"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "apiName": "createPipeline",
+    "policy": {
+        "Version": "2012-10-17",
+        "Statement": [{
+            "Action": [
+                "elastictranscoder:CreatePipeline"
+            ],
+            "Sid": "statement1",
+            "Effect": "Allow",
+            "Resource": "*"
+        }]
+    },
+    "request": ""
+}

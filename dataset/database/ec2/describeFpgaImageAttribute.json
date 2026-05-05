@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeFpgaImageAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeFpgaImageAttributeRequest(FpgaImageId=afi-03955ec68e6293be3, Attribute=description)", 
+        "apiName": "ec2.describeFpgaImageAttribute"
+    }
+]

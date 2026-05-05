@@ -1,0 +1,186 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[dopt-bbeb2ac3], GroupNames=[ec2-instance-key-pair], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[44.237.200.166], GroupNames=[Test-Launch-Template])", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[sg-084edec751f962157, sg-702ca705], GroupNames=[922761411349], MaxResults=-100)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[002677082836, self, all], GroupNames=[ec2-instance-key-pair], MaxResults=-1)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[sg-084edec751f962157, sg-702ca705], NextToken=)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[M3_LARGE], GroupNames=[lt-01286ed53e9c989b1], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[Test-Launch-Template], GroupNames=[i-01ec73f52711d20f7, i-01d514444253d9b80], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[Test-Launch-Template], GroupNames=[922761411349], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[M3_LARGE], GroupNames=[key-017df928e910e4389], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[eipalloc-068f6cb5459d939aa], GroupNames=[key-017df928e910e4389], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], MaxResults=100)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[key-017df928e910e4389], GroupNames=[1], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[vpc-1dd31b65], GroupNames=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[dopt-bbeb2ac3], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupNames=[sg-084edec751f962157, sg-702ca705], MaxResults=100)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[002677082836, self, all], NextToken=)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[key-017df928e910e4389], GroupNames=[lt-01286ed53e9c989b1], NextToken=)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[M3_LARGE], GroupNames=[M3_LARGE], MaxResults=-100)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[launch-wizard-1, default], GroupNames=[i-01ec73f52711d20f7, i-01d514444253d9b80], MaxResults=-100)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupNames=[i-01ec73f52711d20f7, i-01d514444253d9b80], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[ami-00bb6f60], GroupNames=[launch-wizard-1, default], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[dopt-bbeb2ac3], GroupNames=[i-01ec73f52711d20f7, i-01d514444253d9b80], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSecurityGroupsRequest(Filters=[Filter()], GroupIds=[sg-084edec751f962157, sg-702ca705], GroupNames=[Test-Launch-Template], MaxResults=1)", 
+        "apiName": "ec2.describeSecurityGroupsPaginator"
+    }
+]

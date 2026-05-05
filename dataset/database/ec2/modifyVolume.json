@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVolume"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:volume/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVolumeRequest(VolumeId=vol-02e3b6c1175e47df3, Size=200, VolumeType=gp2, MultiAttachEnabled=false)", 
+        "apiName": "ec2.modifyVolume"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVolume"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:volume/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVolumeRequest(VolumeId=vol-021aba778c3991f5a, VolumeType=io2, MultiAttachEnabled=false)", 
+        "apiName": "ec2.modifyVolume"
+    }
+]

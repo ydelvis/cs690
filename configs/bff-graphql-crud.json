@@ -1,0 +1,77 @@
+{
+  "service": "cncb-bff-graphql-crud",
+  "provider": {
+    "name": "aws",
+    "runtime": "nodejs8.10",
+    "region": "",
+    "stage": "dev",
+    "memory_mb": null,
+    "timeout_s": null
+  },
+  "environment": {
+    "TABLE_NAME": "{'Ref': 'Table'}",
+    "SERVERLESS_STAGE": "${opt:stage}",
+    "STREAM_NAME": "${cf:cncb-event-stream-${opt:stage}.streamName}"
+  },
+  "functions": {
+    "graphql": {
+      "handler": "handler.graphql",
+      "runtime": "nodejs8.10",
+      "environment": {
+        "TABLE_NAME": "{'Ref': 'Table'}"
+      },
+      "events": [
+        {
+          "http": {
+            "path": "graphql",
+            "method": "post",
+            "cors": true
+          }
+        }
+      ]
+    },
+    "graphiql": {
+      "handler": "handler.graphiql",
+      "runtime": "nodejs8.10",
+      "environment": {
+        "SERVERLESS_STAGE": "${opt:stage}"
+      },
+      "events": [
+        {
+          "http": {
+            "path": "graphiql",
+            "method": "get",
+            "cors": true
+          }
+        }
+      ]
+    },
+    "trigger": {
+      "handler": "handler.trigger",
+      "runtime": "nodejs8.10",
+      "environment": {
+        "STREAM_NAME": "${cf:cncb-event-stream-${opt:stage}.streamName}"
+      },
+      "events": [
+        {
+          "stream": {
+            "type": "dynamodb",
+            "arn": {
+              "Fn::GetAtt": [
+                "Table",
+                "StreamArn"
+              ]
+            },
+            "batchSize": 100,
+            "startingPosition": "TRIM_HORIZON"
+          }
+        }
+      ]
+    }
+  },
+  "iam_statements": [],
+  "custom": {},
+  "source_files": [
+    "serverless.yml"
+  ]
+}

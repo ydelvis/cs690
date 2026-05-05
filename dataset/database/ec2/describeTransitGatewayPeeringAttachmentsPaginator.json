@@ -1,0 +1,146 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[pl-00a54069], Filters=[Filter(Name=state, Values=[deleted])])", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[tgw-attach-0e68cd6b557341f65], Filters=[Filter(Name=service-name, Values=[com.amazonaws.us-east-2.acm-pca])], MaxResults=0)", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[vgw-0111ef9729cc973bb], Filters=[Filter(Name=state, Values=[deleted])], MaxResults=1)", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[sg-024ee611e1e7cb9e6, sg-084edec751f962157], Filters=[Filter(Name=owner-id, Values=[002677082836])])", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[enable])], MaxResults=0)", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[tgw-attach-0e68cd6b557341f65], Filters=[Filter(Name=resource-id, Values=[vpn-0d59b1da66a690911])], MaxResults=100)", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[tgw-attach-0e68cd6b557341f65], Filters=[Filter(Name=options.default-route-table-association, Values=[disable])])", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[7bc82b63-1b39-44fa-b5b3-7549547641e0])", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[tgw-attach-0e68cd6b557341f65], Filters=[Filter(Name=state, Values=[available])], MaxResults=100)", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[Test-Placement-Group], Filters=[Filter(Name=traffic-type, Values=[ACCEPT])], MaxResults=1)", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[pg-040cc29c500fb8381], Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])])", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(MaxResults=1)", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[tgw-attach-0e68cd6b557341f65], Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[disable])], MaxResults=100)", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[rtb-045e031193bb8523c], Filters=[Filter(Name=transit-gateway-route-table-id, Values=[tgw-rtb-02e9c220c37bb74db])], MaxResults=0)", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[aws.sagemaker.us-east-2.notebook, com.amazonaws.us-east-2.acm-pca], Filters=[Filter(Name=options.default-route-table-association, Values=[enable])], MaxResults=0)", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[vpn-0d59b1da66a690911], Filters=[Filter(Name=default-propagation-route-table, Values=[false])], MaxResults=0)", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[fl-04f17f472df55e076], Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])], MaxResults=0)", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeTransitGatewayPeeringAttachmentsRequest(TransitGatewayAttachmentIds=[tgw-attach-0e68cd6b557341f65], Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[enable])], MaxResults=0)", 
+        "apiName": "ec2.describeTransitGatewayPeeringAttachmentsPaginator"
+    }
+]

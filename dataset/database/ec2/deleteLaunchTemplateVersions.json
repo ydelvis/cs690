@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteLaunchTemplateVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:launch-template/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteLaunchTemplateVersionsRequest(Versions=[1])", 
+        "apiName": "ec2.deleteLaunchTemplateVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteLaunchTemplateVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:launch-template/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteLaunchTemplateVersionsRequest()", 
+        "apiName": "ec2.deleteLaunchTemplateVersions"
+    }
+]

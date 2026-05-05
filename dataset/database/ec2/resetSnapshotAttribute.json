@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ResetSnapshotAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::snapshot/snap-0f0be801fb576272b"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ResetSnapshotAttributeRequest(Attribute=createVolumePermission, SnapshotId=snap-0f0be801fb576272b)", 
+        "apiName": "ec2.resetSnapshotAttribute"
+    }
+]

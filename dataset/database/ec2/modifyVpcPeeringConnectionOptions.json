@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpcPeeringConnectionOptions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-peering-connection/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpcPeeringConnectionOptionsRequest(RequesterPeeringConnectionOptions=PeeringConnectionOptionsRequest(AllowDnsResolutionFromRemoteVpc=false, AllowEgressFromLocalClassicLinkToRemoteVpc=false, AllowEgressFromLocalVpcToRemoteClassicLink=false), VpcPeeringConnectionId=pcx-04ec17106d4d37fa5)", 
+        "apiName": "ec2.modifyVpcPeeringConnectionOptions"
+    }
+]

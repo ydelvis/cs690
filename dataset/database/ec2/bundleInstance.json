@@ -1,0 +1,7 @@
+Could not invoke the API successfully after following instructions in the documentation, i.e. have an instance running that is not backed by EBS
+An error occurred (InvalidInstanceType) when calling the BundleInstance operation: Instance i-0c7bd9b2120f7a390 does not support bundling.
+
+Unable to bring EC2 instance to a state needed for the bundleInstance API:
+Tried creating store-backed Linux AMI from the instance but go an error when executing 'ec2-bundle-vol -k /tmp/cert/my-new-test-key-pair.pem -c /tmp/cert/certificate.pem -u 002677082836 -r x86_64 -e /tmp/cert':
+/usr/local/ec2/ec2-ami-tools-1.5.7/lib/ec2/platform/linux/image.rb:253:in `set_partition_type': Non-standard volume device "/dev/nvme0n1p1" (FatalError)
+

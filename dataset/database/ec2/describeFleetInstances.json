@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeFleetInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeFleetInstancesRequest(MaxResults=100, FleetId=fleet-8fff33bc-259d-4fdd-a4c9-32cf3c1525f2)", 
+        "apiName": "ec2.describeFleetInstances"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeFleetInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeFleetInstancesRequest(FleetId=fleet-8fff33bc-259d-4fdd-a4c9-32cf3c1525f2)", 
+        "apiName": "ec2.describeFleetInstances"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeFleetInstances"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeFleetInstancesRequest(MaxResults=1, FleetId=fleet-8fff33bc-259d-4fdd-a4c9-32cf3c1525f2)", 
+        "apiName": "ec2.describeFleetInstances"
+    }
+]

@@ -1,0 +1,60 @@
+{
+  "write": {
+    "handler_file": "write/main.go",
+    "handler_func": "s3WriteHandler",
+    "language": "go",
+    "baseline_permissions": [],
+    "full_static_permissions": [],
+    "call_details": [
+      {
+        "service": "s3",
+        "method": "upload",
+        "params_present": [
+          "Body",
+          "Bucket",
+          "Key"
+        ],
+        "caller_func": "s3WriteHandler",
+        "file": "write/main.go",
+        "line": 37,
+        "baseline": [],
+        "full_static": []
+      }
+    ]
+  },
+  "write_v2": {
+    "handler_file": "write_v2/main.go",
+    "handler_func": "s3WriteHandler",
+    "language": "go",
+    "baseline_permissions": [
+      "s3:PutObject",
+      "s3:PutObjectAcl"
+    ],
+    "full_static_permissions": [
+      "s3:PutObject",
+      "s3:PutObjectAcl"
+    ],
+    "call_details": [
+      {
+        "service": "s3",
+        "method": "putObject",
+        "params_present": [
+          "Body",
+          "Bucket",
+          "Key"
+        ],
+        "caller_func": "s3WriteHandler",
+        "file": "write_v2/main.go",
+        "line": 53,
+        "baseline": [
+          "s3:PutObject",
+          "s3:PutObjectAcl"
+        ],
+        "full_static": [
+          "s3:PutObject",
+          "s3:PutObjectAcl"
+        ]
+      }
+    ]
+  }
+}

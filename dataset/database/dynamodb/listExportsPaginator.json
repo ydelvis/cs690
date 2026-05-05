@@ -1,0 +1,578 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=100, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=100, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest()", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=1)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=0)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=0)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=1)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=0, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=-1, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=1)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=-100, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=1, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=0)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=100, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=-1, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=0, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=1)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=-100)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=-1, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=0)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=0, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest()", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=-1, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=-1, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=-100)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=-100)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=0, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=-1)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=-100)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=0, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=1)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=1, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=-100, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=-100)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=-1)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=1, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=100)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=100, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=-100)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=0, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=100, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=1)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=1, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=0)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=-100, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=100)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=100, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=-1)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=-1)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=-100, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=1, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=100)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=1, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=-100, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=-1, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=-1)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=100)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, MaxResults=100)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=0)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=100)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(TableArn=, MaxResults=-1)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListExportsRequest(MaxResults=-100, NextToken=)", 
+        "apiName": "dynamodb.listExportsPaginator"
+    }
+]

@@ -1,0 +1,4 @@
+The association is in "associating" state when describeIamInstanceProfileAssociations is invoked by the client.
+The state does not change to associated even after 1 day of associating the IAM profile to the instance.
+The IAM profile is associated with the specified instance on AWS console.
+This associating state is invalid for replaceIamInstanceProfileAssociation to be successful.

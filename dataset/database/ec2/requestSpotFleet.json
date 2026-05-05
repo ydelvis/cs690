@@ -1,0 +1,114 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RequestSpotFleet"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:RunInstances"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:volume/*", 
+                        "arn:aws:ec2:*:002677082836:instance/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/*", 
+                        "arn:aws:ec2:*::snapshot/*", 
+                        "arn:aws:ec2:*:002677082836:launch-template/*", 
+                        "arn:aws:elastic-inference:*:002677082836:elastic-inference-accelerator/*", 
+                        "arn:aws:ec2:*:002677082836:elastic-gpu/*", 
+                        "arn:aws:ec2:*:002677082836:placement-group/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:key-pair/*", 
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "iam:PassRole"
+                    ], 
+                    "Resource": [
+                        "arn:aws:iam::002677082836:role/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }
+            ]
+        }, 
+        "request": "RequestSpotFleetRequest(SpotFleetRequestConfig=SpotFleetRequestConfigData(IamFleetRole=arn:aws:iam::002677082836:role/aws-ec2-spot-fleet-tagging-role, LaunchSpecifications=[SpotFleetLaunchSpecification(SecurityGroups=[GroupIdentifier(GroupId=sg-087c6c17aa379a72b)], IamInstanceProfile=IamInstanceProfileSpecification(Arn=arn:aws:iam::002677082836:instance-profile/Bob), ImageId=ami-0029f0b4ea5bb8ee1, InstanceType=m1.small, KeyName=test-key-pair, SubnetId=subnet-092aa5e72690d53ca)], SpotPrice=0.04, TargetCapacity=1))", 
+        "apiName": "ec2.requestSpotFleet"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RequestSpotFleet"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:RunInstances"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:volume/*", 
+                        "arn:aws:ec2:*:002677082836:instance/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/*", 
+                        "arn:aws:ec2:*::snapshot/*", 
+                        "arn:aws:ec2:*:002677082836:launch-template/*", 
+                        "arn:aws:elastic-inference:*:002677082836:elastic-inference-accelerator/*", 
+                        "arn:aws:ec2:*:002677082836:elastic-gpu/*", 
+                        "arn:aws:ec2:*:002677082836:placement-group/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:key-pair/*", 
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }, 
+                {
+                    "Action": [
+                        "iam:PassRole"
+                    ], 
+                    "Resource": [
+                        "arn:aws:iam::002677082836:role/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "RequestSpotFleetRequest(SpotFleetRequestConfig=SpotFleetRequestConfigData(IamFleetRole=arn:aws:iam::002677082836:role/aws-ec2-spot-fleet-tagging-role, LaunchSpecifications=[SpotFleetLaunchSpecification(SecurityGroups=[GroupIdentifier(GroupId=sg-087c6c17aa379a72b)], IamInstanceProfile=IamInstanceProfileSpecification(Arn=arn:aws:iam::002677082836:instance-profile/Bob), ImageId=ami-0029f0b4ea5bb8ee1, InstanceType=m1.small, KeyName=test-key-pair, SubnetId=subnet-092aa5e72690d53ca)], SpotPrice=0.04, TargetCapacity=1, TagSpecifications=[TagSpecification(ResourceType=spot-fleet-request, Tags=[Tag(Key=request-spot-fleet, Value=request-spot-fleet-tag)])]))", 
+        "apiName": "ec2.requestSpotFleet"
+    }
+]

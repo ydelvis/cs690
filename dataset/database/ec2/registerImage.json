@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RegisterImage"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "RegisterImageRequest(Architecture=i386, BlockDeviceMappings=[BlockDeviceMapping(DeviceName=/dev/sda1, Ebs=EbsBlockDevice(DeleteOnTermination=true, SnapshotId=snap-04eb44561a32d0f1c, VolumeType=gp2))], EnaSupport=true, Name=test-ami, RootDeviceName=/dev/sda1, BootMode=uefi)", 
+        "apiName": "ec2.registerImage"
+    }
+]

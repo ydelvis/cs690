@@ -1,0 +1,10 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListMultipartUploadsRequest(Bucket=test-bucket-5461, Delimiter=, MaxUploads=10, Prefix=)", 
+        "apiName": "s3.listMultipartUploadsPaginator"
+    }
+]

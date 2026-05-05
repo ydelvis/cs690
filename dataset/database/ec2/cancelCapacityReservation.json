@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CancelCapacityReservation"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CancelCapacityReservationRequest(CapacityReservationId=cr-04486605a5f234736)", 
+        "apiName": "ec2.cancelCapacityReservation"
+    }
+]

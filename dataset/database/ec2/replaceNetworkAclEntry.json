@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReplaceNetworkAclEntry"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-acl/acl-0cdd57084c6315982"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReplaceNetworkAclEntryRequest(Egress=true, IcmpTypeCode=IcmpTypeCode(Code=-1, Type=-1), Ipv6CidrBlock=::/0, NetworkAclId=acl-0cdd57084c6315982, PortRange=PortRange(To=53), Protocol=58, RuleAction=deny, RuleNumber=101)", 
+        "apiName": "ec2.replaceNetworkAclEntry"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReplaceNetworkAclEntry"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-acl/acl-0cdd57084c6315982"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReplaceNetworkAclEntryRequest(CidrBlock=172.168.0.0/16, Egress=true, IcmpTypeCode=IcmpTypeCode(Code=1), NetworkAclId=acl-0cdd57084c6315982, PortRange=PortRange(From=53, To=53), Protocol=6, RuleAction=deny, RuleNumber=101)", 
+        "apiName": "ec2.replaceNetworkAclEntry"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReplaceNetworkAclEntry"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-acl/acl-0cdd57084c6315982"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReplaceNetworkAclEntryRequest(CidrBlock=172.168.0.0/16, Egress=true, IcmpTypeCode=IcmpTypeCode(Code=-1, Type=-1), NetworkAclId=acl-0cdd57084c6315982, Protocol=1, RuleAction=allow, RuleNumber=101)", 
+        "apiName": "ec2.replaceNetworkAclEntry"
+    }
+]

@@ -1,0 +1,130 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], NextToken=)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], MaxResults=-100)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[igw-83ac9ee5], MaxResults=1)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[rtb-ca18b2b1], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[M3_LARGE], NextToken=)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[1], MaxResults=1)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[acl-d2b393aa], MaxResults=1)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[key-017df928e910e4389], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[851601128636], MaxResults=-1)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[dopt-bbeb2ac3], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[eipalloc-068f6cb5459d939aa], MaxResults=-100)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], MaxResults=100)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcsRequest(Filters=[Filter()], VpcIds=[1], MaxResults=0)", 
+        "apiName": "ec2.describeVpcsPaginator"
+    }
+]

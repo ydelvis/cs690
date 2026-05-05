@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutMetricsConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteBucketMetricsConfigurationRequest(Bucket=test-bucket-5461, Id=test-bucket-5461-metrics, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.deleteBucketMetricsConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutMetricsConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteBucketMetricsConfigurationRequest(Bucket=test-bucket-5461, Id=test-bucket-5461-metrics)", 
+        "apiName": "s3.deleteBucketMetricsConfiguration"
+    }
+]

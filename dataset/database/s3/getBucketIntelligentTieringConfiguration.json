@@ -1,0 +1,67 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetIntelligentTieringConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetBucketIntelligentTieringConfigurationRequest(Bucket=test-bucket-5461, Id=)", 
+        "apiName": "s3.getBucketIntelligentTieringConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetIntelligentTieringConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetBucketIntelligentTieringConfigurationRequest(Bucket=test-bucket-5461, Id=test-bucket-intelligent-tiering-5461)", 
+        "apiName": "s3.getBucketIntelligentTieringConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetIntelligentTieringConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetBucketIntelligentTieringConfigurationRequest(Bucket=test-bucket-5461)", 
+        "apiName": "s3.getBucketIntelligentTieringConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetBucketIntelligentTieringConfigurationRequest(Bucket=test-bucket-5461)", 
+        "apiName": "s3.getBucketIntelligentTieringConfiguration"
+    }
+]

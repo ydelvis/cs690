@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReleaseHosts"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:dedicated-host/h-0e5ce070107a4a55b"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ReleaseHostsRequest(HostIds=[h-0e5ce070107a4a55b])", 
+        "apiName": "ec2.releaseHosts"
+    }
+]

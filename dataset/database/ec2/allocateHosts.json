@@ -1,0 +1,31 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AllocateHosts"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:dedicated-host/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "AllocateHostsRequest(AutoPlacement=off, AvailabilityZone=us-west-2c, InstanceType=m3.medium, Quantity=1, TagSpecifications=[TagSpecification(ResourceType=dedicated-host, Tags=[Tag(Key=dedicated-host, Value=dedicated-host-tag)])], HostRecovery=off)", 
+        "apiName": "ec2.allocateHosts"
+    }
+]

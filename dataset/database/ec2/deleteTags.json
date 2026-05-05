@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DeleteTags"
+                ], 
+                "Resource": [
+                    "arn:aws:ec2:us-west-2:002677082836:instance/*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "DeleteTagsRequest(Resources=[i-01d514444253d9b80, i-01ec73f52711d20f7], Tags=[Tag(Key=tag-key, Value=tag-value)])", 
+    "apiName": "deleteTags"
+}

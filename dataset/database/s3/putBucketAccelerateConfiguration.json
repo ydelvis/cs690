@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutAccelerateConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketAccelerateConfigurationRequest(Bucket=test-bucket-5461, AccelerateConfiguration=AccelerateConfiguration(Status=Suspended))", 
+        "apiName": "s3.putBucketAccelerateConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutAccelerateConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketAccelerateConfigurationRequest(Bucket=test-bucket-5461, AccelerateConfiguration=AccelerateConfiguration(Status=Suspended), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketAccelerateConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutAccelerateConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketAccelerateConfigurationRequest(Bucket=test-bucket-5461, AccelerateConfiguration=AccelerateConfiguration(Status=Enabled))", 
+        "apiName": "s3.putBucketAccelerateConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutAccelerateConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketAccelerateConfigurationRequest(Bucket=test-bucket-5461, AccelerateConfiguration=AccelerateConfiguration(Status=Enabled), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketAccelerateConfiguration"
+    }
+]

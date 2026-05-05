@@ -1,0 +1,28 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyFleet"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:fleet/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*::snapshot/*", 
+                        "arn:aws:ec2:*:002677082836:key-pair/*", 
+                        "arn:aws:ec2:*:002677082836:launch-template/lt-078848ec86a0a2430", 
+                        "arn:aws:ec2:*::image/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyFleetRequest(FleetId=fleet-eb129f8e-b8c2-428a-a1c2-4f843d4c8a42, TargetCapacitySpecification=TargetCapacitySpecificationRequest(TotalTargetCapacity=0))", 
+        "apiName": "ec2.modifyFleet"
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeAddresses"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeAddressesRequest(Filters=[Filter()], PublicIps=[44.237.200.166], AllocationIds=[eipalloc-0946da26f6b53206a])", 
+        "apiName": "ec2.describeAddresses"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeAddresses"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeAddressesRequest(Filters=[Filter()], PublicIps=[44.237.200.166], AllocationIds=[eipalloc-0946da26f6b53206a])", 
+        "apiName": "ec2.describeAddresses"
+    }
+]

@@ -1,0 +1,288 @@
+{
+  "AllowlistCreate": {
+    "handler_file": "src/allowlist/create.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "aws_calls": [
+      {
+        "service": "dynamodb",
+        "method": "putItem",
+        "params_present": [
+          "Item",
+          "TableName"
+        ],
+        "resolved_params": {
+          "TableName": "${cf:auto-cleanup-app-${self:provider.stage}.AllowlistTableName}"
+        },
+        "line": 97,
+        "caller_func": "lambda_handler",
+        "file": "src/allowlist/create.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 12,
+        "caller_func": "get_settings",
+        "file": "src/allowlist/create.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "resolved_params": {
+          "TableName": "${cf:auto-cleanup-app-${self:provider.stage}.SettingsTableName}"
+        },
+        "line": 14,
+        "caller_func": "get_settings",
+        "file": "src/allowlist/create.py"
+      }
+    ]
+  },
+  "AllowlistRead": {
+    "handler_file": "src/allowlist/read.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "aws_calls": [
+      {
+        "service": "dynamodb",
+        "method": "getPaginator",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 25,
+        "caller_func": "lambda_handler",
+        "file": "src/allowlist/read.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 21,
+        "caller_func": "get_settings",
+        "file": "src/service/read.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "resolved_params": {
+          "TableName": "${cf:auto-cleanup-app-${self:provider.stage}.SettingsTableName}"
+        },
+        "line": 23,
+        "caller_func": "get_settings",
+        "file": "src/service/read.py"
+      }
+    ]
+  },
+  "AllowlistUpdate": {
+    "handler_file": "src/allowlist/update.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "aws_calls": [
+      {
+        "service": "dynamodb",
+        "method": "putItem",
+        "params_present": [
+          "Item",
+          "TableName"
+        ],
+        "resolved_params": {
+          "TableName": "${cf:auto-cleanup-app-${self:provider.stage}.AllowlistTableName}"
+        },
+        "line": 92,
+        "caller_func": "lambda_handler",
+        "file": "src/allowlist/update.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 12,
+        "caller_func": "get_settings",
+        "file": "src/allowlist/update.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "resolved_params": {
+          "TableName": "${cf:auto-cleanup-app-${self:provider.stage}.SettingsTableName}"
+        },
+        "line": 14,
+        "caller_func": "get_settings",
+        "file": "src/allowlist/update.py"
+      }
+    ]
+  },
+  "AllowlistDelete": {
+    "handler_file": "src/allowlist/delete.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "aws_calls": [
+      {
+        "service": "dynamodb",
+        "method": "deleteItem",
+        "params_present": [
+          "Key",
+          "TableName"
+        ],
+        "resolved_params": {
+          "TableName": "${cf:auto-cleanup-app-${self:provider.stage}.AllowlistTableName}"
+        },
+        "line": 28,
+        "caller_func": "lambda_handler",
+        "file": "src/allowlist/delete.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 21,
+        "caller_func": "get_settings",
+        "file": "src/service/read.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "resolved_params": {
+          "TableName": "${cf:auto-cleanup-app-${self:provider.stage}.SettingsTableName}"
+        },
+        "line": 23,
+        "caller_func": "get_settings",
+        "file": "src/service/read.py"
+      }
+    ]
+  },
+  "ServiceRead": {
+    "handler_file": "src/service/read.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "aws_calls": [
+      {
+        "service": "s3",
+        "method": "getPaginator",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 24,
+        "caller_func": "lambda_handler",
+        "file": "src/execution_log/list.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 21,
+        "caller_func": "get_settings",
+        "file": "src/service/read.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "resolved_params": {
+          "TableName": "${cf:auto-cleanup-app-${self:provider.stage}.SettingsTableName}"
+        },
+        "line": 23,
+        "caller_func": "get_settings",
+        "file": "src/service/read.py"
+      }
+    ]
+  },
+  "ExecutionLogList": {
+    "handler_file": "src/execution_log/list.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "aws_calls": [
+      {
+        "service": "s3",
+        "method": "getPaginator",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 24,
+        "caller_func": "lambda_handler",
+        "file": "src/execution_log/list.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 21,
+        "caller_func": "get_settings",
+        "file": "src/service/read.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "resolved_params": {
+          "TableName": "${cf:auto-cleanup-app-${self:provider.stage}.SettingsTableName}"
+        },
+        "line": 23,
+        "caller_func": "get_settings",
+        "file": "src/service/read.py"
+      }
+    ]
+  },
+  "ExecutionLogRead": {
+    "handler_file": "src/execution_log/read.py",
+    "handler_func": "lambda_handler",
+    "language": "python",
+    "aws_calls": [
+      {
+        "service": "s3",
+        "method": "getObject",
+        "params_present": [
+          "Bucket",
+          "Key"
+        ],
+        "resolved_params": {
+          "Bucket": "${cf:auto-cleanup-app-${self:provider.stage}.ExecutionLogBucketName}"
+        },
+        "line": 40,
+        "caller_func": "lambda_handler",
+        "file": "src/execution_log/read.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 21,
+        "caller_func": "get_settings",
+        "file": "src/service/read.py"
+      },
+      {
+        "service": "dynamodb",
+        "method": "paginate",
+        "params_present": [
+          "TableName"
+        ],
+        "resolved_params": {
+          "TableName": "${cf:auto-cleanup-app-${self:provider.stage}.SettingsTableName}"
+        },
+        "line": 23,
+        "caller_func": "get_settings",
+        "file": "src/service/read.py"
+      }
+    ]
+  }
+}

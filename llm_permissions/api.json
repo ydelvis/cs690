@@ -1,0 +1,78 @@
+{
+  "AllowlistCreate": {
+    "initial_permissions": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "llm_permissions": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "reasoning": "The code explicitly invokes dynamodb.put_item and uses a paginator for dynamodb.scan. The EXECUTION_LOG_BUCKET environment variable is defined but never accessed via the S3 SDK, requiring no S3 permissions.",
+    "raw_response": "{\n  \"permissions\": [\n    \"dynamodb:PutItem\",\n    \"dynamodb:Scan\"\n  ],\n  \"reasoning\": \"The code explicitly invokes dynamodb.put_item and uses a paginator for dynamodb.scan. The EXECUTION_LOG_BUCKET environment variable is defined but never accessed via the S3 SDK, requiring no S3 permissions.\"\n}"
+  },
+  "AllowlistRead": {
+    "initial_permissions": [
+      "dynamodb:Scan"
+    ],
+    "llm_permissions": [
+      "dynamodb:Scan"
+    ],
+    "reasoning": "Code explicitly uses boto3 DynamoDB client to execute scan operations via paginator on the ALLOWLIST_TABLE environment variable. No other AWS SDK clients (S3, Logs, STS) are instantiated or called in the source code.",
+    "raw_response": "{\"permissions\": [\"dynamodb:Scan\"], \"reasoning\": \"Code explicitly uses boto3 DynamoDB client to execute scan operations via paginator on the ALLOWLIST_TABLE environment variable. No other AWS SDK clients (S3, Logs, STS) are instantiated or called in the source code.\"}"
+  },
+  "AllowlistUpdate": {
+    "initial_permissions": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "llm_permissions": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "reasoning": "Code explicitly uses boto3 DynamoDB client to call put_item and scan (via paginator). Execution log bucket environment variable is defined but not accessed in logic, excluding S3 permissions. No explicit CloudWatch Logs or KMS API calls detected in source.",
+    "raw_response": "{\"permissions\": [\"dynamodb:PutItem\", \"dynamodb:Scan\"], \"reasoning\": \"Code explicitly uses boto3 DynamoDB client to call put_item and scan (via paginator). Execution log bucket environment variable is defined but not accessed in logic, excluding S3 permissions. No explicit CloudWatch Logs or KMS API calls detected in source.\"}"
+  },
+  "AllowlistDelete": {
+    "initial_permissions": [
+      "dynamodb:DeleteItem",
+      "dynamodb:Scan"
+    ],
+    "llm_permissions": [
+      "dynamodb:DeleteItem"
+    ],
+    "reasoning": "Source code explicitly invokes dynamodb.delete_item via boto3 client using the ALLOWLIST_TABLE env var. Initial permissions included Scan and Paginate which are not implemented in the provided handler logic, making them over-provisioned. Environment variables for S3 buckets and Settings tables are defined but unused in this specific function code.",
+    "raw_response": "{\"permissions\": [\"dynamodb:DeleteItem\"], \"reasoning\": \"Source code explicitly invokes dynamodb.delete_item via boto3 client using the ALLOWLIST_TABLE env var. Initial permissions included Scan and Paginate which are not implemented in the provided handler logic, making them over-provisioned. Environment variables for S3 buckets and Settings tables are defined but unused in this specific function code.\"}"
+  },
+  "ServiceRead": {
+    "initial_permissions": [
+      "dynamodb:Scan"
+    ],
+    "llm_permissions": [
+      "dynamodb:Scan"
+    ],
+    "reasoning": "Code uses boto3 client to execute DynamoDB scan operations via paginator on SETTINGS_TABLE (from env var). No S3 operations are actually invoked in source code despite EXECUTION_LOG_BUCKET env var being defined. ALLOWLIST_TABLE referenced but unused. Only dynamodb:Scan is demonstrably required for the scan() paginator call.",
+    "raw_response": "{\n  \"permissions\": [\"dynamodb:Scan\"],\n  \"reasoning\": \"Code uses boto3 client to execute DynamoDB scan operations via paginator on SETTINGS_TABLE (from env var). No S3 operations are actually invoked in source code despite EXECUTION_LOG_BUCKET env var being defined. ALLOWLIST_TABLE referenced but unused. Only dynamodb:Scan is demonstrably required for the scan() paginator call.\"\n}"
+  },
+  "ExecutionLogList": {
+    "initial_permissions": [
+      "dynamodb:Scan"
+    ],
+    "llm_permissions": [
+      "s3:ListBucket"
+    ],
+    "reasoning": "Source code explicitly initializes S3 client and calls list_objects_v2 paginator to list bucket contents. DynamoDB permissions detected in static analysis are not present in the provided source code logic, despite related environment variables being defined.",
+    "raw_response": "{\n  \"permissions\": [\n    \"s3:ListBucket\"\n  ],\n  \"reasoning\": \"Source code explicitly initializes S3 client and calls list_objects_v2 paginator to list bucket contents. DynamoDB permissions detected in static analysis are not present in the provided source code logic, despite related environment variables being defined.\"\n}"
+  },
+  "ExecutionLogRead": {
+    "initial_permissions": [
+      "dynamodb:Scan",
+      "s3:GetObject"
+    ],
+    "llm_permissions": [
+      "s3:GetObject"
+    ],
+    "reasoning": "The source code explicitly creates an S3 client and invokes get_object() to retrieve a file based on path parameters. Although environment variables reference DynamoDB tables (ALLOWLIST_TABLE, SETTINGS_TABLE), the provided code does not instantiate a DynamoDB client or call any DynamoDB APIs; therefore dynamodb:Scan is over-provisioned and removed.",
+    "raw_response": "{\n  \"permissions\": [\n    \"s3:GetObject\"\n  ],\n  \"reasoning\": \"The source code explicitly creates an S3 client and invokes get_object() to retrieve a file based on path parameters. Although environment variables reference DynamoDB tables (ALLOWLIST_TABLE, SETTINGS_TABLE), the provided code does not instantiate a DynamoDB client or call any DynamoDB APIs; therefore dynamodb:Scan is over-provisioned and removed.\"\n}"
+  }
+}

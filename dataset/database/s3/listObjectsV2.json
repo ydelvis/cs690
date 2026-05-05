@@ -1,0 +1,458 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter=/, EncodingType=url, MaxKeys=0, Prefix=key, FetchOwner=false, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, EncodingType=url, MaxKeys=1, Prefix=key, FetchOwner=true, StartAfter=key1, RequestPayer=requester)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter=,, MaxKeys=1, Prefix=, FetchOwner=false, StartAfter=key1)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, EncodingType=url, MaxKeys=1, Prefix=key, FetchOwner=true, StartAfter=key1, RequestPayer=requester)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter=/, EncodingType=url, MaxKeys=0, Prefix=key, FetchOwner=false, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter= , EncodingType=url, Prefix=key, FetchOwner=false, StartAfter=, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter= , EncodingType=url, MaxKeys=0, Prefix=key, FetchOwner=true, StartAfter=)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, EncodingType=url, FetchOwner=false)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter= , MaxKeys=1, Prefix=, FetchOwner=false, StartAfter=, RequestPayer=requester)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter= , EncodingType=url, Prefix=, FetchOwner=false, StartAfter=key1, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter=,, MaxKeys=1, FetchOwner=true)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, EncodingType=url, MaxKeys=1, Prefix=key, FetchOwner=false, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter=,, MaxKeys=1, FetchOwner=true)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter= , EncodingType=url, Prefix=key, FetchOwner=false, StartAfter=, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, EncodingType=url, FetchOwner=false)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter=,, Prefix=key, FetchOwner=true, StartAfter=, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, EncodingType=url, MaxKeys=1, Prefix=key, FetchOwner=false, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter= , EncodingType=url, MaxKeys=2000, Prefix=key, FetchOwner=true, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter= , MaxKeys=1, Prefix=, FetchOwner=false, StartAfter=, RequestPayer=requester)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter=,, Prefix=key, FetchOwner=true, StartAfter=, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter= , EncodingType=url, MaxKeys=2000, Prefix=key, FetchOwner=true, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter=,, MaxKeys=1, Prefix=, FetchOwner=false, StartAfter=key1)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter= , EncodingType=url, Prefix=, FetchOwner=false, StartAfter=key1, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectsV2"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucket"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter= , EncodingType=url, MaxKeys=0, Prefix=key, FetchOwner=true, StartAfter=)", 
+        "apiName": "listObjectsV2"
+    }
+]

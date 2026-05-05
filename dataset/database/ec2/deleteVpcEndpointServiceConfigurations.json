@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteVpcEndpointServiceConfigurations"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint-service/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteVpcEndpointServiceConfigurationsRequest(ServiceIds=[vpce-svc-0865078adbc4557c1])", 
+        "apiName": "ec2.deleteVpcEndpointServiceConfigurations"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateEgressOnlyInternetGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:egress-only-internet-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateEgressOnlyInternetGatewayRequest(VpcId=vpc-088f61503142622ed)", 
+        "apiName": "ec2.createEgressOnlyInternetGateway"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateEgressOnlyInternetGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:egress-only-internet-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateEgressOnlyInternetGatewayRequest(VpcId=vpc-088f61503142622ed, TagSpecifications=[TagSpecification(ResourceType=egress-only-internet-gateway, Tags=[Tag(Key=egress-only-internet-gateway, Value=egress-only-internet-gateway-tag)])])", 
+        "apiName": "ec2.createEgressOnlyInternetGateway"
+    }
+]

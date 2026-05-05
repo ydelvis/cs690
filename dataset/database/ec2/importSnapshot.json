@@ -1,0 +1,118 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/snapshots/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:ImportSnapshot"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "ImportSnapshotRequest(ClientData=ClientData(), Description=Imported snapshot, DiskContainer=SnapshotDiskContainer(Format=VMDK, UserBucket=UserBucket(S3Bucket=test-bucket-5461, S3Key=snapshots/export-ami-05b6eeb6863c64c9c.vmdk)), Encrypted=true)", 
+        "apiName": "ec2.importSnapshot"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/snapshots/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:ImportSnapshot"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "ImportSnapshotRequest(ClientData=ClientData(), Description=Imported snapshot, DiskContainer=SnapshotDiskContainer(UserBucket=UserBucket(S3Bucket=test-bucket-5461, S3Key=snapshots/export-ami-05b6eeb6863c64c9c.vmdk)), Encrypted=true)", 
+        "apiName": "ec2.importSnapshot"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/snapshots/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:ImportSnapshot"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "ImportSnapshotRequest(Description=Imported snapshot, DiskContainer=SnapshotDiskContainer(Format=VMDK, UserBucket=UserBucket(S3Bucket=test-bucket-5461, S3Key=snapshots/export-ami-05b6eeb6863c64c9c.vmdk)))", 
+        "apiName": "ec2.importSnapshot"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/snapshots/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:ImportSnapshot"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "ImportSnapshotRequest(ClientData=ClientData(), DiskContainer=SnapshotDiskContainer(UserBucket=UserBucket(S3Bucket=test-bucket-5461, S3Key=snapshots/export-ami-05b6eeb6863c64c9c.vmdk)), Encrypted=false)", 
+        "apiName": "ec2.importSnapshot"
+    }
+]

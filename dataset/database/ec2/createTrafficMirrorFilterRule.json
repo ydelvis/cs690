@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTrafficMirrorFilterRule"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter-rule/*", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/tmf-0479cc103b3d3f39d"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTrafficMirrorFilterRuleRequest(TrafficMirrorFilterId=tmf-0479cc103b3d3f39d, TrafficDirection=egress, RuleNumber=1, RuleAction=reject, Protocol=6, DestinationCidrBlock=0.0.0.0/0, SourceCidrBlock=0.0.0.0/0, Description=test traffic mirror filter rule)", 
+        "apiName": "ec2.createTrafficMirrorFilterRule"
+    }
+]

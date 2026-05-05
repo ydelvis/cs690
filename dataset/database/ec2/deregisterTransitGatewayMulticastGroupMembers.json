@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeregisterTransitGatewayMulticastGroupMembers"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeregisterTransitGatewayMulticastGroupMembersRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-05874549ae8ebd553, GroupIpAddress=224.0.0.1, NetworkInterfaceIds=[eni-067f9d5e10cd5d578])", 
+        "apiName": "ec2.deregisterTransitGatewayMulticastGroupMembers"
+    }
+]

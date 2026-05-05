@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:Query"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461", 
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461/index/Id-Index"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "QueryRequest(TableName=test-table-5461, IndexName=Id-Index, Select=ALL_ATTRIBUTES, ReturnConsumedCapacity=TOTAL, FilterExpression=#mk = :val, KeyConditionExpression=#id = :id_val, ExpressionAttributeNames={#mk=Make, #id=Id}, ExpressionAttributeValues={:id_val=AttributeValue(S=2), :val=AttributeValue(S=BMW)})", 
+        "apiName": "dynamodb.query"
+    }
+]

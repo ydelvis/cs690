@@ -1,0 +1,64 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateClientVpnEndpoint"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "CreateClientVpnEndpointRequest(ClientCidrBlock=172.168.0.0/16, ServerCertificateArn=arn:aws:acm:us-west-2:002677082836:certificate/b37c918c-0d7a-48dd-94a2-1aace62d7dcc, AuthenticationOptions=[ClientVpnAuthenticationRequest(Type=certificate-authentication, MutualAuthentication=CertificateAuthenticationRequest(ClientRootCertificateChainArn=arn:aws:acm:us-west-2:002677082836:certificate/b37c918c-0d7a-48dd-94a2-1aace62d7dcc))], ConnectionLogOptions=ConnectionLogOptions(Enabled=false), Description=test client vpn endpoint, SplitTunnel=true, TagSpecifications=[TagSpecification(ResourceType=client-vpn-endpoint, Tags=[Tag(Key=client-vpn-endpoint, Value=client-vpn-endpoint-tag)])], VpcId=vpc-088f61503142622ed, ClientConnectOptions=ClientConnectOptions(Enabled=false))", 
+        "apiName": "ec2.createClientVpnEndpoint"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateClientVpnEndpoint"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "CreateClientVpnEndpointRequest(ClientCidrBlock=172.168.0.0/16, ServerCertificateArn=arn:aws:acm:us-west-2:002677082836:certificate/b37c918c-0d7a-48dd-94a2-1aace62d7dcc, AuthenticationOptions=[ClientVpnAuthenticationRequest(Type=certificate-authentication, MutualAuthentication=CertificateAuthenticationRequest(ClientRootCertificateChainArn=arn:aws:acm:us-west-2:002677082836:certificate/b37c918c-0d7a-48dd-94a2-1aace62d7dcc))], ConnectionLogOptions=ConnectionLogOptions(Enabled=false), SplitTunnel=true, TagSpecifications=[TagSpecification(ResourceType=client-vpn-endpoint, Tags=[Tag(Key=client-vpn-endpoint, Value=client-vpn-endpoint-tag)])], VpcId=vpc-088f61503142622ed, ClientConnectOptions=ClientConnectOptions(Enabled=false))", 
+        "apiName": "ec2.createClientVpnEndpoint"
+    }
+]

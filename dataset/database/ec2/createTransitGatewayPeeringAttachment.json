@@ -1,0 +1,52 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayPeeringAttachment"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayPeeringAttachmentRequest(TransitGatewayId=tgw-040604673d69e2f25, PeerTransitGatewayId=tgw-049cda2fb36aa0671, PeerAccountId=002677082836, PeerRegion=us-east-2, TagSpecifications=[TagSpecification(ResourceType=transit-gateway-attachment, Tags=[Tag(Key=transit-gateway-attachment, Value=transit-gateway-attachment-tag)])])", 
+        "apiName": "ec2.createTransitGatewayPeeringAttachment"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayPeeringAttachment"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayPeeringAttachmentRequest(TransitGatewayId=tgw-040604673d69e2f25, PeerTransitGatewayId=tgw-049cda2fb36aa0671, PeerAccountId=002677082836, PeerRegion=us-east-2, TagSpecifications=[TagSpecification(ResourceType=transit-gateway-attachment, Tags=[Tag(Key=transit-gateway-attachment, Value=transit-gateway-attachment-tag)])])", 
+        "apiName": "ec2.createTransitGatewayPeeringAttachment"
+    }
+]

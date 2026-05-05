@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteTransitGatewayRouteTable"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway-route-table/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteTransitGatewayRouteTableRequest(TransitGatewayRouteTableId=tgw-rtb-0ebf1c8e0f3c56975)", 
+        "apiName": "ec2.deleteTransitGatewayRouteTable"
+    }
+]

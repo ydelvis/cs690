@@ -1,0 +1,51 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "acm:RequestCertificate"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "acm-pca:GetCertificate"
+                    ], 
+                    "Resource": [
+                        "arn:aws:acm-pca:us-west-2:002677082836:certificate-authority/f13cbd1c-6e21-4662-b103-392552c8e44f"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement7"
+                }, 
+                {
+                    "Action": [
+                        "acm-pca:IssueCertificate"
+                    ], 
+                    "Resource": [
+                        "arn:aws:acm-pca:us-west-2:002677082836:certificate-authority/f13cbd1c-6e21-4662-b103-392552c8e44f"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }, 
+                {
+                    "Action": [
+                        "ec2:ModifyVpnTunnelCertificate"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-connection/vpn-0124505c849bf8247"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpnTunnelCertificateRequest(VpnConnectionId=vpn-0124505c849bf8247, VpnTunnelOutsideIpAddress=34.214.26.30)", 
+        "apiName": "ec2.modifyVpnTunnelCertificate"
+    }
+]

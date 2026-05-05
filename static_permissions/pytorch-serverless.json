@@ -1,0 +1,21 @@
+{
+  "predict": {
+    "handler_file": "api/predict.py",
+    "handler_func": "handler",
+    "language": "python",
+    "baseline_permissions": [],
+    "full_static_permissions": [],
+    "call_details": [
+      {
+        "service": "s3",
+        "method": "downloadFile",
+        "params_present": [],
+        "caller_func": "download_file",
+        "file": "lib/utils.py",
+        "line": 17,
+        "baseline": [],
+        "full_static": []
+      }
+    ]
+  }
+}

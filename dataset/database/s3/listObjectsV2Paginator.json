@@ -1,0 +1,34 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter=/, EncodingType=url, MaxKeys=0, Prefix=key, FetchOwner=false, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectsV2Paginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, EncodingType=url, MaxKeys=1, Prefix=key, FetchOwner=true, StartAfter=key1, RequestPayer=requester)", 
+        "apiName": "listObjectsV2Paginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, Delimiter=,, MaxKeys=1, Prefix=, FetchOwner=false, StartAfter=key1)", 
+        "apiName": "listObjectsV2Paginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListObjectsV2Request(Bucket=test-bucket-5461, EncodingType=url, MaxKeys=1, Prefix=key, FetchOwner=true, StartAfter=key1, RequestPayer=requester)", 
+        "apiName": "listObjectsV2Paginator"
+    }
+]

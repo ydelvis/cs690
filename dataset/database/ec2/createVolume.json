@@ -1,0 +1,62 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVolume"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:volume/*", 
+                        "arn:aws:ec2:*::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateVolumeRequest(AvailabilityZone=us-west-2b, Encrypted=true, Iops=4000, KmsKeyId=alias/aws/ebs, Size=10, VolumeType=io2, MultiAttachEnabled=true)", 
+        "apiName": "ec2.createVolume"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVolume"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:volume/*", 
+                        "arn:aws:ec2:*::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateVolumeRequest(AvailabilityZone=us-west-2c, Encrypted=true, Iops=100, KmsKeyId=alias/aws/ebs, Size=10, VolumeType=io2, MultiAttachEnabled=true)", 
+        "apiName": "ec2.createVolume"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVolume"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:volume/*", 
+                        "arn:aws:ec2:*::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateVolumeRequest(AvailabilityZone=us-west-2b, Encrypted=true, Iops=100, Size=1, VolumeType=gp3, MultiAttachEnabled=false)", 
+        "apiName": "ec2.createVolume"
+    }
+]

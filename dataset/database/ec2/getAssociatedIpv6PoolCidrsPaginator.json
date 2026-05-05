@@ -1,0 +1,8 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": []
+    }, 
+    "request": "GetAssociatedIpv6PoolCidrsRequest()", 
+    "apiName": "getAssociatedIpv6PoolCidrsPaginator"
+}

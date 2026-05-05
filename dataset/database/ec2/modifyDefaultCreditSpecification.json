@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyDefaultCreditSpecification"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyDefaultCreditSpecificationRequest(InstanceFamily=t4g, CpuCredits=unlimited)", 
+        "apiName": "ec2.modifyDefaultCreditSpecification"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyDefaultCreditSpecification"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyDefaultCreditSpecificationRequest(InstanceFamily=t3, CpuCredits=standard)", 
+        "apiName": "ec2.modifyDefaultCreditSpecification"
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:DeleteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteItemRequest(TableName=test-table-5461, Key={Id=AttributeValue(S=1)}, ReturnItemCollectionMetrics=SIZE, ConditionExpression=#mk = :val, ExpressionAttributeNames={#mk=Make}, ExpressionAttributeValues={:val=AttributeValue(S=BMW)})", 
+        "apiName": "dynamodb.deleteItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:DeleteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteItemRequest(TableName=test-table-5461, Key={Id=AttributeValue(S=1)}, ReturnValues=ALL_OLD, ReturnConsumedCapacity=NONE, ReturnItemCollectionMetrics=NONE, ConditionExpression=#mk = :val, ExpressionAttributeNames={#mk=Make}, ExpressionAttributeValues={:val=AttributeValue(S=BMW)})", 
+        "apiName": "dynamodb.deleteItem"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:DeleteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteItemRequest(TableName=test-table-5461, Key={Id=AttributeValue(S=1)}, ReturnConsumedCapacity=INDEXES, ReturnItemCollectionMetrics=SIZE, ConditionExpression=#mk = :val, ExpressionAttributeNames={#mk=Make}, ExpressionAttributeValues={:val=AttributeValue(S=BMW)})", 
+        "apiName": "dynamodb.deleteItem"
+    }
+]

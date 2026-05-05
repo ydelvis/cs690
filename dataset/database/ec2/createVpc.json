@@ -1,0 +1,92 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpc"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:ipv6pool-ec2/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateVpcRequest(CidrBlock=172.31.2.0/24, AmazonProvidedIpv6CidrBlock=false, InstanceTenancy=default, TagSpecifications=[TagSpecification(ResourceType=vpc, Tags=[Tag(Key=vpc, Value=vpc-tag)])])", 
+        "apiName": "ec2.createVpc"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpc"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:ipv6pool-ec2/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateVpcRequest(CidrBlock=172.31.2.0/24, AmazonProvidedIpv6CidrBlock=true, InstanceTenancy=dedicated, Ipv6CidrBlockNetworkBorderGroup=us-west-2, TagSpecifications=[TagSpecification(ResourceType=vpc, Tags=[Tag(Key=vpc, Value=vpc-tag)])])", 
+        "apiName": "ec2.createVpc"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpc"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:ipv6pool-ec2/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateVpcRequest(CidrBlock=172.31.2.0/24, AmazonProvidedIpv6CidrBlock=true, InstanceTenancy=dedicated, TagSpecifications=[TagSpecification(ResourceType=vpc, Tags=[Tag(Key=vpc, Value=vpc-tag)])])", 
+        "apiName": "ec2.createVpc"
+    }
+]

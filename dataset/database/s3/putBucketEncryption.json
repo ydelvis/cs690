@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutEncryptionConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketEncryptionRequest(Bucket=test-bucket-5461, ServerSideEncryptionConfiguration=ServerSideEncryptionConfiguration(Rules=[ServerSideEncryptionRule(ApplyServerSideEncryptionByDefault=ServerSideEncryptionByDefault(SSEAlgorithm=aws:kms, KMSMasterKeyID=*** Sensitive Data Redacted ***), BucketKeyEnabled=true)]), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketEncryption"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutEncryptionConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketEncryptionRequest(Bucket=test-bucket-5461, ServerSideEncryptionConfiguration=ServerSideEncryptionConfiguration(Rules=[ServerSideEncryptionRule(ApplyServerSideEncryptionByDefault=ServerSideEncryptionByDefault(SSEAlgorithm=aws:kms, KMSMasterKeyID=*** Sensitive Data Redacted ***), BucketKeyEnabled=true)]))", 
+        "apiName": "s3.putBucketEncryption"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutEncryptionConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketEncryptionRequest(Bucket=test-bucket-5461, ServerSideEncryptionConfiguration=ServerSideEncryptionConfiguration(Rules=[ServerSideEncryptionRule(ApplyServerSideEncryptionByDefault=ServerSideEncryptionByDefault(SSEAlgorithm=AES256), BucketKeyEnabled=true)]), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketEncryption"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutEncryptionConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketEncryptionRequest(Bucket=test-bucket-5461, ServerSideEncryptionConfiguration=ServerSideEncryptionConfiguration(Rules=[ServerSideEncryptionRule(ApplyServerSideEncryptionByDefault=ServerSideEncryptionByDefault(SSEAlgorithm=AES256), BucketKeyEnabled=true)]))", 
+        "apiName": "s3.putBucketEncryption"
+    }
+]

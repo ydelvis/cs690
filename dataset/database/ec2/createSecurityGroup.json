@@ -1,0 +1,102 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateSecurityGroup"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateSecurityGroupRequest(Description=Test security group, GroupName=test-security-group, VpcId=vpc-088f61503142622ed, TagSpecifications=[TagSpecification(ResourceType=security-group, Tags=[Tag(Key=security-group, Value=security-group-tag)])])", 
+        "apiName": "ec2.createSecurityGroup"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateSecurityGroup"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateSecurityGroupRequest(Description=Test security group, GroupName=test-security-group, VpcId=vpc-088f61503142622ed)", 
+        "apiName": "ec2.createSecurityGroup"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateSecurityGroup"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateSecurityGroupRequest(Description=Test security group, GroupName=test-security-group)", 
+        "apiName": "ec2.createSecurityGroup"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateSecurityGroup"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateSecurityGroupRequest(Description=Test security group, GroupName=test-security-group, TagSpecifications=[TagSpecification(ResourceType=security-group, Tags=[Tag(Key=security-group, Value=security-group-tag)])])", 
+        "apiName": "ec2.createSecurityGroup"
+    }
+]

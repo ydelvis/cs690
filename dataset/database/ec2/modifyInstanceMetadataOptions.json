@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyInstanceMetadataOptions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyInstanceMetadataOptionsRequest(InstanceId=i-0fc67210075ad498a, HttpTokens=required, HttpEndpoint=enabled)", 
+        "apiName": "ec2.modifyInstanceMetadataOptions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyInstanceMetadataOptions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyInstanceMetadataOptionsRequest(InstanceId=i-0fc67210075ad498a, HttpEndpoint=disabled)", 
+        "apiName": "ec2.modifyInstanceMetadataOptions"
+    }
+]

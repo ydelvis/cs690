@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteFleets"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:fleet/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteFleetsRequest(FleetIds=[fleet-a4591f45-00c7-4576-a86d-996ea941f0d7])", 
+        "apiName": "ec2.deleteFleets"
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteKeyPair"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:key-pair/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteKeyPairRequest(KeyPairId=key-0e74a1e6e52113f04)", 
+        "apiName": "ec2.deleteKeyPair"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteKeyPair"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:key-pair/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteKeyPairRequest(KeyName=test-key-pair)", 
+        "apiName": "ec2.deleteKeyPair"
+    }
+]

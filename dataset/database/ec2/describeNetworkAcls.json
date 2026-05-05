@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeNetworkAcls"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeNetworkAcls"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeNetworkAcls"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeNetworkAcls"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeNetworkAcls"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[acl-d2b393aa])", 
+        "apiName": "ec2.describeNetworkAcls"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeNetworkAcls"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeNetworkAclsRequest(Filters=[Filter()], NetworkAclIds=[acl-d2b393aa])", 
+        "apiName": "ec2.describeNetworkAcls"
+    }
+]

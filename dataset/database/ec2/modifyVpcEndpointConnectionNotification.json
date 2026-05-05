@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpcEndpointConnectionNotification"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint/vpce-097dac46da37fc178"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpcEndpointConnectionNotificationRequest(ConnectionNotificationId=vpce-nfn-07d55f8c52317fc58)", 
+        "apiName": "ec2.modifyVpcEndpointConnectionNotification"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpcEndpointConnectionNotification"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint/vpce-097dac46da37fc178"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpcEndpointConnectionNotificationRequest(ConnectionNotificationId=vpce-nfn-0dfa40fa316b99b57, ConnectionEvents=[Accept, Reject, Connect])", 
+        "apiName": "ec2.modifyVpcEndpointConnectionNotification"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpcEndpointConnectionNotification"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint/vpce-097dac46da37fc178"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpcEndpointConnectionNotificationRequest(ConnectionNotificationId=vpce-nfn-076e6ba54ec715f5b, ConnectionNotificationArn=arn:aws:sns:us-west-2:002677082836:vpc-endpoint, ConnectionEvents=[Accept, Reject, Connect])", 
+        "apiName": "ec2.modifyVpcEndpointConnectionNotification"
+    }
+]

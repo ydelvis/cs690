@@ -1,0 +1,95 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReplaceRoute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:local-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:instance/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:internet-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-peering-connection/*", 
+                        "arn:aws:ec2:*:002677082836:prefix-list/*", 
+                        "arn:aws:ec2:*:002677082836:route-table/rtb-045e031193bb8523c", 
+                        "arn:aws:ec2:*:002677082836:natgateway/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:egress-only-internet-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:carrier-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReplaceRouteRequest(DestinationCidrBlock=170.31.0.0/24, GatewayId=igw-0341545620e6b30c1, RouteTableId=rtb-045e031193bb8523c)", 
+        "apiName": "ec2.replaceRoute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReplaceRoute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:local-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:instance/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:internet-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-peering-connection/*", 
+                        "arn:aws:ec2:*:002677082836:prefix-list/*", 
+                        "arn:aws:ec2:*:002677082836:route-table/rtb-045e031193bb8523c", 
+                        "arn:aws:ec2:*:002677082836:natgateway/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:egress-only-internet-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:carrier-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReplaceRouteRequest(DestinationCidrBlock=170.31.0.0/24, NatGatewayId=nat-037df96a08dda4ca3, RouteTableId=rtb-045e031193bb8523c)", 
+        "apiName": "ec2.replaceRoute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReplaceRoute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:local-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:instance/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:internet-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-peering-connection/*", 
+                        "arn:aws:ec2:*:002677082836:prefix-list/*", 
+                        "arn:aws:ec2:*:002677082836:route-table/rtb-045e031193bb8523c", 
+                        "arn:aws:ec2:*:002677082836:natgateway/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:egress-only-internet-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*", 
+                        "arn:aws:ec2:*:002677082836:carrier-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReplaceRouteRequest(DestinationCidrBlock=170.31.0.0/24, NatGatewayId=nat-037df96a08dda4ca3, RouteTableId=rtb-045e031193bb8523c)", 
+        "apiName": "ec2.replaceRoute"
+    }
+]

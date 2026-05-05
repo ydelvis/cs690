@@ -1,0 +1,166 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreatePlacementGroup"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:placement-group/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreatePlacementGroupRequest(GroupName=test-placement-group, Strategy=spread, TagSpecifications=[TagSpecification(ResourceType=placement-group, Tags=[Tag(Key=placement-group, Value=placement-group-tag)])])", 
+        "apiName": "ec2.createPlacementGroup"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreatePlacementGroup"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:placement-group/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreatePlacementGroupRequest(GroupName=test-placement-group, Strategy=spread)", 
+        "apiName": "ec2.createPlacementGroup"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreatePlacementGroup"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:placement-group/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreatePlacementGroupRequest(GroupName=test-placement-group, Strategy=partition, PartitionCount=1, TagSpecifications=[TagSpecification(ResourceType=placement-group, Tags=[Tag(Key=placement-group, Value=placement-group-tag)])])", 
+        "apiName": "ec2.createPlacementGroup"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreatePlacementGroup"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:placement-group/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreatePlacementGroupRequest(GroupName=test-placement-group, Strategy=partition, PartitionCount=2, TagSpecifications=[TagSpecification(ResourceType=placement-group, Tags=[Tag(Key=placement-group, Value=placement-group-tag)])])", 
+        "apiName": "ec2.createPlacementGroup"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreatePlacementGroup"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:placement-group/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreatePlacementGroupRequest(GroupName=test-placement-group, Strategy=partition, TagSpecifications=[TagSpecification(ResourceType=placement-group, Tags=[Tag(Key=placement-group, Value=placement-group-tag)])])", 
+        "apiName": "ec2.createPlacementGroup"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreatePlacementGroup"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:placement-group/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreatePlacementGroupRequest(GroupName=test-placement-group, Strategy=cluster, TagSpecifications=[TagSpecification(ResourceType=placement-group, Tags=[Tag(Key=placement-group, Value=placement-group-tag)])])", 
+        "apiName": "ec2.createPlacementGroup"
+    }
+]

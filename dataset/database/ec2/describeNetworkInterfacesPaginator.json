@@ -1,0 +1,162 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[eipalloc-068f6cb5459d939aa], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[i-01d514444253d9b80], NextToken=, MaxResults=-1)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[M3_LARGE], MaxResults=1)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[ami-00bb6f60], MaxResults=0)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[M3_LARGE], MaxResults=-1)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[subnet-891125d3, subnet-b76ec99c, subnet-f098dfbb, subnet-d37752aa], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[vpc-1dd31b65], MaxResults=-1)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[us-west-1, us-west-2, us-east-1], MaxResults=-100)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[i-01d514444253d9b80], MaxResults=-1)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[851601128636], MaxResults=-100)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[eipalloc-068f6cb5459d939aa], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[bundle, conversion-task, customer-gateway, dhcp-options, elastic-ip-allocation, elastic-ip-association, export-task, flow-log, image, import-task, instance, internet-gateway, network-acl, network-acl-association, network-interface, network-interface-attachment, reservation, route-table, route-table-association, security-group, snapshot, subnet, volume, vpc, vpc-cidr-block-association, vpc-endpoint, vpc-peering-connection, vpn-connection, vpn-gateway], NextToken=)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[eni-075dbd8fc601dd638, eni-0bc92d563f92a600d], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()])", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[002677082836, self, all], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[dopt-bbeb2ac3], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[igw-83ac9ee5], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[i-01ec73f52711d20f7], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInterfacesRequest(Filters=[Filter()], NetworkInterfaceIds=[rtb-ca18b2b1], MaxResults=0)", 
+        "apiName": "ec2.describeNetworkInterfacesPaginator"
+    }
+]

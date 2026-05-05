@@ -1,0 +1,74 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListPipelines"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListPipelinesRequest(Ascending=true)", 
+        "apiName": "listPipelines"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListPipelines"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListPipelinesRequest()", 
+        "apiName": "listPipelines"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListPipelines"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListPipelinesRequest(Ascending=false)", 
+        "apiName": "listPipelines"
+    },
+    {
+        "apiName": "listPipelines",
+        "policy": {
+            "Version": "2012-10-17",
+            "Statement": [{
+                "Action": [
+                    "elastictranscoder:ListPipelines"
+                ],
+                "Sid": "statement1",
+                "Effect": "Allow",
+                "Resource": "*"
+            }]
+        },
+        "request": ""
+    }
+]

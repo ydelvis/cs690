@@ -1,0 +1,184 @@
+{
+  "service": "auto-cleanup-api",
+  "provider": {
+    "name": "aws",
+    "runtime": "python3.9",
+    "region": "${opt:region, \"ap-southeast-2\"}",
+    "stage": "${opt:stage, \"prod\"}",
+    "memory_mb": null,
+    "timeout_s": null
+  },
+  "environment": {
+    "LOG_LEVEL": "INFO",
+    "SETTINGS_TABLE": "${cf:auto-cleanup-app-${self:provider.stage}.SettingsTableName}",
+    "ALLOWLIST_TABLE": "${cf:auto-cleanup-app-${self:provider.stage}.AllowlistTableName}",
+    "EXECUTION_LOG_BUCKET": "${cf:auto-cleanup-app-${self:provider.stage}.ExecutionLogBucketName}"
+  },
+  "functions": {
+    "AllowlistCreate": {
+      "handler": "src/allowlist/create.lambda_handler",
+      "runtime": "python3.9",
+      "environment": {
+        "LOG_LEVEL": "INFO",
+        "SETTINGS_TABLE": "${cf:auto-cleanup-app-${self:provider.stage}.SettingsTableName}",
+        "ALLOWLIST_TABLE": "${cf:auto-cleanup-app-${self:provider.stage}.AllowlistTableName}"
+      },
+      "events": [
+        {
+          "http": {
+            "method": "POST",
+            "path": "/allowlist/entry",
+            "cors": true,
+            "private": true
+          }
+        }
+      ]
+    },
+    "AllowlistRead": {
+      "handler": "src/allowlist/read.lambda_handler",
+      "runtime": "python3.9",
+      "environment": {
+        "LOG_LEVEL": "INFO",
+        "ALLOWLIST_TABLE": "${cf:auto-cleanup-app-${self:provider.stage}.AllowlistTableName}"
+      },
+      "events": [
+        {
+          "http": {
+            "method": "GET",
+            "path": "/allowlist",
+            "cors": true,
+            "private": true
+          }
+        }
+      ]
+    },
+    "AllowlistUpdate": {
+      "handler": "src/allowlist/update.lambda_handler",
+      "runtime": "python3.9",
+      "environment": {
+        "LOG_LEVEL": "INFO",
+        "SETTINGS_TABLE": "${cf:auto-cleanup-app-${self:provider.stage}.SettingsTableName}",
+        "ALLOWLIST_TABLE": "${cf:auto-cleanup-app-${self:provider.stage}.AllowlistTableName}"
+      },
+      "events": [
+        {
+          "http": {
+            "method": "PUT",
+            "path": "/allowlist/entry",
+            "cors": true,
+            "private": true
+          }
+        }
+      ]
+    },
+    "AllowlistDelete": {
+      "handler": "src/allowlist/delete.lambda_handler",
+      "runtime": "python3.9",
+      "environment": {
+        "LOG_LEVEL": "INFO",
+        "ALLOWLIST_TABLE": "${cf:auto-cleanup-app-${self:provider.stage}.AllowlistTableName}"
+      },
+      "events": [
+        {
+          "http": {
+            "method": "DELETE",
+            "path": "/allowlist/entry",
+            "cors": true,
+            "private": true
+          }
+        }
+      ]
+    },
+    "ServiceRead": {
+      "handler": "src/service/read.lambda_handler",
+      "runtime": "python3.9",
+      "environment": {
+        "LOG_LEVEL": "INFO",
+        "SETTINGS_TABLE": "${cf:auto-cleanup-app-${self:provider.stage}.SettingsTableName}"
+      },
+      "events": [
+        {
+          "http": {
+            "method": "GET",
+            "path": "/settings/service",
+            "cors": true,
+            "private": true
+          }
+        }
+      ]
+    },
+    "ExecutionLogList": {
+      "handler": "src/execution_log/list.lambda_handler",
+      "runtime": "python3.9",
+      "environment": {
+        "LOG_LEVEL": "INFO",
+        "EXECUTION_LOG_BUCKET": "${cf:auto-cleanup-app-${self:provider.stage}.ExecutionLogBucketName}"
+      },
+      "events": [
+        {
+          "http": {
+            "method": "GET",
+            "path": "/execution",
+            "cors": true,
+            "private": true
+          }
+        }
+      ]
+    },
+    "ExecutionLogRead": {
+      "handler": "src/execution_log/read.lambda_handler",
+      "runtime": "python3.9",
+      "environment": {
+        "LOG_LEVEL": "INFO",
+        "EXECUTION_LOG_BUCKET": "${cf:auto-cleanup-app-${self:provider.stage}.ExecutionLogBucketName}"
+      },
+      "events": [
+        {
+          "http": {
+            "method": "GET",
+            "path": "/execution/{key}",
+            "cors": true,
+            "private": true,
+            "caching": {
+              "enabled": true,
+              "cacheKeyParameters": [
+                {
+                  "name": "request.path.key"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "iam_statements": [],
+  "custom": {
+    "log_level": "INFO",
+    "region": "${opt:region, \"ap-southeast-2\"}",
+    "apiGatewayCaching": {
+      "enabled": true
+    },
+    "manifest": {
+      "output": "../web/src/serverless.manifest.json",
+      "silent": true
+    },
+    "pythonRequirements": {
+      "layer": {
+        "name": "auto-cleanup-api-${opt:stage, \"prod\"}-requirements",
+        "compatibleRuntimes": [
+          "python3.9"
+        ]
+      },
+      "noDeploy": [
+        "boto",
+        "boto3",
+        "botocore"
+      ],
+      "slim": true
+    }
+  },
+  "source_files": [
+    "serverless.yml"
+  ]
+}

@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteVpc"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteVpcRequest(VpcId=vpc-0590613e39ac9ea20)", 
+        "apiName": "ec2.deleteVpc"
+    }
+]

@@ -1,0 +1,222 @@
+{
+  "adjacency": {
+    "<anonymous>": [
+      "delete",
+      "save"
+    ],
+    "delete": [
+      "remove"
+    ],
+    "remove": [
+      "delete"
+    ],
+    "thing": [
+      "getById"
+    ],
+    "things": [
+      "queryByName"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "graphql",
+      "file": "dataset/apps/bff-graphql-crud/handler.js",
+      "language": "javascript",
+      "line": 11
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/bff-graphql-crud/handler.js",
+      "language": "javascript",
+      "line": 14
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/bff-graphql-crud/handler.js",
+      "language": "javascript",
+      "line": 24
+    },
+    {
+      "name": "trigger",
+      "file": "dataset/apps/bff-graphql-crud/handler.js",
+      "language": "javascript",
+      "line": 41
+    },
+    {
+      "name": "record",
+      "file": "dataset/apps/bff-graphql-crud/handler.js",
+      "language": "javascript",
+      "line": 51
+    },
+    {
+      "name": "event",
+      "file": "dataset/apps/bff-graphql-crud/handler.js",
+      "language": "javascript",
+      "line": 75
+    },
+    {
+      "name": "value",
+      "file": "dataset/apps/bff-graphql-crud/handler.js",
+      "language": "javascript",
+      "line": 88
+    },
+    {
+      "name": "thing",
+      "file": "dataset/apps/bff-graphql-crud/schema/thing/resolvers.js",
+      "language": "javascript",
+      "line": 3
+    },
+    {
+      "name": "things",
+      "file": "dataset/apps/bff-graphql-crud/schema/thing/resolvers.js",
+      "language": "javascript",
+      "line": 6
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/bff-graphql-crud/schema/thing/resolvers.js",
+      "language": "javascript",
+      "line": 11
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/bff-graphql-crud/schema/thing/resolvers.js",
+      "language": "javascript",
+      "line": 14
+    },
+    {
+      "name": "constructor",
+      "file": "dataset/apps/bff-graphql-crud/schema/thing/model.js",
+      "language": "javascript",
+      "line": 6
+    },
+    {
+      "name": "getById",
+      "file": "dataset/apps/bff-graphql-crud/schema/thing/model.js",
+      "language": "javascript",
+      "line": 10
+    },
+    {
+      "name": "queryByName",
+      "file": "dataset/apps/bff-graphql-crud/schema/thing/model.js",
+      "language": "javascript",
+      "line": 14
+    },
+    {
+      "name": "data",
+      "file": "dataset/apps/bff-graphql-crud/schema/thing/model.js",
+      "language": "javascript",
+      "line": 16
+    },
+    {
+      "name": "save",
+      "file": "dataset/apps/bff-graphql-crud/schema/thing/model.js",
+      "language": "javascript",
+      "line": 22
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/bff-graphql-crud/schema/thing/model.js",
+      "language": "javascript",
+      "line": 25
+    },
+    {
+      "name": "delete",
+      "file": "dataset/apps/bff-graphql-crud/schema/thing/model.js",
+      "language": "javascript",
+      "line": 33
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/bff-graphql-crud/schema/thing/model.js",
+      "language": "javascript",
+      "line": 35
+    },
+    {
+      "name": "constructor",
+      "file": "dataset/apps/bff-graphql-crud/lib/connector.js",
+      "language": "javascript",
+      "line": 6
+    },
+    {
+      "name": "save",
+      "file": "dataset/apps/bff-graphql-crud/lib/connector.js",
+      "language": "javascript",
+      "line": 11
+    },
+    {
+      "name": "remove",
+      "file": "dataset/apps/bff-graphql-crud/lib/connector.js",
+      "language": "javascript",
+      "line": 25
+    },
+    {
+      "name": "getById",
+      "file": "dataset/apps/bff-graphql-crud/lib/connector.js",
+      "language": "javascript",
+      "line": 36
+    },
+    {
+      "name": "data",
+      "file": "dataset/apps/bff-graphql-crud/lib/connector.js",
+      "language": "javascript",
+      "line": 45
+    },
+    {
+      "name": "queryByName",
+      "file": "dataset/apps/bff-graphql-crud/lib/connector.js",
+      "language": "javascript",
+      "line": 48
+    },
+    {
+      "name": "data",
+      "file": "dataset/apps/bff-graphql-crud/lib/connector.js",
+      "language": "javascript",
+      "line": 66
+    },
+    {
+      "name": "value",
+      "file": "dataset/apps/bff-graphql-crud/lib/connector.js",
+      "language": "javascript",
+      "line": 75
+    },
+    {
+      "name": "value",
+      "file": "dataset/apps/bff-graphql-crud/lib/connector.js",
+      "language": "javascript",
+      "line": 76
+    }
+  ],
+  "edges": [
+    {
+      "caller": "thing",
+      "callee": "getById",
+      "caller_file": "dataset/apps/bff-graphql-crud/schema/thing/resolvers.js"
+    },
+    {
+      "caller": "things",
+      "callee": "queryByName",
+      "caller_file": "dataset/apps/bff-graphql-crud/schema/thing/resolvers.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "save",
+      "caller_file": "dataset/apps/bff-graphql-crud/schema/thing/resolvers.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "delete",
+      "caller_file": "dataset/apps/bff-graphql-crud/schema/thing/resolvers.js"
+    },
+    {
+      "caller": "delete",
+      "callee": "remove",
+      "caller_file": "dataset/apps/bff-graphql-crud/schema/thing/model.js"
+    },
+    {
+      "caller": "remove",
+      "callee": "delete",
+      "caller_file": "dataset/apps/bff-graphql-crud/lib/connector.js"
+    }
+  ]
+}

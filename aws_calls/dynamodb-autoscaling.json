@@ -1,0 +1,34 @@
+{
+  "scaleUp": {
+    "handler_file": "handlers/scale-up.js",
+    "handler_func": "index",
+    "language": "javascript",
+    "aws_calls": [
+      {
+        "service": "cloudwatch",
+        "method": "getMetricStatistics",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 308,
+        "caller_func": "getRequest",
+        "file": "core/AutoScaleService.js"
+      }
+    ]
+  },
+  "scaleDown": {
+    "handler_file": "handlers/scale-down.js",
+    "handler_func": "index",
+    "language": "javascript",
+    "aws_calls": [
+      {
+        "service": "cloudwatch",
+        "method": "getMetricStatistics",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 308,
+        "caller_func": "getRequest",
+        "file": "core/AutoScaleService.js"
+      }
+    ]
+  }
+}

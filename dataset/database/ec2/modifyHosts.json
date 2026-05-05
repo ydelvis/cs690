@@ -1,0 +1,97 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyHosts"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:dedicated-host/h-00b810d31c4c3db2e"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyHostsRequest(AutoPlacement=off, HostIds=[h-00b810d31c4c3db2e], HostRecovery=off, InstanceFamily=m3)", 
+        "apiName": "ec2.modifyHosts"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyHosts"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:dedicated-host/h-00b810d31c4c3db2e"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyHostsRequest(HostIds=[h-00b810d31c4c3db2e], HostRecovery=on, InstanceType=m3.medium)", 
+        "apiName": "ec2.modifyHosts"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyHosts"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:dedicated-host/h-00b810d31c4c3db2e"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyHostsRequest(HostIds=[h-00b810d31c4c3db2e], InstanceType=m3.medium)", 
+        "apiName": "ec2.modifyHosts"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyHosts"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:dedicated-host/h-00b810d31c4c3db2e"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyHostsRequest(AutoPlacement=off, HostIds=[h-00b810d31c4c3db2e])", 
+        "apiName": "ec2.modifyHosts"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyHosts"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:dedicated-host/h-00b810d31c4c3db2e"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyHostsRequest(HostIds=[h-00b810d31c4c3db2e], HostRecovery=off, InstanceFamily=m3)", 
+        "apiName": "ec2.modifyHosts"
+    }
+]

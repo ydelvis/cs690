@@ -1,0 +1,31 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateDhcpOptions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:dhcp-options/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateDhcpOptionsRequest(DhcpConfigurations=[NewDhcpConfiguration(Key=netbios-node-type, Values=[2]), NewDhcpConfiguration(Key=domain-name, Values=[us-west-2.compute.internal]), NewDhcpConfiguration(Key=domain-name-servers, Values=[AmazonProvidedDNS])], TagSpecifications=[TagSpecification(ResourceType=dhcp-options, Tags=[Tag(Key=dhcp-options, Value=dhcp-options-tag)])])", 
+        "apiName": "ec2.createDhcpOptions"
+    }
+]

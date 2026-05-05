@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteNetworkAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-acl/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteNetworkAclRequest(NetworkAclId=acl-0c29b36a31d08eb0f)", 
+        "apiName": "ec2.deleteNetworkAcl"
+    }
+]

@@ -1,0 +1,266 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[vpc-1dd31b65], Filters=[Filter()], NextToken=, MaxResults=-1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateNames=[851601128636], Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateNames=[Test-Launch-Template], Filters=[Filter()], NextToken=, MaxResults=-1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[dopt-bbeb2ac3], LaunchTemplateNames=[dopt-bbeb2ac3], Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[922761411349], LaunchTemplateNames=[dopt-bbeb2ac3], Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[002677082836, self, all], LaunchTemplateNames=[002677082836, self, all], Filters=[Filter()], NextToken=, MaxResults=-1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateNames=[snap-ff869fa8], Filters=[Filter()], MaxResults=-100)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], LaunchTemplateNames=[ami-00bb6f60], Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[eipalloc-068f6cb5459d939aa], LaunchTemplateNames=[M3_LARGE], Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[002677082836, self, all], LaunchTemplateNames=[snap-ff869fa8], Filters=[Filter()], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(Filters=[Filter()], NextToken=, MaxResults=-1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], LaunchTemplateNames=[lt-01286ed53e9c989b1], Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[Test-Launch-Template], LaunchTemplateNames=[i-01ec73f52711d20f7, i-01d514444253d9b80], Filters=[Filter()], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], LaunchTemplateNames=[922761411349], Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], LaunchTemplateNames=[ami-00bb6f60], Filters=[Filter()], NextToken=, MaxResults=-1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateNames=[922761411349], Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[ami-00bb6f60], LaunchTemplateNames=[i-01ec73f52711d20f7, i-01d514444253d9b80], Filters=[Filter()], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[44.237.200.166], LaunchTemplateNames=[lt-01286ed53e9c989b1], Filters=[Filter()], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[lt-01286ed53e9c989b1], LaunchTemplateNames=[i-01ec73f52711d20f7, i-01d514444253d9b80], Filters=[Filter()], MaxResults=-100)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[lt-01286ed53e9c989b1], LaunchTemplateNames=[Test-Launch-Template], Filters=[Filter()], MaxResults=-1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[44.237.200.166], LaunchTemplateNames=[lt-01286ed53e9c989b1], Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[lt-01286ed53e9c989b1], LaunchTemplateNames=[dopt-bbeb2ac3], Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[M3_LARGE], LaunchTemplateNames=[i-01ec73f52711d20f7, i-01d514444253d9b80], Filters=[Filter()], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[851601128636], LaunchTemplateNames=[44.237.200.166], Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], LaunchTemplateNames=[ami-00bb6f60], Filters=[Filter()], MaxResults=-100)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[lt-01286ed53e9c989b1], LaunchTemplateNames=[922761411349], Filters=[Filter()], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[M3_LARGE], LaunchTemplateNames=[922761411349], Filters=[Filter()], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[lt-01286ed53e9c989b1], LaunchTemplateNames=[M3_LARGE], Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[lt-01286ed53e9c989b1], LaunchTemplateNames=[ami-00bb6f60], Filters=[Filter()], MaxResults=-1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[dopt-bbeb2ac3], LaunchTemplateNames=[002677082836, self, all], Filters=[Filter()], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[M3_LARGE], Filters=[Filter()], MaxResults=0)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()])", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[vpc-1dd31b65], LaunchTemplateNames=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], Filters=[Filter()], NextToken=, MaxResults=-1)", 
+        "apiName": "ec2.describeLaunchTemplatesPaginator"
+    }
+]

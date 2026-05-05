@@ -1,0 +1,25 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpcEndpoint"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:route-table/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateVpcEndpointRequest(VpcEndpointType=Interface, VpcId=vpc-088f61503142622ed, ServiceName=com.amazonaws.us-west-2.s3, SubnetIds=[subnet-092aa5e72690d53ca], SecurityGroupIds=[sg-087c6c17aa379a72b], PrivateDnsEnabled=false)", 
+        "apiName": "ec2.createVpcEndpoint"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeClientVpnConnectionsRequest()", 
+        "apiName": "ec2.describeClientVpnConnectionsPaginator"
+    }
+]

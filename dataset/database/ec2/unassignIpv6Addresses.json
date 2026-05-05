@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:UnassignIpv6Addresses"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-08e787916765b5065"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "UnassignIpv6AddressesRequest(NetworkInterfaceId=eni-08e787916765b5065, Ipv6Addresses=[2600:1f13:4b7:ae11:83f7:dc35:4c28:e70a])", 
+        "apiName": "ec2.unassignIpv6Addresses"
+    }
+]

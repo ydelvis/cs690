@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribePublicIpv4Pools"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribePublicIpv4PoolsRequest(MaxResults=1, Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[enable])])", 
+        "apiName": "ec2.describePublicIpv4Pools"
+    }
+]

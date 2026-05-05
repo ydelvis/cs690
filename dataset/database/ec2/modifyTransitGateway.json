@@ -1,0 +1,20 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:ModifyTransitGateway"
+                ], 
+                "Resource": [
+                    "arn:aws:ec2:us-west-2:002677082836:transit-gateway/tgw-02b1446b336da5112", 
+                    "arn:aws:ec2:us-west-2:002677082836:transit-gateway-route-table/*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "ModifyTransitGatewayRequest(TransitGatewayId=tgw-02b1446b336da5112, Description=Test Transit Gateway, Options=ModifyTransitGatewayOptions(RemoveTransitGatewayCidrBlocks=[192.0.0.0/24], VpnEcmpSupport=enable, AutoAcceptSharedAttachments=enable, DefaultRouteTableAssociation=enable, PropagationDefaultRouteTableId=tgw-rtb-02e9c220c37bb74db))", 
+    "apiName": "modifyTransitGateway"
+}

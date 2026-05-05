@@ -1,0 +1,48 @@
+{
+  "adjacency": {},
+  "nodes": [
+    {
+      "name": "getPlaylists",
+      "file": "dataset/apps/episode-updater/main.js",
+      "language": "javascript",
+      "line": 14
+    },
+    {
+      "name": "url",
+      "file": "dataset/apps/episode-updater/main.js",
+      "language": "javascript",
+      "line": 19
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/episode-updater/main.js",
+      "language": "javascript",
+      "line": 25
+    },
+    {
+      "name": "getVideosFromPlayList",
+      "file": "dataset/apps/episode-updater/main.js",
+      "language": "javascript",
+      "line": 57
+    },
+    {
+      "name": "hello",
+      "file": "dataset/apps/episode-updater/handler.js",
+      "language": "javascript",
+      "line": 3
+    },
+    {
+      "name": "uname2ChannelId",
+      "file": "dataset/apps/episode-updater/channels/main.js",
+      "language": "javascript",
+      "line": 5
+    },
+    {
+      "name": "url",
+      "file": "dataset/apps/episode-updater/channels/main.js",
+      "language": "javascript",
+      "line": 10
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "UploadPartCopyRequest(Bucket=test-bucket-5461, CopySource=test-bucket-5461/key2/listBuckets.json, CopySourceIfModifiedSince=2021-08-01T20:43:50.684Z, CopySourceIfUnmodifiedSince=2021-08-01T20:33:50.684Z, CopySourceRange=bytes=0-10, Key=key1/listBuckets.json, PartNumber=1, UploadId=jV4DEZu0l5_VP9BeWzT1tBp2resLDXtOjbY9AXeGc6duTUuHzHFkWTD.kfhxiKzEKBtS7O9aI4bQ8V9_G8ehl.LENsn1AsOvFD01aTLqO73XOyEUVJCQ7ssXlaIh51HW.R47u.t4R29s56ahb6E7Lw--, RequestPayer=requester, ExpectedBucketOwner=002677082836, ExpectedSourceBucketOwner=002677082836)", 
+        "apiName": "s3.uploadPartCopy"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "UploadPartCopyRequest(Bucket=test-bucket-5461, CopySource=test-bucket-5461/key2/listBuckets.json, CopySourceIfModifiedSince=2021-08-01T22:28:09.813Z, CopySourceIfUnmodifiedSince=2021-08-01T22:28:09.813Z, CopySourceRange=bytes=0-10, Key=key1/listBuckets.json, PartNumber=10, UploadId=jV4DEZu0l5_VP9BeWzT1tBp2resLDXtOjbY9AXeGc6duTUuHzHFkWTD.kfhxiKzEKBtS7O9aI4bQ8V9_G8ehl.LENsn1AsOvFD01aTLqO73XOyEUVJCQ7ssXlaIh51HW.R47u.t4R29s56ahb6E7Lw--, RequestPayer=requester, ExpectedBucketOwner=002677082836, ExpectedSourceBucketOwner=002677082836)", 
+        "apiName": "s3.uploadPartCopy"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "UploadPartCopyRequest(Bucket=test-bucket-5461, CopySource=test-bucket-5461/key2/listBuckets.json, CopySourceIfUnmodifiedSince=2021-08-02T00:16:28.888Z, CopySourceRange=bytes=0-10, Key=key1/listBuckets.json, PartNumber=1, UploadId=jV4DEZu0l5_VP9BeWzT1tBp2resLDXtOjbY9AXeGc6duTUuHzHFkWTD.kfhxiKzEKBtS7O9aI4bQ8V9_G8ehl.LENsn1AsOvFD01aTLqO73XOyEUVJCQ7ssXlaIh51HW.R47u.t4R29s56ahb6E7Lw--)", 
+        "apiName": "s3.uploadPartCopy"
+    }
+]

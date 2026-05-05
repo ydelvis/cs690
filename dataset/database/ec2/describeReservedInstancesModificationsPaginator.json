@@ -1,0 +1,250 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[disable])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=resource-id, Values=[vpn-0d59b1da66a690911])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=group-name, Values=[Test-Placement-Group]), Filter(Name=strategy, Values=[spread])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=instance-type, Values=[t3.micro])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[enable])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=group-name, Values=[Test-Placement-Group])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=route.state, Values=[blackhole])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest()", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Enabled])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=service-name, Values=[com.amazonaws.us-east-2.acm-pca])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-0cc4d5cda8eac8d8c])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=connection-notification-type, Values=[Topic])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=strategy, Values=[spread])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=description, Values=[])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=resource-type, Values=[vpc])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65]), Filter(Name=owner-id, Values=[002677082836]), Filter(Name=route.state, Values=[blackhole])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=scope, Values=[Region])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=service-type, Values=[Interface])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=options.protocol, Values=[gre])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=state, Values=[deleting])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=attachment.state, Values=[attached])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=service-type, Values=[Gateway])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[pendingAcceptance])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=vpc-endpoint-owner, Values=[002677082836])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=default-association-route-table, Values=[true])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=owner-id, Values=[002677082836])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=default-propagation-route-table, Values=[false])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=attachment.state, Values=[detached])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReservedInstancesModificationsRequest(Filters=[Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])])", 
+        "apiName": "ec2.describeReservedInstancesModificationsPaginator"
+    }
+]

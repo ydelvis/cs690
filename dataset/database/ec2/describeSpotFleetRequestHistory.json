@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DescribeSpotFleetRequestHistory"
+                ], 
+                "Resource": [
+                    "*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "\u200b\u200bDescribeSpotFleetRequestHistoryRequest(EventType=error, MaxResults=0, NextToken=, SpotFleetRequestId=sfr-7ec90de8-6407-46d5-a8e7-aa268d3bdc07, StartTime=2021-08-16T03:18:17.166Z)", 
+    "apiName": "describeSpotFleetRequestHistory"
+}

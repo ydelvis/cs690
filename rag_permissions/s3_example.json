@@ -1,0 +1,21 @@
+{
+  "write": {
+    "initial_permissions": [],
+    "rag_permissions": [
+      "s3:PutObject"
+    ],
+    "reasoning": "The s3WriteHandler explicitly invokes svc.PutObjectRequest and uploader.Upload to write objects to an S3 bucket specified by environment variables. No other AWS SDK calls (e.g., Read, List, Delete) or third-party service permissions are required by the application logic.",
+    "raw_response": "{\"permissions\": [\"s3:PutObject\"], \"reasoning\": \"The s3WriteHandler explicitly invokes svc.PutObjectRequest and uploader.Upload to write objects to an S3 bucket specified by environment variables. No other AWS SDK calls (e.g., Read, List, Delete) or third-party service permissions are required by the application logic.\"}"
+  },
+  "write_v2": {
+    "initial_permissions": [
+      "s3:PutObject",
+      "s3:PutObjectAcl"
+    ],
+    "rag_permissions": [
+      "s3:PutObject"
+    ],
+    "reasoning": "The code explicitly invokes the S3 PutObject API via s3.New and PutObjectRequest.Send in write_v2/main.go. The region is hardcoded, eliminating the need for GetBucketLocation. No ACL parameter is passed in PutObjectInput, making s3:PutObjectAcl over-provisioned.",
+    "raw_response": "{\"permissions\": [\"s3:PutObject\"], \"reasoning\": \"The code explicitly invokes the S3 PutObject API via s3.New and PutObjectRequest.Send in write_v2/main.go. The region is hardcoded, eliminating the need for GetBucketLocation. No ACL parameter is passed in PutObjectInput, making s3:PutObjectAcl over-provisioned.\"}"
+  }
+}

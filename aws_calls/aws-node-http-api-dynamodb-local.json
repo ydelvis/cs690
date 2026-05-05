@@ -1,0 +1,82 @@
+{
+  "create": {
+    "handler_file": "todos/create.js",
+    "handler_func": "create",
+    "language": "javascript",
+    "aws_calls": [
+      {
+        "service": "dynamodb",
+        "method": "putItem",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 31,
+        "caller_func": "create",
+        "file": "todos/create.js"
+      }
+    ]
+  },
+  "list": {
+    "handler_file": "todos/list.js",
+    "handler_func": "list",
+    "language": "javascript",
+    "aws_calls": [
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 11,
+        "caller_func": "list",
+        "file": "todos/list.js"
+      }
+    ]
+  },
+  "get": {
+    "handler_file": "todos/get.js",
+    "handler_func": "get",
+    "language": "javascript",
+    "aws_calls": [
+      {
+        "service": "dynamodb",
+        "method": "getItem",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 14,
+        "caller_func": "get",
+        "file": "todos/get.js"
+      }
+    ]
+  },
+  "update": {
+    "handler_file": "todos/update.js",
+    "handler_func": "update",
+    "language": "javascript",
+    "aws_calls": [
+      {
+        "service": "dynamodb",
+        "method": "updateItem",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 38,
+        "caller_func": "update",
+        "file": "todos/update.js"
+      }
+    ]
+  },
+  "delete": {
+    "handler_file": "todos/delete.js",
+    "handler_func": "delete",
+    "language": "javascript",
+    "aws_calls": [
+      {
+        "service": "dynamodb",
+        "method": "deleteItem",
+        "params_present": [],
+        "resolved_params": {},
+        "line": 14,
+        "caller_func": "delete",
+        "file": "todos/delete.js"
+      }
+    ]
+  }
+}

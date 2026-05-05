@@ -1,0 +1,154 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(MaxResults=0)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[851601128636], MaxResults=100)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[dopt-bbeb2ac3], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[sg-084edec751f962157, sg-702ca705], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[M3_LARGE], NextToken=)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[44.237.200.166])", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[851601128636], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[922761411349], MaxResults=0)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[igw-83ac9ee5], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[i-01ec73f52711d20f7, i-01d514444253d9b80], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[acl-d2b393aa], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[922761411349], MaxResults=1)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[922761411349])", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[], MaxResults=-100)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[key-017df928e910e4389])", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[sg-084edec751f962157, sg-702ca705], MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[key-017df928e910e4389], MaxResults=-100)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[rtb-ca18b2b1], MaxResults=0)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[subnet-891125d3, subnet-b76ec99c, subnet-f098dfbb, subnet-d37752aa], MaxResults=-100)", 
+        "apiName": "ec2.describePrincipalIdFormatPaginator"
+    }
+]

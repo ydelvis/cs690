@@ -1,0 +1,154 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:DeleteObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "AbortMultipartUploadRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.abortMultipartUpload"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:DeleteObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "AbortMultipartUploadRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json)", 
+        "apiName": "s3.abortMultipartUpload"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:DeleteObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "AbortMultipartUploadRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.abortMultipartUpload"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:DeleteObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "AbortMultipartUploadRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, RequestPayer=requester)", 
+        "apiName": "s3.abortMultipartUpload"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:AbortMultipartUpload"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "AbortMultipartUploadRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, UploadId=KuYFklroGf3uLVUOX51bKCLdALidiY9QNVzMfueQ03lio9tLZXUdqgygT1p6gMxVdI2sIjpJTDr0G0L6YVpqrJoYbuayNnxvhdAvrGb2uoSpJjrXt_kPN3Ihw.ob2xf7D.zYjO0CciwuYItt80ZJ5Q--, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.abortMultipartUpload"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:AbortMultipartUpload"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "AbortMultipartUploadRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, UploadId=Z_2x1grdKliZli_9aoFnWwhsaN4tya9.BCmKe25nJMHNyr8w4FmB6I.qCNFmL4R4GGThjdxFZIpMbkobnmd90Ckvt1OgaPrpMYbf4bhP3VBYoR_z0K5oSLihRNts_t00QWFvqG5ic5NtZOa5401ZhA--, RequestPayer=requester)", 
+        "apiName": "s3.abortMultipartUpload"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:AbortMultipartUpload"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "AbortMultipartUploadRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, UploadId=dm_mfvK.XY9ZvnVr4A5VytGozEZM_dYj2Wmbw687hWQy6vELzlaCGnk7CC5ZxQrXRaD.tcusKwJ6IPSsbmjWtXjjZpa3jTkTnR9HqIEw32i34bIsh8rOXjYMMDALKsxlqD3TbzsoN4YHAhDpFcSeGw--)", 
+        "apiName": "s3.abortMultipartUpload"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:AbortMultipartUpload"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "AbortMultipartUploadRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, UploadId=HXvo6zoghbg6KOi7CJXU9R.6o7soJDehU8OR.INrDikKnj1dGLmaVicr1KiihoYFKkInmg3tslDzEZy.q3VKtdAkPxF.ATgObARiJzMNVBdnRz2sYUp98AcwOntWqxTWfNU1ZIPZKufUoCFebyZWow--, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.abortMultipartUpload"
+    }
+]

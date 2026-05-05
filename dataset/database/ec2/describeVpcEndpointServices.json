@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpcEndpointServices"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpcEndpointServicesRequest(Filters=[Filter(Name=service-type, Values=[Interface])])", 
+        "apiName": "ec2.describeVpcEndpointServices"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpcEndpointServices"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpcEndpointServicesRequest(Filters=[Filter(Name=service-name, Values=[com.amazonaws.us-east-2.acm-pca])], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointServices"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpcEndpointServices"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpcEndpointServicesRequest(Filters=[Filter(Name=service-type, Values=[Gateway])], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointServices"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpcEndpointServices"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpcEndpointServicesRequest()", 
+        "apiName": "ec2.describeVpcEndpointServices"
+    }
+]

@@ -1,0 +1,135 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpcEndpointConnectionNotifications"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Enabled])])", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotifications"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpcEndpointConnectionNotifications"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Enabled])], MaxResults=100)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotifications"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpcEndpointConnectionNotifications"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotifications"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpcEndpointConnectionNotifications"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Disabled])])", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotifications"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpcEndpointConnectionNotifications"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Disabled])], MaxResults=100)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotifications"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpcEndpointConnectionNotifications"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Enabled])], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotifications"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpcEndpointConnectionNotifications"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpcEndpointConnectionNotificationsRequest(Filters=[Filter(Name=connection-notification-state, Values=[Disabled])], MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointConnectionNotifications"
+    }
+]

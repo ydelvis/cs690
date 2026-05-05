@@ -1,0 +1,65 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyTransitGatewayPrefixListReference"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:prefix-list/pl-02c832233b8d5eea8", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/tgw-attach-0e68cd6b557341f65", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-route-table/tgw-rtb-0aecf25a3f86dfeef"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyTransitGatewayPrefixListReferenceRequest(TransitGatewayRouteTableId=tgw-rtb-0aecf25a3f86dfeef, PrefixListId=pl-02c832233b8d5eea8, TransitGatewayAttachmentId=tgw-attach-0e68cd6b557341f65)", 
+        "apiName": "ec2.modifyTransitGatewayPrefixListReference"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyTransitGatewayPrefixListReference"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:prefix-list/pl-02c832233b8d5eea8", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/tgw-attach-0e68cd6b557341f65", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-route-table/tgw-rtb-0aecf25a3f86dfeef"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyTransitGatewayPrefixListReferenceRequest(TransitGatewayRouteTableId=tgw-rtb-0aecf25a3f86dfeef, PrefixListId=pl-02c832233b8d5eea8, Blackhole=true)", 
+        "apiName": "ec2.modifyTransitGatewayPrefixListReference"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyTransitGatewayPrefixListReference"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:prefix-list/pl-02c832233b8d5eea8", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/tgw-attach-0e68cd6b557341f65", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-route-table/tgw-rtb-0aecf25a3f86dfeef"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyTransitGatewayPrefixListReferenceRequest(TransitGatewayRouteTableId=tgw-rtb-0aecf25a3f86dfeef, PrefixListId=pl-02c832233b8d5eea8, TransitGatewayAttachmentId=tgw-attach-0e68cd6b557341f65, Blackhole=false)", 
+        "apiName": "ec2.modifyTransitGatewayPrefixListReference"
+    }
+]

@@ -1,0 +1,62 @@
+{
+  "create": {
+    "handler_file": "lambda/create-product.py",
+    "handler_func": "handler",
+    "language": "python",
+    "baseline_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "full_static_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "call_details": [
+      {
+        "service": "dynamodb",
+        "method": "putItem",
+        "params_present": [
+          "Item",
+          "TableName"
+        ],
+        "caller_func": "handler",
+        "file": "lambda/create-product.py",
+        "line": 45,
+        "baseline": [
+          "dynamodb:PutItem"
+        ],
+        "full_static": [
+          "dynamodb:PutItem"
+        ]
+      }
+    ]
+  },
+  "find": {
+    "handler_file": "lambda/find-product.py",
+    "handler_func": "handler",
+    "language": "python",
+    "baseline_permissions": [
+      "dynamodb:GetItem"
+    ],
+    "full_static_permissions": [
+      "dynamodb:GetItem"
+    ],
+    "call_details": [
+      {
+        "service": "dynamodb",
+        "method": "getItem",
+        "params_present": [
+          "Key",
+          "TableName"
+        ],
+        "caller_func": "handler",
+        "file": "lambda/find-product.py",
+        "line": 37,
+        "baseline": [
+          "dynamodb:GetItem"
+        ],
+        "full_static": [
+          "dynamodb:GetItem"
+        ]
+      }
+    ]
+  }
+}

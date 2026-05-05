@@ -1,0 +1,138 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])], VpcPeeringConnectionIds=[tgw-attach-0e68cd6b557341f65], MaxResults=0)", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069])], VpcPeeringConnectionIds=[tgw-attach-0e68cd6b557341f65])", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=default-association-route-table, Values=[false])], VpcPeeringConnectionIds=[aws.sagemaker.us-east-2.notebook, com.amazonaws.us-east-2.acm-pca], MaxResults=0)", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=log-destination-type, Values=[s3])], VpcPeeringConnectionIds=[vgw-0111ef9729cc973bb], MaxResults=0)", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[failed])], VpcPeeringConnectionIds=[i-0fc67210075ad498a], MaxResults=100)", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])], VpcPeeringConnectionIds=[pg-040cc29c500fb8381], MaxResults=1)", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=route.state, Values=[blackhole])], VpcPeeringConnectionIds=[002677082836], MaxResults=100)", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=description, Values=[])], VpcPeeringConnectionIds=[all], MaxResults=0)", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS]), Filter(Name=traffic-type, Values=[ACCEPT]), Filter(Name=log-destination-type, Values=[s3])], VpcPeeringConnectionIds=[Test-Placement-Group], MaxResults=0)", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleting])], VpcPeeringConnectionIds=[tgw-rtb-02e9c220c37bb74db], MaxResults=0)", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(VpcPeeringConnectionIds=[192.0.0.0/24])", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=traffic-type, Values=[ACCEPT])], VpcPeeringConnectionIds=[sfr-7ec90de8-6407-46d5-a8e7-aa268d3bdc07])", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(VpcPeeringConnectionIds=[vpn-0d59b1da66a690911], MaxResults=0)", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=transit-gateway-route-table-id, Values=[tgw-rtb-02e9c220c37bb74db])], VpcPeeringConnectionIds=[Test-Placement-Group], MaxResults=1)", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=service-type, Values=[Gateway])], VpcPeeringConnectionIds=[])", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[pending])], VpcPeeringConnectionIds=[tmf-090acc59bb68290b8], MaxResults=0)", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVpcPeeringConnectionsRequest(MaxResults=100)", 
+        "apiName": "ec2.describeVpcPeeringConnectionsPaginator"
+    }
+]

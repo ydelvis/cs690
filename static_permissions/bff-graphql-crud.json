@@ -1,0 +1,29 @@
+{
+  "trigger": {
+    "handler_file": "handler.js",
+    "handler_func": "trigger",
+    "language": "javascript",
+    "baseline_permissions": [
+      "kinesis:PutRecord"
+    ],
+    "full_static_permissions": [
+      "kinesis:PutRecord"
+    ],
+    "call_details": [
+      {
+        "service": "kinesis",
+        "method": "putRecord",
+        "params_present": [],
+        "caller_func": "trigger",
+        "file": "handler.js",
+        "line": 85,
+        "baseline": [
+          "kinesis:PutRecord"
+        ],
+        "full_static": [
+          "kinesis:PutRecord"
+        ]
+      }
+    ]
+  }
+}

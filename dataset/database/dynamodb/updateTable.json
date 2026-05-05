@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UpdateTable"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateTableRequest(AttributeDefinitions=[AttributeDefinition(AttributeName=Id, AttributeType=S)], TableName=test-table-5461, GlobalSecondaryIndexUpdates=[GlobalSecondaryIndexUpdate(Update=UpdateGlobalSecondaryIndexAction(IndexName=Id-index, ProvisionedThroughput=ProvisionedThroughput(ReadCapacityUnits=5, WriteCapacityUnits=15)))])", 
+        "apiName": "dynamodb.updateTable"
+    }
+]

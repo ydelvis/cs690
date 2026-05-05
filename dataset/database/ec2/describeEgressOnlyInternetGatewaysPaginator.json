@@ -1,0 +1,250 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=0, Filters=[Filter(Name=group-name, Values=[Test-Placement-Group]), Filter(Name=strategy, Values=[spread])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=1, Filters=[Filter(Name=options.default-route-table-association, Values=[disable])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest()", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-023f7eee924362941])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=100, Filters=[Filter(Name=state, Values=[deleted])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=100, Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=100, Filters=[Filter(Name=default-association-route-table, Values=[true])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=100, Filters=[Filter(Name=vpc-endpoint-state, Values=[pendingAcceptance])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=1, Filters=[Filter(Name=connection-notification-state, Values=[Disabled])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=100, Filters=[Filter(Name=vpc-endpoint-state, Values=[pending])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(Filters=[Filter(Name=default-propagation-route-table, Values=[false])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=1, Filters=[])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=100, Filters=[Filter(Name=route.state, Values=[blackhole])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=1, Filters=[Filter(Name=instance-type, Values=[t3.micro])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(Filters=[Filter(Name=connection-notification-state, Values=[Disabled])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=100, Filters=[Filter(Name=default-association-route-table, Values=[false])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=1, Filters=[Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=0, Filters=[Filter(Name=vpc-endpoint-owner, Values=[002677082836])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=1, Filters=[Filter(Name=owner-id, Values=[002677082836])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(Filters=[Filter(Name=connection-notification-type, Values=[Topic])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(Filters=[Filter(Name=route.state, Values=[active])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[rejected])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=100, Filters=[Filter(Name=traffic-type, Values=[REJECT])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=100, Filters=[])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=1, Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(Filters=[Filter(Name=service-type, Values=[Interface])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=100, Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(Filters=[Filter(Name=attachment.state, Values=[attached])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=100, Filters=[Filter(Name=service-type, Values=[Gateway])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=100, Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEgressOnlyInternetGatewaysRequest(MaxResults=100, Filters=[Filter(Name=vpc-endpoint-state, Values=[deleted])])", 
+        "apiName": "ec2.describeEgressOnlyInternetGatewaysPaginator"
+    }
+]

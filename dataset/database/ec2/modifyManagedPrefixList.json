@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyManagedPrefixList"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:prefix-list/pl-02c832233b8d5eea8"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyManagedPrefixListRequest(PrefixListId=pl-02c832233b8d5eea8, CurrentVersion=67, PrefixListName=test-5461-prefix-list, AddEntries=[AddPrefixListEntry(Cidr=173.0.0.0/16, Description=Test Managed Prefix List)])", 
+        "apiName": "ec2.modifyManagedPrefixList"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyManagedPrefixList"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:prefix-list/pl-02c832233b8d5eea8"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyManagedPrefixListRequest(PrefixListId=pl-02c832233b8d5eea8, CurrentVersion=70, PrefixListName=test-5461-prefix-list, RemoveEntries=[RemovePrefixListEntry(Cidr=173.0.0.0/16)])", 
+        "apiName": "ec2.modifyManagedPrefixList"
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=vpc-endpoint-state, Values=[pending])], MaxResults=1)", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=traffic-type, Values=[REJECT])], MaxResults=100)", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=vpc-id, Values=[vpc-1dd31b65]), Filter(Name=owner-id, Values=[002677082836]), Filter(Name=route.state, Values=[blackhole])])", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=traffic-type, Values=[REJECT])], MaxResults=0)", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest()", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=options.auto-accept-shared-attachments, Values=[enable])], MaxResults=0)", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=association.state, Values=[associated])], MaxResults=1)", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(MaxResults=0)", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=service-name, Values=[com.amazonaws.us-east-2.acm-pca])])", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=traffic-type, Values=[ACCEPT])], MaxResults=1)", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=resource-id, Values=[vpn-0d59b1da66a690911])], MaxResults=0)", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=connection-notification-state, Values=[Enabled])], MaxResults=0)", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=state, Values=[deleting])], MaxResults=1)", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=description, Values=[])])", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=attachment.state, Values=[detached])])", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=vpc-id, Values=[vpc-1dd31b65])], MaxResults=100)", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNatGatewaysRequest(Filter=[Filter(Name=type, Values=[ipsec.1])], MaxResults=0)", 
+        "apiName": "ec2.describeNatGatewaysPaginator"
+    }
+]

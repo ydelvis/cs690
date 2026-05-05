@@ -1,0 +1,180 @@
+[
+    {
+        "policy": {
+            "Version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:getItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement6"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:putItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement5"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:query"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:scan"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:RestoreTableToPointInTime"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:updateItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:deleteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement7"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:batchWriteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement8"
+                }
+            ]
+        }, 
+        "request": "RestoreTableToPointInTimeRequest(SourceTableName=test-table-5461, TargetTableName=test-table-5461-restored-to-point-in-time, UseLatestRestorableTime=true)", 
+        "apiName": "dynamodb.restoreTableToPointInTime"
+    }, 
+    {
+        "policy": {
+            "Version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:getItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement6"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:putItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement5"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:query"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:scan"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:RestoreTableToPointInTime"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:updateItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:deleteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement7"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:batchWriteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored-to-point-in-time"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement8"
+                }
+            ]
+        }, 
+        "request": "RestoreTableToPointInTimeRequest(SourceTableArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461, TargetTableName=test-table-5461-restored-to-point-in-time, UseLatestRestorableTime=true)", 
+        "apiName": "dynamodb.restoreTableToPointInTime"
+    }
+]

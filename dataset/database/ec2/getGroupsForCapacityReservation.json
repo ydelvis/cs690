@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetGroupsForCapacityReservation"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:capacity-reservation/cr-06d06d028d5c6afc6"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "GetGroupsForCapacityReservationRequest(CapacityReservationId=cr-06d06d028d5c6afc6, MaxResults=100)", 
+        "apiName": "getGroupsForCapacityReservation"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetGroupsForCapacityReservation"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:capacity-reservation/cr-06d06d028d5c6afc6"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "GetGroupsForCapacityReservationRequest(CapacityReservationId=cr-06d06d028d5c6afc6, MaxResults=1)", 
+        "apiName": "getGroupsForCapacityReservation"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetGroupsForCapacityReservation"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:capacity-reservation/cr-06d06d028d5c6afc6"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "GetGroupsForCapacityReservationRequest(CapacityReservationId=cr-06d06d028d5c6afc6, MaxResults=100)", 
+        "apiName": "getGroupsForCapacityReservation"
+    }
+]

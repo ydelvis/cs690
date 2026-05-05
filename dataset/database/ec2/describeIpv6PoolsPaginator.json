@@ -1,0 +1,218 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(PoolIds=[], MaxResults=0, Filters=[Filter(Name=attachment.state, Values=[attached])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(PoolIds=[], MaxResults=0, Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS]), Filter(Name=traffic-type, Values=[ACCEPT]), Filter(Name=log-destination-type, Values=[s3])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[enable])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(NextToken=, Filters=[Filter(Name=state, Values=[deleted])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(PoolIds=[], NextToken=, Filters=[Filter(Name=vpc-id, Values=[vpc-0cc4d5cda8eac8d8c])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(NextToken=, MaxResults=100, Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[enable])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(NextToken=, Filters=[Filter(Name=scope, Values=[Region])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(NextToken=, Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[disable])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(PoolIds=[], MaxResults=100, Filters=[Filter(Name=scope, Values=[Region])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(MaxResults=1, Filters=[Filter(Name=transit-gateway-id, Values=[tgw-023f7eee924362941])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(PoolIds=[], NextToken=, MaxResults=100, Filters=[Filter(Name=vpc-id, Values=[vpc-0cc4d5cda8eac8d8c])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(PoolIds=[], NextToken=, MaxResults=100, Filters=[Filter(Name=group-name, Values=[Test-Placement-Group]), Filter(Name=strategy, Values=[spread])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(MaxResults=1, Filters=[Filter(Name=default-propagation-route-table, Values=[false])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069]), Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(NextToken=, Filters=[Filter(Name=attachment.state, Values=[detached])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(PoolIds=[], NextToken=, MaxResults=100, Filters=[Filter(Name=resource-id, Values=[vpn-0d59b1da66a690911])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(PoolIds=[], Filters=[Filter(Name=default-association-route-table, Values=[true])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(PoolIds=[], MaxResults=1, Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(NextToken=, MaxResults=0, Filters=[Filter(Name=group-name, Values=[Test-Placement-Group]), Filter(Name=strategy, Values=[spread])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(NextToken=, MaxResults=0, Filters=[Filter(Name=association.state, Values=[associated])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(NextToken=, Filters=[Filter(Name=resource-id, Values=[vpn-0d59b1da66a690911])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(PoolIds=[], Filters=[Filter(Name=options.protocol, Values=[gre])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(NextToken=, MaxResults=0, Filters=[Filter(Name=vpc-id, Values=[vpc-0cc4d5cda8eac8d8c])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(Filters=[Filter(Name=resource-type, Values=[vpc])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(Filters=[Filter(Name=owner-id, Values=[002677082836])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(PoolIds=[], NextToken=, Filters=[Filter(Name=default-propagation-route-table, Values=[true])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeIpv6PoolsRequest(PoolIds=[], Filters=[Filter(Name=resource-type, Values=[vpc])])", 
+        "apiName": "ec2.describeIpv6PoolsPaginator"
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyIdentityIdFormat"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=network-interface-attachment, UseLongIds=true)", 
+        "apiName": "ec2.modifyIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyIdentityIdFormat"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=import-task, UseLongIds=false)", 
+        "apiName": "ec2.modifyIdentityIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyIdentityIdFormat"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyIdentityIdFormatRequest(PrincipalArn=arn:aws:iam::002677082836:role/execute-ec2-role, Resource=elastic-ip-association, UseLongIds=true)", 
+        "apiName": "ec2.modifyIdentityIdFormat"
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeFlowLogs"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "DescribeFlowLogsRequest(Filter=Filter[(Name=log-destination-type, Values=[s3])])", 
+        "apiName": "describeFlowLogs"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeFlowLogs"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeFlowLogsRequest(Filter=[Filter(Name=traffic-type, Values=[ACCEPT])], FlowLogIds=[fl-04f17f472df55e076])", 
+        "apiName": "describeFlowLogs"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeFlowLogs"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "DescribeFlowLogsRequest(Filter=[Filter(Name=traffic-type, Values=[REJECT])])", 
+        "apiName": "describeFlowLogs"
+    }
+]

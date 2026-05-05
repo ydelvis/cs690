@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CancelSpotFleetRequests"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:spot-fleet-request/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CancelSpotFleetRequestsResponse(SuccessfulFleetRequests=[CancelSpotFleetRequestsSuccessItem(CurrentSpotFleetRequestState=cancelled_terminating, PreviousSpotFleetRequestState=submitted, SpotFleetRequestId=sfr-831560bb-b042-416d-9e49-05a7c28f1a1f)], UnsuccessfulFleetRequests=[])", 
+        "apiName": "ec2.cancelSpotFleetRequests"
+    }
+]

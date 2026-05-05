@@ -1,0 +1,52 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateNetworkAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-acl/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateNetworkAclRequest(VpcId=vpc-088f61503142622ed, TagSpecifications=[TagSpecification(ResourceType=network-acl, Tags=[Tag(Key=network-acl, Value=network-acl-tag)])])", 
+        "apiName": "ec2.createNetworkAcl"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateNetworkAcl"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-acl/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateNetworkAclRequest(VpcId=vpc-088f61503142622ed)", 
+        "apiName": "ec2.createNetworkAcl"
+    }
+]

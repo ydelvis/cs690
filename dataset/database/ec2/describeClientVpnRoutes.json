@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeClientVpnRoutes"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeClientVpnRoutesRequest(ClientVpnEndpointId=cvpn-endpoint-05a66ee8ba2865305, MaxResults=100)", 
+        "apiName": "ec2.describeClientVpnRoutes"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeClientVpnRoutes"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeClientVpnRoutesRequest(ClientVpnEndpointId=cvpn-endpoint-0875cbcc6a706e49f)", 
+        "apiName": "ec2.describeClientVpnRoutes"
+    }
+]

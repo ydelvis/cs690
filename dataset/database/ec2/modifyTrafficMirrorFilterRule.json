@@ -1,0 +1,42 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyTrafficMirrorFilterRule"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter-rule/tmfr-0459307730a763fc2", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/tmf-0479cc103b3d3f39d"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyTrafficMirrorFilterRuleRequest(TrafficMirrorFilterRuleId=tmfr-0459307730a763fc2, TrafficDirection=ingress, RuleAction=accept, DestinationPortRange=TrafficMirrorPortRangeRequest())", 
+        "apiName": "ec2.modifyTrafficMirrorFilterRule"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyTrafficMirrorFilterRule"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter-rule/tmfr-0459307730a763fc2", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/tmf-0479cc103b3d3f39d"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyTrafficMirrorFilterRuleRequest(TrafficMirrorFilterRuleId=tmfr-0459307730a763fc2, TrafficDirection=egress, DestinationPortRange=TrafficMirrorPortRangeRequest(), SourcePortRange=TrafficMirrorPortRangeRequest(), Protocol=6, SourceCidrBlock=10.0.0.0/24, Description=modifying traffic mirror rule)", 
+        "apiName": "ec2.modifyTrafficMirrorFilterRule"
+    }
+]

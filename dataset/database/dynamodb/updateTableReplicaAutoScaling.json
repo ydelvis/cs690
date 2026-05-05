@@ -1,0 +1,147 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "application-autoscaling:DeleteScalingPolicy"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:UpdateTableReplicaAutoScaling"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateTableReplicaAutoScalingRequest(GlobalSecondaryIndexUpdates=[GlobalSecondaryIndexAutoScalingUpdate(IndexName=Id-index, ProvisionedWriteCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=5, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(PolicyName=DynamoDBReplicationServiceRolePolicy, TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=true, ScaleInCooldown=1, TargetValue=10.0))))], TableName=test-table-5461, ProvisionedWriteCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=5, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=true, ScaleInCooldown=10, ScaleOutCooldown=0, TargetValue=10.0))), ReplicaUpdates=[ReplicaAutoScalingUpdate(RegionName=us-west-1, ReplicaGlobalSecondaryIndexUpdates=[ReplicaGlobalSecondaryIndexAutoScalingUpdate(IndexName=Id-index, ProvisionedReadCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=5, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(PolicyName=DynamoDBReplicationServiceRolePolicy, TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=false, TargetValue=10.0))))], ReplicaProvisionedReadCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=10, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(PolicyName=DynamoDBReplicationServiceRolePolicy, TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=false, TargetValue=10.0))))])", 
+        "apiName": "dynamodb.updateTableReplicaAutoScaling"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "application-autoscaling:DeleteScalingPolicy"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:UpdateTableReplicaAutoScaling"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateTableReplicaAutoScalingRequest(TableName=test-table-5461, ReplicaUpdates=[ReplicaAutoScalingUpdate(RegionName=us-west-1, ReplicaGlobalSecondaryIndexUpdates=[ReplicaGlobalSecondaryIndexAutoScalingUpdate(IndexName=Id-index, ProvisionedReadCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=5, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(PolicyName=DynamoDBReplicationServiceRolePolicy, TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=false, TargetValue=10.0))))], ReplicaProvisionedReadCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=10, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(PolicyName=DynamoDBReplicationServiceRolePolicy, TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=false, TargetValue=10.0))))])", 
+        "apiName": "dynamodb.updateTableReplicaAutoScaling"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "application-autoscaling:DeleteScalingPolicy"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:UpdateTableReplicaAutoScaling"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateTableReplicaAutoScalingRequest(TableName=test-table-5461, ProvisionedWriteCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=5, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=true, ScaleInCooldown=0, TargetValue=10.0))), ReplicaUpdates=[ReplicaAutoScalingUpdate(RegionName=us-west-1, ReplicaGlobalSecondaryIndexUpdates=[ReplicaGlobalSecondaryIndexAutoScalingUpdate(IndexName=Id-index, ProvisionedReadCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=5, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(PolicyName=DynamoDBReplicationServiceRolePolicy, TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=false, TargetValue=10.0))))], ReplicaProvisionedReadCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=10, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(PolicyName=DynamoDBReplicationServiceRolePolicy, TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=false, TargetValue=10.0))))])", 
+        "apiName": "dynamodb.updateTableReplicaAutoScaling"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "application-autoscaling:DeleteScalingPolicy"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:UpdateTableReplicaAutoScaling"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateTableReplicaAutoScalingRequest(TableName=test-table-5461, ProvisionedWriteCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=5, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(PolicyName=AlicePolicy, TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=false, ScaleInCooldown=1, ScaleOutCooldown=0, TargetValue=10.0))), ReplicaUpdates=[ReplicaAutoScalingUpdate(RegionName=us-west-1, ReplicaGlobalSecondaryIndexUpdates=[ReplicaGlobalSecondaryIndexAutoScalingUpdate(IndexName=Id-index, ProvisionedReadCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=5, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(PolicyName=DynamoDBReplicationServiceRolePolicy, TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=false, TargetValue=10.0))))], ReplicaProvisionedReadCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=10, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(PolicyName=DynamoDBReplicationServiceRolePolicy, TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=false, TargetValue=10.0))))])", 
+        "apiName": "dynamodb.updateTableReplicaAutoScaling"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "application-autoscaling:DeleteScalingPolicy"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:UpdateTableReplicaAutoScaling"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateTableReplicaAutoScalingRequest(GlobalSecondaryIndexUpdates=[GlobalSecondaryIndexAutoScalingUpdate(IndexName=Id-index, ProvisionedWriteCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=5, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(PolicyName=DynamoDBReplicationServiceRolePolicy, TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=true, ScaleInCooldown=1, TargetValue=10.0))))], TableName=test-table-5461, ReplicaUpdates=[ReplicaAutoScalingUpdate(RegionName=us-west-1, ReplicaGlobalSecondaryIndexUpdates=[ReplicaGlobalSecondaryIndexAutoScalingUpdate(IndexName=Id-index, ProvisionedReadCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=5, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(PolicyName=DynamoDBReplicationServiceRolePolicy, TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=false, TargetValue=10.0))))], ReplicaProvisionedReadCapacityAutoScalingUpdate=AutoScalingSettingsUpdate(MinimumUnits=5, MaximumUnits=10, AutoScalingDisabled=false, ScalingPolicyUpdate=AutoScalingPolicyUpdate(PolicyName=DynamoDBReplicationServiceRolePolicy, TargetTrackingScalingPolicyConfiguration=AutoScalingTargetTrackingScalingPolicyConfigurationUpdate(DisableScaleIn=false, TargetValue=10.0))))])", 
+        "apiName": "dynamodb.updateTableReplicaAutoScaling"
+    }
+]

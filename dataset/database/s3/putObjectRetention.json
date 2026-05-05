@@ -1,0 +1,107 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectRetentionRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=key1/listBuckets.json, Retention=ObjectLockRetention(Mode=GOVERNANCE, RetainUntilDate=2021-05-25T00:01:44.410Z), BypassGovernanceRetention=false, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putObjectRetention"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectRetentionRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=key1/listBuckets.json, Retention=ObjectLockRetention(Mode=GOVERNANCE, RetainUntilDate=2021-05-25T00:56:16.559Z), RequestPayer=requester, VersionId=XWzt4yjCIHYPlu4e3dV_.kp2kecJ3_JC, BypassGovernanceRetention=false)", 
+        "apiName": "s3.putObjectRetention"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectRetentionRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=key1/listBuckets.json, Retention=ObjectLockRetention(Mode=GOVERNANCE, RetainUntilDate=2021-05-25T01:50:47.558Z), VersionId=XWzt4yjCIHYPlu4e3dV_.kp2kecJ3_JC, BypassGovernanceRetention=false)", 
+        "apiName": "s3.putObjectRetention"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutObjectRetentionRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=key1/, Retention=ObjectLockRetention(Mode=GOVERNANCE, RetainUntilDate=2021-05-25T02:45:18.324Z), RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putObjectRetention"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObjectRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "s3:BypassGovernanceRetention"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "PutObjectRetentionRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, Key=key1/, Retention=ObjectLockRetention(Mode=COMPLIANCE, RetainUntilDate=2021-05-25T03:39:52.192Z), RequestPayer=requester, BypassGovernanceRetention=true)", 
+        "apiName": "s3.putObjectRetention"
+    }
+]

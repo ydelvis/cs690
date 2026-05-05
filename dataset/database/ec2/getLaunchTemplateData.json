@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetLaunchTemplateData"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:instance/i-01d514444253d9b80"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "GetLaunchTemplateDataRequest(InstanceId=i-01d514444253d9b80)", 
+        "apiName": "getLaunchTemplateData"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetLaunchTemplateData"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:instance/i-01ec73f52711d20f7"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "GetLaunchTemplateDataRequest(InstanceId=i-01ec73f52711d20f7)", 
+        "apiName": "getLaunchTemplateData"
+    }
+]

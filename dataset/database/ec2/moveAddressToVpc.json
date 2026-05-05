@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:MoveAddressToVpc"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "MoveAddressToVpcRequest(PublicIp=44.232.121.180)", 
+        "apiName": "ec2.moveAddressToVpc"
+    }
+]

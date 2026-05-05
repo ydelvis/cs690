@@ -1,0 +1,18 @@
+{
+  "adjacency": {},
+  "nodes": [
+    {
+      "name": "handler",
+      "file": "dataset/apps/serverless-api/lambda/find-product.py",
+      "language": "python",
+      "line": 26
+    },
+    {
+      "name": "handler",
+      "file": "dataset/apps/serverless-api/lambda/create-product.py",
+      "language": "python",
+      "line": 26
+    }
+  ],
+  "edges": []
+}

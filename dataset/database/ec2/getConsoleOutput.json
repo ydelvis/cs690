@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetConsoleOutput"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:instance/i-01ec73f52711d20f7"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetConsoleOutputRequest(InstanceId=i-01ec73f52711d20f7, Latest=false)", 
+        "apiName": "ec2.getConsoleOutput"
+    }
+]

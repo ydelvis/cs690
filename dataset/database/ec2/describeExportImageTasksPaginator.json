@@ -1,0 +1,210 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=description, Values=[])], MaxResults=0)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=resource-id, Values=[vpn-0d59b1da66a690911])], MaxResults=0)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(MaxResults=100)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=log-destination-type, Values=[s3])])", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=log-destination-type, Values=[s3])], MaxResults=1)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65]), Filter(Name=owner-id, Values=[002677082836]), Filter(Name=route.state, Values=[blackhole])])", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=owner-id, Values=[002677082836])], MaxResults=1)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=state, Values=[available])], MaxResults=1)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=route.state, Values=[active])], MaxResults=0)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=route.state, Values=[blackhole])], MaxResults=1)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleting])], MaxResults=1)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=service-name, Values=[com.amazonaws.us-east-2.acm-pca])], MaxResults=0)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=instance-type, Values=[t3.micro])])", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=default-propagation-route-table, Values=[true])], MaxResults=100)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(MaxResults=1)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=default-propagation-route-table, Values=[true])], MaxResults=0)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(MaxResults=0)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=transit-gateway-route-table-id, Values=[tgw-rtb-02e9c220c37bb74db])])", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[failed])], MaxResults=1)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=vpc-endpoint-owner, Values=[002677082836])], MaxResults=100)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS])], MaxResults=0)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=route.state, Values=[active])])", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=vpc-endpoint-owner, Values=[002677082836])], MaxResults=0)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])])", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest(Filters=[Filter(Name=route.state, Values=[active])], MaxResults=100)", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeExportImageTasksRequest()", 
+        "apiName": "ec2.describeExportImageTasksPaginator"
+    }
+]

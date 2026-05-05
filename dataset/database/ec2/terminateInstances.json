@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:terminateInstances"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-00b57ddd0eef848b9"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "TerminateInstancesRequest(InstanceIds=[i-00b57ddd0eef848b9])", 
+        "apiName": "ec2.terminateInstances"
+    }
+]

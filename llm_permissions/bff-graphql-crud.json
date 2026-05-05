@@ -1,0 +1,16 @@
+{
+  "trigger": {
+    "initial_permissions": [
+      "kinesis:PutRecord"
+    ],
+    "llm_permissions": [
+      "dynamodb:DeleteItem",
+      "dynamodb:GetItem",
+      "dynamodb:PutItem",
+      "dynamodb:Scan",
+      "kinesis:PutRecord"
+    ],
+    "reasoning": "The Lambda function exports multiple handlers. The 'trigger' handler invokes kinesis.putRecord, requiring kinesis:PutRecord. The 'graphql' handler initializes a Connector using aws.DynamoDB.DocumentClient which executes put, delete, get, and scan methods on the DynamoDB table. Since all code resides in the same deployment package, the IAM role must support permissions for all potential execution paths.",
+    "raw_response": "{\n  \"permissions\": [\n    \"dynamodb:DeleteItem\",\n    \"dynamodb:GetItem\",\n    \"dynamodb:PutItem\",\n    \"dynamodb:Scan\",\n    \"kinesis:PutRecord\"\n  ],\n  \"reasoning\": \"The Lambda function exports multiple handlers. The 'trigger' handler invokes kinesis.putRecord, requiring kinesis:PutRecord. The 'graphql' handler initializes a Connector using aws.DynamoDB.DocumentClient which executes put, delete, get, and scan methods on the DynamoDB table. Since all code resides in the same deployment package, the IAM role must support permissions for all potential execution paths.\"\n}"
+  }
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateKeyPair"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:key-pair/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateKeyPairRequest(KeyName=test-key-pair)", 
+        "apiName": "ec2.createKeyPair"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateKeyPair"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:key-pair/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateKeyPairRequest(KeyName=test-key-pair, TagSpecifications=[TagSpecification(ResourceType=key-pair, Tags=[Tag(Key=key-pair, Value=key-pair-tag)])])", 
+        "apiName": "ec2.createKeyPair"
+    }
+]

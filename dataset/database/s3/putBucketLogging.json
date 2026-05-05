@@ -1,0 +1,97 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketLogging"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "PutBucketLoggingRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, BucketLoggingStatus=BucketLoggingStatus(LoggingEnabled=LoggingEnabled(TargetBucket=test-bucket-5461, TargetGrants=[], TargetPrefix=key)), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketLogging"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketLogging"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketLoggingRequest(Bucket=test-bucket-5461, BucketLoggingStatus=BucketLoggingStatus(LoggingEnabled=LoggingEnabled(TargetBucket=test-bucket-5461, TargetGrants=[TargetGrant(Grantee=Grantee(EmailAddress=captainalligator1@hotmail.com, Type=AmazonCustomerByEmail), Permission=FULL_CONTROL)], TargetPrefix=log)), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketLogging"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketLogging"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "PutBucketLoggingRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, BucketLoggingStatus=BucketLoggingStatus(LoggingEnabled=LoggingEnabled(TargetBucket=test-bucket-5461, TargetGrants=[], TargetPrefix=key)))", 
+        "apiName": "s3.putBucketLogging"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketLogging"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "PutBucketLoggingRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, BucketLoggingStatus=BucketLoggingStatus(LoggingEnabled=LoggingEnabled(TargetBucket=test-bucket-5461, TargetGrants=[TargetGrant(Grantee=Grantee(EmailAddress=captainalligator1@hotmail.com, Type=AmazonCustomerByEmail), Permission=READ)], TargetPrefix=)))", 
+        "apiName": "s3.putBucketLogging"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutBucketLogging"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketLoggingRequest(Bucket=test-bucket-5461, BucketLoggingStatus=BucketLoggingStatus(LoggingEnabled=LoggingEnabled(TargetBucket=test-bucket-5461, TargetGrants=[TargetGrant(Grantee=Grantee(EmailAddress=captainalligator1@hotmail.com, Type=AmazonCustomerByEmail), Permission=WRITE)], TargetPrefix=log)), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketLogging"
+    }
+]

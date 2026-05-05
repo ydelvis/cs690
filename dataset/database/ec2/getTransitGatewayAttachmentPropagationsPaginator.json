@@ -1,0 +1,10 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayAttachmentPropagationsRequest(TransitGatewayAttachmentId=tgw-attach-0fd7f7deeb0676a11, MaxResults=100)", 
+        "apiName": "ec2.getTransitGatewayAttachmentPropagationsPaginator"
+    }
+]

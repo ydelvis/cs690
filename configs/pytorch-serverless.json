@@ -1,0 +1,56 @@
+{
+  "service": "pytorch-serverless",
+  "provider": {
+    "name": "aws",
+    "runtime": "python3.6",
+    "region": "us-west-2",
+    "stage": "dev",
+    "memory_mb": 2048,
+    "timeout_s": 120
+  },
+  "environment": {
+    "BUCKET_NAME": "pytorch-serverless",
+    "STATE_DICT_NAME": "dogscats-resnext50.h5",
+    "IMAGE_SIZE": "224",
+    "IMAGE_STATS": "([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])",
+    "LABELS_PATH": "lib/labels.txt"
+  },
+  "functions": {
+    "predict": {
+      "handler": "api/predict.handler",
+      "runtime": "python3.6",
+      "environment": {},
+      "events": [
+        {
+          "schedule": "rate(15 minutes)"
+        },
+        {
+          "http": {
+            "method": "GET",
+            "cors": true,
+            "path": "${self:provider.variables.api_version}/predict",
+            "private": true,
+            "request": {
+              "parameters": {
+                "querystrings": {
+                  "image_url": true,
+                  "top_k": false
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "iam_statements": [],
+  "custom": {
+    "pythonRequirements": {
+      "dockerizePip": true,
+      "zip": true
+    }
+  },
+  "source_files": [
+    "serverless.yml"
+  ]
+}

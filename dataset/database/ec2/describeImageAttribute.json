@@ -1,0 +1,116 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeImageAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeImageAttributeRequest(Attribute=ramdisk, ImageId=ami-013ad70ab73da1ff2)", 
+        "apiName": "ec2.describeImageAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeImageAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeImageAttributeRequest(Attribute=productCodes, ImageId=ami-013ad70ab73da1ff2)", 
+        "apiName": "ec2.describeImageAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeImageAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeImageAttributeRequest(Attribute=kernel, ImageId=ami-013ad70ab73da1ff2)", 
+        "apiName": "ec2.describeImageAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeImageAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeImageAttributeRequest(Attribute=launchPermission, ImageId=ami-013ad70ab73da1ff2)", 
+        "apiName": "ec2.describeImageAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeImageAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeImageAttributeRequest(Attribute=bootMode, ImageId=ami-013ad70ab73da1ff2)", 
+        "apiName": "ec2.describeImageAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeImageAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeImageAttributeRequest(Attribute=description, ImageId=ami-013ad70ab73da1ff2)", 
+        "apiName": "ec2.describeImageAttribute"
+    }
+]

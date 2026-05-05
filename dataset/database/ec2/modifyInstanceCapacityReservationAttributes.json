@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyInstanceCapacityReservationAttributes"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-07b5b22b45c08fc28"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyInstanceCapacityReservationAttributesRequest(InstanceId=i-07b5b22b45c08fc28, CapacityReservationSpecification=CapacityReservationSpecification(CapacityReservationPreference=open, CapacityReservationTarget=CapacityReservationTarget()))", 
+        "apiName": "ec2.modifyInstanceCapacityReservationAttributes"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyInstanceCapacityReservationAttributes"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-07b5b22b45c08fc28"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyInstanceCapacityReservationAttributesRequest(InstanceId=i-07b5b22b45c08fc28, CapacityReservationSpecification=CapacityReservationSpecification(CapacityReservationPreference=open))", 
+        "apiName": "ec2.modifyInstanceCapacityReservationAttributes"
+    }
+]

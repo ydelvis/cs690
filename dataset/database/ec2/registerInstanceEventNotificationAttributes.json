@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RegisterInstanceEventNotificationAttributes"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "RegisterInstanceEventNotificationAttributesRequest(InstanceTagAttribute=RegisterInstanceTagAttributeRequest(IncludeAllTagsOfInstance=true))", 
+        "apiName": "ec2.registerInstanceEventNotificationAttributes"
+    }
+]

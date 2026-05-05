@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifySubnetAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:subnet/subnet-891125d3"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "ModifySubnetAttributeRequest(MapPublicIpOnLaunch=AttributeBooleanValue(Value=true), SubnetId=subnet-891125d3)", 
+        "apiName": "modifySubnetAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifySubnetAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:subnet/subnet-891125d3"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifySubnetAttributeRequest(AssignIpv6AddressOnCreation=AttributeBooleanValue(Value=false), SubnetId=subnet-891125d3)", 
+        "apiName": "modifySubnetAttribute"
+    }
+]

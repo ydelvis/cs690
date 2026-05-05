@@ -1,0 +1,23 @@
+{
+  "replicate": {
+    "handler_file": "src/main.go",
+    "handler_func": "Handler",
+    "language": "go",
+    "aws_calls": [
+      {
+        "service": "s3",
+        "method": "copyObject",
+        "params_present": [
+          "Bucket",
+          "CopySource"
+        ],
+        "resolved_params": {
+          "Bucket": "replicator-output-101"
+        },
+        "line": 20,
+        "caller_func": "Handler",
+        "file": "src/main.go"
+      }
+    ]
+  }
+}

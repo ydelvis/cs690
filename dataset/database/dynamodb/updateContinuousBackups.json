@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UpdateContinuousBackups"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateContinuousBackupsRequest(TableName=test-table-5461, PointInTimeRecoverySpecification=PointInTimeRecoverySpecification(PointInTimeRecoveryEnabled=false))", 
+        "apiName": "dynamodb.updateContinuousBackups"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UpdateContinuousBackups"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateContinuousBackupsRequest(TableName=test-table-5461, PointInTimeRecoverySpecification=PointInTimeRecoverySpecification(PointInTimeRecoveryEnabled=true))", 
+        "apiName": "dynamodb.updateContinuousBackups"
+    }
+]

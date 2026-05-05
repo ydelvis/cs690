@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociations"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsRequest(LocalGatewayRouteTableVirtualInterfaceGroupAssociationIds=[tgw-02b1446b336da5112], Filters=[Filter(Name=service-type, Values=[Interface])], MaxResults=1)", 
+        "apiName": "ec2.DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociations"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociations"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsRequest(LocalGatewayRouteTableVirtualInterfaceGroupAssociationIds=[pg-040cc29c500fb8381], Filters=[Filter(Name=state, Values=[available])])", 
+        "apiName": "ec2.DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociations"
+    }
+]

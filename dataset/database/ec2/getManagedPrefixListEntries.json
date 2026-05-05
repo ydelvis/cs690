@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetManagedPrefixListEntries"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:prefix-list/pl-02c832233b8d5eea8"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(PrefixListId=pl-02c832233b8d5eea8)", 
+        "apiName": "ec2.getManagedPrefixListEntries"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetManagedPrefixListEntries"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:prefix-list/pl-02c832233b8d5eea8"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(PrefixListId=pl-02c832233b8d5eea8, MaxResults=100)", 
+        "apiName": "ec2.getManagedPrefixListEntries"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:GetManagedPrefixListEntries"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:prefix-list/pl-02c832233b8d5eea8"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetManagedPrefixListEntriesRequest(PrefixListId=pl-02c832233b8d5eea8, MaxResults=1)", 
+        "apiName": "ec2.getManagedPrefixListEntries"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSpotPriceHistoryRequest(Filters=[Filter()], InstanceTypes=[eipalloc-068f6cb5459d939aa], MaxResults=100)", 
+        "apiName": "ec2.describeSpotPriceHistoryPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSpotPriceHistoryRequest(Filters=[Filter()], InstanceTypes=[922761411349], MaxResults=0, NextToken=, ProductDescriptions=[44.237.200.166])", 
+        "apiName": "ec2.describeSpotPriceHistoryPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSpotPriceHistoryRequest(Filters=[Filter()], AvailabilityZone=us-west-2a, ProductDescriptions=[922761411349])", 
+        "apiName": "ec2.describeSpotPriceHistoryPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSpotPriceHistoryRequest(Filters=[Filter()], InstanceTypes=[922761411349], MaxResults=-100, NextToken=, ProductDescriptions=[44.237.200.166])", 
+        "apiName": "ec2.describeSpotPriceHistoryPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSpotPriceHistoryRequest(Filters=[Filter()], InstanceTypes=[922761411349], MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describeSpotPriceHistoryPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSpotPriceHistoryRequest(Filters=[Filter()], AvailabilityZone=us-west-2a, InstanceTypes=[922761411349], MaxResults=1)", 
+        "apiName": "ec2.describeSpotPriceHistoryPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSpotPriceHistoryRequest(Filters=[Filter()], InstanceTypes=[M3_LARGE], MaxResults=-1, ProductDescriptions=[snap-ff869fa8])", 
+        "apiName": "ec2.describeSpotPriceHistoryPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSpotPriceHistoryRequest(Filters=[Filter()], InstanceTypes=[snap-ff869fa8], MaxResults=-100, NextToken=, ProductDescriptions=[snap-ff869fa8])", 
+        "apiName": "ec2.describeSpotPriceHistoryPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSpotPriceHistoryRequest(Filters=[Filter()], NextToken=, ProductDescriptions=[eipalloc-068f6cb5459d939aa])", 
+        "apiName": "ec2.describeSpotPriceHistoryPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSpotPriceHistoryRequest(Filters=[Filter()], AvailabilityZone=, MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeSpotPriceHistoryPaginator"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyInstanceCreditSpecification"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-07b5b22b45c08fc28"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyInstanceCreditSpecificationRequest(InstanceCreditSpecifications=[InstanceCreditSpecificationRequest(InstanceId=i-07b5b22b45c08fc28, CpuCredits=standard)])", 
+        "apiName": "ec2.modifyInstanceCreditSpecification"
+    }
+]

@@ -1,0 +1,276 @@
+{
+  "adjacency": {
+    "lambda_handler": [
+      "get_return",
+      "get_settings",
+      "sort_dict"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "get_settings",
+      "file": "dataset/apps/api/src/allowlist/create.py",
+      "language": "python",
+      "line": 9
+    },
+    {
+      "name": "get_return",
+      "file": "dataset/apps/api/src/allowlist/create.py",
+      "language": "python",
+      "line": 26
+    },
+    {
+      "name": "lambda_handler",
+      "file": "dataset/apps/api/src/allowlist/create.py",
+      "language": "python",
+      "line": 40
+    },
+    {
+      "name": "get_return",
+      "file": "dataset/apps/api/src/allowlist/delete.py",
+      "language": "python",
+      "line": 7
+    },
+    {
+      "name": "lambda_handler",
+      "file": "dataset/apps/api/src/allowlist/delete.py",
+      "language": "python",
+      "line": 21
+    },
+    {
+      "name": "get_return",
+      "file": "dataset/apps/api/src/allowlist/read.py",
+      "language": "python",
+      "line": 9
+    },
+    {
+      "name": "lambda_handler",
+      "file": "dataset/apps/api/src/allowlist/read.py",
+      "language": "python",
+      "line": 23
+    },
+    {
+      "name": "get_settings",
+      "file": "dataset/apps/api/src/allowlist/update.py",
+      "language": "python",
+      "line": 9
+    },
+    {
+      "name": "get_return",
+      "file": "dataset/apps/api/src/allowlist/update.py",
+      "language": "python",
+      "line": 26
+    },
+    {
+      "name": "lambda_handler",
+      "file": "dataset/apps/api/src/allowlist/update.py",
+      "language": "python",
+      "line": 40
+    },
+    {
+      "name": "sort_dict",
+      "file": "dataset/apps/api/src/service/read.py",
+      "language": "python",
+      "line": 8
+    },
+    {
+      "name": "get_settings",
+      "file": "dataset/apps/api/src/service/read.py",
+      "language": "python",
+      "line": 18
+    },
+    {
+      "name": "get_return",
+      "file": "dataset/apps/api/src/service/read.py",
+      "language": "python",
+      "line": 35
+    },
+    {
+      "name": "lambda_handler",
+      "file": "dataset/apps/api/src/service/read.py",
+      "language": "python",
+      "line": 49
+    },
+    {
+      "name": "get_return",
+      "file": "dataset/apps/api/src/execution_log/read.py",
+      "language": "python",
+      "line": 11
+    },
+    {
+      "name": "lambda_handler",
+      "file": "dataset/apps/api/src/execution_log/read.py",
+      "language": "python",
+      "line": 25
+    },
+    {
+      "name": "get_return",
+      "file": "dataset/apps/api/src/execution_log/list.py",
+      "language": "python",
+      "line": 8
+    },
+    {
+      "name": "lambda_handler",
+      "file": "dataset/apps/api/src/execution_log/list.py",
+      "language": "python",
+      "line": 22
+    }
+  ],
+  "edges": [
+    {
+      "caller": "lambda_handler",
+      "callee": "get_settings",
+      "caller_file": "dataset/apps/api/src/allowlist/create.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/create.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/create.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/create.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/create.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/create.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/create.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/create.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/delete.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/delete.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/delete.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/read.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/read.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_settings",
+      "caller_file": "dataset/apps/api/src/allowlist/update.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/update.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/update.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/update.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/update.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/update.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/update.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/update.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/allowlist/update.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_settings",
+      "caller_file": "dataset/apps/api/src/service/read.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/service/read.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/service/read.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "sort_dict",
+      "caller_file": "dataset/apps/api/src/service/read.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/execution_log/read.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/execution_log/read.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/execution_log/read.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/execution_log/list.py"
+    },
+    {
+      "caller": "lambda_handler",
+      "callee": "get_return",
+      "caller_file": "dataset/apps/api/src/execution_log/list.py"
+    }
+  ]
+}

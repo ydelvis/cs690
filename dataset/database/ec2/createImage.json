@@ -1,0 +1,42 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateImage"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::image/*", 
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateImageRequest(InstanceId=i-0fc67210075ad498a, Name=test image, NoReboot=false)", 
+        "apiName": "ec2.createImage"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateImage"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*::image/*", 
+                        "arn:aws:ec2:*:002677082836:instance/i-0fc67210075ad498a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateImageRequest(InstanceId=i-0fc67210075ad498a, Name=test image, NoReboot=true)", 
+        "apiName": "ec2.createImage"
+    }
+]

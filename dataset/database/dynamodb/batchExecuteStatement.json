@@ -1,0 +1,136 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PartiQLSelect"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461", 
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461/index/Id"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "BatchExecuteStatementRequest(Statements=[BatchStatementRequest(Statement=SELECT * FROM \"test-table-5461\" WHERE \"Id\" = '1', ConsistentRead=false)])", 
+        "apiName": "dynamodb.batchExecuteStatement"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PartiQLInsert"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }
+            ]
+        }, 
+        "request": "BatchExecuteStatementRequest(Statements=[BatchStatementRequest(Statement=INSERT INTO \"test-table-5461\" value {'Id': '2', 'Make': 'Honda', 'Model': 'Civic'}, ConsistentRead=false)])", 
+        "apiName": "dynamodb.batchExecuteStatement"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PartiQLUpdate"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "BatchExecuteStatementRequest(Statements=[BatchStatementRequest(Statement=UPDATE \"test-table-5461\" SET \"Make\" = 'Audi' WHERE \"Id\" = '1', ConsistentRead=true)])", 
+        "apiName": "dynamodb.batchExecuteStatement"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PartiQLInsert"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement3"
+                }
+            ]
+        }, 
+        "request": "BatchExecuteStatementRequest(Statements=[BatchStatementRequest(Statement=INSERT INTO \"test-table-5461\" value {'Id': '2', 'Make': 'Honda', 'Model': 'Civic'}, ConsistentRead=true)])", 
+        "apiName": "dynamodb.batchExecuteStatement"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PartiQLDelete"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }
+            ]
+        }, 
+        "request": "BatchExecuteStatementRequest(Statements=[BatchStatementRequest(Statement=DELETE FROM \"test-table-5461\" WHERE \"Id\" = '1', ConsistentRead=false)])", 
+        "apiName": "dynamodb.batchExecuteStatement"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PartiQLDelete"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }
+            ]
+        }, 
+        "request": "BatchExecuteStatementRequest(Statements=[BatchStatementRequest(Statement=DELETE FROM \"test-table-5461\" WHERE \"Id\" = '2', ConsistentRead=false)])", 
+        "apiName": "dynamodb.batchExecuteStatement"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:PartiQLDelete"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }
+            ]
+        }, 
+        "request": "BatchExecuteStatementRequest(Statements=[BatchStatementRequest(Statement=DELETE FROM \"test-table-5461\" WHERE \"Id\" = '1', ConsistentRead=false)])", 
+        "apiName": "dynamodb.batchExecuteStatement"
+    }
+]

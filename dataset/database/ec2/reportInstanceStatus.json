@@ -1,0 +1,154 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReportInstanceStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReportInstanceStatusRequest(Description=test, Instances=[i-059cf08f8f8da7b3e], ReasonCodes=[instance-stuck-in-state, unresponsive, not-accepting-credentials, password-not-available, performance-instance-store, performance-ebs-volume, performance-network, performance-other, other], Status=impaired)", 
+        "apiName": "ec2.reportInstanceStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReportInstanceStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReportInstanceStatusRequest(Description=test, Instances=[i-059cf08f8f8da7b3e], Status=ok)", 
+        "apiName": "ec2.reportInstanceStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReportInstanceStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReportInstanceStatusRequest(Description=test, Instances=[i-059cf08f8f8da7b3e], Status=impaired)", 
+        "apiName": "ec2.reportInstanceStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReportInstanceStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReportInstanceStatusRequest(Instances=[i-059cf08f8f8da7b3e], ReasonCodes=[instance-stuck-in-state, unresponsive, not-accepting-credentials, password-not-available, performance-instance-store, performance-ebs-volume, performance-network, performance-other, other], Status=impaired)", 
+        "apiName": "ec2.reportInstanceStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReportInstanceStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReportInstanceStatusRequest(Instances=[i-059cf08f8f8da7b3e], Status=ok)", 
+        "apiName": "ec2.reportInstanceStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReportInstanceStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReportInstanceStatusRequest(Instances=[i-059cf08f8f8da7b3e], ReasonCodes=[instance-stuck-in-state, unresponsive, not-accepting-credentials, password-not-available, performance-instance-store, performance-ebs-volume, performance-network, performance-other, other], Status=ok)", 
+        "apiName": "ec2.reportInstanceStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReportInstanceStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReportInstanceStatusRequest(Instances=[i-059cf08f8f8da7b3e], Status=impaired)", 
+        "apiName": "ec2.reportInstanceStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ReportInstanceStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ReportInstanceStatusRequest(Description=test, Instances=[i-059cf08f8f8da7b3e], ReasonCodes=[instance-stuck-in-state, unresponsive, not-accepting-credentials, password-not-available, performance-instance-store, performance-ebs-volume, performance-network, performance-other, other], Status=ok)", 
+        "apiName": "ec2.reportInstanceStatus"
+    }
+]

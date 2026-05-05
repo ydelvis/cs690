@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:GetEncryptionConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "GetBucketEncryptionRequest(Bucket=test-bucket-5461-object-lock-configuration-enabled, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.getBucketEncryption"
+    }
+]

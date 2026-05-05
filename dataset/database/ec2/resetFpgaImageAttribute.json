@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ResetFpgaImageAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ResetFpgaImageAttributeRequest(FpgaImageId=afi-03955ec68e6293be3, Attribute=loadPermission)", 
+        "apiName": "ec2.resetFpgaImageAttribute"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:DescribeExport"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461/export/01621065213297-f99c782b"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeExportRequest(ExportArn=arn:aws:dynamodb:us-west-2:002677082836:table/test-table-5461/export/01621065213297-f99c782b)", 
+        "apiName": "dynamodb.describeExport"
+    }
+]

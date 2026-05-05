@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DescribeAvailabilityZones"
+                ], 
+                "Resource": [
+                    "*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "DescribeAvailabilityZonesRequest(Filters=[Filter()], ZoneNames=[eipalloc-068f6cb5459d939aa], ZoneIds=[44.237.200.166], AllAvailabilityZones=false)", 
+    "apiName": "describeAvailabilityZones"
+}

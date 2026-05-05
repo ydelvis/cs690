@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpcEndpointServiceConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-endpoint-service/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpcEndpointServiceConfigurationRequest(ServiceId=vpce-svc-0f5c5bab87f19dffa, AcceptanceRequired=true)", 
+        "apiName": "ec2.modifyVpcEndpointServiceConfiguration"
+    }
+]

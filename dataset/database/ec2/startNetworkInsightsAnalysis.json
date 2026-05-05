@@ -1,0 +1,70 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "tiros:CreateQuery"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "ec2:StartNetworkInsightsAnalysis"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "StartNetworkInsightsAnalysisRequest(NetworkInsightsPathId=nip-06a9bd311d771b024, TagSpecifications=[TagSpecification(ResourceType=network-insights-analysis, Tags=[Tag(Key=network-insights-analysis, Value=network-insights-analysis-tag)])])", 
+        "apiName": "ec2.startNetworkInsightsAnalysis"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "tiros:CreateQuery"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "ec2:StartNetworkInsightsAnalysis"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "StartNetworkInsightsAnalysisRequest(NetworkInsightsPathId=nip-06a9bd311d771b024)", 
+        "apiName": "ec2.startNetworkInsightsAnalysis"
+    }
+]

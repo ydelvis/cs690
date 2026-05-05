@@ -1,0 +1,272 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Submitted)", 
+        "apiName": "listJobsByStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Canceled, Ascending=true)", 
+        "apiName": "listJobsByStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Progressing, Ascending=true)", 
+        "apiName": "listJobsByStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Canceled, Ascending=false)", 
+        "apiName": "listJobsByStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Complete, Ascending=true)", 
+        "apiName": "listJobsByStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Canceled)", 
+        "apiName": "listJobsByStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Submitted, Ascending=true)", 
+        "apiName": "listJobsByStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Progressing, Ascending=false)", 
+        "apiName": "listJobsByStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Error, Ascending=true)", 
+        "apiName": "listJobsByStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Error, Ascending=false)", 
+        "apiName": "listJobsByStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Error)", 
+        "apiName": "listJobsByStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Progressing)", 
+        "apiName": "listJobsByStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Complete)", 
+        "apiName": "listJobsByStatus"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "elastictranscoder:ListJobsByStatus"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ListJobsByStatusRequest(Status=Complete, Ascending=false)", 
+        "apiName": "listJobsByStatus"
+    },
+    {
+        "apiName": "listJobsByStatus",
+        "policy": {
+            "Version": "2012-10-17",
+            "Statement": [{
+                "Action": [
+                    "elastictranscoder:ListJobsByStatus"
+                ],
+                "Sid": "statement1",
+                "Effect": "Allow",
+                "Resource": "*"
+            }]
+        },
+        "request": ""
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AssignIpv6Addresses"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-08e787916765b5065"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "AssignIpv6AddressesRequest(Ipv6AddressCount=2, NetworkInterfaceId=eni-08e787916765b5065)", 
+        "apiName": "ec2.assignIpv6Addresses"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AssignIpv6Addresses"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-08e787916765b5065"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "AssignIpv6AddressesRequest(Ipv6Addresses=[2600:1f13:4b7:ae11:83f7:dc35:4c28:e70a], NetworkInterfaceId=eni-08e787916765b5065)", 
+        "apiName": "ec2.assignIpv6Addresses"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AssignIpv6Addresses"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-08e787916765b5065"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "AssignIpv6AddressesRequest(Ipv6AddressCount=1, NetworkInterfaceId=eni-08e787916765b5065)", 
+        "apiName": "ec2.assignIpv6Addresses"
+    }
+]

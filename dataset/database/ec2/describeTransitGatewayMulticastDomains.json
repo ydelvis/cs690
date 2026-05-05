@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DescribeTransitGatewayMulticastDomains"
+                ], 
+                "Resource": [
+                    "*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "DescribeTransitGatewayMulticastDomainsRequest(TransitGatewayMulticastDomainIds=[tgw-mcast-domain-0f04eea88b9138856], MaxResults=100)", 
+    "apiName": "describeTransitGatewayMulticastDomains"
+}

@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyCapacityReservation"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/cr-0970359a0ebfd37b8"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "ModifyCapacityReservationRequest(CapacityReservationId=cr-0970359a0ebfd37b8)", 
+        "apiName": "ec2.modifyCapacityReservation"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyCapacityReservation"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/cr-0970359a0ebfd37b8"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "ModifyCapacityReservationRequest(CapacityReservationId=cr-0970359a0ebfd37b8, InstanceCount=1)", 
+        "apiName": "ec2.modifyCapacityReservation"
+    }
+]

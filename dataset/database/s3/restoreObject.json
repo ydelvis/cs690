@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:RestoreObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key2/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "RestoreObjectRequest(Bucket=test-bucket-5461, Key=key2/listBuckets.json, RestoreRequest=RestoreRequest(Days=1, GlacierJobParameters=GlacierJobParameters(Tier=Standard)))", 
+        "apiName": "s3.restoreObject"
+    }
+]

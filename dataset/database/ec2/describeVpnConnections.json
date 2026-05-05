@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpnConnections"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpnConnectionsRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-02b1446b336da5112])])", 
+        "apiName": "ec2.describeVpnConnections"
+    }
+]

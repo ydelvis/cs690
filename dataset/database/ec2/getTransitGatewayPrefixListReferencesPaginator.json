@@ -1,0 +1,10 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayPrefixListReferencesRequest(TransitGatewayRouteTableId=tgw-rtb-0aecf25a3f86dfeef, MaxResults=0)", 
+        "apiName": "ec2.getTransitGatewayPrefixListReferencesPaginator"
+    }
+]

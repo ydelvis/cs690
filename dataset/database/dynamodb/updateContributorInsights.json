@@ -1,0 +1,82 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UpdateContributorInsights"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461/index/Id-Index", 
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateContributorInsightsRequest(TableName=test-table-5461, ContributorInsightsAction=ENABLE)", 
+        "apiName": "dynamodb.updateContributorInsights"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UpdateContributorInsights"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461/index/Id-Index", 
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateContributorInsightsRequest(TableName=test-table-5461, IndexName=Id-Index, ContributorInsightsAction=DISABLE)", 
+        "apiName": "dynamodb.updateContributorInsights"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UpdateContributorInsights"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461/index/Id-Index", 
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateContributorInsightsRequest(TableName=test-table-5461, ContributorInsightsAction=DISABLE)", 
+        "apiName": "dynamodb.updateContributorInsights"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UpdateContributorInsights"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461/index/Id-Index", 
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateContributorInsightsRequest(TableName=test-table-5461, IndexName=Id-Index, ContributorInsightsAction=ENABLE)", 
+        "apiName": "dynamodb.updateContributorInsights"
+    }
+]

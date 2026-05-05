@@ -1,0 +1,234 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=traffic-mirror-target-id, Values=[tmt-0fa549ad445a2e94e])], MaxResults=1)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=service-name, Values=[com.amazonaws.us-east-2.acm-pca])], MaxResults=100)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65])], MaxResults=0)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[])", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=group-name, Values=[Test-Placement-Group])], MaxResults=100)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])], MaxResults=0)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=traffic-type, Values=[REJECT])], MaxResults=0)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=traffic-type, Values=[ACCEPT])])", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=state, Values=[available])])", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=traffic-type, Values=[ACCEPT])], MaxResults=1)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=transit-gateway-route-table-id, Values=[tgw-rtb-02e9c220c37bb74db])])", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=association.state, Values=[associated])], MaxResults=100)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=default-association-route-table, Values=[true])], MaxResults=100)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[disable])], MaxResults=0)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=group-name, Values=[Test-Placement-Group])])", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=service-type, Values=[Gateway])])", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65])])", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(MaxResults=100)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=service-name, Values=[com.amazonaws.us-east-2.acm-pca])])", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS]), Filter(Name=traffic-type, Values=[ACCEPT]), Filter(Name=log-destination-type, Values=[s3])], MaxResults=0)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])], MaxResults=1)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=connection-notification-type, Values=[Topic])], MaxResults=1)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(MaxResults=0)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=attachment.state, Values=[attached])], MaxResults=100)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])])", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[available])], MaxResults=100)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=state, Values=[deleted])], MaxResults=0)", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[available])])", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeCarrierGatewaysRequest()", 
+        "apiName": "ec2.describeCarrierGatewaysPaginator"
+    }
+]

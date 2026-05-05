@@ -1,0 +1,29 @@
+{
+  "getPlaylists": {
+    "handler_file": "main.js",
+    "handler_func": "getPlaylists",
+    "language": "javascript",
+    "baseline_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "full_static_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "call_details": [
+      {
+        "service": "dynamodb",
+        "method": "putItem",
+        "params_present": [],
+        "caller_func": "getPlaylists",
+        "file": "main.js",
+        "line": 50,
+        "baseline": [
+          "dynamodb:PutItem"
+        ],
+        "full_static": [
+          "dynamodb:PutItem"
+        ]
+      }
+    ]
+  }
+}

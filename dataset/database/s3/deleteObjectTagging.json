@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:DeleteObjectTagging"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteObjectTaggingRequest(Bucket=test-bucket-5461, Key=key1/)", 
+        "apiName": "s3.deleteObjectTagging"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:DeleteObjectTagging"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteObjectTaggingRequest(Bucket=test-bucket-5461, Key=key1/, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.deleteObjectTagging"
+    }
+]

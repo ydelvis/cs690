@@ -1,0 +1,78 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeReservedInstancesOfferings"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeReservedInstancesOfferingsRequest(IncludeMarketplace=false, InstanceType=t3.micro, MaxInstanceCount=1, OfferingClass=standard, ProductDescription=Linux/UNIX, ReservedInstancesOfferingIds=[7bc82b63-1b39-44fa-b5b3-7549547641e0], MaxResults=1, OfferingType=Partial Upfront)", 
+        "apiName": "ec2.describeReservedInstancesOfferings"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeReservedInstancesOfferings"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeReservedInstancesOfferingsRequest(IncludeMarketplace=true, InstanceType=t3.micro, OfferingClass=standard, ReservedInstancesOfferingIds=[7bc82b63-1b39-44fa-b5b3-7549547641e0], InstanceTenancy=default, OfferingType=Medium Utilization)", 
+        "apiName": "ec2.describeReservedInstancesOfferings"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeReservedInstancesOfferings"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeReservedInstancesOfferingsRequest(IncludeMarketplace=false, MaxInstanceCount=1, OfferingClass=standard, ReservedInstancesOfferingIds=[7bc82b63-1b39-44fa-b5b3-7549547641e0], InstanceTenancy=default, OfferingType=No Upfront)", 
+        "apiName": "ec2.describeReservedInstancesOfferings"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeReservedInstancesOfferings"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeReservedInstancesOfferingsRequest(IncludeMarketplace=true, InstanceType=t3.micro, MaxInstanceCount=0, ProductDescription=Linux/UNIX, ReservedInstancesOfferingIds=[7bc82b63-1b39-44fa-b5b3-7549547641e0], InstanceTenancy=dedicated, MaxResults=1, OfferingType=All Upfront)", 
+        "apiName": "ec2.describeReservedInstancesOfferings"
+    }
+]

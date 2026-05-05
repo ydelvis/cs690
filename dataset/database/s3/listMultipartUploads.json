@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketMultipartUploads"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ListMultipartUploadsRequest(Bucket=test-bucket-5461, Delimiter=, MaxUploads=10, Prefix=)", 
+        "apiName": "s3.listMultipartUploads"
+    }
+]

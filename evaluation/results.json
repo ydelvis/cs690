@@ -1,0 +1,1243 @@
+[
+  {
+    "app": "aggregate-votes",
+    "function": "aggregate-vote",
+    "ground_truth": [
+      "dynamodb:UpdateItem"
+    ],
+    "baseline": [
+      "dynamodb:UpdateItem"
+    ],
+    "llm": [
+      "dynamodb:UpdateItem"
+    ],
+    "rag": [],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": null,
+    "call_count": 1
+  },
+  {
+    "app": "api",
+    "function": "AllowlistCreate",
+    "ground_truth": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "baseline": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "llm": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "rag": [
+      "dynamodb:DeleteItem",
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 0.6667,
+      "recall": 1.0,
+      "f1": 0.8,
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "false_positives": [
+        "dynamodb:DeleteItem"
+      ],
+      "false_negatives": []
+    },
+    "call_count": 3
+  },
+  {
+    "app": "api",
+    "function": "AllowlistRead",
+    "ground_truth": [
+      "dynamodb:Scan"
+    ],
+    "baseline": [
+      "dynamodb:Scan"
+    ],
+    "llm": [
+      "dynamodb:Scan"
+    ],
+    "rag": [
+      "dynamodb:Scan"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "call_count": 3
+  },
+  {
+    "app": "api",
+    "function": "AllowlistUpdate",
+    "ground_truth": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "baseline": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "llm": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "rag": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "call_count": 3
+  },
+  {
+    "app": "api",
+    "function": "AllowlistDelete",
+    "ground_truth": [
+      "dynamodb:DeleteItem",
+      "dynamodb:Scan"
+    ],
+    "baseline": [
+      "dynamodb:DeleteItem",
+      "dynamodb:Scan"
+    ],
+    "llm": [
+      "dynamodb:DeleteItem"
+    ],
+    "rag": [
+      "dynamodb:DeleteItem"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "false_positives": [],
+      "false_negatives": [
+        "dynamodb:Scan"
+      ]
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "false_positives": [],
+      "false_negatives": [
+        "dynamodb:Scan"
+      ]
+    },
+    "call_count": 3
+  },
+  {
+    "app": "api",
+    "function": "ServiceRead",
+    "ground_truth": [
+      "dynamodb:Scan"
+    ],
+    "baseline": [
+      "dynamodb:Scan"
+    ],
+    "llm": [
+      "dynamodb:Scan"
+    ],
+    "rag": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan",
+      "s3:GetObject"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "false_positives": [
+        "dynamodb:PutItem",
+        "s3:GetObject"
+      ],
+      "false_negatives": []
+    },
+    "call_count": 3
+  },
+  {
+    "app": "api",
+    "function": "ExecutionLogList",
+    "ground_truth": [
+      "dynamodb:Scan"
+    ],
+    "baseline": [
+      "dynamodb:Scan"
+    ],
+    "llm": [
+      "s3:ListBucket"
+    ],
+    "rag": [
+      "dynamodb:PutItem",
+      "dynamodb:Scan",
+      "s3:GetObject",
+      "s3:ListBucket"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "false_positives": [
+        "s3:ListBucket"
+      ],
+      "false_negatives": [
+        "dynamodb:Scan"
+      ]
+    },
+    "rag_metrics": {
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "tp": 1,
+      "fp": 3,
+      "fn": 0,
+      "false_positives": [
+        "dynamodb:PutItem",
+        "s3:GetObject",
+        "s3:ListBucket"
+      ],
+      "false_negatives": []
+    },
+    "call_count": 3
+  },
+  {
+    "app": "api",
+    "function": "ExecutionLogRead",
+    "ground_truth": [
+      "dynamodb:Scan",
+      "s3:GetObject"
+    ],
+    "baseline": [
+      "dynamodb:Scan",
+      "s3:GetObject"
+    ],
+    "llm": [
+      "s3:GetObject"
+    ],
+    "rag": [
+      "s3:GetObject"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "false_positives": [],
+      "false_negatives": [
+        "dynamodb:Scan"
+      ]
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "false_positives": [],
+      "false_negatives": [
+        "dynamodb:Scan"
+      ]
+    },
+    "call_count": 3
+  },
+  {
+    "app": "aws-golang-s3-file-replicator",
+    "function": "replicate",
+    "ground_truth": [
+      "s3:GetObject",
+      "s3:PutObject"
+    ],
+    "baseline": [
+      "s3:GetObject",
+      "s3:PutObject"
+    ],
+    "llm": [
+      "s3:GetObject",
+      "s3:PutObject"
+    ],
+    "rag": [
+      "s3:CopyObject",
+      "s3:GetObject"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "false_positives": [
+        "s3:CopyObject"
+      ],
+      "false_negatives": [
+        "s3:PutObject"
+      ]
+    },
+    "call_count": 1
+  },
+  {
+    "app": "aws-node-http-api-dynamodb-local",
+    "function": "create",
+    "ground_truth": [
+      "dynamodb:PutItem"
+    ],
+    "baseline": [
+      "dynamodb:PutItem"
+    ],
+    "llm": [
+      "dynamodb:PutItem"
+    ],
+    "rag": [
+      "dynamodb:PutItem"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "aws-node-http-api-dynamodb-local",
+    "function": "list",
+    "ground_truth": [
+      "dynamodb:Scan"
+    ],
+    "baseline": [
+      "dynamodb:Scan"
+    ],
+    "llm": [
+      "dynamodb:Scan"
+    ],
+    "rag": [
+      "dynamodb:Scan"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "aws-node-http-api-dynamodb-local",
+    "function": "get",
+    "ground_truth": [
+      "dynamodb:GetItem"
+    ],
+    "baseline": [
+      "dynamodb:GetItem"
+    ],
+    "llm": [
+      "dynamodb:GetItem"
+    ],
+    "rag": [
+      "dynamodb:GetItem"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "aws-node-http-api-dynamodb-local",
+    "function": "update",
+    "ground_truth": [
+      "dynamodb:UpdateItem"
+    ],
+    "baseline": [
+      "dynamodb:UpdateItem"
+    ],
+    "llm": [
+      "dynamodb:UpdateItem"
+    ],
+    "rag": [
+      "dynamodb:UpdateItem"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "aws-node-http-api-dynamodb-local",
+    "function": "delete",
+    "ground_truth": [
+      "dynamodb:DeleteItem"
+    ],
+    "baseline": [
+      "dynamodb:DeleteItem"
+    ],
+    "llm": [
+      "dynamodb:DeleteItem"
+    ],
+    "rag": [
+      "dynamodb:DeleteItem"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "bff-graphql-crud",
+    "function": "trigger",
+    "ground_truth": [
+      "kinesis:PutRecord"
+    ],
+    "baseline": [
+      "kinesis:PutRecord"
+    ],
+    "llm": [
+      "dynamodb:DeleteItem",
+      "dynamodb:GetItem",
+      "dynamodb:PutItem",
+      "dynamodb:Scan",
+      "kinesis:PutRecord"
+    ],
+    "rag": [
+      "kinesis:PutRecord"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.3333,
+      "tp": 1,
+      "fp": 4,
+      "fn": 0,
+      "false_positives": [
+        "dynamodb:DeleteItem",
+        "dynamodb:GetItem",
+        "dynamodb:PutItem",
+        "dynamodb:Scan"
+      ],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "deep-learning-training-gpu",
+    "function": "LambdaMap",
+    "ground_truth": [],
+    "baseline": [],
+    "llm": [
+      "s3:GetObject",
+      "s3:PutObject"
+    ],
+    "rag": [
+      "s3:PutObject"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "llm_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 0,
+      "false_positives": [
+        "s3:GetObject",
+        "s3:PutObject"
+      ],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "false_positives": [
+        "s3:PutObject"
+      ],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "deep-learning-training-gpu",
+    "function": "LambdaReduce",
+    "ground_truth": [
+      "s3:GetObject"
+    ],
+    "baseline": [
+      "s3:GetObject"
+    ],
+    "llm": [
+      "s3:GetObject",
+      "s3:PutObject"
+    ],
+    "rag": [
+      "s3:GetObject"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "false_positives": [
+        "s3:PutObject"
+      ],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "dynamodb-autoscaling",
+    "function": "scaleUp",
+    "ground_truth": [],
+    "baseline": [],
+    "llm": [
+      "cloudwatch:GetMetricStatistics",
+      "dynamodb:DescribeTable",
+      "dynamodb:Scan",
+      "dynamodb:UpdateTable"
+    ],
+    "rag": [
+      "cloudwatch:GetMetricStatistics",
+      "dynamodb:UpdateTable"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "llm_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 0,
+      "false_positives": [
+        "cloudwatch:GetMetricStatistics",
+        "dynamodb:DescribeTable",
+        "dynamodb:Scan",
+        "dynamodb:UpdateTable"
+      ],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 0,
+      "false_positives": [
+        "cloudwatch:GetMetricStatistics",
+        "dynamodb:UpdateTable"
+      ],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "dynamodb-autoscaling",
+    "function": "scaleDown",
+    "ground_truth": [],
+    "baseline": [],
+    "llm": [
+      "cloudwatch:GetMetricStatistics",
+      "dynamodb:DescribeTable",
+      "dynamodb:Scan",
+      "dynamodb:UpdateTable"
+    ],
+    "rag": [
+      "cloudwatch:GetMetricStatistics"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "llm_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 0,
+      "false_positives": [
+        "cloudwatch:GetMetricStatistics",
+        "dynamodb:DescribeTable",
+        "dynamodb:Scan",
+        "dynamodb:UpdateTable"
+      ],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "false_positives": [
+        "cloudwatch:GetMetricStatistics"
+      ],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "episode-updater",
+    "function": "getPlaylists",
+    "ground_truth": [
+      "dynamodb:PutItem"
+    ],
+    "baseline": [
+      "dynamodb:PutItem"
+    ],
+    "llm": [
+      "dynamodb:PutItem"
+    ],
+    "rag": [
+      "dynamodb:PutItem"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "pytorch-serverless",
+    "function": "predict",
+    "ground_truth": [],
+    "baseline": [],
+    "llm": [
+      "logs:CreateLogGroup",
+      "logs:CreateLogStream",
+      "logs:PutLogEvents",
+      "s3:GetObject"
+    ],
+    "rag": [
+      "s3:GetObject"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "llm_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 0,
+      "false_positives": [
+        "logs:CreateLogGroup",
+        "logs:CreateLogStream",
+        "logs:PutLogEvents",
+        "s3:GetObject"
+      ],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "false_positives": [
+        "s3:GetObject"
+      ],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "s3_example",
+    "function": "write",
+    "ground_truth": [],
+    "baseline": [],
+    "llm": [
+      "s3:PutObject"
+    ],
+    "rag": [
+      "s3:PutObject"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "llm_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "false_positives": [
+        "s3:PutObject"
+      ],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "false_positives": [
+        "s3:PutObject"
+      ],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "s3_example",
+    "function": "write_v2",
+    "ground_truth": [
+      "s3:PutObject",
+      "s3:PutObjectAcl"
+    ],
+    "baseline": [
+      "s3:PutObject",
+      "s3:PutObjectAcl"
+    ],
+    "llm": [
+      "s3:PutObject"
+    ],
+    "rag": [
+      "s3:PutObject"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "false_positives": [],
+      "false_negatives": [
+        "s3:PutObjectAcl"
+      ]
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "false_positives": [],
+      "false_negatives": [
+        "s3:PutObjectAcl"
+      ]
+    },
+    "call_count": 1
+  },
+  {
+    "app": "serverless-api",
+    "function": "create",
+    "ground_truth": [
+      "dynamodb:PutItem"
+    ],
+    "baseline": [
+      "dynamodb:PutItem"
+    ],
+    "llm": [
+      "dynamodb:PutItem"
+    ],
+    "rag": [
+      "dynamodb:PutItem"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "call_count": 1
+  },
+  {
+    "app": "serverless-api",
+    "function": "find",
+    "ground_truth": [
+      "dynamodb:GetItem"
+    ],
+    "baseline": [
+      "dynamodb:GetItem"
+    ],
+    "llm": [
+      "dynamodb:GetItem"
+    ],
+    "rag": [
+      "dynamodb:GetItem"
+    ],
+    "baseline_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "llm_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "call_count": 1
+  }
+]

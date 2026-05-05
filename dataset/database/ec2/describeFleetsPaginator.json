@@ -1,0 +1,186 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=1, Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=-1, NextToken=, FleetIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=100, FleetIds=[44.237.200.166], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(NextToken=, FleetIds=[44.237.200.166], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(NextToken=, Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=0, NextToken=, FleetIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=1, FleetIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(FleetIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=100, Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=-1, FleetIds=[44.237.200.166], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=0, NextToken=, Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=100, NextToken=, Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=1, NextToken=, Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=100, NextToken=, FleetIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=100, FleetIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=0, Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=1, NextToken=, FleetIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=-1, Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(FleetIds=[44.237.200.166], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=0, FleetIds=[44.237.200.166], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=-1, NextToken=, FleetIds=[44.237.200.166], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(NextToken=, FleetIds=[eipalloc-068f6cb5459d939aa], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeFleetsRequest(MaxResults=1, NextToken=, FleetIds=[44.237.200.166], Filters=[Filter()])", 
+        "apiName": "ec2.describeFleetsPaginator"
+    }
+]

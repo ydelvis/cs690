@@ -1,0 +1,20 @@
+{
+    "apiName": "registerStreamConsumer",
+    "policy": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "kinesis:RegisterStreamConsumer"
+                ],
+                "Resource": [
+                    "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream",
+                    "arn:aws:kinesis:us-east-1:002677082836:stream/test-5456-stream/consumer/test-5456-firehose:1579766096"
+                ],
+                "Effect": "Allow",
+                "Sid": "statement2"
+            }
+        ]
+    },
+    "request": ""
+}

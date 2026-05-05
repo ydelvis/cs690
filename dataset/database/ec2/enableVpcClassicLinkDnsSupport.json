@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:EnableVpcClassicLinkDnsSupport"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc/vpc-088f61503142622ed"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "EnableVpcClassicLinkDnsSupportRequest(VpcId=vpc-088f61503142622ed)", 
+        "apiName": "ec2.enableVpcClassicLinkDnsSupport"
+    }
+]

@@ -1,0 +1,86 @@
+# This file is the main config file for your service.
+#
+# For full config options, check the docs:
+#    docs.serverless.com
+
+service: pytorch-serverless
+
+# You can pin your service to only deploy with a specific Serverless version
+frameworkVersion: ">=1.27.1"
+
+provider:
+  # you can overwrite defaults here
+  name: aws
+  runtime: python3.6
+  stage: dev
+  region: us-west-2
+  profile: slsadmin
+  memorySize: 2048
+  timeout: 120
+  # you can define API keys to generate here
+  apiKeys:
+    - ${self:service}_default_${self:provider.stage}
+
+
+  # you can define service wide environment variables here
+  environment:
+    BUCKET_NAME: pytorch-serverless
+    STATE_DICT_NAME: dogscats-resnext50.h5
+    IMAGE_SIZE: 224
+    IMAGE_STATS: ([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+    LABELS_PATH: lib/labels.txt
+
+  # you can define custom configuration variables here
+  variables:
+    api_version: v0.0.1
+
+  # you can add statements to the Lambda function's IAM Role here
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - s3:ListBucket
+      Resource: 'arn:aws:s3:::*'
+    - Effect: Allow
+      Action:
+        - s3:GetObject
+      Resource: 'arn:aws:s3:::*/**'
+
+# you can add packaging information here
+package:
+  exclude:
+    - package.json
+    - package-lock.json
+    - README.md
+    - node_modules/**
+    - tests/**
+    - .DS_Store
+    - .idea/**
+
+# you can define plugins here
+plugins:
+  - serverless-python-requirements
+custom:
+  pythonRequirements:
+    dockerizePip: true
+    zip: true
+
+
+#
+# Define API endpoints
+#
+
+functions:
+  predict:
+    handler: api/predict.handler
+    events:
+      - schedule: rate(15 minutes) # set CloudWatch function to keep lambda warm
+      - http:
+          method: GET
+          cors: true
+          path: ${self:provider.variables.api_version}/predict
+          private: true # authorize endpoint with `X-API-KEY` header
+          request:
+            parameters:
+              querystrings:
+                image_url: true
+                top_k: false

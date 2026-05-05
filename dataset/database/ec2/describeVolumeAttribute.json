@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVolumeAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "DescribeVolumeAttributeRequest(Attribute=productCodes, VolumeId=vol-0a580cc01eb840e8d)", 
+        "apiName": "describeVolumeAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVolumeAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVolumeAttributeRequest(Attribute=autoEnableIO, VolumeId=vol-0a580cc01eb840e8d)", 
+        "apiName": "describeVolumeAttribute"
+    }
+]

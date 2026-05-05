@@ -1,0 +1,74 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RunInstances"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:volume/*", 
+                        "arn:aws:ec2:*:002677082836:instance/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/*", 
+                        "arn:aws:ec2:*::snapshot/*", 
+                        "arn:aws:ec2:*:002677082836:launch-template/*", 
+                        "arn:aws:elastic-inference:*:002677082836:elastic-inference-accelerator/*", 
+                        "arn:aws:ec2:*:002677082836:elastic-gpu/*", 
+                        "arn:aws:ec2:*:002677082836:placement-group/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:key-pair/test-key-pair", 
+                        "arn:aws:ec2:*::image/ami-013ad70ab73da1ff2"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "RunInstancesRequest(ImageId=ami-013ad70ab73da1ff2, KeyName=test-key-pair, MaxCount=1, MinCount=1, Monitoring=RunInstancesMonitoringEnabled(Enabled=false), Placement=Placement(AvailabilityZone=us-west-2c), DisableApiTermination=true, TagSpecifications=[TagSpecification(ResourceType=instance, Tags=[Tag(Key=instance, Value=instance-tag)])])", 
+        "apiName": "ec2.runInstances"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RunInstances"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:volume/*", 
+                        "arn:aws:ec2:*:002677082836:instance/*", 
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:capacity-reservation/*", 
+                        "arn:aws:ec2:*::snapshot/*", 
+                        "arn:aws:ec2:*:002677082836:launch-template/*", 
+                        "arn:aws:elastic-inference:*:002677082836:elastic-inference-accelerator/*", 
+                        "arn:aws:ec2:*:002677082836:elastic-gpu/*", 
+                        "arn:aws:ec2:*:002677082836:placement-group/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*", 
+                        "arn:aws:ec2:*:002677082836:key-pair/test-key-pair", 
+                        "arn:aws:ec2:*::image/ami-013ad70ab73da1ff2"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "RunInstancesRequest(ImageId=ami-013ad70ab73da1ff2, KeyName=test-key-pair, MaxCount=1, MinCount=1, Monitoring=RunInstancesMonitoringEnabled(Enabled=false), Placement=Placement(AvailabilityZone=us-west-2c), DisableApiTermination=true)", 
+        "apiName": "ec2.runInstances"
+    }
+]

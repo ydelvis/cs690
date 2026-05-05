@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutInventoryConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketInventoryConfigurationRequest(Bucket=test-bucket-5461, Id=test-bucket-5461-inventory-configuration-1, InventoryConfiguration=InventoryConfiguration(Destination=InventoryDestination(S3BucketDestination=InventoryS3BucketDestination(AccountId=002677082836, Bucket=arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled, Format=CSV, Prefix=test-bucket-5461)), IsEnabled=false, Id=test-bucket-5461-inventory-configuration-1, IncludedObjectVersions=Current, Schedule=InventorySchedule(Frequency=Daily)), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketInventoryConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutInventoryConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketInventoryConfigurationRequest(Bucket=test-bucket-5461, Id=test-bucket-5461-inventory-configuration-1, InventoryConfiguration=InventoryConfiguration(Destination=InventoryDestination(S3BucketDestination=InventoryS3BucketDestination(Bucket=arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled, Format=CSV, Prefix=test-bucket-5461)), IsEnabled=true, Id=test-bucket-5461-inventory-configuration-1, IncludedObjectVersions=All, OptionalFields=[Size], Schedule=InventorySchedule(Frequency=Weekly)), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketInventoryConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutInventoryConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketInventoryConfigurationRequest(Bucket=test-bucket-5461, Id=test-bucket-5461-inventory-configuration-1, InventoryConfiguration=InventoryConfiguration(Destination=InventoryDestination(S3BucketDestination=InventoryS3BucketDestination(AccountId=002677082836, Bucket=arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled, Format=CSV, Prefix=test-bucket-5461)), IsEnabled=false, Id=test-bucket-5461-inventory-configuration-1, IncludedObjectVersions=Current, OptionalFields=[Size], Schedule=InventorySchedule(Frequency=Weekly)), ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.putBucketInventoryConfiguration"
+    }
+]

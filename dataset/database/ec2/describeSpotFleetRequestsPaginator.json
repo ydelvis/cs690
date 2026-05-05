@@ -1,0 +1,10 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "software.amazon.awssdk.services.ec2.paginators.DescribeSpotFleetRequestsIterable@10027fc9", 
+        "apiName": "ec2.describeSpotFleetRequestsPaginator"
+    }
+]

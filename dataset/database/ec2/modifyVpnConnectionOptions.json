@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "Version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpnConnectionOptions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-connection/vpn-0d59b1da66a690911"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpnConnectionOptionsRequest(VpnConnectionId=vpn-0d59b1da66a690911, RemoteIpv4NetworkCidr=172.32.0.0/24)", 
+        "apiName": "modifyVpnConnectionOptions"
+    }, 
+    {
+        "policy": {
+            "Version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVpnConnectionOptions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpn-connection/vpn-0de7dd2b531151bf0"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVpnConnectionOptionsRequest(VpnConnectionId=vpn-0de7dd2b531151bf0, RemoteIpv4NetworkCidr=172.32.0.0/24)", 
+        "apiName": "modifyVpnConnectionOptions"
+    }
+]

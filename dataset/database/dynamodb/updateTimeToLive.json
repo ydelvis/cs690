@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:UpdateTimeToLive"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "UpdateTimeToLiveRequest(TableName=test-table-5461, TimeToLiveSpecification=TimeToLiveSpecification(Enabled=false, AttributeName=time-to-live))", 
+        "apiName": "dynamodb.updateTimeToLive"
+    }
+]

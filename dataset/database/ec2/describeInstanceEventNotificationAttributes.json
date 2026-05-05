@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "Version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeInstanceEventNotificationAttributes"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "apiMethodName": "describeInstanceEventNotificationAttributes", 
+        "apiMethodRequestName": "software.amazon.awssdk.services.ec2.model.DescribeInstanceEventNotificationAttributesRequest", 
+        "apiMethodResponseName": "software.amazon.awssdk.services.ec2.model.DescribeInstanceEventNotificationAttributesResponse"
+    }
+]

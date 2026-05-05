@@ -1,0 +1,69 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTrafficMirrorFilter"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateTrafficMirrorFilterRequest(Description=test-traffic-mirror-filter, TagSpecifications=[TagSpecification(ResourceType=traffic-mirror-filter, Tags=[Tag(Key=traffic-mirror-filter, Value=traffic-mirror-filter-tag)])])", 
+        "apiName": "ec2.createTrafficMirrorFilter"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTrafficMirrorFilter"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTrafficMirrorFilterRequest(Description=test-traffic-mirror-filter)", 
+        "apiName": "ec2.createTrafficMirrorFilter"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTrafficMirrorFilter"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTrafficMirrorFilterRequest()", 
+        "apiName": "ec2.createTrafficMirrorFilter"
+    }
+]

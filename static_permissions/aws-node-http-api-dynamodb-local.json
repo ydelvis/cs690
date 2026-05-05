@@ -1,0 +1,137 @@
+{
+  "create": {
+    "handler_file": "todos/create.js",
+    "handler_func": "create",
+    "language": "javascript",
+    "baseline_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "full_static_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "call_details": [
+      {
+        "service": "dynamodb",
+        "method": "putItem",
+        "params_present": [],
+        "caller_func": "create",
+        "file": "todos/create.js",
+        "line": 31,
+        "baseline": [
+          "dynamodb:PutItem"
+        ],
+        "full_static": [
+          "dynamodb:PutItem"
+        ]
+      }
+    ]
+  },
+  "list": {
+    "handler_file": "todos/list.js",
+    "handler_func": "list",
+    "language": "javascript",
+    "baseline_permissions": [
+      "dynamodb:Scan"
+    ],
+    "full_static_permissions": [
+      "dynamodb:Scan"
+    ],
+    "call_details": [
+      {
+        "service": "dynamodb",
+        "method": "scan",
+        "params_present": [],
+        "caller_func": "list",
+        "file": "todos/list.js",
+        "line": 11,
+        "baseline": [
+          "dynamodb:Scan"
+        ],
+        "full_static": [
+          "dynamodb:Scan"
+        ]
+      }
+    ]
+  },
+  "get": {
+    "handler_file": "todos/get.js",
+    "handler_func": "get",
+    "language": "javascript",
+    "baseline_permissions": [
+      "dynamodb:GetItem"
+    ],
+    "full_static_permissions": [
+      "dynamodb:GetItem"
+    ],
+    "call_details": [
+      {
+        "service": "dynamodb",
+        "method": "getItem",
+        "params_present": [],
+        "caller_func": "get",
+        "file": "todos/get.js",
+        "line": 14,
+        "baseline": [
+          "dynamodb:GetItem"
+        ],
+        "full_static": [
+          "dynamodb:GetItem"
+        ]
+      }
+    ]
+  },
+  "update": {
+    "handler_file": "todos/update.js",
+    "handler_func": "update",
+    "language": "javascript",
+    "baseline_permissions": [
+      "dynamodb:UpdateItem"
+    ],
+    "full_static_permissions": [
+      "dynamodb:UpdateItem"
+    ],
+    "call_details": [
+      {
+        "service": "dynamodb",
+        "method": "updateItem",
+        "params_present": [],
+        "caller_func": "update",
+        "file": "todos/update.js",
+        "line": 38,
+        "baseline": [
+          "dynamodb:UpdateItem"
+        ],
+        "full_static": [
+          "dynamodb:UpdateItem"
+        ]
+      }
+    ]
+  },
+  "delete": {
+    "handler_file": "todos/delete.js",
+    "handler_func": "delete",
+    "language": "javascript",
+    "baseline_permissions": [
+      "dynamodb:DeleteItem"
+    ],
+    "full_static_permissions": [
+      "dynamodb:DeleteItem"
+    ],
+    "call_details": [
+      {
+        "service": "dynamodb",
+        "method": "deleteItem",
+        "params_present": [],
+        "caller_func": "delete",
+        "file": "todos/delete.js",
+        "line": 14,
+        "baseline": [
+          "dynamodb:DeleteItem"
+        ],
+        "full_static": [
+          "dynamodb:DeleteItem"
+        ]
+      }
+    ]
+  }
+}

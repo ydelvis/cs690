@@ -1,0 +1,42 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AttachVolume"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:instance/i-01d514444253d9b80", 
+                        "arn:aws:ec2:us-west-2:002677082836:volume/vol-0a580cc01eb840e8d"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "AttachVolumeRequest(Device=/dev/xvda, InstanceId=i-01d514444253d9b80, VolumeId=vol-0a580cc01eb840e8d)", 
+        "apiName": "attachVolume"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AttachVolume"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:instance/i-01ec73f52711d20f7", 
+                        "arn:aws:ec2:us-west-2:002677082836:volume/vol-049304f3116417955"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "AttachVolumeRequest(Device=/dev/xvda, InstanceId=i-01ec73f52711d20f7, VolumeId=vol-049304f3116417955)", 
+        "apiName": "attachVolume"
+    }
+]

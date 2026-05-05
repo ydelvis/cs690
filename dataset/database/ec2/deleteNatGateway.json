@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteNatGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:natgateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteNatGatewayRequest(NatGatewayId=nat-0af9f8aa9bcd41acd)", 
+        "apiName": "ec2.deleteNatGateway"
+    }
+]

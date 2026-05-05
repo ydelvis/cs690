@@ -1,0 +1,18 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeManagedPrefixListsRequest(MaxResults=1)", 
+        "apiName": "ec2.describeManagedPrefixListsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeManagedPrefixListsRequest(PrefixListIds=[pl-00a54069])", 
+        "apiName": "ec2.describeManagedPrefixListsPaginator"
+    }
+]

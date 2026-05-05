@@ -1,0 +1,55 @@
+service: go-todo
+
+frameworkVersion: '>=1.28.0 <2.0.0'
+
+provider:
+  name: aws
+  runtime: go1.x
+  stage: dev
+  region: ap-northeast-2
+  deploymentBucket: ${file(./.go-serverless-demo.yml):DEPLOYMENT_BUCKET}
+  environment:
+    DYNAMO_REGION: ${file(./.go-serverless-demo.yml):DYNAMO_REGION}
+    DYNAMO_TABLE_NAME: ${file(./.go-serverless-demo.yml):DYNAMO_TABLE_NAME}
+  tracing:
+    lambda: true
+  iamRoleStatements:
+  - Effect: Allow
+    Action:
+      - dynamodb:Query
+      - dynamodb:Scan
+      - dynamodb:GetItem
+      - dynamodb:PutItem
+      - dynamodb:UpdateItem
+      - dynamodb:DeleteItem
+    Resource: "arn:aws:dynamodb:ap-northeast-2:*:table/*"
+
+plugins:
+ - serverless-apigw-binary
+custom:
+  apigwBinary:
+    types:
+      - 'application/json'
+      - 'text/html'
+
+package:
+  exclude:
+    - ./**
+  include:
+    - ./bin/**
+    - ./.go-serverless-demo.yml
+
+functions:
+  rest:
+    handler: bin/rest
+    timeout: 2 # optional, in seconds, default is 6
+    # provisionedConcurrency: 1 # optional, Count of provisioned lambda instances
+    events:
+      - http: 
+          path: /{proxy+}
+          method: ANY
+          cors: true
+      - http: 
+          path: /{proxy+}
+          method: OPTIONS
+          cors: true

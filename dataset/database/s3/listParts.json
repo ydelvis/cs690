@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListMultipartUploadParts"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ListPartsRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, MaxParts=10, PartNumberMarker=0, UploadId=NUyemTZGojWcjMc0wKA2.Nam8tTP0HpR0k020HHigggZX.FxOX1pgU7A6No2HsaJD2A02JRiTj5AlB6gE1P5ZKeNSb2x1jYg92LN0cy9fhjrUPLVjipcbwbJMfrPOYTW, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.listParts"
+    }
+]

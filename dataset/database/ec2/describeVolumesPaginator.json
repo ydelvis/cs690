@@ -1,0 +1,242 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], MaxResults=1, NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], MaxResults=-100, NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[snap-ff869fa8], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[eipalloc-068f6cb5459d939aa], NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], MaxResults=1)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[M3_LARGE], MaxResults=1)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[snap-ff869fa8], MaxResults=100)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], MaxResults=1)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], MaxResults=100)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[922761411349], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[44.237.200.166])", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[snap-ff869fa8], NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[eipalloc-068f6cb5459d939aa], MaxResults=0)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], MaxResults=0, NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[M3_LARGE], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933], MaxResults=-1)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[eipalloc-068f6cb5459d939aa], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[922761411349])", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[44.237.200.166], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[eipalloc-068f6cb5459d939aa], MaxResults=1)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], MaxResults=100)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[snap-ff869fa8], MaxResults=-1)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], MaxResults=-1, NextToken=)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[sfr-6b155321-03a2-4a1f-ad64-0fc37de2c933])", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeVolumesRequest(Filters=[Filter()], VolumeIds=[44.237.200.166], MaxResults=-100)", 
+        "apiName": "ec2.describeVolumesPaginator"
+    }
+]

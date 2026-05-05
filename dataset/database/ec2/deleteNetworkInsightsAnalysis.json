@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteNetworkInsightsAnalysis"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-insights-analysis/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteNetworkInsightsAnalysisRequest(NetworkInsightsAnalysisId=nia-0e57aa412c4bed512)", 
+        "apiName": "ec2.deleteNetworkInsightsAnalysis"
+    }
+]

@@ -1,0 +1,1159 @@
+{
+  "adjacency": {
+    "<anonymous>": [
+      "console.log",
+      "deploy",
+      "extractGithubData",
+      "getChangedServices",
+      "isStackExists",
+      "log",
+      "remove",
+      "runSpawnCommand",
+      "setup",
+      "triggerBuild"
+    ],
+    "batchDeployCommand": [
+      "batchCommand",
+      "log"
+    ],
+    "batchE2ETestCommand": [
+      "batchCommand",
+      "log"
+    ],
+    "batchRemoveCommand": [
+      "batchCommand",
+      "log"
+    ],
+    "create": [
+      "getOptionOrThrowError"
+    ],
+    "createIamUser": [
+      "deleteAllKeys",
+      "log"
+    ],
+    "deleteAllKeys": [
+      "log"
+    ],
+    "deleteIamUser": [
+      "deleteAllKeys",
+      "log"
+    ],
+    "deploy": [
+      "batchDeployCommand",
+      "batchE2ETestCommand",
+      "error",
+      "getChangedServices",
+      "getNotDeployedServices",
+      "getPackages",
+      "getRegion",
+      "info",
+      "log",
+      "warning"
+    ],
+    "error": [
+      "console.error"
+    ],
+    "follow": [
+      "error",
+      "log"
+    ],
+    "getAllStacks": [
+      "getServerlessYamls"
+    ],
+    "getChangedServices": [
+      "error"
+    ],
+    "getDeployedServices": [
+      "getAllStacks"
+    ],
+    "getNotDeployedServices": [
+      "getAllStacks"
+    ],
+    "getPackages": [
+      "project.getPackages"
+    ],
+    "info": [
+      "console.info"
+    ],
+    "log": [
+      "console.log"
+    ],
+    "remove": [
+      "batchRemoveCommand",
+      "deleteIamUser",
+      "error",
+      "getDeployedServices",
+      "getIamUserName",
+      "getPackages",
+      "getRegion",
+      "info",
+      "log",
+      "unfollow"
+    ],
+    "setEnvs": [
+      "log"
+    ],
+    "setup": [
+      "createIamUser",
+      "error",
+      "follow",
+      "getIamUserName",
+      "setEnvs",
+      "updateProjectSettings"
+    ],
+    "triggerBuild": [
+      "error",
+      "getLatestTag",
+      "log"
+    ],
+    "unfollow": [
+      "error",
+      "log"
+    ],
+    "update": [
+      "create",
+      "log"
+    ],
+    "updateProjectSettings": [
+      "log"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "constructor",
+      "file": "dataset/apps/cicd/serverless-plugin-cicd/index.js",
+      "language": "javascript",
+      "line": 6
+    },
+    {
+      "name": "update",
+      "file": "dataset/apps/cicd/serverless-plugin-cicd/index.js",
+      "language": "javascript",
+      "line": 20
+    },
+    {
+      "name": "getOptionOrThrowError",
+      "file": "dataset/apps/cicd/serverless-plugin-cicd/index.js",
+      "language": "javascript",
+      "line": 53
+    },
+    {
+      "name": "create",
+      "file": "dataset/apps/cicd/serverless-plugin-cicd/index.js",
+      "language": "javascript",
+      "line": 65
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/serverless-plugin-cicd/index.js",
+      "language": "javascript",
+      "line": 254
+    },
+    {
+      "name": "getChangedServices",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 17
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 40
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 43
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 46
+    },
+    {
+      "name": "getPackages",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 53
+    },
+    {
+      "name": "getServerlessYamls",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 59
+    },
+    {
+      "name": "mapper",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 61
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 66
+    },
+    {
+      "name": "getRegion",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 72
+    },
+    {
+      "name": "isStackExists",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 85
+    },
+    {
+      "name": "getAllStacks",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 95
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 98
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 99
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 106
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 107
+    },
+    {
+      "name": "getNotDeployedServices",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 113
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 116
+    },
+    {
+      "name": "service",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 117
+    },
+    {
+      "name": "getDeployedServices",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 122
+    },
+    {
+      "name": "exists",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 125
+    },
+    {
+      "name": "service",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 126
+    },
+    {
+      "name": "runSpawnCommand",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 131
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 132
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 145
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 149
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 153
+    },
+    {
+      "name": "batchCommand",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 165
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 168
+    },
+    {
+      "name": "batchDeployCommand",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 179
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 182
+    },
+    {
+      "name": "batchE2ETestCommand",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 197
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 200
+    },
+    {
+      "name": "batchRemoveCommand",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 214
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.js",
+      "language": "javascript",
+      "line": 217
+    },
+    {
+      "name": "deploy",
+      "file": "dataset/apps/cicd/scripts/deploy.js",
+      "language": "javascript",
+      "line": 15
+    },
+    {
+      "name": "name",
+      "file": "dataset/apps/cicd/scripts/deploy.js",
+      "language": "javascript",
+      "line": 28
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deploy.js",
+      "language": "javascript",
+      "line": 47
+    },
+    {
+      "name": "remove",
+      "file": "dataset/apps/cicd/scripts/deploy.js",
+      "language": "javascript",
+      "line": 67
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deploy.js",
+      "language": "javascript",
+      "line": 94
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deploy.js",
+      "language": "javascript",
+      "line": 118
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deploy.js",
+      "language": "javascript",
+      "line": 124
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deploy.js",
+      "language": "javascript",
+      "line": 132
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deploy.js",
+      "language": "javascript",
+      "line": 140
+    },
+    {
+      "name": "error",
+      "file": "dataset/apps/cicd/scripts/log.js",
+      "language": "javascript",
+      "line": 3
+    },
+    {
+      "name": "warning",
+      "file": "dataset/apps/cicd/scripts/log.js",
+      "language": "javascript",
+      "line": 4
+    },
+    {
+      "name": "info",
+      "file": "dataset/apps/cicd/scripts/log.js",
+      "language": "javascript",
+      "line": 5
+    },
+    {
+      "name": "log",
+      "file": "dataset/apps/cicd/scripts/log.js",
+      "language": "javascript",
+      "line": 6
+    },
+    {
+      "name": "getIamUserName",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 13
+    },
+    {
+      "name": "deleteAllKeys",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 15
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 21
+    },
+    {
+      "name": "createIamUser",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 28
+    },
+    {
+      "name": "deleteIamUser",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 63
+    },
+    {
+      "name": "follow",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 90
+    },
+    {
+      "name": "setEnvs",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 105
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 111
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 121
+    },
+    {
+      "name": "updateProjectSettings",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 131
+    },
+    {
+      "name": "setup",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 143
+    },
+    {
+      "name": "unfollow",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 162
+    },
+    {
+      "name": "remove",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 177
+    },
+    {
+      "name": "getLatestTag",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 190
+    },
+    {
+      "name": "triggerBuild",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 203
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 231
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 268
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 288
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 296
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 304
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/circleci.js",
+      "language": "javascript",
+      "line": 321
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/githubConfig.test.js",
+      "language": "javascript",
+      "line": 3
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/githubConfig.test.js",
+      "language": "javascript",
+      "line": 7
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/githubConfig.test.js",
+      "language": "javascript",
+      "line": 8
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/githubConfig.test.js",
+      "language": "javascript",
+      "line": 14
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/githubConfig.test.js",
+      "language": "javascript",
+      "line": 31
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.test.js",
+      "language": "javascript",
+      "line": 4
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.test.js",
+      "language": "javascript",
+      "line": 8
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.test.js",
+      "language": "javascript",
+      "line": 9
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.test.js",
+      "language": "javascript",
+      "line": 10
+    },
+    {
+      "name": "<anonymous>",
+      "file": "dataset/apps/cicd/scripts/deployUtils.test.js",
+      "language": "javascript",
+      "line": 13
+    },
+    {
+      "name": "extractGithubData",
+      "file": "dataset/apps/cicd/scripts/githubConfig.js",
+      "language": "javascript",
+      "line": 3
+    }
+  ],
+  "edges": [
+    {
+      "caller": "update",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/serverless-plugin-cicd/index.js"
+    },
+    {
+      "caller": "update",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/serverless-plugin-cicd/index.js"
+    },
+    {
+      "caller": "update",
+      "callee": "create",
+      "caller_file": "dataset/apps/cicd/serverless-plugin-cicd/index.js"
+    },
+    {
+      "caller": "update",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/serverless-plugin-cicd/index.js"
+    },
+    {
+      "caller": "create",
+      "callee": "getOptionOrThrowError",
+      "caller_file": "dataset/apps/cicd/serverless-plugin-cicd/index.js"
+    },
+    {
+      "caller": "create",
+      "callee": "getOptionOrThrowError",
+      "caller_file": "dataset/apps/cicd/serverless-plugin-cicd/index.js"
+    },
+    {
+      "caller": "create",
+      "callee": "getOptionOrThrowError",
+      "caller_file": "dataset/apps/cicd/serverless-plugin-cicd/index.js"
+    },
+    {
+      "caller": "create",
+      "callee": "getOptionOrThrowError",
+      "caller_file": "dataset/apps/cicd/serverless-plugin-cicd/index.js"
+    },
+    {
+      "caller": "getChangedServices",
+      "callee": "error",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "getPackages",
+      "callee": "project.getPackages",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "getAllStacks",
+      "callee": "getServerlessYamls",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "isStackExists",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "getNotDeployedServices",
+      "callee": "getAllStacks",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "getDeployedServices",
+      "callee": "getAllStacks",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "console.log",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "console.log",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "batchDeployCommand",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "batchDeployCommand",
+      "callee": "batchCommand",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "runSpawnCommand",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "batchDeployCommand",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "batchE2ETestCommand",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "batchE2ETestCommand",
+      "callee": "batchCommand",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "runSpawnCommand",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "batchE2ETestCommand",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "batchRemoveCommand",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "batchRemoveCommand",
+      "callee": "batchCommand",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "runSpawnCommand",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "batchRemoveCommand",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "getRegion",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "getPackages",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "getChangedServices",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "info",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "getNotDeployedServices",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "info",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "warning",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "info",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "batchDeployCommand",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "batchE2ETestCommand",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "info",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "info",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "deploy",
+      "callee": "error",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "remove",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "remove",
+      "callee": "getRegion",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "remove",
+      "callee": "getDeployedServices",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "remove",
+      "callee": "info",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "remove",
+      "callee": "getPackages",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "remove",
+      "callee": "batchRemoveCommand",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "remove",
+      "callee": "info",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "remove",
+      "callee": "error",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "deploy",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "remove",
+      "caller_file": "dataset/apps/cicd/scripts/deploy.js"
+    },
+    {
+      "caller": "error",
+      "callee": "console.error",
+      "caller_file": "dataset/apps/cicd/scripts/log.js"
+    },
+    {
+      "caller": "info",
+      "callee": "console.info",
+      "caller_file": "dataset/apps/cicd/scripts/log.js"
+    },
+    {
+      "caller": "log",
+      "callee": "console.log",
+      "caller_file": "dataset/apps/cicd/scripts/log.js"
+    },
+    {
+      "caller": "deleteAllKeys",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "deleteAllKeys",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "createIamUser",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "createIamUser",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "createIamUser",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "createIamUser",
+      "callee": "deleteAllKeys",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "createIamUser",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "createIamUser",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "createIamUser",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "createIamUser",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "deleteIamUser",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "deleteIamUser",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "deleteIamUser",
+      "callee": "deleteAllKeys",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "deleteIamUser",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "deleteIamUser",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "deleteIamUser",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "follow",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "follow",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "follow",
+      "callee": "error",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "setEnvs",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "setEnvs",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "setEnvs",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "setEnvs",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "updateProjectSettings",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "updateProjectSettings",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "setup",
+      "callee": "getIamUserName",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "setup",
+      "callee": "createIamUser",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "setup",
+      "callee": "follow",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "setup",
+      "callee": "setEnvs",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "setup",
+      "callee": "updateProjectSettings",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "setup",
+      "callee": "error",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "unfollow",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "unfollow",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "unfollow",
+      "callee": "error",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "remove",
+      "callee": "unfollow",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "remove",
+      "callee": "getIamUserName",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "remove",
+      "callee": "deleteIamUser",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "remove",
+      "callee": "error",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "triggerBuild",
+      "callee": "getLatestTag",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "triggerBuild",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "triggerBuild",
+      "callee": "log",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "triggerBuild",
+      "callee": "error",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "setup",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "remove",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "triggerBuild",
+      "caller_file": "dataset/apps/cicd/scripts/circleci.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "extractGithubData",
+      "caller_file": "dataset/apps/cicd/scripts/githubConfig.test.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "extractGithubData",
+      "caller_file": "dataset/apps/cicd/scripts/githubConfig.test.js"
+    },
+    {
+      "caller": "<anonymous>",
+      "callee": "getChangedServices",
+      "caller_file": "dataset/apps/cicd/scripts/deployUtils.test.js"
+    }
+  ]
+}

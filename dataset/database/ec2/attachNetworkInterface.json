@@ -1,0 +1,20 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:AttachNetworkInterface"
+                ], 
+                "Resource": [
+                    "arn:aws:ec2:us-west-2:002677082836:instance/i-01d514444253d9b80", 
+                    "arn:aws:ec2:us-west-2:002677082836:network-interface/eni-05b1c6b636218cbc7"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "AttachNetworkInterfaceRequest(DeviceIndex=1, InstanceId=i-01d514444253d9b80, NetworkInterfaceId=eni-05b1c6b636218cbc7, NetworkCardIndex=0)", 
+    "apiName": "attachNetworkInterface"
+}

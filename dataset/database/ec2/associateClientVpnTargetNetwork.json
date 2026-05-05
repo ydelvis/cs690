@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AssociateClientVpnTargetNetwork"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "AssociateClientVpnTargetNetworkRequest(ClientVpnEndpointId=cvpn-endpoint-0ac4ed0c383af0c1f, SubnetId=subnet-092aa5e72690d53ca)", 
+        "apiName": "ec2.associateClientVpnTargetNetwork"
+    }
+]

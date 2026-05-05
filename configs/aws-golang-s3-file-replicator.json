@@ -1,0 +1,40 @@
+{
+  "service": "aws-golang-s3-file-replicator",
+  "provider": {
+    "name": "aws",
+    "runtime": "go1.x",
+    "region": "ap-northeast-1",
+    "stage": "dev",
+    "memory_mb": 128,
+    "timeout_s": 30
+  },
+  "environment": {
+    "OUTPUT_BUCKET": "replicator-output-101"
+  },
+  "functions": {
+    "replicate": {
+      "handler": "bin/replicator",
+      "runtime": "go1.x",
+      "environment": {
+        "OUTPUT_BUCKET": "replicator-output-101"
+      },
+      "events": [
+        {
+          "s3": {
+            "bucket": "replicator-input-101",
+            "existing": true,
+            "event": "s3:ObjectCreated:*"
+          }
+        }
+      ]
+    }
+  },
+  "iam_statements": [],
+  "custom": {
+    "inputBucket": "replicator-input-101",
+    "outputBucket": "replicator-output-101"
+  },
+  "source_files": [
+    "serverless.yml"
+  ]
+}

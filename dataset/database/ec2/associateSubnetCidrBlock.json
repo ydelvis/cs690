@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:AssociateSubnetCidrBlock"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:subnet/subnet-0f5846a597d725f6e"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "AssociateSubnetCidrBlockRequest(SubnetId=subnet-0f5846a597d725f6e, Ipv6CidrBlock=2600:1f13:4b7:ae11::/64)", 
+        "apiName": "ec2.associateSubnetCidrBlock"
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayRequest(Description=Test Transit Gateway, Options=TransitGatewayRequestOptions(AmazonSideAsn=64516, AutoAcceptSharedAttachments=enable, DefaultRouteTableAssociation=enable, DefaultRouteTablePropagation=disable, VpnEcmpSupport=enable, DnsSupport=enable, TransitGatewayCidrBlocks=[1.0.0.0/24]))", 
+        "apiName": "ec2.createTransitGateway"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayRequest(Options=TransitGatewayRequestOptions(AmazonSideAsn=64516, DefaultRouteTablePropagation=enable, TransitGatewayCidrBlocks=[1.0.0.0/24]))", 
+        "apiName": "ec2.createTransitGateway"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayRequest(Description=Test Transit Gateway, Options=TransitGatewayRequestOptions(AutoAcceptSharedAttachments=enable, VpnEcmpSupport=enable, DnsSupport=disable, MulticastSupport=enable))", 
+        "apiName": "ec2.createTransitGateway"
+    }
+]

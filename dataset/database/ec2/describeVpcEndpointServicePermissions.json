@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpcEndpointServicePermissions"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpcEndpointServicePermissionsRequest(ServiceId=vpce-svc-0f020b0b3170538c9)", 
+        "apiName": "ec2.describeVpcEndpointServicePermissions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeVpcEndpointServicePermissions"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeVpcEndpointServicePermissionsRequest(ServiceId=vpce-svc-0f020b0b3170538c9, MaxResults=1)", 
+        "apiName": "ec2.describeVpcEndpointServicePermissions"
+    }
+]

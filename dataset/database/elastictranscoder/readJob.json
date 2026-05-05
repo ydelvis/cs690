@@ -1,0 +1,17 @@
+{
+    "apiName": "readJob",
+    "policy": {
+        "Version": "2012-10-17",
+        "Statement": [{
+            "Action": [
+                "elastictranscoder:ReadJob"
+            ],
+            "Sid": "statement2",
+            "Effect": "Allow",
+            "Resource": [
+                "arn:aws:elastictranscoder:us-east-1:002677082836:job/1581376107226-bgdu0o"
+            ]
+        }]
+    },
+    "request": ""
+}

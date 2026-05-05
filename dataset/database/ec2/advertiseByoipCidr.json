@@ -1,0 +1,2 @@
+The CIDR (172.168.31.0/24) does not exist. Involves bringing an IP address to AWS.
+BYOIP: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-byoip.html

@@ -1,0 +1,51 @@
+{
+  "service": "product-catalog-service",
+  "provider": {
+    "name": "aws",
+    "runtime": "python3.7",
+    "region": "us-east-1",
+    "stage": "dev",
+    "memory_mb": "128",
+    "timeout_s": null
+  },
+  "environment": {
+    "DYNAMODB_TABLE": "${self:resources.Resources.ProductCatalogDynamoDBTable.Properties.TableName}"
+  },
+  "functions": {
+    "create": {
+      "handler": "lambda/create-product.handler",
+      "runtime": "python3.7",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "product/create",
+            "method": "post"
+          }
+        }
+      ]
+    },
+    "find": {
+      "handler": "lambda/find-product.handler",
+      "runtime": "python3.7",
+      "environment": {},
+      "events": [
+        {
+          "http": {
+            "path": "product/find/{id}",
+            "method": "get"
+          }
+        }
+      ]
+    }
+  },
+  "iam_statements": [],
+  "custom": {
+    "stage": "${opt:stage, self:provider.stage}",
+    "region": "us-east-1",
+    "memorySize": 128
+  },
+  "source_files": [
+    "serverless.yml"
+  ]
+}

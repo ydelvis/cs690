@@ -1,0 +1,242 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=test-table-5461, Limit=-1)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=, Limit=-1)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(Limit=-1)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(Limit=100)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=, Limit=-1)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(Limit=0)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(Limit=-1)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(Limit=1)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=test-table-5461, Limit=-1)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=test-table-5461, Limit=1)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=test-table-5461)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=test-table-5461)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(Limit=100)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=, Limit=0)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(Limit=1)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=test-table-5461, Limit=100)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest()", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=test-table-5461, Limit=1)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=test-table-5461, Limit=100)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=, Limit=100)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=test-table-5461, Limit=0)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=test-table-5461, Limit=0)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=, Limit=0)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=, Limit=1)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=, Limit=1)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(ExclusiveStartTableName=, Limit=100)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest()", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "ListTablesRequest(Limit=0)", 
+        "apiName": "dynamodb.listTablesPaginator"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeScheduledInstanceAvailability"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeScheduledInstanceAvailabilityRequest(FirstSlotStartTimeRange=SlotDateTimeRangeRequest(EarliestTime=2020-08-04T09:13:59.473Z, LatestTime=2021-08-04T09:13:59.473Z), MaxResults=10, MaxSlotDurationInHours=1, MinSlotDurationInHours=1, Recurrence=ScheduledInstanceRecurrenceRequest(Frequency=Monthly, Interval=1, OccurrenceRelativeToEnd=false))", 
+        "apiName": "ec2.describeScheduledInstanceAvailability"
+    }
+]

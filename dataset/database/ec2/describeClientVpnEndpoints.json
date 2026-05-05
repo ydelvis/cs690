@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeClientVpnEndpoints"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=1, Filters=[Filter(Name=type, Values=[ipsec.1])])", 
+        "apiName": "ec2.describeClientVpnEndpoints"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeClientVpnEndpoints"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeClientVpnEndpointsRequest(MaxResults=0, Filters=[Filter(Name=default-propagation-route-table, Values=[true])])", 
+        "apiName": "ec2.describeClientVpnEndpoints"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEndpointsRequest()", 
+        "apiName": "dynamodb.describeEndpoints"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeEndpointsRequest()", 
+        "apiName": "dynamodb.describeEndpoints"
+    }
+]

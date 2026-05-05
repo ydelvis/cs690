@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:CreateGlobalTable"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb::002677082836:global-table/test-table-5461-old", 
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-old"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateGlobalTableRequest(GlobalTableName=test-table-5461-old, ReplicationGroup=[Replica(RegionName=us-east-2)])", 
+        "apiName": "dynamodb.createGlobalTable"
+    }
+]

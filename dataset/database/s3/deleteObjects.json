@@ -1,0 +1,28 @@
+[
+  {
+    "request": "DeleteObjectsRequest(Bucket\u003dtest-bucket-5461-object-lock-configuration-enabled, Delete\u003dDelete(Objects\u003d[ObjectIdentifier(Key\u003dtemp.txt)], Quiet\u003dtrue), RequestPayer\u003drequester, BypassGovernanceRetention\u003dtrue, ExpectedBucketOwner\u003d002677082836)",
+    "apiName": "s3.deleteObjects",
+    "policy": {
+      "version": "2012-10-17",
+      "Statement": [{
+        "Sid": "Statement1",
+        "Effect": "Allow",
+        "Action": ["s3:DeleteObject"],
+        "Resource": ["arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/temp.txt"]
+      }]
+    }
+  },
+  {
+    "request": "DeleteObjectsRequest(Bucket\u003dtest-bucket-5461-object-lock-configuration-enabled, Delete\u003dDelete(Objects\u003d[ObjectIdentifier(Key\u003dtemp.txt, VersionId\u003dBU7F06mviNdPDg1VISgJsgWR372Ji0ok)], Quiet\u003dtrue), RequestPayer\u003drequester, BypassGovernanceRetention\u003dfalse, ExpectedBucketOwner\u003d002677082836)",
+    "apiName": "s3.deleteObjects",
+    "policy": {
+      "version": "2012-10-17",
+      "Statement": [{
+        "Sid": "Statement1",
+        "Effect": "Allow",
+        "Action": ["s3:DeleteObject"],
+        "Resource": ["arn:aws:s3:::test-bucket-5461-object-lock-configuration-enabled/temp.txt"]
+      }]
+    }
+  }
+]

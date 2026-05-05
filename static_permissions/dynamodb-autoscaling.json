@@ -1,0 +1,40 @@
+{
+  "scaleUp": {
+    "handler_file": "handlers/scale-up.js",
+    "handler_func": "index",
+    "language": "javascript",
+    "baseline_permissions": [],
+    "full_static_permissions": [],
+    "call_details": [
+      {
+        "service": "cloudwatch",
+        "method": "getMetricStatistics",
+        "params_present": [],
+        "caller_func": "getRequest",
+        "file": "core/AutoScaleService.js",
+        "line": 308,
+        "baseline": [],
+        "full_static": []
+      }
+    ]
+  },
+  "scaleDown": {
+    "handler_file": "handlers/scale-down.js",
+    "handler_func": "index",
+    "language": "javascript",
+    "baseline_permissions": [],
+    "full_static_permissions": [],
+    "call_details": [
+      {
+        "service": "cloudwatch",
+        "method": "getMetricStatistics",
+        "params_present": [],
+        "caller_func": "getRequest",
+        "file": "core/AutoScaleService.js",
+        "line": 308,
+        "baseline": [],
+        "full_static": []
+      }
+    ]
+  }
+}

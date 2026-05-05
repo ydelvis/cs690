@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutIntelligentTieringConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketIntelligentTieringConfigurationRequest(Bucket=test-bucket-5461, Id=test-bucket-5461-intelligent-tiering-configuration, IntelligentTieringConfiguration=IntelligentTieringConfiguration(Id=test-bucket-5461-intelligent-tiering-configuration, Filter=IntelligentTieringFilter(Prefix=test-bucket), Status=Disabled, Tierings=[Tiering(Days=100, AccessTier=ARCHIVE_ACCESS)]))", 
+        "apiName": "s3.putBucketIntelligentTieringConfiguration"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutIntelligentTieringConfiguration"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "PutBucketIntelligentTieringConfigurationRequest(Bucket=test-bucket-5461, Id=test-bucket-5461-intelligent-tiering-configuration, IntelligentTieringConfiguration=IntelligentTieringConfiguration(Id=test-bucket-5461-intelligent-tiering-configuration, Filter=IntelligentTieringFilter(Prefix=test-bucket), Status=Enabled, Tierings=[Tiering(Days=100, AccessTier=ARCHIVE_ACCESS)]))", 
+        "apiName": "s3.putBucketIntelligentTieringConfiguration"
+    }
+]

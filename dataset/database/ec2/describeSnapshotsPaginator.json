@@ -1,0 +1,122 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], OwnerIds=[922761411349], RestorableByUserIds=[44.237.200.166], SnapshotIds=[snap-ff869fa8])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], MaxResults=-1, NextToken=, RestorableByUserIds=[eipalloc-068f6cb5459d939aa], SnapshotIds=[eipalloc-068f6cb5459d939aa])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], MaxResults=-100, NextToken=, OwnerIds=[eipalloc-068f6cb5459d939aa], SnapshotIds=[snap-ff869fa8])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], MaxResults=1, RestorableByUserIds=[eipalloc-068f6cb5459d939aa], SnapshotIds=[922761411349])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], MaxResults=0, NextToken=, OwnerIds=[eipalloc-068f6cb5459d939aa], RestorableByUserIds=[44.237.200.166], SnapshotIds=[snap-ff869fa8])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], MaxResults=-100, NextToken=, OwnerIds=[snap-ff869fa8], RestorableByUserIds=[snap-ff869fa8])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], MaxResults=100, NextToken=, OwnerIds=[922761411349], RestorableByUserIds=[44.237.200.166], SnapshotIds=[eipalloc-068f6cb5459d939aa])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], OwnerIds=[snap-ff869fa8], RestorableByUserIds=[snap-ff869fa8], SnapshotIds=[922761411349])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], NextToken=, RestorableByUserIds=[44.237.200.166])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], MaxResults=0, NextToken=, OwnerIds=[44.237.200.166], RestorableByUserIds=[44.237.200.166])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], MaxResults=-100, OwnerIds=[922761411349], RestorableByUserIds=[eipalloc-068f6cb5459d939aa])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], MaxResults=0, NextToken=, RestorableByUserIds=[snap-ff869fa8])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], MaxResults=1, NextToken=, OwnerIds=[922761411349], RestorableByUserIds=[44.237.200.166])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], OwnerIds=[922761411349])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeSnapshotsRequest(Filters=[Filter()], MaxResults=-100, OwnerIds=[44.237.200.166], RestorableByUserIds=[44.237.200.166], SnapshotIds=[snap-ff869fa8])", 
+        "apiName": "ec2.describeSnapshotsPaginator"
+    }
+]

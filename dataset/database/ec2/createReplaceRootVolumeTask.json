@@ -1,0 +1,24 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateReplaceRootVolumeTask"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:volume/*", 
+                        "arn:aws:ec2:*:002677082836:instance/i-0ef9b3e19ec626b3b", 
+                        "arn:aws:ec2:*:002677082836:replace-root-volume-task/*", 
+                        "arn:aws:ec2:*::snapshot/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateReplaceRootVolumeTaskRequest(InstanceId=i-0ef9b3e19ec626b3b)", 
+        "apiName": "ec2.createReplaceRootVolumeTask"
+    }
+]

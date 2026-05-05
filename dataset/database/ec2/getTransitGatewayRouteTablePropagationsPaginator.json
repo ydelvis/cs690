@@ -1,0 +1,82 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayRouteTablePropagationsRequest(TransitGatewayRouteTableId=tgw-rtb-02e9c220c37bb74db, Filters=[Filter(Name=resource-type, Values=[vpc])])", 
+        "apiName": "ec2.getTransitGatewayRouteTablePropagationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayRouteTablePropagationsRequest(TransitGatewayRouteTableId=tgw-rtb-02e9c220c37bb74db, MaxResults=1)", 
+        "apiName": "ec2.getTransitGatewayRouteTablePropagationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayRouteTablePropagationsRequest(TransitGatewayRouteTableId=tgw-rtb-02e9c220c37bb74db, Filters=[], MaxResults=100)", 
+        "apiName": "ec2.getTransitGatewayRouteTablePropagationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayRouteTablePropagationsRequest(TransitGatewayRouteTableId=tgw-rtb-02e9c220c37bb74db)", 
+        "apiName": "ec2.getTransitGatewayRouteTablePropagationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayRouteTablePropagationsRequest(TransitGatewayRouteTableId=tgw-rtb-02e9c220c37bb74db, Filters=[Filter(Name=resource-type, Values=[vpc])], MaxResults=1)", 
+        "apiName": "ec2.getTransitGatewayRouteTablePropagationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayRouteTablePropagationsRequest(TransitGatewayRouteTableId=tgw-rtb-02e9c220c37bb74db, MaxResults=100)", 
+        "apiName": "ec2.getTransitGatewayRouteTablePropagationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayRouteTablePropagationsRequest(TransitGatewayRouteTableId=tgw-rtb-02e9c220c37bb74db, Filters=[Filter(Name=resource-type, Values=[vpc])], MaxResults=1)", 
+        "apiName": "ec2.getTransitGatewayRouteTablePropagationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayRouteTablePropagationsRequest(TransitGatewayRouteTableId=tgw-rtb-02e9c220c37bb74db, Filters=[Filter(Name=resource-type, Values=[vpc])])", 
+        "apiName": "ec2.getTransitGatewayRouteTablePropagationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayRouteTablePropagationsRequest(TransitGatewayRouteTableId=tgw-rtb-02e9c220c37bb74db, Filters=[Filter(Name=resource-type, Values=[vpc])], MaxResults=100, NextToken=)", 
+        "apiName": "ec2.getTransitGatewayRouteTablePropagationsPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "GetTransitGatewayRouteTablePropagationsRequest(TransitGatewayRouteTableId=tgw-rtb-02e9c220c37bb74db, Filters=[])", 
+        "apiName": "ec2.getTransitGatewayRouteTablePropagationsPaginator"
+    }
+]

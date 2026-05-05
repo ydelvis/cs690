@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVolumeAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:volume/vol-049304f3116417955"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "ModifyVolumeAttributeRequest(AutoEnableIO=AttributeBooleanValue(Value=true), VolumeId=vol-049304f3116417955)", 
+        "apiName": "modifyVolumeAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyVolumeAttribute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:volume/vol-049304f3116417955"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "ModifyVolumeAttributeRequest(AutoEnableIO=AttributeBooleanValue(Value=false), VolumeId=vol-049304f3116417955)", 
+        "apiName": "modifyVolumeAttribute"
+    }
+]

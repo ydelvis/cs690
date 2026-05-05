@@ -1,0 +1,23 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpnConnection"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:customer-gateway/cgw-0c31347bd419276f1", 
+                        "arn:aws:ec2:*:002677082836:vpn-connection/*", 
+                        "arn:aws:ec2:*:002677082836:vpn-gateway/vgw-08c161cae31d7f7c2"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "CreateVpnConnectionRequest(CustomerGatewayId=cgw-0c31347bd419276f1, Type=ipsec.1, VpnGatewayId=vgw-08c161cae31d7f7c2, Options=VpnConnectionOptionsSpecification(EnableAcceleration=false, StaticRoutesOnly=true, TunnelInsideIpVersion=ipv4, TunnelOptions=[VpnTunnelOptionsSpecification(Phase1EncryptionAlgorithms=[Phase1EncryptionAlgorithmsRequestListValue(Value=AES128), Phase1EncryptionAlgorithmsRequestListValue(Value=AES128-GCM-16)], Phase2EncryptionAlgorithms=[Phase2EncryptionAlgorithmsRequestListValue(Value=AES128), Phase2EncryptionAlgorithmsRequestListValue(Value=AES128-GCM-16)], Phase1IntegrityAlgorithms=[Phase1IntegrityAlgorithmsRequestListValue(Value=SHA1), Phase1IntegrityAlgorithmsRequestListValue(Value=SHA2-384)], Phase2IntegrityAlgorithms=[Phase2IntegrityAlgorithmsRequestListValue(Value=SHA1), Phase2IntegrityAlgorithmsRequestListValue(Value=SHA2-384)], Phase1DHGroupNumbers=[Phase1DHGroupNumbersRequestListValue(Value=15)], IKEVersions=[IKEVersionsRequestListValue(Value=ikev1), IKEVersionsRequestListValue(Value=ikev2)], StartupAction=add)], LocalIpv4NetworkCidr=172.32.0.0/24))", 
+        "apiName": "ec2.createVpnConnection"
+    }
+]

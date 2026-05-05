@@ -1,0 +1,226 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=default-propagation-route-table, Values=[false])], MaxResults=0)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=resource-id, Values=[vpn-0d59b1da66a690911])], MaxResults=1)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])])", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=state, Values=[deleting])], MaxResults=100)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=vpc-endpoint-owner, Values=[002677082836])], MaxResults=0)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])])", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-05ea99e26ea5b116a])], MaxResults=1)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=connection-notification-state, Values=[Disabled])], MaxResults=100)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=owner-id, Values=[002677082836])], MaxResults=100)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[pending])])", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=strategy, Values=[spread])], MaxResults=1)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[enable])], MaxResults=100)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[pendingAcceptance])], MaxResults=0)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=traffic-type, Values=[ACCEPT])], MaxResults=0)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=deliver-log-status, Values=[SUCCESS])])", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[failed])], MaxResults=1)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[failed])], MaxResults=100)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069])], MaxResults=1)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65]), Filter(Name=owner-id, Values=[002677082836]), Filter(Name=route.state, Values=[blackhole])])", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[enable])])", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=log-destination-type, Values=[s3])], MaxResults=100)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=transit-gateway-id, Values=[tgw-023f7eee924362941])], MaxResults=1)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=options.auto-accept-shared-attachments, Values=[disable])], MaxResults=0)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=association.state, Values=[associated])], MaxResults=0)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(MaxResults=100)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=traffic-type, Values=[ACCEPT])], MaxResults=1)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])], MaxResults=1)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeImportSnapshotTasksRequest(Filters=[Filter(Name=attachment.state, Values=[detached])], MaxResults=0)", 
+        "apiName": "ec2.describeImportSnapshotTasksPaginator"
+    }
+]

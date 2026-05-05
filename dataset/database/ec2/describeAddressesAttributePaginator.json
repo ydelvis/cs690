@@ -1,0 +1,66 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeAddressesAttributeRequest(Attribute=domain-name, MaxResults=100)", 
+        "apiName": "ec2.describeAddressesAttributePaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeAddressesAttributeRequest()", 
+        "apiName": "ec2.describeAddressesAttributePaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeAddressesAttributeRequest(Attribute=domain-name)", 
+        "apiName": "ec2.describeAddressesAttributePaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeAddressesAttributeRequest(MaxResults=100)", 
+        "apiName": "ec2.describeAddressesAttributePaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeAddressesAttributeRequest(MaxResults=1)", 
+        "apiName": "ec2.describeAddressesAttributePaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeAddressesAttributeRequest(Attribute=domain-name, MaxResults=1)", 
+        "apiName": "ec2.describeAddressesAttributePaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeAddressesAttributeRequest(Attribute=domain-name, MaxResults=0)", 
+        "apiName": "ec2.describeAddressesAttributePaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeAddressesAttributeRequest(MaxResults=0)", 
+        "apiName": "ec2.describeAddressesAttributePaginator"
+    }
+]

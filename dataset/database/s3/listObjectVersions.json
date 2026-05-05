@@ -1,0 +1,591 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, MaxKeys=0, Prefix=key, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, EncodingType=url, MaxKeys=2000, Prefix=)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=, EncodingType=url, KeyMarker=key1, MaxKeys=1, Prefix=, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=/, EncodingType=url, KeyMarker=key2, Prefix=, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, EncodingType=url, MaxKeys=2000, Prefix=)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=, EncodingType=url, KeyMarker=k, MaxKeys=0, Prefix=)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=, KeyMarker=k, MaxKeys=1, Prefix=key, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, KeyMarker=)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=-, EncodingType=url, KeyMarker=key2, MaxKeys=0)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=-, EncodingType=url, KeyMarker=key2, MaxKeys=0)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, KeyMarker=)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=, KeyMarker=, Prefix=)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=-, KeyMarker=k, Prefix=key)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=/, EncodingType=url, KeyMarker=key2, Prefix=, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=/, KeyMarker=k, MaxKeys=2000)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, MaxKeys=0, Prefix=key, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=, EncodingType=url, KeyMarker=key2, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=/, KeyMarker=, MaxKeys=2000, Prefix=)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=, KeyMarker=, Prefix=)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=, KeyMarker=k, MaxKeys=1, Prefix=key, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=, EncodingType=url, KeyMarker=key2, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=,, KeyMarker=key1, Prefix=, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=/, KeyMarker=key1, MaxKeys=1, Prefix=)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=,, KeyMarker=key1, Prefix=, ExpectedBucketOwner=002677082836)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=/, KeyMarker=, MaxKeys=2000, Prefix=)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=/, KeyMarker=k, MaxKeys=2000)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=, EncodingType=url, KeyMarker=, MaxKeys=1)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=/, KeyMarker=key1, MaxKeys=1, Prefix=)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=-, KeyMarker=k, Prefix=key)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=, EncodingType=url, KeyMarker=k, MaxKeys=0, Prefix=)", 
+        "apiName": "listObjectVersions"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:ListBucketVersions"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "ListObjectVersionsRequest(Bucket=test-bucket-5461, Delimiter=, EncodingType=url, KeyMarker=, MaxKeys=1)", 
+        "apiName": "listObjectVersions"
+    }
+]

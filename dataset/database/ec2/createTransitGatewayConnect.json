@@ -1,0 +1,50 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayConnect"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayConnectRequest(TransportTransitGatewayAttachmentId=tgw-attach-072de78a455812f84, Options=CreateTransitGatewayConnectRequestOptions(Protocol=gre), TagSpecifications=[TagSpecification(ResourceType=transit-gateway-attachment, Tags=[Tag(Key=transit-gateway-attachment, Value=transit-gateway-attachment-tag)])])", 
+        "apiName": "ec2.createTransitGatewayConnect"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTransitGatewayConnect"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTransitGatewayConnectRequest(TransportTransitGatewayAttachmentId=tgw-attach-072de78a455812f84, Options=CreateTransitGatewayConnectRequestOptions(Protocol=gre))", 
+        "apiName": "ec2.createTransitGatewayConnect"
+    }
+]

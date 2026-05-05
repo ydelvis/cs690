@@ -1,0 +1,250 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest()", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=route.state, Values=[blackhole])], MaxResults=0)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[], MaxResults=1)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-1dd31b65])], MaxResults=0)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=service-type, Values=[Gateway])], MaxResults=1)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=state, Values=[associating]), Filter(Name=state, Values=[associated]), Filter(Name=state, Values=[disassociating])], MaxResults=1)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=network-interface-id, Values=[eni-067f9d5e10cd5d578])], MaxResults=0)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[rejected])])", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=connection-notification-state, Values=[Enabled])], MaxResults=1)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[], MaxResults=100)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleted])], MaxResults=1)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=scope, Values=[Region])], MaxResults=0)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=deliver-log-status, Values=[FAILED])])", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069])], MaxResults=0)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=type, Values=[ipsec.1])], MaxResults=1)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(MaxResults=0)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[deleting])])", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=route.state, Values=[blackhole])], MaxResults=100)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=state, Values=[deleting])], MaxResults=100)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=options.default-route-table-association, Values=[enable])], MaxResults=1)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[available])])", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[])", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=vpc-endpoint-state, Values=[pendingAcceptance])], MaxResults=1)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=vpc-id, Values=[vpc-0cc4d5cda8eac8d8c])], MaxResults=0)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=state, Values=[available])], MaxResults=1)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=state, Values=[available])], MaxResults=0)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=default-propagation-route-table, Values=[true])], MaxResults=1)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=state, Values=[available])], MaxResults=0)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=state, Values=[deleted])], MaxResults=0)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=prefix-list-id, Values=[pl-00a54069]), Filter(Name=prefix-list-name, Values=[com.amazonaws.us-west-2.dynamodb])], MaxResults=1)", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeReplaceRootVolumeTasksRequest(Filters=[Filter(Name=group-name, Values=[Test-Placement-Group]), Filter(Name=strategy, Values=[spread])])", 
+        "apiName": "ec2.describeReplaceRootVolumeTasksPaginator"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteClientVpnRoute"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:client-vpn-endpoint/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteClientVpnRouteRequest(ClientVpnEndpointId=cvpn-endpoint-0a07756cc03947e2e, TargetVpcSubnetId=subnet-092aa5e72690d53ca, DestinationCidrBlock=172.169.0.0/24)", 
+        "apiName": "ec2.deleteClientVpnRoute"
+    }
+]

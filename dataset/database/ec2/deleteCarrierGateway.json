@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteCarrierGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:carrier-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteCarrierGatewayRequest(CarrierGatewayId=cagw-05a6bb9ee97c0a1d2)", 
+        "apiName": "ec2.deleteCarrierGateway"
+    }
+]

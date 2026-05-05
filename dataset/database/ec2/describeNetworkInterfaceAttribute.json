@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DescribeNetworkInterfaceAttribute"
+                ], 
+                "Resource": [
+                    "*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "DescribeNetworkInterfaceAttributeRequest(Attribute=attachment, NetworkInterfaceId=eni-075dbd8fc601dd638)", 
+    "apiName": "describeNetworkInterfaceAttribute"
+}

@@ -1,0 +1,109 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ImportImage"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/ec2-images/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }
+            ]
+        }, 
+        "request": "ImportImageRequest(DiskContainers=[ImageDiskContainer(Format=VHD, UserBucket=UserBucket(S3Bucket=test-bucket-5461, S3Key=ec2-images/export-ami-0975a775ec4670050.vhd))], Encrypted=true, KmsKeyId=19d77a75-44ce-434b-9b5e-29b2cd50011b)", 
+        "apiName": "ec2.importImage"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ImportImage"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/ec2-images/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }
+            ]
+        }, 
+        "request": "ImportImageRequest(Description=test image, DiskContainers=[ImageDiskContainer(Format=VHD, UserBucket=UserBucket(S3Bucket=test-bucket-5461, S3Key=ec2-images/export-ami-0975a775ec4670050.vhd))], Encrypted=false, TagSpecifications=[TagSpecification(ResourceType=import-image-task, Tags=[Tag(Key=import-image-task, Value=import-image-task-tag)])])", 
+        "apiName": "ec2.importImage"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ImportImage"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "s3:GetObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/ec2-images/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement4"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement6"
+                }
+            ]
+        }, 
+        "request": "ImportImageRequest(DiskContainers=[ImageDiskContainer(Format=VHD, UserBucket=UserBucket(S3Bucket=test-bucket-5461, S3Key=ec2-images/export-ami-0975a775ec4670050.vhd))], Encrypted=true, KmsKeyId=19d77a75-44ce-434b-9b5e-29b2cd50011b, TagSpecifications=[TagSpecification(ResourceType=import-image-task, Tags=[Tag(Key=import-image-task, Value=import-image-task-tag)])])", 
+        "apiName": "ec2.importImage"
+    }
+]

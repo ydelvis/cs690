@@ -1,0 +1,154 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribePrincipalIdFormat"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(MaxResults=100)", 
+        "apiName": "ec2.describePrincipalIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribePrincipalIdFormat"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(MaxResults=100)", 
+        "apiName": "ec2.describePrincipalIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribePrincipalIdFormat"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[bundle, conversion-task, customer-gateway, dhcp-options, elastic-ip-allocation, elastic-ip-association, export-task, flow-log, image, import-task, instance, internet-gateway, network-acl, network-acl-association, network-interface, network-interface-attachment, reservation, route-table, route-table-association, security-group, snapshot, subnet, volume, vpc, vpc-cidr-block-association, vpc-endpoint, vpc-peering-connection, vpn-connection, vpn-gateway], MaxResults=1)", 
+        "apiName": "ec2.describePrincipalIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribePrincipalIdFormat"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribePrincipalIdFormatRequest()", 
+        "apiName": "ec2.describePrincipalIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribePrincipalIdFormat"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[bundle, conversion-task, customer-gateway, dhcp-options, elastic-ip-allocation, elastic-ip-association, export-task, flow-log, image, import-task, instance, internet-gateway, network-acl, network-acl-association, network-interface, network-interface-attachment, reservation, route-table, route-table-association, security-group, snapshot, subnet, volume, vpc, vpc-cidr-block-association, vpc-endpoint, vpc-peering-connection, vpn-connection, vpn-gateway])", 
+        "apiName": "ec2.describePrincipalIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribePrincipalIdFormat"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[bundle, conversion-task, customer-gateway, dhcp-options, elastic-ip-allocation, elastic-ip-association, export-task, flow-log, image, import-task, instance, internet-gateway, network-acl, network-acl-association, network-interface, network-interface-attachment, reservation, route-table, route-table-association, security-group, snapshot, subnet, volume, vpc, vpc-cidr-block-association, vpc-endpoint, vpc-peering-connection, vpn-connection, vpn-gateway], MaxResults=1)", 
+        "apiName": "ec2.describePrincipalIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribePrincipalIdFormat"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribePrincipalIdFormatRequest()", 
+        "apiName": "ec2.describePrincipalIdFormat"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribePrincipalIdFormat"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribePrincipalIdFormatRequest(Resources=[bundle, conversion-task, customer-gateway, dhcp-options, elastic-ip-allocation, elastic-ip-association, export-task, flow-log, image, import-task, instance, internet-gateway, network-acl, network-acl-association, network-interface, network-interface-attachment, reservation, route-table, route-table-association, security-group, snapshot, subnet, volume, vpc, vpc-cidr-block-association, vpc-endpoint, vpc-peering-connection, vpn-connection, vpn-gateway])", 
+        "apiName": "ec2.describePrincipalIdFormat"
+    }
+]

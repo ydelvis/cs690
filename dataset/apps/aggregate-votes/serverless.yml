@@ -1,0 +1,15 @@
+service: aggregate-vote
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+functions:
+  aggregate-vote:
+    handler: app.handler
+    memorySize: 128
+    timeout: 10
+    events:
+      - stream:
+            arn: arn:aws:dynamodb:us-east-1:867061838226:table/VoteApp/stream/2020-03-28T11:20:04.055
+            batchSize: 1

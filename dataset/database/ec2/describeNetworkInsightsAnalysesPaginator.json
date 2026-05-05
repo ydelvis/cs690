@@ -1,0 +1,218 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.046Z, AnalysisEndTime=2021-07-29T08:08:47.046Z, Filters=[Filter(Name=connection-notification-state, Values=[Enabled])], MaxResults=100)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.048Z, AnalysisEndTime=2021-07-29T08:08:47.048Z, Filters=[Filter(Name=default-association-route-table, Values=[false])], MaxResults=0)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.049Z, AnalysisEndTime=2021-07-29T08:08:47.049Z, Filters=[Filter(Name=route.state, Values=[active])], MaxResults=1)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.050Z, AnalysisEndTime=2021-07-29T08:08:47.050Z, Filters=[Filter(Name=state, Values=[deleted])], MaxResults=0)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.050Z, AnalysisEndTime=2021-07-29T08:08:47.050Z, Filters=[Filter(Name=default-propagation-route-table, Values=[true])], MaxResults=1)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest()", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisEndTime=2021-07-29T08:08:47.052Z, Filters=[Filter(Name=association.state, Values=[associated])])", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.053Z, AnalysisEndTime=2021-07-29T08:08:47.053Z, Filters=[Filter(Name=route.state, Values=[active])], MaxResults=100)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.054Z, AnalysisEndTime=2021-07-29T08:08:47.054Z, Filters=[Filter(Name=state, Values=[available])], MaxResults=1)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.055Z, AnalysisEndTime=2021-07-29T08:08:47.055Z, Filters=[Filter(Name=state, Values=[deleting])], MaxResults=0)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.056Z, AnalysisEndTime=2021-07-29T08:08:47.056Z, Filters=[Filter(Name=group-name, Values=[Test-Placement-Group])])", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.056Z, AnalysisEndTime=2021-07-29T08:08:47.056Z, Filters=[Filter(Name=instance-id, Values=[i-0fc67210075ad498a])])", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisEndTime=2021-07-29T08:08:47.057Z, Filters=[Filter(Name=traffic-type, Values=[ACCEPT])], MaxResults=0)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisEndTime=2021-07-29T08:08:47.058Z, Filters=[Filter(Name=connection-notification-state, Values=[Disabled])], MaxResults=0)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.059Z, AnalysisEndTime=2021-07-29T08:08:47.059Z, MaxResults=1)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.061Z, AnalysisEndTime=2021-07-29T08:08:47.061Z, Filters=[Filter(Name=vpc-endpoint-state, Values=[deleted])], MaxResults=100)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.062Z, AnalysisEndTime=2021-07-29T08:08:47.062Z, Filters=[Filter(Name=vpc-id, Values=[vpc-0cc4d5cda8eac8d8c])], MaxResults=0)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.063Z, AnalysisEndTime=2021-07-29T08:08:47.063Z, Filters=[Filter(Name=default-association-route-table, Values=[false])], MaxResults=1)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.064Z, AnalysisEndTime=2021-07-29T08:08:47.064Z)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.065Z, AnalysisEndTime=2021-07-29T08:08:47.065Z, Filters=[Filter(Name=connection-notification-state, Values=[Disabled])], MaxResults=0)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.066Z, AnalysisEndTime=2021-07-29T08:08:47.066Z, Filters=[Filter(Name=state, Values=[available])], MaxResults=0)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.068Z, AnalysisEndTime=2021-07-29T08:08:47.068Z, Filters=[Filter(Name=state, Values=[available])], MaxResults=1)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.069Z, Filters=[Filter(Name=resource-id, Values=[vpn-0d59b1da66a690911])], MaxResults=100)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.069Z, AnalysisEndTime=2021-07-29T08:08:47.069Z, Filters=[Filter(Name=group-name, Values=[Test-Placement-Group]), Filter(Name=strategy, Values=[spread])], MaxResults=1)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.070Z, AnalysisEndTime=2021-07-29T08:08:47.070Z, Filters=[Filter(Name=owner-id, Values=[002677082836])], MaxResults=100)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisStartTime=2021-07-29T08:08:47.071Z, AnalysisEndTime=2021-07-29T08:08:47.071Z, Filters=[Filter(Name=traffic-mirror-filter-id, Values=[tmf-090acc59bb68290b8])], MaxResults=1)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeNetworkInsightsAnalysesRequest(AnalysisEndTime=2021-07-29T08:08:47.072Z, Filters=[Filter(Name=vpc-id, Values=[vpc-0cc4d5cda8eac8d8c])], MaxResults=0)", 
+        "apiName": "ec2.describeNetworkInsightsAnalysesPaginator"
+    }
+]

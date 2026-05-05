@@ -1,0 +1,56 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTrafficMirrorSession"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-target/tmt-0da65c4c6cfd78dd5", 
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-0b6d5a02f16fab606", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-session/*", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/tmf-0479cc103b3d3f39d"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTrafficMirrorSessionRequest(NetworkInterfaceId=eni-0b6d5a02f16fab606, TrafficMirrorTargetId=tmt-0da65c4c6cfd78dd5, TrafficMirrorFilterId=tmf-0479cc103b3d3f39d, PacketLength=25, SessionNumber=1, Description=test traffic mirror session, TagSpecifications=[TagSpecification(ResourceType=traffic-mirror-session, Tags=[Tag(Key=traffic-mirror-session, Value=traffic-mirror-session-tag)])])", 
+        "apiName": "ec2.createTrafficMirrorSession"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateTrafficMirrorSession"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-target/tmt-0da65c4c6cfd78dd5", 
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-0b6d5a02f16fab606", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-session/*", 
+                        "arn:aws:ec2:*:002677082836:traffic-mirror-filter/tmf-0479cc103b3d3f39d"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateTrafficMirrorSessionRequest(NetworkInterfaceId=eni-0b6d5a02f16fab606, TrafficMirrorTargetId=tmt-0da65c4c6cfd78dd5, TrafficMirrorFilterId=tmf-0479cc103b3d3f39d, PacketLength=25, SessionNumber=1, Description=test traffic mirror session)", 
+        "apiName": "ec2.createTrafficMirrorSession"
+    }
+]

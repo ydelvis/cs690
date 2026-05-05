@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteNetworkInsightsPath"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-insights-path/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteNetworkInsightsPathRequest(NetworkInsightsPathId=nip-058ade125ff86f263)", 
+        "apiName": "ec2.deleteNetworkInsightsPath"
+    }
+]

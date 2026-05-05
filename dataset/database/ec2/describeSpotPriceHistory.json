@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DescribeSpotPriceHistory"
+                ], 
+                "Resource": [
+                    "*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "DescribeSpotPriceHistoryRequest(Filters=[Filter()], InstanceTypes=[snap-ff869fa8], MaxResults=100, NextToken=, ProductDescriptions=[snap-ff869fa8])", 
+    "apiName": "describeSpotPriceHistory"
+}

@@ -1,0 +1,210 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[Test-Launch-Template], NextToken=, MaxResults=1)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[M3_LARGE], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[i-01ec73f52711d20f7, i-01d514444253d9b80], NextToken=)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], NextToken=, MaxResults=-1)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[851601128636], MaxResults=100)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[dopt-bbeb2ac3], MaxResults=-100)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[Test-Launch-Template])", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[acl-d2b393aa], MaxResults=1)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[M3_LARGE], MaxResults=0)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[002677082836, self, all], MaxResults=0)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[ec2-instance-key-pair], MaxResults=-1)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[922761411349])", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[dopt-bbeb2ac3])", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[])", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[Test-Launch-Template], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[], NextToken=)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[002677082836, self, all], MaxResults=-1)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[M3_LARGE], MaxResults=1)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[1])", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[Test-Launch-Template], MaxResults=-1)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[vpc-1dd31b65], NextToken=)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[ami-00bb6f60], NextToken=, MaxResults=100)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[dopt-bbeb2ac3], NextToken=, MaxResults=-100)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[vol-05a8a9c2ece007d5a, vol-049304f3116417955], MaxResults=-1)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[rtb-ca18b2b1], NextToken=, MaxResults=0)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": []
+        }, 
+        "request": "DescribeInternetGatewaysRequest(Filters=[Filter()], InternetGatewayIds=[sg-084edec751f962157, sg-702ca705], MaxResults=1)", 
+        "apiName": "ec2.describeInternetGatewaysPaginator"
+    }
+]

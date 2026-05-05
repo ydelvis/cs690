@@ -1,0 +1,52 @@
+{
+  "create": {
+    "initial_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "rag_permissions": [
+      "dynamodb:PutItem"
+    ],
+    "reasoning": "The code explicitly invokes dynamodb.put() within the create handler, which maps to the DynamoDB PutItem API action. No other AWS SDK methods or service calls are present in the specific function logic.",
+    "raw_response": "{\"permissions\": [\"dynamodb:PutItem\"], \"reasoning\": \"The code explicitly invokes dynamodb.put() within the create handler, which maps to the DynamoDB PutItem API action. No other AWS SDK methods or service calls are present in the specific function logic.\"}"
+  },
+  "list": {
+    "initial_permissions": [
+      "dynamodb:Scan"
+    ],
+    "rag_permissions": [
+      "dynamodb:Scan"
+    ],
+    "reasoning": "The 'list' handler explicitly invokes dynamodb.scan() to retrieve items from the table configured via environment variables. Retrieved context for get/update/create functions represents different handlers and is excluded to ensure minimal permissions specific to this function's execution path.",
+    "raw_response": "{\n  \"permissions\": [\n    \"dynamodb:Scan\"\n  ],\n  \"reasoning\": \"The 'list' handler explicitly invokes dynamodb.scan() to retrieve items from the table configured via environment variables. Retrieved context for get/update/create functions represents different handlers and is excluded to ensure minimal permissions specific to this function's execution path.\"\n}"
+  },
+  "get": {
+    "initial_permissions": [
+      "dynamodb:GetItem"
+    ],
+    "rag_permissions": [
+      "dynamodb:GetItem"
+    ],
+    "reasoning": "The 'get' function handler (todos/get.js) explicitly invokes the DynamoDB SDK method 'dynamodb.get' to retrieve a single item by key, which maps to the 'dynamodb:GetItem' API action. Semantically retrieved code from 'list.js' and 'update.js' pertains to different functions and does not apply to this specific execution context.",
+    "raw_response": "{\n  \"permissions\": [\n    \"dynamodb:GetItem\"\n  ],\n  \"reasoning\": \"The 'get' function handler (todos/get.js) explicitly invokes the DynamoDB SDK method 'dynamodb.get' to retrieve a single item by key, which maps to the 'dynamodb:GetItem' API action. Semantically retrieved code from 'list.js' and 'update.js' pertains to different functions and does not apply to this specific execution context.\"\n}"
+  },
+  "update": {
+    "initial_permissions": [
+      "dynamodb:UpdateItem"
+    ],
+    "rag_permissions": [
+      "dynamodb:UpdateItem"
+    ],
+    "reasoning": "The provided code in todos/update.js explicitly calls dynamodb.update() which corresponds to the UpdateItem API action. Retrieved context from other files (list, create, get, delete) pertains to different functions and is excluded. No additional AWS SDK interactions or indirect service usages requiring IAM permissions were detected.",
+    "raw_response": "{\n  \"permissions\": [\n    \"dynamodb:UpdateItem\"\n  ],\n  \"reasoning\": \"The provided code in todos/update.js explicitly calls dynamodb.update() which corresponds to the UpdateItem API action. Retrieved context from other files (list, create, get, delete) pertains to different functions and is excluded. No additional AWS SDK interactions or indirect service usages requiring IAM permissions were detected.\"\n}"
+  },
+  "delete": {
+    "initial_permissions": [
+      "dynamodb:DeleteItem"
+    ],
+    "rag_permissions": [
+      "dynamodb:DeleteItem"
+    ],
+    "reasoning": "The delete handler explicitly calls dynamodb.delete() (DocumentClient wrapper for DeleteItem) to remove an item from a table defined via environment variables. Static analysis confirms the underlying dynamodb.deleteItem() API usage. No other AWS service SDK methods are invoked in this specific function logic.",
+    "raw_response": "{\"permissions\": [\"dynamodb:DeleteItem\"], \"reasoning\": \"The delete handler explicitly calls dynamodb.delete() (DocumentClient wrapper for DeleteItem) to remove an item from a table defined via environment variables. Static analysis confirms the underlying dynamodb.deleteItem() API usage. No other AWS service SDK methods are invoked in this specific function logic.\"}"
+  }
+}

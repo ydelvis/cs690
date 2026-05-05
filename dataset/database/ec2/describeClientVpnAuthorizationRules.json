@@ -1,0 +1,59 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeClientVpnAuthorizationRules"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeClientVpnAuthorizationRulesRequest(ClientVpnEndpointId=cvpn-endpoint-0ef7c339aba3f6f7c, MaxResults=1)", 
+        "apiName": "ec2.describeClientVpnAuthorizationRules"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeClientVpnAuthorizationRules"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeClientVpnAuthorizationRulesRequest(ClientVpnEndpointId=cvpn-endpoint-01bfe9f97ecaf39f5)", 
+        "apiName": "ec2.describeClientVpnAuthorizationRules"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeClientVpnAuthorizationRules"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeClientVpnAuthorizationRulesRequest(ClientVpnEndpointId=cvpn-endpoint-0d2bf3c6ebee473e0, MaxResults=100)", 
+        "apiName": "ec2.describeClientVpnAuthorizationRules"
+    }
+]

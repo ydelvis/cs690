@@ -1,0 +1,216 @@
+{
+  "total_functions": 25,
+  "functions_with_llm": 25,
+  "functions_with_rag": 24,
+  "baseline": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "llm": {
+    "precision": 0.708,
+    "recall": 0.7,
+    "f1": 0.68
+  },
+  "rag": {
+    "precision": 0.6979,
+    "recall": 0.7083,
+    "f1": 0.675
+  },
+  "per_app": {
+    "aggregate-votes": {
+      "n_functions": 1,
+      "baseline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "llm": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "rag": {}
+    },
+    "api": {
+      "n_functions": 7,
+      "baseline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "llm": {
+        "precision": 0.8571,
+        "recall": 0.7143,
+        "f1": 0.7619
+      },
+      "rag": {
+        "precision": 0.75,
+        "recall": 0.8571,
+        "f1": 0.7191
+      }
+    },
+    "aws-golang-s3-file-replicator": {
+      "n_functions": 1,
+      "baseline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "llm": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "rag": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      }
+    },
+    "aws-node-http-api-dynamodb-local": {
+      "n_functions": 5,
+      "baseline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "llm": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "rag": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "bff-graphql-crud": {
+      "n_functions": 1,
+      "baseline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "llm": {
+        "precision": 0.2,
+        "recall": 1.0,
+        "f1": 0.3333
+      },
+      "rag": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "deep-learning-training-gpu": {
+      "n_functions": 2,
+      "baseline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "llm": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1": 0.3333
+      },
+      "rag": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      }
+    },
+    "dynamodb-autoscaling": {
+      "n_functions": 2,
+      "baseline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "llm": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rag": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "episode-updater": {
+      "n_functions": 1,
+      "baseline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "llm": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "rag": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "pytorch-serverless": {
+      "n_functions": 1,
+      "baseline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "llm": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rag": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "s3_example": {
+      "n_functions": 2,
+      "baseline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "llm": {
+        "precision": 0.5,
+        "recall": 0.25,
+        "f1": 0.3333
+      },
+      "rag": {
+        "precision": 0.5,
+        "recall": 0.25,
+        "f1": 0.3333
+      }
+    },
+    "serverless-api": {
+      "n_functions": 2,
+      "baseline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "llm": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "rag": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  }
+}

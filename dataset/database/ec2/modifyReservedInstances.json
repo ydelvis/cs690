@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:ModifyReservedInstances"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:us-west-2:002677082836:reserved-instances/7bc82b63-1b39-44fa-b5b3-7549547641e0"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "ModifyReservedInstancesRequest(ReservedInstancesIds=[7bc82b63-1b39-44fa-b5b3-7549547641e0], TargetConfigurations=[ReservedInstancesConfiguration(AvailabilityZone=us-west-2c, InstanceCount=1, InstanceType=t3.micro, Platform=EC2-VPC, Scope=Availability Zone)])", 
+        "apiName": "ec2.modifyReservedInstances"
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateNetworkInterface"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/subnet-092aa5e72690d53ca"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "CreateNetworkInterfaceRequest(Groups=[sg-087c6c17aa379a72b], Ipv6AddressCount=2, InterfaceType=efa, SubnetId=subnet-092aa5e72690d53ca, TagSpecifications=[TagSpecification(ResourceType=network-interface, Tags=[Tag(Key=network-interface, Value=network-interface-tag)])])", 
+        "apiName": "ec2.createNetworkInterface"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateNetworkInterface"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/subnet-092aa5e72690d53ca"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }
+            ]
+        }, 
+        "request": "CreateNetworkInterfaceRequest(Groups=[sg-087c6c17aa379a72b], Ipv6AddressCount=2, PrivateIpAddresses=[PrivateIpAddressSpecification(Primary=true, PrivateIpAddress=172.31.32.11), PrivateIpAddressSpecification(Primary=false, PrivateIpAddress=172.31.32.13)], SubnetId=subnet-092aa5e72690d53ca, TagSpecifications=[TagSpecification(ResourceType=network-interface, Tags=[Tag(Key=network-interface, Value=network-interface-tag)])])", 
+        "apiName": "ec2.createNetworkInterface"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateNetworkInterface"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:security-group/*", 
+                        "arn:aws:ec2:*:002677082836:subnet/subnet-092aa5e72690d53ca"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "CreateNetworkInterfaceRequest(Description=test network interface, Groups=[sg-087c6c17aa379a72b], PrivateIpAddresses=[PrivateIpAddressSpecification(Primary=true, PrivateIpAddress=172.31.32.11), PrivateIpAddressSpecification(Primary=false, PrivateIpAddress=172.31.32.13)], InterfaceType=efa, SubnetId=subnet-092aa5e72690d53ca)", 
+        "apiName": "ec2.createNetworkInterface"
+    }
+]

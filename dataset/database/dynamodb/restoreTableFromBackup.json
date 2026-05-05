@@ -1,0 +1,92 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "dynamodb:batchWriteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement8"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:query"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement3"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:deleteItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement7"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:updateItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement4"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:scan"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement2"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:getItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement6"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:putItem"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement5"
+                }, 
+                {
+                    "Action": [
+                        "dynamodb:RestoreTableFromBackup"
+                    ], 
+                    "Resource": [
+                        "arn:aws:dynamodb:*:002677082836:table/test-table-5461-restored", 
+                        "arn:aws:dynamodb:us-east-2:002677082836:table/test-table-5461/backup/01625510745413-5bb3923e"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "RestoreTableFromBackupRequest(TargetTableName=test-table-5461-restored, BackupArn=arn:aws:dynamodb:us-east-2:002677082836:table/test-table-5461/backup/01625510745413-5bb3923e, BillingModeOverride=PAY_PER_REQUEST, SSESpecificationOverride=SSESpecification(Enabled=false))", 
+        "apiName": "dynamodb.restoreTableFromBackup"
+    }
+]

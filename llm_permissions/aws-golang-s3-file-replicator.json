@@ -1,0 +1,14 @@
+{
+  "replicate": {
+    "initial_permissions": [
+      "s3:GetObject",
+      "s3:PutObject"
+    ],
+    "llm_permissions": [
+      "s3:GetObject",
+      "s3:PutObject"
+    ],
+    "reasoning": "The code invokes s3.CopyObject, which requires s3:GetObject permission on the source object and s3:PutObject permission on the destination bucket/object. No other AWS SDK API calls are present in the code.",
+    "raw_response": "{\n  \"permissions\": [\n    \"s3:GetObject\",\n    \"s3:PutObject\"\n  ],\n  \"reasoning\": \"The code invokes s3.CopyObject, which requires s3:GetObject permission on the source object and s3:PutObject permission on the destination bucket/object. No other AWS SDK API calls are present in the code.\"\n}"
+  }
+}

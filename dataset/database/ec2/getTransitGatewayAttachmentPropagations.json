@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:GetTransitGatewayAttachmentPropagations"
+                ], 
+                "Resource": [
+                    "arn:aws:ec2:us-west-2:002677082836:transit-gateway-attachment/tgw-attach-0fd7f7deeb0676a11"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "GetTransitGatewayAttachmentPropagationsRequest(TransitGatewayAttachmentId=tgw-attach-0fd7f7deeb0676a11)", 
+    "apiName": "getTransitGatewayAttachmentPropagations"
+}

@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeSnapshotAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement0"
+                }
+            ]
+        }, 
+        "request": "DescribeSnapshotAttributeRequest(Attribute=productCodes, SnapshotId=snap-0f2c8f31a6b42fa62)", 
+        "apiName": "describeSnapshotAttribute"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DescribeSnapshotAttribute"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DescribeSnapshotAttributeRequest(Attribute=createVolumePermission, SnapshotId=snap-0f2c8f31a6b42fa62)", 
+        "apiName": "describeSnapshotAttribute"
+    }
+]

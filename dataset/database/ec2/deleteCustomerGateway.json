@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteCustomerGateway"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:customer-gateway/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteCustomerGatewayRequest(CustomerGatewayId=cgw-03f2ff7028ee82a3f)", 
+        "apiName": "ec2.deleteCustomerGateway"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DisassociateEnclaveCertificateIamRole"
+                    ], 
+                    "Resource": [
+                        "arn:aws:acm:us-west-2:002677082836:certificate/b37c918c-0d7a-48dd-94a2-1aace62d7dcc", 
+                        "arn:aws:iam::002677082836:role/Alice"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DisassociateEnclaveCertificateIamRoleRequest(CertificateArn=arn:aws:acm:us-west-2:002677082836:certificate/b37c918c-0d7a-48dd-94a2-1aace62d7dcc, RoleArn=arn:aws:iam::002677082836:role/Alice)", 
+        "apiName": "ec2.disassociateEnclaveCertificateIamRole"
+    }
+]

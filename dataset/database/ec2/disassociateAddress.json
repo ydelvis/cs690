@@ -1,0 +1,23 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DisassociateAddress"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/*", 
+                        "arn:aws:ec2:*:002677082836:instance/i-07b5b22b45c08fc28", 
+                        "arn:aws:ec2:*:002677082836:elastic-ip/eipalloc-0cbb90b779727d39a"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "DisassociateAddressRequest(AssociationId=eipassoc-01a948431524543f0)", 
+        "apiName": "ec2.disassociateAddress"
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CompleteMultipartUploadRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, MultipartUpload=CompletedMultipartUpload(Parts=[CompletedPart(ETag=\"630bf39c2a09ca460ec8e49a86c1fc28\", PartNumber=1)]), UploadId=AiY.drrm3aQ92jBt5L2Fsf7xOG87.DZSG64dSAk129w.a.UDuudx4bjXi5rxf63dfTWwurzG.rgtwoXClO7l0ZGteg0xbNy59vSjUsOFcZ_hX7akJpXad9BvkjYpYjnF6TEB5awMVLfyXFmy4M57Pg--)", 
+        "apiName": "s3.completeMultipartUpload"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "s3:PutObject"
+                    ], 
+                    "Resource": [
+                        "arn:aws:s3:::test-bucket-5461/key1/listBuckets.json"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CompleteMultipartUploadRequest(Bucket=test-bucket-5461, Key=key1/listBuckets.json, MultipartUpload=CompletedMultipartUpload(Parts=[CompletedPart(ETag=\"630bf39c2a09ca460ec8e49a86c1fc28\", PartNumber=1)]), UploadId=ZQdWyvPTSOnGEf2f5D2r7KsnoRUvCL7vdsBIPcQFddqn.m0k7D_TDikmV7x5H5ZugQGa9aj9JsdWygskj.OWqlW2qXBCK1aJBRrrPuixN4MaU5yaed3Xb4tQxvCKYRUM9WqBEMv_MSie2LIByECL9Q--, RequestPayer=requester, ExpectedBucketOwner=002677082836)", 
+        "apiName": "s3.completeMultipartUpload"
+    }
+]

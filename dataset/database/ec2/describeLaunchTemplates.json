@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:DescribeLaunchTemplates"
+                ], 
+                "Resource": [
+                    "*"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "DescribeLaunchTemplatesRequest(LaunchTemplateIds=[lt-01286ed53e9c989b1], Filters=[Filter()], NextToken=, MaxResults=1)", 
+    "apiName": "describeLaunchTemplates"
+}

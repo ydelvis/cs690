@@ -1,0 +1,19 @@
+{
+    "policy": {
+        "version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": [
+                    "ec2:GetTransitGatewayRouteTableAssociations"
+                ], 
+                "Resource": [
+                    "arn:aws:ec2:us-west-2:002677082836:transit-gateway-route-table/tgw-rtb-02e9c220c37bb74db"
+                ], 
+                "Effect": "Allow", 
+                "Sid": "Statement0"
+            }
+        ]
+    }, 
+    "request": "GetTransitGatewayRouteTableAssociationsRequest(TransitGatewayRouteTableId=tgw-rtb-02e9c220c37bb74db, MaxResults=100)", 
+    "apiName": "getTransitGatewayRouteTableAssociations"
+}

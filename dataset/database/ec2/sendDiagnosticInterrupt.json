@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:SendDiagnosticInterrupt"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:instance/i-07b5b22b45c08fc28"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "SendDiagnosticInterruptRequest(InstanceId=i-07b5b22b45c08fc28)", 
+        "apiName": "ec2.sendDiagnosticInterrupt"
+    }
+]

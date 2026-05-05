@@ -1,0 +1,40 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RevokeSecurityGroupIngress"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "RevokeSecurityGroupIngressRequest(GroupId=sg-0640aeb9163820cc1, GroupName=default, IpPermissions=[IpPermission(FromPort=80, IpProtocol=tcp, IpRanges=[IpRange(CidrIp=172.168.0.0/16)], ToPort=80)])", 
+        "apiName": "ec2.revokeSecurityGroupIngress"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RevokeSecurityGroupIngress"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:security-group/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "RevokeSecurityGroupIngressRequest(FromPort=80, GroupId=sg-0640aeb9163820cc1, GroupName=default, IpProtocol=udp, ToPort=80)", 
+        "apiName": "ec2.revokeSecurityGroupIngress"
+    }
+]

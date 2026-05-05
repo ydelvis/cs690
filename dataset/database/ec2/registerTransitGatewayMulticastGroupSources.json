@@ -1,0 +1,22 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:RegisterTransitGatewayMulticastGroupSources"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:network-interface/eni-067f9d5e10cd5d578", 
+                        "arn:aws:ec2:*:002677082836:transit-gateway-multicast-domain/tgw-mcast-domain-04f33ddc790370387"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "RegisterTransitGatewayMulticastGroupSourcesRequest(TransitGatewayMulticastDomainId=tgw-mcast-domain-04f33ddc790370387, GroupIpAddress=224.0.0.1, NetworkInterfaceIds=[eni-067f9d5e10cd5d578])", 
+        "apiName": "ec2.registerTransitGatewayMulticastGroupSources"
+    }
+]

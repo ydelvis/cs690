@@ -1,0 +1,21 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:DeleteTransitGatewayVpcAttachment"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:transit-gateway-attachment/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "statement1"
+                }
+            ]
+        }, 
+        "request": "DeleteTransitGatewayVpcAttachmentRequest(TransitGatewayAttachmentId=tgw-attach-0571b4bf8e99aceee)", 
+        "apiName": "ec2.deleteTransitGatewayVpcAttachment"
+    }
+]

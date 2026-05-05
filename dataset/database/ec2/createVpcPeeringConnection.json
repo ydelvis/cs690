@@ -1,0 +1,52 @@
+[
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpcPeeringConnection"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-peering-connection/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }, 
+                {
+                    "Action": [
+                        "ec2:CreateTags"
+                    ], 
+                    "Resource": [
+                        "*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement2"
+                }
+            ]
+        }, 
+        "request": "CreateVpcPeeringConnectionRequest(PeerVpcId=vpc-02e734bb45f380501, VpcId=vpc-088f61503142622ed, TagSpecifications=[TagSpecification(ResourceType=vpc-peering-connection, Tags=[Tag(Key=vpc-peering-connection, Value=vpc-peering-connection-tag)])])", 
+        "apiName": "ec2.createVpcPeeringConnection"
+    }, 
+    {
+        "policy": {
+            "version": "2012-10-17", 
+            "Statement": [
+                {
+                    "Action": [
+                        "ec2:CreateVpcPeeringConnection"
+                    ], 
+                    "Resource": [
+                        "arn:aws:ec2:*:002677082836:vpc-peering-connection/*", 
+                        "arn:aws:ec2:*:002677082836:vpc/*"
+                    ], 
+                    "Effect": "Allow", 
+                    "Sid": "Statement1"
+                }
+            ]
+        }, 
+        "request": "CreateVpcPeeringConnectionRequest(PeerVpcId=vpc-02e734bb45f380501, VpcId=vpc-088f61503142622ed)", 
+        "apiName": "ec2.createVpcPeeringConnection"
+    }
+]
